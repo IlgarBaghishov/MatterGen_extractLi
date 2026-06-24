@@ -71,14 +71,14 @@ really conditioning on **ΔV**. That is why `_diff` generation runs use targets 
 
 Where the trick is applied: it is a **separate post-step**, NOT part of MPElectroML or
 the `examples` preprocessing (those produce only absolute voltages). Historically it
-lived in a dataset-prep notebook (`li_extraction/plots.ipynb`); it is now a reproducible
-helper, `mattergen/scripts/make_diff_dataset.py` (console: `mattergen-make-diff`):
+lived in a dataset-prep notebook (`li_extraction/plots.ipynb`). It is a trivial column
+transform — for each split CSV in a dataset folder:
 
-    python -m mattergen.scripts.make_diff_dataset --src_folder datasets/<name>
-    # writes datasets/<name>_diff/{train,val,test}.csv with Na_voltage = Li_voltage - Na_voltage
+    df["Na_voltage"] = df["Li_voltage"] - df["Na_voltage"]   # keep Li_voltage unchanged
 
-After creating a `_diff` folder, build its cache with `csv-to-dataset` and add a
-`data_module/<name>_diff.yaml` config before training.
+(loop over train/val/test, write to `<name>_diff/`). After creating a `_diff` folder,
+build its cache with `csv-to-dataset` and add a `data_module/<name>_diff.yaml` config
+before training.
 
 ## Datasets and naming conventions
 
