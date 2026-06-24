@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Cr4
+_chemical_formula_sum              "Cr4"
+_cell_length_a       4.037717998869978
+_cell_length_b       4.034850059991377
+_cell_length_c       4.027900695800781
+_cell_angle_alpha    60.09708770971046
+_cell_angle_beta     59.90763828256064
+_cell_angle_gamma    59.80151903347782
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.8892309069633483  0.9180569648742677  0.06658319383859634  1.0000
+  Cr  Cr2       1.0  0.38991940021514887  0.4187776446342468  0.5662423372268677  1.0000
+  Cr  Cr3       1.0  0.639706015586853  0.6687620878219604  0.8164450526237488  1.0000
+  Cr  Cr4       1.0  0.13958972692489624  0.16829045116901398  0.3164072632789612  1.0000

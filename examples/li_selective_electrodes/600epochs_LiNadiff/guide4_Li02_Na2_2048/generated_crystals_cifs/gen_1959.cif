@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       AlO2CrO
+_chemical_formula_sum              "Al1 O3 Cr1"
+_cell_length_a       3.1117990659310855
+_cell_length_b       3.113329711210939
+_cell_length_c       6.1042160987854
+_cell_angle_alpha    75.22190349974643
+_cell_angle_beta     75.20204971475567
+_cell_angle_gamma    60.230377165277154
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.9884578585624695  0.3840181529521942  0.952231526374817  1.0000
+  O   O1        1.0  0.8789662718772888  0.27389928698539734  0.2830740809440613  1.0000
+  O   O2        1.0  0.0999615490436554  0.49417921900749207  0.6187412738800049  1.0000
+  Cr  Cr1       1.0  0.4880591928958893  0.8839560747146605  0.45404800772666937  1.0000
+  O   O3        1.0  0.3232314884662628  0.7186679244041443  0.9491597414016725  1.0000

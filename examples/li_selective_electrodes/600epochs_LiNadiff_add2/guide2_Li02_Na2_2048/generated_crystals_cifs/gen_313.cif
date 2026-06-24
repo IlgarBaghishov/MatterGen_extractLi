@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       CoOLiPdO
+_chemical_formula_sum              "Co1 O2 Li1 Pd1"
+_cell_length_a       2.9854768479649576
+_cell_length_b       2.987528262658999
+_cell_length_c       6.626644134521484
+_cell_angle_alpha    89.883861975735
+_cell_angle_beta     89.89636121050654
+_cell_angle_gamma    89.89712619581447
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.6908027529716492  0.9398236274719237  0.2674245238304138  1.0000
+  O   O1        1.0  0.190092995762825  0.43801820278167725  0.2001042664051056  1.0000
+  Li  Li1       1.0  0.6912059187889099  0.9393902420997619  0.8903719782829285  1.0000
+  Pd  Pd1       1.0  0.1912633180618286  0.4389656186103821  0.6410446763038635  1.0000
+  O   O2        1.0  0.6913239359855652  0.9390127658843994  0.595752477645874  1.0000

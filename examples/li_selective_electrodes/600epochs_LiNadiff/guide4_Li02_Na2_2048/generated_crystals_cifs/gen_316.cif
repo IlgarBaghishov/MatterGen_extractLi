@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       OCoONiOFeNiO
+_chemical_formula_sum              "O4 Co1 Ni2 Fe1"
+_cell_length_a       4.283989825158386
+_cell_length_b       4.295987220501872
+_cell_length_c       5.264652729034424
+_cell_angle_alpha    65.96856851051645
+_cell_angle_beta     66.10744485574722
+_cell_angle_gamma    90.06300389889212
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.18534998595714572  0.07388222217559814  0.701702356338501  1.0000
+  Co  Co1       1.0  0.18148225545883181  0.575083315372467  0.7009101510047913  1.0000
+  O   O2        1.0  0.9375950694084169  0.32842501997947693  0.19162458181381226  1.0000
+  Ni  Ni1       1.0  0.9325602650642396  0.8234980702400208  0.20125393569469452  1.0000
+  O   O3        1.0  0.4280994832515717  0.8192261457443237  0.20933912694454193  1.0000
+  Fe  Fe1       1.0  0.6838129162788392  0.07470464706420897  0.7001015543937683  1.0000
+  Ni  Ni2       1.0  0.43218368291854864  0.3236183226108551  0.2012004554271698  1.0000
+  O   O4        1.0  0.6820282340049744  0.5747967362403869  0.7014239430427551  1.0000

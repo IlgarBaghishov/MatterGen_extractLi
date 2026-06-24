@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       LiPdO2Cu
+_chemical_formula_sum              "Li1 Pd1 O2 Cu1"
+_cell_length_a       3.496737561603774
+_cell_length_b       3.487546209352228
+_cell_length_c       4.854165554046631
+_cell_angle_alpha    89.97864450219615
+_cell_angle_beta     89.80113471819895
+_cell_angle_gamma    90.01901775192209
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.6245917081832886  0.8627893328666688  0.9293720126152039  1.0000
+  Pd  Pd1       1.0  0.6257625222206116  0.8628546595573425  0.43024781346321106  1.0000
+  O   O1        1.0  0.6260897517204285  0.3631252050399781  0.7209910154342651  1.0000
+  O   O2        1.0  0.12477442622184752  0.8623413443565369  0.13748051226139069  1.0000
+  Cu  Cu1       1.0  0.12400124967098235  0.3625293076038361  0.9289104342460632  1.0000

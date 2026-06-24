@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       FLiGeF2
+_chemical_formula_sum              "F3 Li1 Ge1"
+_cell_length_a       3.4367978139998
+_cell_length_b       4.589660606520961
+_cell_length_c       4.578552722930908
+_cell_angle_alpha    96.39598272381642
+_cell_angle_beta     89.84637106214478
+_cell_angle_gamma    89.76965436137739
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  F   F1        1.0  0.05234406515955925  0.004577517509460449  0.22303590178489685  1.0000
+  Li  Li1       1.0  0.5524488091468811  0.8699538707733154  0.3562052547931671  1.0000
+  Ge  Ge1       1.0  0.04858952760696411  0.28554844856262207  0.9378732442855835  1.0000
+  F   F2        1.0  0.5516229271888733  0.4665034413337707  0.21615694463253018  1.0000
+  F   F3        1.0  0.5539736747741699  0.01310957595705986  0.7601515650749207  1.0000

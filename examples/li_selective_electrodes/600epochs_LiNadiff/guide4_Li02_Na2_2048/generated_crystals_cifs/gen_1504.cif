@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       NiCrNiO4CrO
+_chemical_formula_sum              "Ni2 Cr2 O5"
+_cell_length_a       4.633878411930229
+_cell_length_b       5.017582597049919
+_cell_length_c       4.660594463348389
+_cell_angle_alpha    89.79802698952147
+_cell_angle_beta     89.82108571322098
+_cell_angle_gamma    89.71939786598676
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.5677528977394104  0.20538128912448883  0.4925006031990051  1.0000
+  Cr  Cr1       1.0  0.5664038062095642  0.7277070879936218  0.023345163092017174  1.0000
+  Ni  Ni2       1.0  0.09789241850376129  0.7279097437858582  0.49320924282073975  1.0000
+  O   O1        1.0  0.8321282267570496  0.46706035733222967  0.24683958292007446  1.0000
+  O   O2        1.0  0.333400160074234  0.9690050482749939  0.2565036714076996  1.0000
+  O   O3        1.0  0.332232266664505  0.9669913649559021  0.7640633583068848  1.0000
+  O   O4        1.0  0.8331597447395325  0.9670846462249756  0.25212687253952026  1.0000
+  Cr  Cr2       1.0  0.09934041649103165  0.20540094375610352  0.023627160117030144  1.0000
+  O   O5        1.0  0.3320264220237732  0.46742832660675054  0.7729756236076355  1.0000

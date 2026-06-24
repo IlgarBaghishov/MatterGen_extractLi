@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Li2VOVO3
+_chemical_formula_sum              "Li2 V2 O4"
+_cell_length_a       3.009369271823289
+_cell_length_b       3.012577267167546
+_cell_length_c       10.124876022338867
+_cell_angle_alpha    81.58555763089092
+_cell_angle_beta     81.57803753044739
+_cell_angle_gamma    60.357500304428875
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.2040703296661377  0.2470665127038956  0.9318873286247253  1.0000
+  Li  Li2       1.0  0.9343153238296509  0.9787881970405579  0.7357497215270996  1.0000
+  V   V1        1.0  0.6903527975082397  0.7340000867843628  0.4700774848461151  1.0000
+  O   O1        1.0  0.8123106956481934  0.8531831502914429  0.1069541946053505  1.0000
+  V   V2        1.0  0.44762369990348816  0.4901686608791352  0.19968988001346588  1.0000
+  O   O2        1.0  0.5688620805740355  0.6124234199523926  0.8344683051109314  1.0000
+  O   O3        1.0  0.06927817314863204  0.1151665970683098  0.3328164219856262  1.0000
+  O   O4        1.0  0.32651552557945246  0.3707904219627381  0.5623162388801575  1.0000

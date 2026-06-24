@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       LiCoFOF
+_chemical_formula_sum              "Li1 Co1 F2 O1"
+_cell_length_a       3.140520115573046
+_cell_length_b       5.0891819700840095
+_cell_length_c       5.102975845336914
+_cell_angle_alpha    69.23612501224544
+_cell_angle_beta     90.10491420608874
+_cell_angle_gamma    90.00668243035923
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.6126827001571655  0.6164358854293822  0.47836846113204956  1.0000
+  Co  Co1       1.0  0.11361487209796907  0.27688857913017273  0.1374635100364685  1.0000
+  F   F1        1.0  0.11166645586490632  0.4304531514644622  0.7494150996208192  1.0000
+  O   O1        1.0  0.6134300231933594  0.3790619671344757  0.23972809314727783  1.0000
+  F   F2        1.0  0.11165057122707368  0.8843598961830138  0.3054700493812562  1.0000

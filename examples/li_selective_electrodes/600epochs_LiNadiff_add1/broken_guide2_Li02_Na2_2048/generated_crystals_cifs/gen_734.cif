@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       OCuBiCoNiO3
+_chemical_formula_sum              "O4 Cu1 Bi1 Co1 Ni1"
+_cell_length_a       4.4603163865352
+_cell_length_b       4.45352655467944
+_cell_length_c       5.488202095031738
+_cell_angle_alpha    90.0755580538049
+_cell_angle_beta     90.06718425029761
+_cell_angle_gamma    82.84442994690113
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.04689246788620949  0.2084326297044754  0.4478393793106079  1.0000
+  Cu  Cu1       1.0  0.8172827959060669  0.48687031865119934  0.6828174591064453  1.0000
+  Bi  Bi1       1.0  0.31725481152534485  0.4869099259376526  0.18283312022686005  1.0000
+  Co  Co1       1.0  0.31727123260498047  0.986600935459137  0.6828144788742065  1.0000
+  Ni  Ni1       1.0  0.8174935579299926  0.9869610667228699  0.18321393430233002  1.0000
+  O   O2        1.0  0.5870440006256104  0.7657551169395447  0.44751855731010437  1.0000
+  O   O3        1.0  0.047701433300971985  0.20883601903915405  0.9184467196464539  1.0000
+  O   O4        1.0  0.5872317552566528  0.7657327055931091  0.9182725548744202  1.0000

@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       EuCoEuLiO4
+_chemical_formula_sum              "Eu2 Co1 Li1 O4"
+_cell_length_a       3.7491861471316383
+_cell_length_b       3.7395811135643013
+_cell_length_c       7.338886737823486
+_cell_angle_alpha    89.97930703081163
+_cell_angle_beta     89.96202665105275
+_cell_angle_gamma    90.05616715243738
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.3525561690330506  0.05984953418374062  0.6864023804664612  1.0000
+  Co  Co1       1.0  0.351999044418335  0.05949141457676888  0.09088917076587677  1.0000
+  Eu  Eu2       1.0  0.8507992625236512  0.5596543550491333  0.33586999773979187  1.0000
+  Li  Li1       1.0  0.8519709110260011  0.5596324801445007  0.9214487075805664  1.0000
+  O   O1        1.0  0.8531129956245423  0.5597894787788391  0.6540006399154663  1.0000
+  O   O2        1.0  0.35254973173141485  0.5597404837608339  0.019187642261385918  1.0000
+  O   O3        1.0  0.3511561751365662  0.05964425578713417  0.37368786334991455  1.0000
+  O   O4        1.0  0.8520821928977967  0.059975724667310715  0.020845113322138786  1.0000

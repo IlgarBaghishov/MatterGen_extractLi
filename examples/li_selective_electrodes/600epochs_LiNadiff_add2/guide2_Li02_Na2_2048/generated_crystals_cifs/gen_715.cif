@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       CuRhO3
+_chemical_formula_sum              "Cu1 Rh1 O3"
+_cell_length_a       3.1512545362754745
+_cell_length_b       3.526003424855273
+_cell_length_c       5.107161998748779
+_cell_angle_alpha    89.89836245909382
+_cell_angle_beta     90.01586220420297
+_cell_angle_gamma    89.90921562541948
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.4188027083873748  0.6635223627090454  0.7294049263000488  1.0000
+  Rh  Rh1       1.0  0.9187480211257933  0.1639762669801712  0.2287154197692871  1.0000
+  O   O1        1.0  0.4184568524360656  0.16345514357089994  0.4977184236049652  1.0000
+  O   O2        1.0  0.9187180399894713  0.664119005203247  0.22918660938739777  1.0000
+  O   O3        1.0  0.41872057318687433  0.16350963711738586  0.9594433307647705  1.0000

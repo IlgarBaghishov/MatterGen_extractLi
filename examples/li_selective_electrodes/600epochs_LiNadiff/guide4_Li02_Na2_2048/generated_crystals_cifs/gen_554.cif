@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       SbCrNi
+_chemical_formula_sum              "Sb1 Cr1 Ni1"
+_cell_length_a       4.08769370164464
+_cell_length_b       4.086792472333386
+_cell_length_c       4.087182521820068
+_cell_angle_alpha    60.243709478821465
+_cell_angle_beta     60.2248305511576
+_cell_angle_gamma    60.24030228706188
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sb  Sb1       1.0  0.772560179233551  0.057345516979694366  0.5500497221946716  1.0000
+  Cr  Cr1       1.0  0.27317130565643305  0.5573740005493164  0.04975113272666931  1.0000
+  Ni  Ni1       1.0  0.0227137990295887  0.3077968955039978  0.7999155521392822  1.0000

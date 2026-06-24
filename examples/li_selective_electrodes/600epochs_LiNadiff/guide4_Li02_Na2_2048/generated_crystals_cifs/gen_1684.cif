@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       BiOCrOCrO3
+_chemical_formula_sum              "Bi1 O5 Cr2"
+_cell_length_a       4.137761914659141
+_cell_length_b       5.376463172391777
+_cell_length_c       5.611422061920166
+_cell_angle_alpha    73.05768967412625
+_cell_angle_beta     68.60395546244409
+_cell_angle_gamma    67.52977744720495
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Bi  Bi1       1.0  0.7952756881713867  0.19792519509792328  0.3259517252445221  1.0000
+  O   O1        1.0  0.6359763145446777  0.10717345029115678  0.7367051839828491  1.0000
+  Cr  Cr1       1.0  0.40271359682083124  0.47792696952819824  0.8283764719963074  1.0000
+  O   O2        1.0  0.36729294061660767  0.20090600848197937  0.18328425288200378  1.0000
+  Cr  Cr2       1.0  0.6142769455909729  0.8303521871566772  0.05711325258016586  1.0000
+  O   O3        1.0  0.8586440682411192  0.49552866816520696  0.9011244773864746  1.0000
+  O   O4        1.0  0.1434726119041443  0.799261748790741  0.0295385904610157  1.0000
+  O   O5        1.0  0.5416986346244812  0.6005070209503174  0.4314589202404022  1.0000

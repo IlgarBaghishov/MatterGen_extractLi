@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       VOLiO
+_chemical_formula_sum              "V1 O2 Li1"
+_cell_length_a       3.0177856695678287
+_cell_length_b       3.018802695199083
+_cell_length_c       3.99617600440979
+_cell_angle_alpha    89.98932691862298
+_cell_angle_beta     89.98381495498774
+_cell_angle_gamma    89.99231854132299
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  V   V1        1.0  0.2182944118976593  0.9720821976661682  0.03259328752756118  1.0000
+  O   O1        1.0  0.21799339354038239  0.9717707633972168  0.5328738093376159  1.0000
+  Li  Li1       1.0  0.7178381085395813  0.47155523300170904  0.5326002240180968  1.0000
+  O   O2        1.0  0.7181649804115295  0.47186970710754395  0.03258363157510757  1.0000

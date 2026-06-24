@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       LiOCuONi
+_chemical_formula_sum              "Li1 O2 Cu1 Ni1"
+_cell_length_a       2.865113334181769
+_cell_length_b       2.870295073999936
+_cell_length_c       6.181324005126953
+_cell_angle_alpha    89.74727869493873
+_cell_angle_beta     89.85913668070859
+_cell_angle_gamma    89.55787750739701
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.4338340163230896  0.23694767057895658  0.585668683052063  1.0000
+  O   O1        1.0  0.9332523345947266  0.7368975281715393  0.3689676821231842  1.0000
+  Cu  Cu1       1.0  0.9335508346557617  0.735918641090393  0.8887927532196045  1.0000
+  O   O2        1.0  0.43419161438941956  0.23714512586593625  0.8892167806625366  1.0000
+  Ni  Ni1       1.0  0.43337950110435486  0.2363712340593338  0.22398744523525238  1.0000

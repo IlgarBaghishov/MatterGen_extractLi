@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       BNCrFeNCrLiN2
+_chemical_formula_sum              "B1 N4 Cr2 Fe1 Li1"
+_cell_length_a       4.381049099700671
+_cell_length_b       4.222319726328518
+_cell_length_c       4.39407205581665
+_cell_angle_alpha    89.54171049555403
+_cell_angle_beta     89.53170426377478
+_cell_angle_gamma    89.35443355581634
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  B   B1        1.0  0.8455511331558228  0.23047995567321777  0.6039661765098572  1.0000
+  N   N1        1.0  0.6209192276000977  0.010391902178525925  0.8295984268188477  1.0000
+  Cr  Cr1       1.0  0.34592753648757935  0.7315352559089661  0.6051670312881469  1.0000
+  Fe  Fe1       1.0  0.34591352939605713  0.23131807148456573  0.10431504249572754  1.0000
+  N   N2        1.0  0.07087737321853638  0.45092305541038513  0.8299527168273926  1.0000
+  Cr  Cr2       1.0  0.846734881401062  0.7316243052482605  0.10412122309207916  1.0000
+  Li  Li1       1.0  0.8454329967498779  0.7303158044815063  0.6041363477706909  1.0000
+  N   N3        1.0  0.6208686232566833  0.45108732581138616  0.37896496057510376  1.0000
+  N   N4        1.0  0.07091628760099411  0.010769260115921499  0.37909525632858276  1.0000

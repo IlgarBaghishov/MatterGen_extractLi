@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       SbO2CrF4
+_chemical_formula_sum              "Sb1 O2 Cr1 F4"
+_cell_length_a       4.606011170685856
+_cell_length_b       4.985895087428748
+_cell_length_c       5.004622936248779
+_cell_angle_alpha    120.09579155744066
+_cell_angle_beta     89.62622721448805
+_cell_angle_gamma    90.2993082354729
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sb  Sb1       1.0  0.40249764919281006  0.7105191946029663  0.3679399192333221  1.0000
+  O   O1        1.0  0.6558488607406616  0.4173417985439301  0.06001386046409607  1.0000
+  O   O2        1.0  0.14422650635242462  0.41796642541885376  0.382330060005188  1.0000
+  Cr  Cr1       1.0  0.902492880821228  0.11239132285118104  0.0680566281080246  1.0000
+  F   F1        1.0  0.15683941543102264  0.05207287520170212  0.7042306661605835  1.0000
+  F   F2        1.0  0.6442540884017944  0.7729954719543457  0.7217010855674744  1.0000
+  F   F3        1.0  0.6464640498161316  0.0527639277279377  0.37102076411247253  1.0000
+  F   F4        1.0  0.15997804701328278  0.7744649648666383  0.07493384927511215  1.0000

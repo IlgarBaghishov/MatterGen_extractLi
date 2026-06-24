@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       BrLiOCrO
+_chemical_formula_sum              "Br1 Li1 O2 Cr1"
+_cell_length_a       3.832733999209254
+_cell_length_b       3.830645836033418
+_cell_length_c       5.315187931060791
+_cell_angle_alpha    90.02965918633531
+_cell_angle_beta     90.02511028169309
+_cell_angle_gamma    89.79692731364473
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Br  Br1       1.0  0.3150877058506012  0.9952117204666138  0.6133477687835693  1.0000
+  Li  Li1       1.0  0.8147618770599366  0.4948644936084748  0.1151357963681221  1.0000
+  O   O1        1.0  0.31493446230888367  0.4951191246509552  0.1144377738237381  1.0000
+  Cr  Cr1       1.0  0.31382647156715393  0.9957754611968994  0.11331890523433685  1.0000
+  O   O2        1.0  0.8149619698524476  0.9953128695487977  0.11389703303575516  1.0000

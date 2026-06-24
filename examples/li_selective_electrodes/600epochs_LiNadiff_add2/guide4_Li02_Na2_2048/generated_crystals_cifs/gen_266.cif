@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       BPdO3
+_chemical_formula_sum              "B1 Pd1 O3"
+_cell_length_a       2.783040440990214
+_cell_length_b       4.846739696533633
+_cell_length_c       4.850528717041016
+_cell_angle_alpha    65.45863242051384
+_cell_angle_beta     89.57597755006739
+_cell_angle_gamma    89.58245942450698
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  B   B1        1.0  0.7325096130371094  0.6849619746208191  0.22432854771614075  1.0000
+  Pd  Pd1       1.0  0.23068499565124512  0.3006255924701691  0.8354564309120178  1.0000
+  O   O1        1.0  0.7291014790534973  0.5614681839942932  0.5607573986053467  1.0000
+  O   O2        1.0  0.7304866909980774  0.026490978896617893  0.09954125434160233  1.0000
+  O   O3        1.0  0.23055331408977509  0.5947970747947693  0.1290293037891388  1.0000

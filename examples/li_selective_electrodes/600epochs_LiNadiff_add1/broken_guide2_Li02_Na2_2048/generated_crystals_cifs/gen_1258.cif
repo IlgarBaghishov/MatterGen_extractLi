@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       VCrCuOF2O2F
+_chemical_formula_sum              "V1 Cr1 Cu1 O3 F3"
+_cell_length_a       4.695839659806292
+_cell_length_b       4.9713185850080635
+_cell_length_c       5.280815124511719
+_cell_angle_alpha    119.65442431403066
+_cell_angle_beta     96.35036387235913
+_cell_angle_gamma    83.0788084295538
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  V   V1        1.0  0.42171713709831243  0.862041175365448  0.20374594628810883  1.0000
+  Cr  Cr1       1.0  0.44283807277679443  0.5867297053337097  0.5935387015342712  1.0000
+  Cu  Cu1       1.0  0.9545428156852722  0.2612709701061249  0.9344186782836914  1.0000
+  O   O1        1.0  0.6680744886398315  0.5859518051147461  0.9408445358276367  1.0000
+  F   F1        1.0  0.6658203601837158  0.2205289453268051  0.29756033420562744  1.0000
+  F   F2        1.0  0.2214338183403015  0.24349378049373624  0.5368843078613281  1.0000
+  O   O2        1.0  0.23087716102600098  0.6152987480163574  0.2577108144760132  1.0000
+  O   O3        1.0  0.214600071310997  0.9156100749969482  0.9222479462623596  1.0000
+  F   F3        1.0  0.6689233183860779  0.8810434937477111  0.5667915344238281  1.0000

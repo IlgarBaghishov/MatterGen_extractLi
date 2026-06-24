@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       NbCl5O
+_chemical_formula_sum              "Nb1 Cl5 O1"
+_cell_length_a       6.065247049030774
+_cell_length_b       6.828615206527236
+_cell_length_c       7.813792705535889
+_cell_angle_alpha    109.6356001119517
+_cell_angle_beta     106.66585449342853
+_cell_angle_gamma    108.737452037285
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Nb  Nb1       1.0  0.18932609260082242  0.6899317502975464  0.2576257586479187  1.0000
+  Cl  Cl1       1.0  0.5969223380088806  0.004281424917280675  0.4284328818321228  1.0000
+  Cl  Cl2       1.0  0.23120047152042392  0.4268627762794495  0.3774335980415344  1.0000
+  Cl  Cl3       1.0  0.393565148115158  0.3748184144496918  0.936064124107361  1.0000
+  Cl  Cl4       1.0  0.05886844545602798  0.6469554901123047  0.9260019659996034  1.0000
+  Cl  Cl5       1.0  0.6517221331596375  0.2633186280727387  0.037444457411766024  1.0000
+  O   O1        1.0  0.019446004182100372  0.804301679134369  0.3606845736503601  1.0000

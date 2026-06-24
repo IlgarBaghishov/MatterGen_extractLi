@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       CoLiO3NiCrO
+_chemical_formula_sum              "Co1 Li1 O4 Ni1 Cr1"
+_cell_length_a       3.000541154117261
+_cell_length_b       5.116817246956782
+_cell_length_c       5.1523566246032715
+_cell_angle_alpha    108.44715517983356
+_cell_angle_beta     89.98002420125731
+_cell_angle_gamma    89.9822235216622
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.13821110129356384  0.545537531375885  0.9761773943901062  1.0000
+  Li  Li1       1.0  0.1383780539035797  0.04581298306584358  0.47585177421569824  1.0000
+  O   O1        1.0  0.13889750838279724  0.788662850856781  0.7091643214225769  1.0000
+  O   O2        1.0  0.6383131742477417  0.30563145875930786  0.7282113432884216  1.0000
+  O   O3        1.0  0.13840915262699127  0.30358174443244934  0.24324950575828552  1.0000
+  Ni  Ni1       1.0  0.6385732293128967  0.046045657247304916  0.9766885042190552  1.0000
+  Cr  Cr1       1.0  0.6384826898574829  0.5460617542266846  0.4765562117099762  1.0000
+  O   O4        1.0  0.6384379267692566  0.7856195569038391  0.22387489676475525  1.0000

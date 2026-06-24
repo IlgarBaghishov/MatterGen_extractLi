@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       POPF2LiF2
+_chemical_formula_sum              "P2 O1 F4 Li1"
+_cell_length_a       5.33973884642347
+_cell_length_b       5.295104308753084
+_cell_length_c       5.692221641540527
+_cell_angle_alpha    75.92764007450128
+_cell_angle_beta     60.68485950111697
+_cell_angle_gamma    78.33994710040376
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  P   P1        1.0  0.1175309047102928  0.3478718400001526  0.4326477348804474  1.0000
+  O   O1        1.0  0.13171866536140442  0.551753044128418  0.15812790393829346  1.0000
+  P   P2        1.0  0.985701024532318  0.837381362915039  0.05528055503964424  1.0000
+  F   F1        1.0  0.26089316606521606  0.5096949934959412  0.5417587757110596  1.0000
+  F   F2        1.0  0.2706095278263092  0.0026459693908691406  0.9388723373413086  1.0000
+  Li  Li1       1.0  0.38339856266975403  0.35804694890975947  0.8230502009391785  1.0000
+  F   F3        1.0  0.7871943712234497  0.4090050160884857  0.6625357270240784  1.0000
+  F   F4        1.0  0.8012878894805908  0.9536967277526855  0.32966876029968256  1.0000

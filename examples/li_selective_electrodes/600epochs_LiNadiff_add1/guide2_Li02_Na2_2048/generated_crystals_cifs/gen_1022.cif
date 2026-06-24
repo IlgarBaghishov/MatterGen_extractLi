@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Li2BO3
+_chemical_formula_sum              "Li2 B1 O3"
+_cell_length_a       3.2184865649261427
+_cell_length_b       4.486399455050342
+_cell_length_c       4.986551761627197
+_cell_angle_alpha    113.6173620732302
+_cell_angle_beta     104.10508704915017
+_cell_angle_gamma    98.70650705911639
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.6310732364654541  0.8629686236381531  0.7317437529563904  1.0000
+  Li  Li2       1.0  0.2933107614517212  0.5256032347679138  0.05827690660953522  1.0000
+  B   B1        1.0  0.8365509510040283  0.2708841562271118  0.39409902691841125  1.0000
+  O   O1        1.0  0.6231634020805359  0.9754184484481812  0.39250466227531433  1.0000
+  O   O2        1.0  0.7856095433235168  0.27964532375335693  0.11339231580495834  1.0000
+  O   O3        1.0  0.06798160821199417  0.5585096478462219  0.6739113330841064  1.0000

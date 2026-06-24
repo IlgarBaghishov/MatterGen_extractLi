@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       LiBeCrONiO3
+_chemical_formula_sum              "Li1 Be1 Cr1 O4 Ni1"
+_cell_length_a       3.104878475997565
+_cell_length_b       4.7818674571401125
+_cell_length_c       4.862606525421143
+_cell_angle_alpha    89.49996436488229
+_cell_angle_beta     89.94874193621206
+_cell_angle_gamma    89.90144970020346
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.6177105903625488  0.5287229418754578  0.5194563865661621  1.0000
+  Be  Be1       1.0  0.618378221988678  0.028781043365597725  0.019800549373030663  1.0000
+  Cr  Cr1       1.0  0.31273382902145386  0.5283645391464233  0.018710002303123474  1.0000
+  O   O1        1.0  0.8185070157051086  0.3111172020435333  0.2011193186044693  1.0000
+  Ni  Ni1       1.0  0.9201325178146362  0.027885187417268753  0.5189263224601746  1.0000
+  O   O2        1.0  0.8182936310768127  0.7459608912467957  0.8374696969985962  1.0000
+  O   O3        1.0  0.3944063186645508  0.8402413725852966  0.2901146113872528  1.0000
+  O   O4        1.0  0.39320462942123413  0.217402383685112  0.7491543889045715  1.0000

@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       LiO2NO
+_chemical_formula_sum              "Li1 O3 N1"
+_cell_length_a       3.3901052428902405
+_cell_length_b       5.2927117412210904
+_cell_length_c       4.993958950042725
+_cell_angle_alpha    117.41200294658897
+_cell_angle_beta     103.08822241837025
+_cell_angle_gamma    99.71515467667136
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.9503568410873414  0.6238933205604553  0.9845898747444153  1.0000
+  O   O1        1.0  0.007183790206909147  0.4504303336143493  0.24974030256271362  1.0000
+  O   O2        1.0  0.322811245918274  0.4845984578132629  0.7107219696044922  1.0000
+  N   N1        1.0  0.15782105922698972  0.32815983891487116  0.39607658982276917  1.0000
+  O   O3        1.0  0.15081509947776794  0.05691568925976753  0.24171723425388336  1.0000

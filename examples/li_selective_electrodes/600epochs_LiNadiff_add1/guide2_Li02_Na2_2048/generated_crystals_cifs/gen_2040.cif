@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       CrFeO4
+_chemical_formula_sum              "Cr1 Fe1 O4"
+_cell_length_a       3.0185931859506003
+_cell_length_b       4.49010665305998
+_cell_length_c       4.50356912612915
+_cell_angle_alpha    89.97171186029618
+_cell_angle_beta     89.88506407913603
+_cell_angle_gamma    89.92355902068729
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.15597011148929596  0.5779060125350952  0.010224847123026848  1.0000
+  Fe  Fe1       1.0  0.6564778089523315  0.07725850492715836  0.5103365182876587  1.0000
+  O   O1        1.0  0.15607424080371857  0.2812768220901489  0.7110668420791626  1.0000
+  O   O2        1.0  0.656225860118866  0.7727388739585876  0.8165383338928223  1.0000
+  O   O3        1.0  0.15617899596691132  0.875249981880188  0.30927416682243347  1.0000
+  O   O4        1.0  0.6559577584266663  0.3825112581253052  0.20472705364227295  1.0000

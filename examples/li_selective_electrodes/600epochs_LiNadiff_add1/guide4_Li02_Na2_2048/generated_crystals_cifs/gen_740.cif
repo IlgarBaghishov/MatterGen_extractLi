@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       CuO2CrLiO
+_chemical_formula_sum              "Cu1 O3 Cr1 Li1"
+_cell_length_a       3.1122744204085464
+_cell_length_b       4.016799240944171
+_cell_length_c       5.156253337860107
+_cell_angle_alpha    67.35993972294547
+_cell_angle_beta     90.66341876284665
+_cell_angle_gamma    90.03747975200737
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.7669988870620728  0.021509872749447823  0.39245128631591797  1.0000
+  O   O1        1.0  0.8754443526268005  0.22157365083694455  0.9984884262084961  1.0000
+  O   O2        1.0  0.4054473340511322  0.8552353978157043  0.729301929473877  1.0000
+  Cr  Cr1       1.0  0.3615061640739441  0.35372176766395563  0.7334979772567749  1.0000
+  Li  Li1       1.0  0.879802942276001  0.7138764262199402  0.013603700324892998  1.0000
+  O   O3        1.0  0.83280348777771  0.502072811126709  0.4344865679740906  1.0000

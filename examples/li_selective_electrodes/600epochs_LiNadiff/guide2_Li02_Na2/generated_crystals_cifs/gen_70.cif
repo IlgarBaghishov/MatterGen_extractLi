@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       VOTiLiO2
+_chemical_formula_sum              "V1 O3 Ti1 Li1"
+_cell_length_a       3.004767050973751
+_cell_length_b       3.0197812377403594
+_cell_length_c       6.619280815124512
+_cell_angle_alpha    103.34972343726474
+_cell_angle_beta     103.29348297862593
+_cell_angle_gamma    90.03122369132733
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  V   V1        1.0  0.2342594414949417  0.34079647064208984  0.0428951345384121  1.0000
+  O   O1        1.0  0.40992486476898193  0.5160897374153137  0.39686596393585205  1.0000
+  Ti  Ti1       1.0  0.9191063642501831  0.025039961561560634  0.41516977548599243  1.0000
+  Li  Li1       1.0  0.5772370100021362  0.6833358407020569  0.7300328016281128  1.0000
+  O   O2        1.0  0.06755930185317993  0.17360819876194003  0.7103023529052734  1.0000
+  O   O3        1.0  0.7496594190597534  0.85550594329834  0.07523468881845477  1.0000

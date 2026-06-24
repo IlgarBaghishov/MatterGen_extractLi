@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       OCoCuCoCuO3
+_chemical_formula_sum              "O4 Co2 Cu2"
+_cell_length_a       4.211800287165437
+_cell_length_b       4.204295253175515
+_cell_length_c       5.216727256774902
+_cell_angle_alpha    89.94408374984984
+_cell_angle_beta     90.01715311149525
+_cell_angle_gamma    89.4655265274284
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.37304365634918213  0.6539826393127441  0.6976847052574158  1.0000
+  Co  Co1       1.0  0.12363064289093018  0.8974294662475586  0.448718398809433  1.0000
+  Cu  Cu1       1.0  0.6237388253211975  0.39742389321327215  0.4485741853713989  1.0000
+  Co  Co2       1.0  0.6240996718406677  0.8972265124320984  0.9485797882080078  1.0000
+  Cu  Cu2       1.0  0.12356962263584137  0.39734938740730286  0.9484447836875916  1.0000
+  O   O2        1.0  0.8738928437232971  0.14040230214595795  0.6975648999214172  1.0000
+  O   O3        1.0  0.8743916749954224  0.14025186002254486  0.19875551760196686  1.0000
+  O   O4        1.0  0.3734807074069977  0.6548507809638978  0.19950303435325623  1.0000

@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       CoO2BO
+_chemical_formula_sum              "Co1 O3 B1"
+_cell_length_a       2.6958858370021703
+_cell_length_b       4.682491828008631
+_cell_length_c       4.480006217956543
+_cell_angle_alpha    59.71294947849492
+_cell_angle_beta     89.96812600932536
+_cell_angle_gamma    89.95400800648446
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.9408698678016663  0.8109291195869446  0.36501824855804443  1.0000
+  O   O1        1.0  0.44129154086112976  0.10116387158632277  0.3240219056606293  1.0000
+  O   O2        1.0  0.4403183162212372  0.4869818687438965  0.5381320714950562  1.0000
+  B   B1        1.0  0.4397478699684143  0.1386943757534027  0.6367413997650146  1.0000
+  O   O3        1.0  0.9395077228546143  0.9796258807182312  0.8250301480293275  1.0000

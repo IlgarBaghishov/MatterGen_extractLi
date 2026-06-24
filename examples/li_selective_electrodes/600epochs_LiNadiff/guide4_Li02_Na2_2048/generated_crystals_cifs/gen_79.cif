@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       OCuCrO
+_chemical_formula_sum              "O2 Cu1 Cr1"
+_cell_length_a       3.0169016003699047
+_cell_length_b       3.0154867068013522
+_cell_length_c       5.441959857940674
+_cell_angle_alpha    73.93530805356313
+_cell_angle_beta     73.93421585834966
+_cell_angle_gamma    59.938948993097554
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.38604792952537537  0.7120676636695862  0.26641845703125  1.0000
+  Cu  Cu1       1.0  0.14842590689659121  0.473510593175888  0.9803913831710817  1.0000
+  Cr  Cr1       1.0  0.6485916376113892  0.9738186001777649  0.48073789477348333  1.0000
+  O   O2        1.0  0.9107667207717896  0.23583260178565976  0.6950786113739014  1.0000

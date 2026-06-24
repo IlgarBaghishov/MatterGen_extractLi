@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       HBO2CrO
+_chemical_formula_sum              "H1 B1 O3 Cr1"
+_cell_length_a       2.839592119805283
+_cell_length_b       4.7107640163567375
+_cell_length_c       4.516469478607178
+_cell_angle_alpha    66.79144828485835
+_cell_angle_beta     89.72359841391787
+_cell_angle_gamma    89.76920358692806
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  H   H1        1.0  0.5308634042739868  0.684593141078949  0.531151294708252  1.0000
+  B   B1        1.0  0.535990834236145  0.5248748064041138  0.11396323144435883  1.0000
+  O   O1        1.0  0.5313590168952942  0.5058883428573608  0.46839192509651184  1.0000
+  O   O2        1.0  0.03514504432678223  0.3714988231658936  0.10052238404750824  1.0000
+  Cr  Cr1       1.0  0.03356080502271652  0.16441625356674194  0.7248685359954834  1.0000
+  O   O3        1.0  0.5346223711967468  0.831352949142456  0.8594585657119751  1.0000

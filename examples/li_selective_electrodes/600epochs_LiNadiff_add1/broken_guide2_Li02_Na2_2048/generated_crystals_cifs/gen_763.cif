@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       LiO3WBrO
+_chemical_formula_sum              "Li1 O4 W1 Br1"
+_cell_length_a       3.9105605427350145
+_cell_length_b       5.6734002941274175
+_cell_length_c       6.8724541664123535
+_cell_angle_alpha    92.09302523779643
+_cell_angle_beta     90.46004989116537
+_cell_angle_gamma    110.22127552038663
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.6527298092842102  0.6291256546974182  0.1877351701259613  1.0000
+  O   O1        1.0  0.4936018288135529  0.3100321888923645  0.38657960295677185  1.0000
+  O   O2        1.0  0.48914161324501043  0.3048575818538666  0.9795035123825073  1.0000
+  O   O3        1.0  0.21000929176807404  0.7412126064300537  0.1928536295890808  1.0000
+  W   W1        1.0  0.3781280517578125  0.0804339200258255  0.1786154955625534  1.0000
+  Br  Br1       1.0  0.48400369286537176  0.2948325276374817  0.6835641264915466  1.0000
+  O   O4        1.0  0.8613852262496948  0.047686219215393066  0.1752525120973587  1.0000

@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       LaCrO3
+_chemical_formula_sum              "La1 Cr1 O3"
+_cell_length_a       3.8866743350808126
+_cell_length_b       3.886748553367168
+_cell_length_c       3.8927414417266846
+_cell_angle_alpha    89.97988759779848
+_cell_angle_beta     90.01691405353786
+_cell_angle_gamma    90.02543129797088
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  La  La1       1.0  0.32718750834465027  0.6114001870155334  0.44881454110145563  1.0000
+  Cr  Cr1       1.0  0.8270511031150818  0.11112678796052933  0.9487124681472777  1.0000
+  O   O1        1.0  0.8269538283348083  0.11123524606227875  0.44886097311973566  1.0000
+  O   O2        1.0  0.32696911692619324  0.11121228337287904  0.9491368532180785  1.0000
+  O   O3        1.0  0.8273472785949707  0.6112963557243347  0.9487440586090087  1.0000

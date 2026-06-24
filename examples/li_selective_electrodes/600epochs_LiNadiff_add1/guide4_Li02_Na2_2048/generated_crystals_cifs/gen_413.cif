@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       NCoCrN
+_chemical_formula_sum              "N2 Co1 Cr1"
+_cell_length_a       2.8581137858477015
+_cell_length_b       2.8557691891597825
+_cell_length_c       4.025003910064697
+_cell_angle_alpha    89.89759064169864
+_cell_angle_beta     89.99319963610452
+_cell_angle_gamma    89.84759366299824
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  N   N1        1.0  0.9447431564331055  0.03384703397750854  0.6944707632064819  1.0000
+  Co  Co1       1.0  0.9445833563804626  0.03354759141802787  0.19421736896038055  1.0000
+  Cr  Cr1       1.0  0.4443308711051941  0.5343161821365356  0.693629264831543  1.0000
+  N   N2        1.0  0.44431960582733154  0.5345982313156128  0.19450178742408752  1.0000

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       LiCoNO
+_chemical_formula_sum              "Li1 Co1 N1 O1"
+_cell_length_a       2.8379670467605185
+_cell_length_b       2.8334088916787135
+_cell_length_c       3.93560791015625
+_cell_angle_alpha    89.96475872932994
+_cell_angle_beta     89.98280408778223
+_cell_angle_gamma    89.9425401189489
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.9688018560409546  0.5990273952484131  0.12786877155303955  1.0000
+  Co  Co1       1.0  0.46785008907318115  0.09641782939434053  0.6278283596038817  1.0000
+  N   N1        1.0  0.9684237241744995  0.5963842272758484  0.6276496648788451  1.0000
+  O   O1        1.0  0.4694361090660095  0.09757068008184434  0.1276608556509018  1.0000

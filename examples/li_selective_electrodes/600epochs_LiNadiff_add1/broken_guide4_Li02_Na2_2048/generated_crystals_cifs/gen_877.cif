@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Cr2FLiO4
+_chemical_formula_sum              "Cr2 F1 Li1 O4"
+_cell_length_a       5.074610432457569
+_cell_length_b       5.183321966890986
+_cell_length_c       5.107515811920166
+_cell_angle_alpha    113.7065344495041
+_cell_angle_beta     90.40465706161449
+_cell_angle_gamma    118.82799854029683
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.303702712059021  0.6593708395957947  0.9951041340827941  1.0000
+  Cr  Cr2       1.0  0.5350019931793213  0.13468162715435028  0.6448171138763428  1.0000
+  F   F1        1.0  0.1398485153913498  0.8890784978866577  0.3270332217216491  1.0000
+  Li  Li1       1.0  0.8837859034538269  0.8354718089103699  0.6038780212402344  1.0000
+  O   O1        1.0  0.9401255249977112  0.2789726257324219  0.8560353517532349  1.0000
+  O   O2        1.0  0.555306077003479  0.517131507396698  0.7495119571685791  1.0000
+  O   O3        1.0  0.5981771349906921  0.8555431962013245  0.3296334147453308  1.0000
+  O   O4        1.0  0.2894873321056366  0.9055377244949341  0.8249313831329346  1.0000

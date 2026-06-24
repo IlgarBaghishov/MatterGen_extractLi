@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       NiLiSbLiO4
+_chemical_formula_sum              "Ni1 Li2 Sb1 O4"
+_cell_length_a       4.6846174598310775
+_cell_length_b       4.599887377173241
+_cell_length_c       4.726095199584961
+_cell_angle_alpha    90.00295314618542
+_cell_angle_beta     89.8876868686551
+_cell_angle_gamma    89.99790563645317
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.31562545895576477  0.7000375986099242  0.5636823773384094  1.0000
+  Li  Li1       1.0  0.316112756729126  0.20020121335983276  0.0636981800198555  1.0000
+  Sb  Sb1       1.0  0.8159963488578796  0.6997398138046264  0.06376265734434128  1.0000
+  Li  Li2       1.0  0.8167543411254883  0.20025205612182614  0.563902735710144  1.0000
+  O   O1        1.0  0.5652870535850525  0.45186066627502436  0.8127191662788391  1.0000
+  O   O2        1.0  0.5651061534881592  0.949108898639679  0.31640657782554626  1.0000
+  O   O3        1.0  0.06874135881662369  0.9488407373428345  0.8126888871192932  1.0000
+  O   O4        1.0  0.06886359304189682  0.45185598731040955  0.31561917066574097  1.0000

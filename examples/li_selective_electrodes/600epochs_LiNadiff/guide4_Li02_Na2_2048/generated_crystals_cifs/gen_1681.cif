@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       LiONiFeBO3
+_chemical_formula_sum              "Li1 O4 Ni1 Fe1 B1"
+_cell_length_a       4.366582701914824
+_cell_length_b       4.363998517686138
+_cell_length_c       5.149781703948975
+_cell_angle_alpha    115.06663819815205
+_cell_angle_beta     114.99402163715402
+_cell_angle_gamma    90.03203607979002
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.9745983481407166  0.6882430911064147  0.7563496232032775  1.0000
+  O   O1        1.0  0.5285246968269348  0.7442795038223265  0.47071233391761774  1.0000
+  Ni  Ni1       1.0  0.7239142656326294  0.9374600052833556  0.2562058269977569  1.0000
+  Fe  Fe1       1.0  0.47431379556655884  0.18753713369369507  0.7563180923461914  1.0000
+  B   B1        1.0  0.2237604856491089  0.43782103061676025  0.2567297518253326  1.0000
+  O   O2        1.0  0.31738290190696716  0.1331605613231659  0.04380504414439199  1.0000
+  O   O3        1.0  0.13379332423210144  0.34548938274383545  0.470344215631485  1.0000
+  O   O4        1.0  0.919136106967926  0.5283013582229613  0.04396853968501083  1.0000

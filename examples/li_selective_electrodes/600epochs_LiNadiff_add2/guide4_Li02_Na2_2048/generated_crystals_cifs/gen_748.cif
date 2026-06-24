@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       NOLiCr
+_chemical_formula_sum              "N1 O1 Li1 Cr1"
+_cell_length_a       2.9007122965268786
+_cell_length_b       2.899953910089328
+_cell_length_c       4.0660881996154785
+_cell_angle_alpha    89.98759888090173
+_cell_angle_beta     90.01007703354146
+_cell_angle_gamma    90.02702956140661
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  N   N1        1.0  0.5519417524337769  0.7783315777778627  0.9400769472122192  1.0000
+  O   O1        1.0  0.05267810449004173  0.2779529690742493  0.43923744559288025  1.0000
+  Li  Li1       1.0  0.5528799295425415  0.7777509689331056  0.4396730959415436  1.0000
+  Cr  Cr1       1.0  0.05259716883301735  0.2782411277294159  0.9403169751167297  1.0000

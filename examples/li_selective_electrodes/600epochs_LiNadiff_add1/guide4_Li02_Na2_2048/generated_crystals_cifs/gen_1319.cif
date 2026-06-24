@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       EuOEuLiCrO3
+_chemical_formula_sum              "Eu2 O4 Li1 Cr1"
+_cell_length_a       3.380462420289194
+_cell_length_b       3.3802547886998022
+_cell_length_c       9.288995742797852
+_cell_angle_alpha    89.9510163909192
+_cell_angle_beta     90.00487242942579
+_cell_angle_gamma    90.07922585822756
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.6706814169883728  0.44589579105377203  0.6902700662612915  1.0000
+  O   O1        1.0  0.6714933514595032  0.44605410099029547  0.9345534443855286  1.0000
+  Eu  Eu2       1.0  0.6706160306930542  0.4464146196842194  0.17739999294281006  1.0000
+  Li  Li1       1.0  0.1717143952846527  0.946288526058197  0.935263991355896  1.0000
+  Cr  Cr1       1.0  0.16955508291721344  0.9480786919593811  0.4340079724788666  1.0000
+  O   O2        1.0  0.17078088223934174  0.9459209442138672  0.6600772738456726  1.0000
+  O   O3        1.0  0.6704902052879333  0.44784328341484075  0.43476834893226624  1.0000
+  O   O4        1.0  0.17070475220680237  0.9463141560554506  0.20955368876457214  1.0000

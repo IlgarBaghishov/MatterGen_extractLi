@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       LiO2PdO2
+_chemical_formula_sum              "Li1 O4 Pd1"
+_cell_length_a       3.0740772332292736
+_cell_length_b       4.623391314692223
+_cell_length_c       4.658511638641357
+_cell_angle_alpha    88.39323438429183
+_cell_angle_beta     89.98510586107113
+_cell_angle_gamma    89.98843899414898
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.04799483343958855  0.6905422806739807  0.8253517150878906  1.0000
+  O   O1        1.0  0.04896664246916771  0.3840283751487732  0.5178223252296448  1.0000
+  O   O2        1.0  0.5495736598968506  0.48249122500419617  0.034511808305978775  1.0000
+  Pd  Pd1       1.0  0.547462522983551  0.1910981684923172  0.3262070119380951  1.0000
+  O   O3        1.0  0.046319086104631424  0.9978404045104979  0.13304674625396729  1.0000
+  O   O4        1.0  0.5487976670265198  0.8996455669403075  0.6167289614677429  1.0000

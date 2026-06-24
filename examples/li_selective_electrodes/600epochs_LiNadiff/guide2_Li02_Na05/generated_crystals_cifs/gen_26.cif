@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       BiScO4
+_chemical_formula_sum              "Bi1 Sc1 O4"
+_cell_length_a       3.7039256348978014
+_cell_length_b       3.6984436294117637
+_cell_length_c       5.336369514465332
+_cell_angle_alpha    90.04558035770856
+_cell_angle_beta     89.96376835313103
+_cell_angle_gamma    89.98694318380133
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Bi  Bi1       1.0  0.5552592873573303  0.3499296009540558  0.28700384497642517  1.0000
+  Sc  Sc1       1.0  0.05479611083865165  0.8488051891326905  0.7862447500228882  1.0000
+  O   O1        1.0  0.05416855588555335  0.3493408262729645  0.9881678819656372  1.0000
+  O   O2        1.0  0.5547141432762146  0.8470898270606996  0.5855319499969482  1.0000
+  O   O3        1.0  0.05445046722888946  0.3473752140998841  0.495201975107193  1.0000
+  O   O4        1.0  0.5544275045394897  0.8486143946647645  0.07725056260824203  1.0000

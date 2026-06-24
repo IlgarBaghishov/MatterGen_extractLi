@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       CuLiOBO2
+_chemical_formula_sum              "Cu1 Li1 O3 B1"
+_cell_length_a       3.2336930342093497
+_cell_length_b       4.872991116922962
+_cell_length_c       4.676249027252197
+_cell_angle_alpha    66.8571151990761
+_cell_angle_beta     83.27457504139146
+_cell_angle_gamma    103.79014283814341
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.18207582831382751  0.6510564088821411  0.9190012216567993  1.0000
+  Li  Li1       1.0  0.673016369342804  0.34603115916252136  0.5541194081306458  1.0000
+  O   O1        1.0  0.35721975564956665  0.03480995446443558  0.9758688807487488  1.0000
+  B   B1        1.0  0.17571574449539185  0.026699056848883632  0.2651117444038391  1.0000
+  O   O2        1.0  0.9758353233337402  0.748618483543396  0.5401405692100525  1.0000
+  O   O3        1.0  0.19945605099201202  0.30767619609832764  0.29076868295669556  1.0000

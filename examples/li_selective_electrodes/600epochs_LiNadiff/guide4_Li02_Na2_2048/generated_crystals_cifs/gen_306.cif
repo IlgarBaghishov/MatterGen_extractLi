@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       FeOZnONi2O2
+_chemical_formula_sum              "Fe1 O4 Zn1 Ni2"
+_cell_length_a       4.246920516297796
+_cell_length_b       4.242742122042444
+_cell_length_c       5.33810567855835
+_cell_angle_alpha    90.0984186976873
+_cell_angle_beta     90.065695263692
+_cell_angle_gamma    89.39990211869333
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.12435171753168107  0.6664585471153258  0.7067406177520752  1.0000
+  O   O1        1.0  0.3719133138656616  0.9134509563446045  0.9598633646965027  1.0000
+  Zn  Zn1       1.0  0.62501060962677  0.1661376655101776  0.7065556645393372  1.0000
+  O   O2        1.0  0.8772397637367249  0.41710373759269714  0.9601247310638428  1.0000
+  Ni  Ni1       1.0  0.6252976655960083  0.666183590888977  0.2067650854587555  1.0000
+  Ni  Ni2       1.0  0.12534479796886444  0.16660137474536893  0.20675697922706604  1.0000
+  O   O3        1.0  0.8767708539962769  0.4186386466026306  0.4529806673526764  1.0000
+  O   O4        1.0  0.3720318078994751  0.9141294956207275  0.4530680775642395  1.0000

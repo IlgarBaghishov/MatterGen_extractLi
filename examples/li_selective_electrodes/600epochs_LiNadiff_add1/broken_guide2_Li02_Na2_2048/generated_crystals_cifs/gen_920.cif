@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       VLiO2
+_chemical_formula_sum              "V1 Li1 O2"
+_cell_length_a       3.00401157689162
+_cell_length_b       3.005739575709028
+_cell_length_c       4.000235557556152
+_cell_angle_alpha    90.04284828280097
+_cell_angle_beta     89.95012846488827
+_cell_angle_gamma    90.03744559989916
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  V   V1        1.0  0.11590536683797836  0.584406852722168  0.6909856200218201  1.0000
+  Li  Li1       1.0  0.615766167640686  0.08433646708726883  0.19124090671539307  1.0000
+  O   O1        1.0  0.11606982350349426  0.584113359451294  0.1908663958311081  1.0000
+  O   O2        1.0  0.6159257292747498  0.08442627638578414  0.6913313865661621  1.0000

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       CrAuO2
+_chemical_formula_sum              "Cr1 Au1 O2"
+_cell_length_a       3.1077842795270203
+_cell_length_b       3.1023463271867864
+_cell_length_c       6.417712688446045
+_cell_angle_alpha    76.0747628471086
+_cell_angle_beta     75.98439999182959
+_cell_angle_gamma    60.07087663668492
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.8222929835319519  0.3932996094226837  0.7849873900413512  1.0000
+  Au  Au1       1.0  0.3225675821304322  0.8936377763748169  0.2846834659576416  1.0000
+  O   O1        1.0  0.4346126317977905  0.005944859702140093  0.9466881752014159  1.0000
+  O   O2        1.0  0.20995767414569846  0.7809385061264039  0.6229261755943298  1.0000

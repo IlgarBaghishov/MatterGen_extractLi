@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       LiZnCrZnO4
+_chemical_formula_sum              "Li1 Zn2 Cr1 O4"
+_cell_length_a       3.0668383043781153
+_cell_length_b       5.145392549588328
+_cell_length_c       5.166404724121094
+_cell_angle_alpha    105.74017939290296
+_cell_angle_beta     90.00924375018366
+_cell_angle_gamma    89.82512916769379
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.573034942150116  0.08074158430099487  0.3152937889099121  1.0000
+  Zn  Zn1       1.0  0.5735309720039368  0.5811600685119629  0.815672755241394  1.0000
+  Cr  Cr1       1.0  0.07354295253753662  0.5809096693992615  0.3153221011161804  1.0000
+  Zn  Zn2       1.0  0.0732918232679367  0.08131510019302368  0.8158320784568787  1.0000
+  O   O1        1.0  0.5740925669670105  0.35269939899444575  0.09828909486532211  1.0000
+  O   O2        1.0  0.074287548661232  0.33685418963432306  0.5736232995986938  1.0000
+  O   O3        1.0  0.57402104139328  0.809825599193573  0.5322684049606323  1.0000
+  O   O4        1.0  0.07276571542024612  0.8247689008712767  0.05739598348736763  1.0000

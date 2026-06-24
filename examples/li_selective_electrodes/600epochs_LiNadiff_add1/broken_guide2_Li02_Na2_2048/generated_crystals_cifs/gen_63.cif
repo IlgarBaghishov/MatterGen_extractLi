@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       LiNiOLiCrO2
+_chemical_formula_sum              "Li2 Ni1 O3 Cr1"
+_cell_length_a       2.970761815683587
+_cell_length_b       5.077258122413171
+_cell_length_c       5.087114334106445
+_cell_angle_alpha    109.29555175495653
+_cell_angle_beta     89.99063148489637
+_cell_angle_gamma    90.14123715550568
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.22049953043460846  0.9131870865821837  0.5446376204490662  1.0000
+  Ni  Ni1       1.0  0.22045272588729858  0.458293467760086  0.09056495130062103  1.0000
+  O   O1        1.0  0.7208808064460754  0.7083036303520203  0.31480464339256287  1.0000
+  Li  Li2       1.0  0.7197704911231995  0.4701513051986695  0.5597900748252869  1.0000
+  Cr  Cr1       1.0  0.7208545804023743  0.9525738358497621  0.07632368057966232  1.0000
+  O   O2        1.0  0.22009462118148804  0.7061737775802612  0.8410608768463135  1.0000
+  O   O3        1.0  0.22142772376537323  0.19195590913295746  0.3090636730194092  1.0000

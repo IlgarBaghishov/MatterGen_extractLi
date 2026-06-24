@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       CrFeO2MnO2Mn
+_chemical_formula_sum              "Cr1 Fe1 O4 Mn2"
+_cell_length_a       4.803195463379317
+_cell_length_b       4.809419636362637
+_cell_length_c       4.804379463195801
+_cell_angle_alpha    89.66440799480472
+_cell_angle_beta     89.57896233057907
+_cell_angle_gamma    89.6366637758612
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.2672790586948395  0.697708785533905  0.1806824654340744  1.0000
+  Fe  Fe1       1.0  0.7659786343574524  0.1988743096590042  0.1797788441181183  1.0000
+  O   O1        1.0  0.5136327743530273  0.9452649354934692  0.4238722026348114  1.0000
+  O   O2        1.0  0.016154877841472626  0.4482417702674865  0.42298242449760437  1.0000
+  Mn  Mn1       1.0  0.2645359933376312  0.19754956662654874  0.6806835532188416  1.0000
+  O   O3        1.0  0.513041079044342  0.4477933049201965  0.9366509914398193  1.0000
+  O   O4        1.0  0.01581021212041378  0.9438296556472778  0.937120258808136  1.0000
+  Mn  Mn2       1.0  0.7648268342018127  0.6972975730895996  0.6807000637054443  1.0000

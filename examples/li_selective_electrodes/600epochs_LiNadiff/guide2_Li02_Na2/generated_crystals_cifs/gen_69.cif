@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       FeLiTiO3
+_chemical_formula_sum              "Fe1 Li1 Ti1 O3"
+_cell_length_a       3.0509047658098494
+_cell_length_b       4.049342425769494
+_cell_length_c       5.309904098510742
+_cell_angle_alpha    67.79204344262438
+_cell_angle_beta     73.52900058416961
+_cell_angle_gamma    89.9532218076582
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.618051290512085  0.5171542763710022  0.7181527614593506  1.0000
+  Li  Li1       1.0  0.2831386625766754  0.1829913407564163  0.3864468038082123  1.0000
+  Ti  Ti1       1.0  0.9281213283538818  0.8294410109519957  0.0936022475361824  1.0000
+  O   O1        1.0  0.9341080188751221  0.33630365133285517  0.08110174536705017  1.0000
+  O   O2        1.0  0.2845330834388733  0.6852052807807922  0.3830418586730957  1.0000
+  O   O3        1.0  0.5898589491844177  0.9904207587242126  0.7727346420288086  1.0000

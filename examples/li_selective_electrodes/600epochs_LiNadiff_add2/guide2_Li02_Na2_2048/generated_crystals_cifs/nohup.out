@@ -1,0 +1,420 @@
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/core/structure.py:3109: UserWarning: Issues encountered while parsing CIF: 1 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+No reference dataset provided. Using MP2020 correction as reference.
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:71: UserWarning: Co without an oxidation state is initialized as low spin by default in Pymatgen. If this default behavior is not desired, please set the spin on the magmom on the site directly to ensure correct initialization.
+  if not self.mp_set.incar.get("LDAU", False):
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:73: UserWarning: Co without an oxidation state is initialized as low spin by default in Pymatgen. If this default behavior is not desired, please set the spin on the magmom on the site directly to ensure correct initialization.
+  us = self.mp_set.incar.get("LDAUU", [])
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:74: UserWarning: Co without an oxidation state is initialized as low spin by default in Pymatgen. If this default behavior is not desired, please set the spin on the magmom on the site directly to ensure correct initialization.
+  js = self.mp_set.incar.get("LDAUJ", [])
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:62: UserWarning: Co without an oxidation state is initialized as low spin by default in Pymatgen. If this default behavior is not desired, please set the spin on the magmom on the site directly to ensure correct initialization.
+  return self.mp_set.incar.get("LASPH", False)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCrO). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCuNiPdO). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCrO4). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCrPdO2). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCr2O). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCr(Fe2O5)2). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCuO3). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCrNiPdO). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCuNiRhO2). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiFe6O11F). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCrFe5O12). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (Li2Pd2O). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCrCuPdO2). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiFe3CoNiO10). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (Li(PdO)2). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiPdO3). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiNiO3). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCrNiPdO2). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (Li2CrPdO2). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCr2(PdO2)2). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiPdO). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiO2). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiNiPd2O). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCr4O4). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiPd2O3). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiPdRhO2). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (Li(RhO)2). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (Li2RhO2). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiPdO4). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (Li(FeO2)6). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCrNiO6). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCrCuRhO2). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCr3PdO4). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCr2PdO2). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCu2(RhO2)2). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiCu2PdO2). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+/home/ilgar/code/miniforge3/envs/eonmeta/lib/python3.12/site-packages/pymatgen/entries/compatibility.py:629: UserWarning: Failed to guess oxidation states for Entry None (LiFe2(CoO4)2). Assigning anion correction to only the most electronegative atom.
+  adjustments: list[EnergyAdjustment] = self.get_adjustments(entry)
+Computing energies above hull:   0%|          | 0/113 [00:00<?, ?it/s]Computing energies above hull:   1%|          | 1/113 [00:00<00:28,  3.88it/s]Computing energies above hull:   2%|▏         | 2/113 [00:01<01:04,  1.71it/s]Computing energies above hull:   3%|▎         | 3/113 [00:01<00:53,  2.06it/s]Computing energies above hull:   4%|▎         | 4/113 [00:02<01:11,  1.52it/s]Computing energies above hull:   4%|▍         | 5/113 [00:03<01:37,  1.11it/s]Computing energies above hull:   5%|▌         | 6/113 [00:04<01:19,  1.34it/s]Computing energies above hull:   6%|▌         | 7/113 [00:04<01:17,  1.37it/s]Computing energies above hull:   7%|▋         | 8/113 [00:05<01:09,  1.50it/s]Computing energies above hull:   8%|▊         | 9/113 [00:05<01:02,  1.66it/s]Computing energies above hull:   9%|▉         | 10/113 [00:06<00:52,  1.94it/s]Computing energies above hull:  10%|▉         | 11/113 [00:07<01:18,  1.29it/s]Computing energies above hull:  11%|█         | 12/113 [00:08<01:14,  1.35it/s]Computing energies above hull:  12%|█▏        | 13/113 [00:08<01:01,  1.61it/s]Computing energies above hull:  12%|█▏        | 14/113 [00:09<01:16,  1.29it/s]Computing energies above hull:  13%|█▎        | 15/113 [00:10<01:12,  1.35it/s]Computing energies above hull:  14%|█▍        | 16/113 [00:10<00:54,  1.79it/s]Computing energies above hull:  15%|█▌        | 17/113 [00:13<01:53,  1.18s/it]Computing energies above hull:  16%|█▌        | 18/113 [00:13<01:30,  1.05it/s]Computing energies above hull:  17%|█▋        | 19/113 [00:14<01:45,  1.12s/it]Computing energies above hull:  18%|█▊        | 20/113 [00:15<01:27,  1.07it/s]Computing energies above hull:  19%|█▊        | 21/113 [00:16<01:37,  1.06s/it]Computing energies above hull:  19%|█▉        | 22/113 [00:17<01:33,  1.03s/it]Computing energies above hull:  20%|██        | 23/113 [00:18<01:22,  1.09it/s]Computing energies above hull:  21%|██        | 24/113 [00:19<01:32,  1.04s/it]Computing energies above hull:  22%|██▏       | 25/113 [00:20<01:35,  1.08s/it]Computing energies above hull:  23%|██▎       | 26/113 [00:21<01:17,  1.12it/s]Computing energies above hull:  24%|██▍       | 27/113 [00:23<01:55,  1.35s/it]Computing energies above hull:  25%|██▍       | 28/113 [00:24<01:27,  1.03s/it]Computing energies above hull:  26%|██▌       | 29/113 [00:25<01:30,  1.08s/it]Computing energies above hull:  27%|██▋       | 30/113 [00:26<01:32,  1.11s/it]Computing energies above hull:  27%|██▋       | 31/113 [00:26<01:14,  1.10it/s]Computing energies above hull:  28%|██▊       | 32/113 [00:27<01:10,  1.15it/s]Computing energies above hull:  30%|███       | 34/113 [00:28<00:49,  1.59it/s]Computing energies above hull:  31%|███       | 35/113 [00:29<00:56,  1.37it/s]Computing energies above hull:  32%|███▏      | 36/113 [00:29<00:44,  1.72it/s]Computing energies above hull:  33%|███▎      | 37/113 [00:30<00:52,  1.44it/s]Computing energies above hull:  34%|███▎      | 38/113 [00:32<01:12,  1.03it/s]Computing energies above hull:  35%|███▍      | 39/113 [00:33<01:21,  1.10s/it]Computing energies above hull:  35%|███▌      | 40/113 [00:34<01:04,  1.13it/s]Computing energies above hull:  36%|███▋      | 41/113 [00:35<01:13,  1.02s/it]Computing energies above hull:  37%|███▋      | 42/113 [00:36<01:05,  1.08it/s]Computing energies above hull:  38%|███▊      | 43/113 [00:36<00:59,  1.17it/s]Computing energies above hull:  39%|███▉      | 44/113 [00:37<00:51,  1.33it/s]Computing energies above hull:  40%|███▉      | 45/113 [00:38<01:09,  1.02s/it]Computing energies above hull:  41%|████      | 46/113 [00:40<01:14,  1.11s/it]Computing energies above hull:  42%|████▏     | 47/113 [00:41<01:06,  1.01s/it]Computing energies above hull:  42%|████▏     | 48/113 [00:41<01:04,  1.01it/s]Computing energies above hull:  43%|████▎     | 49/113 [00:43<01:19,  1.24s/it]Computing energies above hull:  44%|████▍     | 50/113 [00:44<01:04,  1.02s/it]Computing energies above hull:  45%|████▌     | 51/113 [00:44<00:49,  1.25it/s]Computing energies above hull:  46%|████▌     | 52/113 [00:44<00:39,  1.53it/s]Computing energies above hull:  47%|████▋     | 53/113 [00:46<00:49,  1.21it/s]Computing energies above hull:  48%|████▊     | 54/113 [00:46<00:40,  1.47it/s]Computing energies above hull:  49%|████▊     | 55/113 [00:47<00:52,  1.11it/s]Computing energies above hull:  50%|█████     | 57/113 [00:50<00:56,  1.01s/it]Computing energies above hull:  51%|█████▏    | 58/113 [00:51<00:57,  1.04s/it]Computing energies above hull:  52%|█████▏    | 59/113 [00:55<01:35,  1.76s/it]Computing energies above hull:  54%|█████▍    | 61/113 [00:56<01:07,  1.29s/it]Computing energies above hull:  55%|█████▍    | 62/113 [00:57<00:57,  1.12s/it]Computing energies above hull:  56%|█████▌    | 63/113 [00:59<01:07,  1.34s/it]Computing energies above hull:  57%|█████▋    | 64/113 [00:59<00:54,  1.11s/it]Computing energies above hull:  58%|█████▊    | 65/113 [00:59<00:42,  1.12it/s]Computing energies above hull:  58%|█████▊    | 66/113 [01:00<00:39,  1.19it/s]Computing energies above hull:  59%|█████▉    | 67/113 [01:01<00:36,  1.26it/s]Computing energies above hull:  60%|██████    | 68/113 [01:01<00:35,  1.28it/s]Computing energies above hull:  61%|██████    | 69/113 [01:02<00:33,  1.32it/s]Computing energies above hull:  63%|██████▎   | 71/113 [01:03<00:27,  1.55it/s]Computing energies above hull:  64%|██████▎   | 72/113 [01:04<00:33,  1.24it/s]Computing energies above hull:  65%|██████▍   | 73/113 [01:05<00:29,  1.35it/s]Computing energies above hull:  65%|██████▌   | 74/113 [01:05<00:24,  1.58it/s]Computing energies above hull:  66%|██████▋   | 75/113 [01:06<00:20,  1.87it/s]Computing energies above hull:  67%|██████▋   | 76/113 [01:07<00:24,  1.49it/s]Computing energies above hull:  68%|██████▊   | 77/113 [01:07<00:25,  1.44it/s]Computing energies above hull:  69%|██████▉   | 78/113 [01:09<00:37,  1.06s/it]Computing energies above hull:  70%|██████▉   | 79/113 [01:11<00:41,  1.23s/it]Computing energies above hull:  71%|███████   | 80/113 [01:12<00:37,  1.12s/it]Computing energies above hull:  72%|███████▏  | 81/113 [01:13<00:40,  1.27s/it]Computing energies above hull:  73%|███████▎  | 82/113 [01:15<00:37,  1.22s/it]Computing energies above hull:  73%|███████▎  | 83/113 [01:16<00:40,  1.36s/it]Computing energies above hull:  74%|███████▍  | 84/113 [01:18<00:44,  1.53s/it]Computing energies above hull:  75%|███████▌  | 85/113 [01:18<00:31,  1.12s/it]Computing energies above hull:  77%|███████▋  | 87/113 [01:23<00:40,  1.58s/it]Computing energies above hull:  78%|███████▊  | 88/113 [01:23<00:33,  1.34s/it]Computing energies above hull:  79%|███████▉  | 89/113 [01:24<00:30,  1.29s/it]Computing energies above hull:  80%|███████▉  | 90/113 [01:25<00:25,  1.12s/it]Computing energies above hull:  81%|████████  | 91/113 [01:25<00:20,  1.07it/s]Computing energies above hull:  81%|████████▏ | 92/113 [01:26<00:17,  1.19it/s]Computing energies above hull:  82%|████████▏ | 93/113 [01:27<00:15,  1.31it/s]Computing energies above hull:  83%|████████▎ | 94/113 [01:27<00:12,  1.48it/s]Computing energies above hull:  84%|████████▍ | 95/113 [01:28<00:11,  1.56it/s]Computing energies above hull:  85%|████████▍ | 96/113 [01:28<00:09,  1.86it/s]Computing energies above hull:  86%|████████▌ | 97/113 [01:29<00:10,  1.53it/s]Computing energies above hull:  87%|████████▋ | 98/113 [01:30<00:12,  1.22it/s]Computing energies above hull:  88%|████████▊ | 99/113 [01:31<00:13,  1.05it/s]Computing energies above hull:  88%|████████▊ | 100/113 [01:33<00:14,  1.13s/it]Computing energies above hull:  89%|████████▉ | 101/113 [01:33<00:11,  1.04it/s]Computing energies above hull:  90%|█████████ | 102/113 [01:34<00:08,  1.29it/s]Computing energies above hull:  91%|█████████ | 103/113 [01:35<00:08,  1.17it/s]Computing energies above hull:  93%|█████████▎| 105/113 [01:36<00:05,  1.42it/s]Computing energies above hull:  94%|█████████▍| 106/113 [01:36<00:04,  1.67it/s]Computing energies above hull:  95%|█████████▍| 107/113 [01:38<00:05,  1.15it/s]Computing energies above hull:  96%|█████████▌| 108/113 [01:39<00:05,  1.03s/it]Computing energies above hull:  96%|█████████▋| 109/113 [01:40<00:03,  1.10it/s]Computing energies above hull:  97%|█████████▋| 110/113 [01:40<00:02,  1.34it/s]Computing energies above hull:  98%|█████████▊| 111/113 [01:41<00:01,  1.57it/s]Computing energies above hull:  99%|█████████▉| 112/113 [01:41<00:00,  1.63it/s]Computing energies above hull: 100%|██████████| 113/113 [01:42<00:00,  1.42it/s]Computing energies above hull: 100%|██████████| 113/113 [01:42<00:00,  1.10it/s]
+Finding novel structures:   0%|          | 0/396 [00:00<?, ?it/s]Finding novel structures:   1%|          | 2/396 [00:00<01:44,  3.78it/s]Finding novel structures:   1%|          | 3/396 [00:23<1:02:59,  9.62s/it]Finding novel structures:   3%|▎         | 10/396 [00:41<25:09,  3.91s/it] Finding novel structures:   4%|▍         | 15/396 [00:41<13:52,  2.19s/it]Finding novel structures:   4%|▍         | 16/396 [00:41<12:22,  1.95s/it]Finding novel structures:   5%|▍         | 19/396 [00:41<08:19,  1.33s/it]Finding novel structures:   7%|▋         | 27/396 [00:44<04:58,  1.24it/s]Finding novel structures:   7%|▋         | 29/396 [00:47<05:24,  1.13it/s]Finding novel structures:   8%|▊         | 32/396 [00:47<04:11,  1.45it/s]Finding novel structures:  13%|█▎        | 52/396 [00:48<01:09,  4.96it/s]Finding novel structures:  15%|█▍        | 59/396 [00:48<00:59,  5.70it/s]Finding novel structures:  16%|█▌        | 64/396 [00:48<00:47,  7.01it/s]Finding novel structures:  20%|█▉        | 79/396 [00:48<00:25, 12.63it/s]Finding novel structures:  23%|██▎       | 93/396 [00:49<00:18, 16.45it/s]Finding novel structures:  29%|██▉       | 115/396 [00:49<00:10, 26.08it/s]Finding novel structures:  34%|███▍      | 135/396 [00:49<00:06, 37.94it/s]Finding novel structures:  37%|███▋      | 145/396 [00:50<00:07, 35.22it/s]Finding novel structures:  40%|███▉      | 157/396 [00:50<00:06, 36.22it/s]Finding novel structures:  42%|████▏     | 167/396 [00:50<00:05, 38.61it/s]Finding novel structures:  44%|████▎     | 173/396 [00:50<00:05, 40.35it/s]Finding novel structures:  45%|████▌     | 179/396 [00:51<00:05, 36.95it/s]Finding novel structures:  50%|█████     | 199/396 [00:51<00:03, 60.54it/s]Finding novel structures:  53%|█████▎    | 209/396 [00:51<00:02, 63.40it/s]Finding novel structures:  80%|████████  | 318/396 [00:51<00:00, 252.47it/s]Finding novel structures:  94%|█████████▍| 372/396 [00:51<00:00, 189.66it/s]Finding novel structures: 100%|██████████| 396/396 [00:51<00:00,  7.64it/s] 
+[2026-02-18 15:31:27,380] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_energy_above_hull_per_atom
+[2026-02-18 15:31:27,380] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_energy_above_hull_per_atom
+[2026-02-18 15:31:27,380] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_energy_above_hull_per_atom
+[2026-02-18 15:31:27,380] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_energy_above_hull_per_atom
+[2026-02-18 15:31:27,380] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_rmsd_from_relaxation
+[2026-02-18 15:31:27,380] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_rmsd_from_relaxation
+[2026-02-18 15:31:27,380] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_rmsd_from_relaxation
+[2026-02-18 15:31:27,380] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_rmsd_from_relaxation
+[2026-02-18 15:32:02,909] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_novel_unique_stable_structures
+[2026-02-18 15:32:02,909] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_novel_unique_stable_structures
+[2026-02-18 15:32:02,909] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_novel_unique_stable_structures
+[2026-02-18 15:32:02,909] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_novel_unique_stable_structures
+Finding unique structures by reduced formula:   0%|          | 0/396 [00:00<?, ?it/s]Finding unique structures by reduced formula:   1%|          | 2/396 [00:00<02:01,  3.23it/s]Finding unique structures by reduced formula:   1%|          | 3/396 [00:14<39:12,  5.99s/it]Finding unique structures by reduced formula:   1%|          | 4/396 [00:15<26:06,  4.00s/it]Finding unique structures by reduced formula:   1%|▏         | 5/396 [00:16<19:44,  3.03s/it]Finding unique structures by reduced formula:   2%|▏         | 6/396 [00:16<13:27,  2.07s/it]Finding unique structures by reduced formula:   2%|▏         | 7/396 [00:21<19:40,  3.04s/it]Finding unique structures by reduced formula:   2%|▏         | 8/396 [00:22<14:25,  2.23s/it]Finding unique structures by reduced formula:   2%|▏         | 9/396 [00:32<31:30,  4.89s/it]Finding unique structures by reduced formula:   3%|▎         | 10/396 [00:33<23:21,  3.63s/it]Finding unique structures by reduced formula:   3%|▎         | 11/396 [00:34<16:54,  2.64s/it]Finding unique structures by reduced formula:   4%|▎         | 14/396 [00:34<07:27,  1.17s/it]Finding unique structures by reduced formula:   4%|▍         | 15/396 [00:35<07:26,  1.17s/it]Finding unique structures by reduced formula:   5%|▍         | 18/396 [00:36<04:34,  1.37it/s]Finding unique structures by reduced formula:   5%|▌         | 21/396 [00:36<02:51,  2.19it/s]Finding unique structures by reduced formula:   6%|▌         | 23/396 [00:39<04:25,  1.41it/s]Finding unique structures by reduced formula:   7%|▋         | 27/396 [00:39<02:44,  2.25it/s]Finding unique structures by reduced formula:   7%|▋         | 28/396 [00:39<02:46,  2.22it/s]Finding unique structures by reduced formula:   7%|▋         | 29/396 [00:40<03:03,  2.00it/s]Finding unique structures by reduced formula:   8%|▊         | 32/396 [00:40<01:58,  3.06it/s]Finding unique structures by reduced formula:   9%|▉         | 35/396 [00:41<01:21,  4.45it/s]Finding unique structures by reduced formula:   9%|▉         | 37/396 [00:41<01:17,  4.64it/s]Finding unique structures by reduced formula:  10%|▉         | 38/396 [00:41<01:31,  3.91it/s]Finding unique structures by reduced formula:  11%|█         | 42/396 [00:42<00:52,  6.77it/s]Finding unique structures by reduced formula:  12%|█▏        | 46/396 [00:42<00:38,  9.00it/s]Finding unique structures by reduced formula:  12%|█▏        | 48/396 [00:42<00:34, 10.14it/s]Finding unique structures by reduced formula:  13%|█▎        | 50/396 [00:42<00:31, 11.07it/s]Finding unique structures by reduced formula:  13%|█▎        | 52/396 [00:42<00:31, 10.76it/s]Finding unique structures by reduced formula:  14%|█▍        | 56/396 [00:42<00:26, 12.67it/s]Finding unique structures by reduced formula:  15%|█▍        | 59/396 [00:43<00:42,  7.92it/s]Finding unique structures by reduced formula:  16%|█▌        | 62/396 [00:43<00:35,  9.42it/s]Finding unique structures by reduced formula:  16%|█▌        | 64/396 [00:43<00:32, 10.20it/s]Finding unique structures by reduced formula:  17%|█▋        | 66/396 [00:44<00:29, 11.17it/s]Finding unique structures by reduced formula:  17%|█▋        | 68/396 [00:44<00:30, 10.84it/s]Finding unique structures by reduced formula:  19%|█▉        | 76/396 [00:44<00:14, 22.33it/s]Finding unique structures by reduced formula:  21%|██▏       | 85/396 [00:44<00:12, 25.24it/s]Finding unique structures by reduced formula:  22%|██▏       | 89/396 [00:45<00:18, 16.57it/s]Finding unique structures by reduced formula:  27%|██▋       | 105/396 [00:45<00:08, 34.22it/s]Finding unique structures by reduced formula:  28%|██▊       | 112/396 [00:45<00:11, 25.75it/s]Finding unique structures by reduced formula:  30%|██▉       | 118/396 [00:45<00:09, 28.62it/s]Finding unique structures by reduced formula:  31%|███▏      | 124/396 [00:46<00:08, 33.08it/s]Finding unique structures by reduced formula:  33%|███▎      | 130/396 [00:46<00:07, 35.71it/s]Finding unique structures by reduced formula:  34%|███▍      | 135/396 [00:46<00:14, 18.08it/s]Finding unique structures by reduced formula:  35%|███▌      | 139/396 [00:47<00:16, 15.60it/s]Finding unique structures by reduced formula:  36%|███▌      | 142/396 [00:47<00:17, 14.13it/s]Finding unique structures by reduced formula:  37%|███▋      | 145/396 [00:47<00:16, 14.80it/s]Finding unique structures by reduced formula:  40%|███▉      | 157/396 [00:47<00:08, 27.16it/s]Finding unique structures by reduced formula:  41%|████      | 162/396 [00:47<00:08, 29.07it/s]Finding unique structures by reduced formula:  45%|████▌     | 180/396 [00:48<00:03, 54.03it/s]Finding unique structures by reduced formula:  50%|████▉     | 197/396 [00:48<00:02, 69.72it/s]Finding unique structures by reduced formula:  52%|█████▏    | 206/396 [00:48<00:02, 73.02it/s]Finding unique structures by reduced formula:  59%|█████▉    | 233/396 [00:48<00:01, 110.36it/s]Finding unique structures by reduced formula:  62%|██████▏   | 246/396 [00:48<00:01, 111.58it/s]Finding unique structures by reduced formula:  74%|███████▎  | 292/396 [00:48<00:00, 183.97it/s]Finding unique structures by reduced formula:  86%|████████▌ | 341/396 [00:48<00:00, 243.50it/s]Finding unique structures by reduced formula: 100%|██████████| 396/396 [00:48<00:00,  8.11it/s] 
+[2026-02-18 15:32:51,756] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_stable_structures
+[2026-02-18 15:32:51,756] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_stable_structures
+[2026-02-18 15:32:51,756] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_stable_structures
+[2026-02-18 15:32:51,756] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_stable_structures
+[2026-02-18 15:32:51,756] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_successful_jobs
+[2026-02-18 15:32:51,756] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_successful_jobs
+[2026-02-18 15:32:51,756] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_successful_jobs
+[2026-02-18 15:32:51,756] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_successful_jobs
+[2026-02-18 15:32:51,756] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_comp_validity
+[2026-02-18 15:32:51,756] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_comp_validity
+[2026-02-18 15:32:51,756] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_comp_validity
+[2026-02-18 15:32:51,756] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_comp_validity
+Computing avg comp validity:   0%|          | 0/1837 [00:00<?, ?it/s]Computing avg comp validity:  14%|█▍        | 261/1837 [00:00<00:00, 2594.06it/s]Computing avg comp validity:  36%|███▌      | 657/1837 [00:00<00:00, 3393.56it/s]Computing avg comp validity:  57%|█████▋    | 1042/1837 [00:00<00:00, 3600.64it/s]Computing avg comp validity:  80%|███████▉  | 1463/1837 [00:00<00:00, 3837.91it/s]Computing avg comp validity: 100%|██████████| 1837/1837 [00:00<00:00, 3786.55it/s]
+[2026-02-18 15:32:52,245] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_structure_comp_validity
+[2026-02-18 15:32:52,245] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_structure_comp_validity
+[2026-02-18 15:32:52,245] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_structure_comp_validity
+[2026-02-18 15:32:52,245] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_structure_comp_validity
+[2026-02-18 15:32:52,828] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_structure_validity
+[2026-02-18 15:32:52,828] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_structure_validity
+[2026-02-18 15:32:52,828] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_structure_validity
+[2026-02-18 15:32:52,828] [INFO] [evaluator.py:273:compute_metrics] Computing metric avg_structure_validity
+Computing avg structure validity:   0%|          | 0/1837 [00:00<?, ?it/s]Computing avg structure validity:  84%|████████▍ | 1549/1837 [00:00<00:00, 15479.87it/s]Computing avg structure validity: 100%|██████████| 1837/1837 [00:00<00:00, 15454.82it/s]
+[2026-02-18 15:32:52,949] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_novel_structures
+[2026-02-18 15:32:52,949] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_novel_structures
+[2026-02-18 15:32:52,949] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_novel_structures
+[2026-02-18 15:32:52,949] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_novel_structures
+[2026-02-18 15:32:52,949] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_novel_systems
+[2026-02-18 15:32:52,949] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_novel_systems
+[2026-02-18 15:32:52,949] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_novel_systems
+[2026-02-18 15:32:52,949] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_novel_systems
+[2026-02-18 15:32:52,977] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_novel_unique_structures
+[2026-02-18 15:32:52,977] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_novel_unique_structures
+[2026-02-18 15:32:52,977] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_novel_unique_structures
+[2026-02-18 15:32:52,977] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_novel_unique_structures
+[2026-02-18 15:32:52,977] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_unique_structures
+[2026-02-18 15:32:52,977] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_unique_structures
+[2026-02-18 15:32:52,977] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_unique_structures
+[2026-02-18 15:32:52,977] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_unique_structures
+[2026-02-18 15:32:52,977] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_unique_systems
+[2026-02-18 15:32:52,977] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_unique_systems
+[2026-02-18 15:32:52,977] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_unique_systems
+[2026-02-18 15:32:52,977] [INFO] [evaluator.py:273:compute_metrics] Computing metric frac_unique_systems
+[2026-02-18 15:32:53,002] [INFO] [evaluator.py:273:compute_metrics] Computing metric precision
+[2026-02-18 15:32:53,002] [INFO] [evaluator.py:273:compute_metrics] Computing metric precision
+[2026-02-18 15:32:53,002] [INFO] [evaluator.py:273:compute_metrics] Computing metric precision
+[2026-02-18 15:32:53,002] [INFO] [evaluator.py:273:compute_metrics] Computing metric precision
+[2026-02-18 15:32:53,003] [INFO] [evaluator.py:273:compute_metrics] Computing metric recall
+[2026-02-18 15:32:53,003] [INFO] [evaluator.py:273:compute_metrics] Computing metric recall
+[2026-02-18 15:32:53,003] [INFO] [evaluator.py:273:compute_metrics] Computing metric recall
+[2026-02-18 15:32:53,003] [INFO] [evaluator.py:273:compute_metrics] Computing metric recall
+[2026-02-18 15:32:53,003] [INFO] [evaluator.py:277:compute_metrics] {
+    "avg_energy_above_hull_per_atom": {
+        "value": 0.5753281232764457,
+        "description": "Average energy above hull per atom (eV/atom) of structures in sampled data."
+    },
+    "avg_rmsd_from_relaxation": {
+        "value": 0.0009033371049795777,
+        "description": "root mean square displacements of atoms (Angstrom) from initial to final DFT relaxation steps in sampled data."
+    },
+    "frac_novel_unique_stable_structures": {
+        "value": 0.0005443658138268917,
+        "description": "Fraction of novel unique stable structures in sampled data within 0.1 (eV/atom) above convex hull of MP2020correction."
+    },
+    "frac_stable_structures": {
+        "value": 0.004354926510615134,
+        "description": "Fraction of stable structures in sampled data within 0.1 (eV/atom) above convex hull of MP2020correction."
+    },
+    "frac_successful_jobs": {
+        "value": 1.0,
+        "description": "Fraction of structures whose jobs ran successfully."
+    },
+    "avg_comp_validity": {
+        "value": 0.7795318454001089,
+        "description": "Average composition validity (according to smact) of structures in sampled data."
+    },
+    "avg_structure_comp_validity": {
+        "value": 0.7795318454001089,
+        "description": "Average number of structures in sampled data that are both valid structures and have a valid smact compositions."
+    },
+    "avg_structure_validity": {
+        "value": 1.0,
+        "description": "Average structural validity of structures in sampled data. Any atom-atom distances less than 0.5 Angstroms or a volume less than 0.1 Angstrom**3 are considered invalid ."
+    },
+    "frac_novel_structures": {
+        "value": 0.8982035928143712,
+        "description": "Fraction of novel structures in sampled data."
+    },
+    "frac_novel_systems": {
+        "value": 0.02558519324986391,
+        "description": "Fraction of distinct chemical systems in sampled data and not in MP2020correction."
+    },
+    "frac_novel_unique_structures": {
+        "value": 0.3391399020141535,
+        "description": "Fraction of novel unique structures in sampled data."
+    },
+    "frac_unique_structures": {
+        "value": 0.34403919433859553,
+        "description": "Fraction of unique structures in sampled data."
+    },
+    "frac_unique_systems": {
+        "value": 0.061513336962438755,
+        "description": "Fraction of structures in sampled data that have a unique chemical system within this set."
+    },
+    "precision": {
+        "value": 0.10179640718562874,
+        "description": "Precision of structures in sampled data compared with MP2020correction. This is the fraction of structures in sampled data that have a matching structure in MP2020correction."
+    },
+    "recall": {
+        "value": 4.728149154193218e-05,
+        "description": "Recall of structures in sampled data compared with structures in MP2020correction. This is the fraction of structures in sampled data that have a matching structure in MP2020correction."
+    }
+}
+[2026-02-18 15:32:53,003] [INFO] [evaluator.py:277:compute_metrics] {
+    "avg_energy_above_hull_per_atom": {
+        "value": 0.5753281232764457,
+        "description": "Average energy above hull per atom (eV/atom) of structures in sampled data."
+    },
+    "avg_rmsd_from_relaxation": {
+        "value": 0.0009033371049795777,
+        "description": "root mean square displacements of atoms (Angstrom) from initial to final DFT relaxation steps in sampled data."
+    },
+    "frac_novel_unique_stable_structures": {
+        "value": 0.0005443658138268917,
+        "description": "Fraction of novel unique stable structures in sampled data within 0.1 (eV/atom) above convex hull of MP2020correction."
+    },
+    "frac_stable_structures": {
+        "value": 0.004354926510615134,
+        "description": "Fraction of stable structures in sampled data within 0.1 (eV/atom) above convex hull of MP2020correction."
+    },
+    "frac_successful_jobs": {
+        "value": 1.0,
+        "description": "Fraction of structures whose jobs ran successfully."
+    },
+    "avg_comp_validity": {
+        "value": 0.7795318454001089,
+        "description": "Average composition validity (according to smact) of structures in sampled data."
+    },
+    "avg_structure_comp_validity": {
+        "value": 0.7795318454001089,
+        "description": "Average number of structures in sampled data that are both valid structures and have a valid smact compositions."
+    },
+    "avg_structure_validity": {
+        "value": 1.0,
+        "description": "Average structural validity of structures in sampled data. Any atom-atom distances less than 0.5 Angstroms or a volume less than 0.1 Angstrom**3 are considered invalid ."
+    },
+    "frac_novel_structures": {
+        "value": 0.8982035928143712,
+        "description": "Fraction of novel structures in sampled data."
+    },
+    "frac_novel_systems": {
+        "value": 0.02558519324986391,
+        "description": "Fraction of distinct chemical systems in sampled data and not in MP2020correction."
+    },
+    "frac_novel_unique_structures": {
+        "value": 0.3391399020141535,
+        "description": "Fraction of novel unique structures in sampled data."
+    },
+    "frac_unique_structures": {
+        "value": 0.34403919433859553,
+        "description": "Fraction of unique structures in sampled data."
+    },
+    "frac_unique_systems": {
+        "value": 0.061513336962438755,
+        "description": "Fraction of structures in sampled data that have a unique chemical system within this set."
+    },
+    "precision": {
+        "value": 0.10179640718562874,
+        "description": "Precision of structures in sampled data compared with MP2020correction. This is the fraction of structures in sampled data that have a matching structure in MP2020correction."
+    },
+    "recall": {
+        "value": 4.728149154193218e-05,
+        "description": "Recall of structures in sampled data compared with structures in MP2020correction. This is the fraction of structures in sampled data that have a matching structure in MP2020correction."
+    }
+}
+[2026-02-18 15:32:53,003] [INFO] [evaluator.py:277:compute_metrics] {
+    "avg_energy_above_hull_per_atom": {
+        "value": 0.5753281232764457,
+        "description": "Average energy above hull per atom (eV/atom) of structures in sampled data."
+    },
+    "avg_rmsd_from_relaxation": {
+        "value": 0.0009033371049795777,
+        "description": "root mean square displacements of atoms (Angstrom) from initial to final DFT relaxation steps in sampled data."
+    },
+    "frac_novel_unique_stable_structures": {
+        "value": 0.0005443658138268917,
+        "description": "Fraction of novel unique stable structures in sampled data within 0.1 (eV/atom) above convex hull of MP2020correction."
+    },
+    "frac_stable_structures": {
+        "value": 0.004354926510615134,
+        "description": "Fraction of stable structures in sampled data within 0.1 (eV/atom) above convex hull of MP2020correction."
+    },
+    "frac_successful_jobs": {
+        "value": 1.0,
+        "description": "Fraction of structures whose jobs ran successfully."
+    },
+    "avg_comp_validity": {
+        "value": 0.7795318454001089,
+        "description": "Average composition validity (according to smact) of structures in sampled data."
+    },
+    "avg_structure_comp_validity": {
+        "value": 0.7795318454001089,
+        "description": "Average number of structures in sampled data that are both valid structures and have a valid smact compositions."
+    },
+    "avg_structure_validity": {
+        "value": 1.0,
+        "description": "Average structural validity of structures in sampled data. Any atom-atom distances less than 0.5 Angstroms or a volume less than 0.1 Angstrom**3 are considered invalid ."
+    },
+    "frac_novel_structures": {
+        "value": 0.8982035928143712,
+        "description": "Fraction of novel structures in sampled data."
+    },
+    "frac_novel_systems": {
+        "value": 0.02558519324986391,
+        "description": "Fraction of distinct chemical systems in sampled data and not in MP2020correction."
+    },
+    "frac_novel_unique_structures": {
+        "value": 0.3391399020141535,
+        "description": "Fraction of novel unique structures in sampled data."
+    },
+    "frac_unique_structures": {
+        "value": 0.34403919433859553,
+        "description": "Fraction of unique structures in sampled data."
+    },
+    "frac_unique_systems": {
+        "value": 0.061513336962438755,
+        "description": "Fraction of structures in sampled data that have a unique chemical system within this set."
+    },
+    "precision": {
+        "value": 0.10179640718562874,
+        "description": "Precision of structures in sampled data compared with MP2020correction. This is the fraction of structures in sampled data that have a matching structure in MP2020correction."
+    },
+    "recall": {
+        "value": 4.728149154193218e-05,
+        "description": "Recall of structures in sampled data compared with structures in MP2020correction. This is the fraction of structures in sampled data that have a matching structure in MP2020correction."
+    }
+}
+[2026-02-18 15:32:53,003] [INFO] [evaluator.py:277:compute_metrics] {
+    "avg_energy_above_hull_per_atom": {
+        "value": 0.5753281232764457,
+        "description": "Average energy above hull per atom (eV/atom) of structures in sampled data."
+    },
+    "avg_rmsd_from_relaxation": {
+        "value": 0.0009033371049795777,
+        "description": "root mean square displacements of atoms (Angstrom) from initial to final DFT relaxation steps in sampled data."
+    },
+    "frac_novel_unique_stable_structures": {
+        "value": 0.0005443658138268917,
+        "description": "Fraction of novel unique stable structures in sampled data within 0.1 (eV/atom) above convex hull of MP2020correction."
+    },
+    "frac_stable_structures": {
+        "value": 0.004354926510615134,
+        "description": "Fraction of stable structures in sampled data within 0.1 (eV/atom) above convex hull of MP2020correction."
+    },
+    "frac_successful_jobs": {
+        "value": 1.0,
+        "description": "Fraction of structures whose jobs ran successfully."
+    },
+    "avg_comp_validity": {
+        "value": 0.7795318454001089,
+        "description": "Average composition validity (according to smact) of structures in sampled data."
+    },
+    "avg_structure_comp_validity": {
+        "value": 0.7795318454001089,
+        "description": "Average number of structures in sampled data that are both valid structures and have a valid smact compositions."
+    },
+    "avg_structure_validity": {
+        "value": 1.0,
+        "description": "Average structural validity of structures in sampled data. Any atom-atom distances less than 0.5 Angstroms or a volume less than 0.1 Angstrom**3 are considered invalid ."
+    },
+    "frac_novel_structures": {
+        "value": 0.8982035928143712,
+        "description": "Fraction of novel structures in sampled data."
+    },
+    "frac_novel_systems": {
+        "value": 0.02558519324986391,
+        "description": "Fraction of distinct chemical systems in sampled data and not in MP2020correction."
+    },
+    "frac_novel_unique_structures": {
+        "value": 0.3391399020141535,
+        "description": "Fraction of novel unique structures in sampled data."
+    },
+    "frac_unique_structures": {
+        "value": 0.34403919433859553,
+        "description": "Fraction of unique structures in sampled data."
+    },
+    "frac_unique_systems": {
+        "value": 0.061513336962438755,
+        "description": "Fraction of structures in sampled data that have a unique chemical system within this set."
+    },
+    "precision": {
+        "value": 0.10179640718562874,
+        "description": "Precision of structures in sampled data compared with MP2020correction. This is the fraction of structures in sampled data that have a matching structure in MP2020correction."
+    },
+    "recall": {
+        "value": 4.728149154193218e-05,
+        "description": "Recall of structures in sampled data compared with structures in MP2020correction. This is the fraction of structures in sampled data that have a matching structure in MP2020correction."
+    }
+}
+[2026-02-18 15:32:53,042] [INFO] [evaluator.py:293:compute_metrics] Saved metrics to /home/ilgar/li_extraction/new_voltage_data_results/600epochs_LiNadiff_add2/guide2_Li02_Na2_2048/generated_crystals_cifs/evaluation_metrics.json
+[2026-02-18 15:32:53,042] [INFO] [evaluator.py:293:compute_metrics] Saved metrics to /home/ilgar/li_extraction/new_voltage_data_results/600epochs_LiNadiff_add2/guide2_Li02_Na2_2048/generated_crystals_cifs/evaluation_metrics.json
+[2026-02-18 15:32:53,042] [INFO] [evaluator.py:293:compute_metrics] Saved metrics to /home/ilgar/li_extraction/new_voltage_data_results/600epochs_LiNadiff_add2/guide2_Li02_Na2_2048/generated_crystals_cifs/evaluation_metrics.json
+[2026-02-18 15:32:53,042] [INFO] [evaluator.py:293:compute_metrics] Saved metrics to /home/ilgar/li_extraction/new_voltage_data_results/600epochs_LiNadiff_add2/guide2_Li02_Na2_2048/generated_crystals_cifs/evaluation_metrics.json
+{
+  "avg_energy_above_hull_per_atom": 0.5753281232764457,
+  "avg_rmsd_from_relaxation": 0.0009033371049795777,
+  "frac_novel_unique_stable_structures": 0.0005443658138268917,
+  "frac_stable_structures": 0.004354926510615134,
+  "frac_successful_jobs": 1.0,
+  "avg_comp_validity": 0.7795318454001089,
+  "avg_structure_comp_validity": 0.7795318454001089,
+  "avg_structure_validity": 1.0,
+  "frac_novel_structures": 0.8982035928143712,
+  "frac_novel_systems": 0.02558519324986391,
+  "frac_novel_unique_structures": 0.3391399020141535,
+  "frac_unique_structures": 0.34403919433859553,
+  "frac_unique_systems": 0.061513336962438755,
+  "precision": 0.10179640718562874,
+  "recall": 4.728149154193218e-05
+}
+Closing LMDB environment /tmp/user/1016/tmpv31zra1_/reference_MP2020correction

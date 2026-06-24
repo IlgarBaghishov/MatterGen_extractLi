@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       VCrO4
+_chemical_formula_sum              "V1 Cr1 O4"
+_cell_length_a       2.962696159149286
+_cell_length_b       4.539660560491557
+_cell_length_c       4.540403366088867
+_cell_angle_alpha    90.23957139278002
+_cell_angle_beta     89.9579217068272
+_cell_angle_gamma    89.90778811407074
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  V   V1        1.0  0.9067440629005432  0.6248403787612915  0.27558574080467224  1.0000
+  Cr  Cr1       1.0  0.4064181447029114  0.12542347609996796  0.7762355208396912  1.0000
+  O   O1        1.0  0.40731754899024963  0.43377602100372314  0.46772342920303345  1.0000
+  O   O2        1.0  0.40638023614883423  0.8165198564529419  0.08305674046278  1.0000
+  O   O3        1.0  0.9068194031715393  0.9219051599502563  0.5720851421356201  1.0000
+  O   O4        1.0  0.907050609588623  0.3277994394302368  0.9787465929985046  1.0000

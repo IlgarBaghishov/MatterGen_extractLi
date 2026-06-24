@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       LiCrO2
+_chemical_formula_sum              "Li1 Cr1 O2"
+_cell_length_a       2.958468237712974
+_cell_length_b       2.959277212105119
+_cell_length_c       3.963279962539673
+_cell_angle_alpha    90.01144990111308
+_cell_angle_beta     90.02480975178148
+_cell_angle_gamma    90.06040185971553
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.5663857460021973  0.4782804548740387  0.40100327134132385  1.0000
+  Cr  Cr1       1.0  0.06651189178228378  0.978881299495697  0.9002938270568848  1.0000
+  O   O1        1.0  0.5661463141441345  0.47890725731849676  0.9001742005348206  1.0000
+  O   O2        1.0  0.06624093651771545  0.9784546494483949  0.4001711905002594  1.0000

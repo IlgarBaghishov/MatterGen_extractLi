@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       CrMnCrO2LiO2
+_chemical_formula_sum              "Cr2 Mn1 O4 Li1"
+_cell_length_a       4.752769548468729
+_cell_length_b       4.560209848456491
+_cell_length_c       4.784167289733887
+_cell_angle_alpha    89.56929763177676
+_cell_angle_beta     88.75548737495802
+_cell_angle_gamma    89.75050937177983
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.6283751130104065  0.08784433454275131  0.5114630460739136  1.0000
+  Mn  Mn1       1.0  0.1286478191614151  0.5875312089920043  0.5116984248161316  1.0000
+  Cr  Cr2       1.0  0.1285516768693924  0.08738536387681961  0.010601520538330078  1.0000
+  O   O1        1.0  0.3857482969760895  0.8570238351821898  0.2612134516239166  1.0000
+  O   O2        1.0  0.38427916169166565  0.3204559087753296  0.7638295292854308  1.0000
+  Li  Li1       1.0  0.6287529468536377  0.5881763696670532  0.011429313570261  1.0000
+  O   O3        1.0  0.8722968101501465  0.8572645783424376  0.7623353004455566  1.0000
+  O   O4        1.0  0.8744648694992065  0.32076841592788696  0.26167482137680054  1.0000

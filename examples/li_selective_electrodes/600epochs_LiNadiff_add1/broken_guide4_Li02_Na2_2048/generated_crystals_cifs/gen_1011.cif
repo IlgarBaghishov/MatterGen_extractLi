@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       PdOLiCoNiOF2
+_chemical_formula_sum              "Pd1 O2 Li1 Co1 Ni1 F2"
+_cell_length_a       4.724014400946247
+_cell_length_b       4.806663633783848
+_cell_length_c       4.939755439758301
+_cell_angle_alpha    90.6656385389781
+_cell_angle_beta     91.16766432615609
+_cell_angle_gamma    89.81045793474573
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pd  Pd1       1.0  0.9025922417640686  0.6997518539428711  0.6515699625015259  1.0000
+  O   O1        1.0  0.6168060898780823  0.7566927075386046  0.9432505965232849  1.0000
+  Li  Li1       1.0  0.9026767015457153  0.9881314039230346  0.15075454115867615  1.0000
+  Co  Co1       1.0  0.40098997950553894  0.5111979842185974  0.15022505819797516  1.0000
+  Ni  Ni1       1.0  0.4064304530620575  0.9599493741989135  0.6509802341461182  1.0000
+  O   O2        1.0  0.1872519999742508  0.7651729583740234  0.36132845282554626  1.0000
+  F   F1        1.0  0.61257404088974  0.22379429638385773  0.36631572246551514  1.0000
+  F   F2        1.0  0.1914852410554886  0.22135807573795319  0.9318788647651672  1.0000

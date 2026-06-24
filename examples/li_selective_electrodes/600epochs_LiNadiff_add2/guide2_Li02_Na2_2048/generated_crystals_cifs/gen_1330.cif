@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       NiOPdCrO
+_chemical_formula_sum              "Ni1 O2 Pd1 Cr1"
+_cell_length_a       2.8803362556734804
+_cell_length_b       2.8827544583195017
+_cell_length_c       7.460600852966309
+_cell_angle_alpha    90.16237659270296
+_cell_angle_beta     90.05652231791474
+_cell_angle_gamma    89.98059110650715
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.03242406249046326  0.43942612409591675  0.08185860514640808  1.0000
+  O   O1        1.0  0.03322766721248627  0.4425396025180817  0.39642706513404846  1.0000
+  Pd  Pd1       1.0  0.033881597220897675  0.44101130962371826  0.7269238233566284  1.0000
+  Cr  Cr1       1.0  0.5332228541374207  0.9418749809265137  0.40540358424186707  1.0000
+  O   O2        1.0  0.5327181816101074  0.9403802156448365  0.12341060489416122  1.0000

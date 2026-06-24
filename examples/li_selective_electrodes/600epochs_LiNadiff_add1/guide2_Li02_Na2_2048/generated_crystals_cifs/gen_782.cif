@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       LiCuLi2O2
+_chemical_formula_sum              "Li3 Cu1 O2"
+_cell_length_a       3.637184150118311
+_cell_length_b       3.502568443807504
+_cell_length_c       4.83031702041626
+_cell_angle_alpha    89.9035055895437
+_cell_angle_beta     90.00356786331533
+_cell_angle_gamma    90.0475064673516
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.5691680908203125  0.3981911540031433  0.5505236983299255  1.0000
+  Cu  Cu1       1.0  0.06823889911174774  0.8982978463172913  0.3147772252559662  1.0000
+  Li  Li2       1.0  0.5691503882408142  0.39827004075050354  0.07787412405014038  1.0000
+  Li  Li3       1.0  0.06831013411283493  0.39901736378669744  0.8145244121551514  1.0000
+  O   O1        1.0  0.06723412126302719  0.39800554513931274  0.31460660696029663  1.0000
+  O   O2        1.0  0.5677375197410583  0.8980811834335327  0.815213143825531  1.0000

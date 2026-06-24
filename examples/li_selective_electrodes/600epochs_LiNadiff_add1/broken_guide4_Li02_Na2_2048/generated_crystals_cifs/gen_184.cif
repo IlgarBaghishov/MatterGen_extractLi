@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       FCrNiFHFOF2
+_chemical_formula_sum              "F5 Cr1 Ni1 H1 O1"
+_cell_length_a       4.930969122309474
+_cell_length_b       5.214005758265484
+_cell_length_c       4.925756454467773
+_cell_angle_alpha    105.81878878480494
+_cell_angle_beta     75.43145326682236
+_cell_angle_gamma    112.29791445381288
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  F   F1        1.0  0.518324613571167  0.2746482193470001  0.5156516432762146  1.0000
+  Cr  Cr1       1.0  0.668823778629303  0.013521623797714709  0.2359674870967865  1.0000
+  Ni  Ni1       1.0  0.16231782734394073  0.011244669556617737  0.7406694293022156  1.0000
+  F   F2        1.0  0.8039389848709106  0.7398499846458435  0.9619544744491577  1.0000
+  H   H1        1.0  0.12184671312570575  0.44198584556579595  0.1952907145023346  1.0000
+  F   F3        1.0  0.43553003668785095  0.0022260108962655067  0.986421525478363  1.0000
+  O   O1        1.0  0.9931455254554749  0.27976521849632263  0.06488092243671419  1.0000
+  F   F4        1.0  0.882455587387085  0.00521144038066268  0.4920932352542877  1.0000
+  F   F5        1.0  0.32197895646095276  0.7354773879051208  0.40378624200820923  1.0000

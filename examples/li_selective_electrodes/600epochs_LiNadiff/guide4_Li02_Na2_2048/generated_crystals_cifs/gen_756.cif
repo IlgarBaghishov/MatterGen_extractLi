@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       CoNiCoCr2
+_chemical_formula_sum              "Co2 Ni1 Cr2"
+_cell_length_a       3.8437169340354935
+_cell_length_b       3.8348546771819914
+_cell_length_c       4.842093467712402
+_cell_angle_alpha    89.90672943855567
+_cell_angle_beta     90.02310903561484
+_cell_angle_gamma    119.93439242686816
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.7788483500480652  0.4493429958820343  0.2654590606689453  1.0000
+  Ni  Ni1       1.0  0.779394268989563  0.4492179751396179  0.7691583037376404  1.0000
+  Co  Co2       1.0  0.4457227289676666  0.7819164395332336  0.5299604535102844  1.0000
+  Cr  Cr1       1.0  0.44616079330444336  0.7809526324272156  0.02561996504664421  1.0000
+  Cr  Cr2       1.0  0.11114631593227386  0.11626695096492769  0.4962268471717834  1.0000

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       OCr2O3
+_chemical_formula_sum              "O4 Cr2"
+_cell_length_a       2.9966377163051785
+_cell_length_b       4.22928771956756
+_cell_length_c       4.580723762512207
+_cell_angle_alpha    90.36319781802912
+_cell_angle_beta     90.0538926959147
+_cell_angle_gamma    89.9647109183776
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.7906488180160522  0.7929984927177429  0.8128340840339661  1.0000
+  Cr  Cr1       1.0  0.2927268147468567  0.04194876179099083  0.6584857702255249  1.0000
+  Cr  Cr2       1.0  0.7934753894805908  0.5430870056152344  0.15841563045978546  1.0000
+  O   O2        1.0  0.29350724816322327  0.293554425239563  0.004502113908529282  1.0000
+  O   O3        1.0  0.29437074065208435  0.7893552780151367  0.3127509355545044  1.0000
+  O   O4        1.0  0.7956876754760742  0.2887266278266907  0.5034968852996826  1.0000

@@ -1,0 +1,27 @@
+data_image0
+_chemical_formula_structural       NLi
+_chemical_formula_sum              "N1 Li1"
+_cell_length_a       2.5665043533027596
+_cell_length_b       2.5586178378954605
+_cell_length_c       2.539595127105713
+_cell_angle_alpha    90.00442163710088
+_cell_angle_beta     89.86821401992039
+_cell_angle_gamma    89.73911661026611
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  N   N1        1.0  0.2203781008720398  0.7544763088226318  0.0038053886964917187  1.0000
+  Li  Li1       1.0  0.7202023863792419  0.2544833719730377  0.5040677785873413  1.0000

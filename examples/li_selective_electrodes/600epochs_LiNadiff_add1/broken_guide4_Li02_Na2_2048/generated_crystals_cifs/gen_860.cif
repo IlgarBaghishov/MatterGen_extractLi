@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       FLiVO3V
+_chemical_formula_sum              "F1 Li1 V2 O3"
+_cell_length_a       3.0269972543650816
+_cell_length_b       5.269693500791603
+_cell_length_c       5.354386806488037
+_cell_angle_alpha    111.90709585688302
+_cell_angle_beta     90.19784578012407
+_cell_angle_gamma    89.96303751916626
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  F   F1        1.0  0.4389796555042267  0.11603765934705734  0.9515618085861206  1.0000
+  Li  Li1       1.0  0.4415232539176941  0.4112020432949066  0.6681199669837952  1.0000
+  V   V1        1.0  0.4420551061630249  0.8583056330680847  0.18934716284275052  1.0000
+  O   O1        1.0  0.9433709979057312  0.11270616948604584  0.37516653537750244  1.0000
+  O   O2        1.0  0.44506049156188965  0.5978922247886658  0.38894668221473694  1.0000
+  O   O3        1.0  0.9406962394714355  0.6090576648712158  0.9632542133331299  1.0000
+  V   V2        1.0  0.9422128200531006  0.36962518095970154  0.18184137344360352  1.0000

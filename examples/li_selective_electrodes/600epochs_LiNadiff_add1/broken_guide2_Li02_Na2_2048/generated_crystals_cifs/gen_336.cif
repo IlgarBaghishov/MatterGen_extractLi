@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       LiOCrBiO2
+_chemical_formula_sum              "Li1 O3 Cr1 Bi1"
+_cell_length_a       3.1350211605027773
+_cell_length_b       5.162421762576415
+_cell_length_c       5.898709297180176
+_cell_angle_alpha    98.91114530454806
+_cell_angle_beta     105.20537652097047
+_cell_angle_gamma    90.03611375206552
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.4215171337127686  0.007681705057621001  0.0950310379266739  1.0000
+  O   O1        1.0  0.86240291595459  0.17013090848922727  0.972486972808838  1.0000
+  Cr  Cr1       1.0  0.9960781931877137  0.449400931596756  0.24419219791889196  1.0000
+  Bi  Bi1       1.0  0.6777455806732178  0.9519539475440978  0.6059969663619995  1.0000
+  O   O2        1.0  0.5744472146034241  0.2705411314964294  0.40335088968276983  1.0000
+  O   O3        1.0  0.4758709073066712  0.6797119379043579  0.202879935503006  1.0000

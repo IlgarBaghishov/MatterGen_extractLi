@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       PdOPdOCuO
+_chemical_formula_sum              "Pd2 O3 Cu1"
+_cell_length_a       2.971236638131653
+_cell_length_b       2.9668234103685545
+_cell_length_c       7.584294319152832
+_cell_angle_alpha    90.05764246872972
+_cell_angle_beta     90.06776480986046
+_cell_angle_gamma    89.91772604034146
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pd  Pd1       1.0  0.8607105016708375  0.2848541736602784  0.8574845790863037  1.0000
+  O   O1        1.0  0.8602481484413148  0.28487253189086914  0.5669309496879578  1.0000
+  Pd  Pd2       1.0  0.35982680320739746  0.7850192189216614  0.5056300163269043  1.0000
+  O   O2        1.0  0.3605247437953949  0.7847718596458436  0.8868337869644165  1.0000
+  Cu  Cu1       1.0  0.3613734841346741  0.7853490114212036  0.1723065972328186  1.0000
+  O   O3        1.0  0.8612423539161683  0.2847350239753723  0.1325264573097229  1.0000

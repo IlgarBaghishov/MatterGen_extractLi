@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       O2PdOCr
+_chemical_formula_sum              "O3 Pd1 Cr1"
+_cell_length_a       2.8434033217871812
+_cell_length_b       2.841248275145467
+_cell_length_c       6.312605381011963
+_cell_angle_alpha    90.00173054231072
+_cell_angle_beta     90.06605726345677
+_cell_angle_gamma    89.9443023127232
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.17495383322238922  0.30125162005424494  0.15700043737888336  1.0000
+  O   O2        1.0  0.17536817491054535  0.3021581470966339  0.5248549580574036  1.0000
+  Pd  Pd1       1.0  0.6751962900161743  0.8025292754173278  0.34114518761634827  1.0000
+  O   O3        1.0  0.6755080223083496  0.801006555557251  0.8407096266746521  1.0000
+  Cr  Cr1       1.0  0.17523983120918274  0.30056631565093994  0.8407783508300781  1.0000

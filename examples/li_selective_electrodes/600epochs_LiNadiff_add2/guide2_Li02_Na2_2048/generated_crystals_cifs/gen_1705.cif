@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       NLiO2
+_chemical_formula_sum              "N1 Li1 O2"
+_cell_length_a       3.2267100962212667
+_cell_length_b       4.438759668863906
+_cell_length_c       4.411509037017822
+_cell_angle_alpha    108.20543557739497
+_cell_angle_beta     111.57185118640851
+_cell_angle_gamma    91.1204465605442
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  N   N1        1.0  0.8790339231491089  0.4869795441627503  0.11391778290271759  1.0000
+  Li  Li1       1.0  0.06883852928876877  0.21525487303733826  0.49304839968681335  1.0000
+  O   O1        1.0  0.9291215538978577  0.7815278172492981  0.21683205664157867  1.0000
+  O   O2        1.0  0.7103056311607361  0.3515084683895111  0.7717186212539673  1.0000

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       BeLiBO3
+_chemical_formula_sum              "Be1 Li1 B1 O3"
+_cell_length_a       2.6721613024768254
+_cell_length_b       4.049335069104702
+_cell_length_c       4.797595024108887
+_cell_angle_alpha    114.89110152329661
+_cell_angle_beta     106.07567117963475
+_cell_angle_gamma    90.00115071888581
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Be  Be1       1.0  0.5293312668800354  0.48909932374954224  0.7322742342948914  1.0000
+  Li  Li1       1.0  0.19603231549263  0.15223069489002228  0.06499529629945755  1.0000
+  B   B1        1.0  0.8643800020217896  0.8414061665534973  0.4009689688682556  1.0000
+  O   O1        1.0  0.384518563747406  0.6455929279327393  0.44156455993652344  1.0000
+  O   O2        1.0  0.0006727956933900714  0.2224026322364807  0.6738978624343872  1.0000
+  O   O3        1.0  0.7075288891792297  0.8372414112091063  0.08820696920156475  1.0000

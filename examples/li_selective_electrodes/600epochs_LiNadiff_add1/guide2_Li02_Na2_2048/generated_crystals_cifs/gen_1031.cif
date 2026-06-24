@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       MnCuOLiO
+_chemical_formula_sum              "Mn1 Cu1 O2 Li1"
+_cell_length_a       3.087680076083503
+_cell_length_b       3.0927396638740543
+_cell_length_c       6.378086090087891
+_cell_angle_alpha    104.01464900764037
+_cell_angle_beta     103.92987216709516
+_cell_angle_gamma    90.06238962236777
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mn  Mn1       1.0  0.0006906529888510796  0.7893638610839845  0.4571419656276703  1.0000
+  Cu  Cu1       1.0  0.6776964664459229  0.46730321645736694  0.8122758269309998  1.0000
+  O   O1        1.0  0.8296616077423096  0.6184979677200317  0.11548592150211334  1.0000
+  Li  Li1       1.0  0.33378779888153076  0.12316536903381348  0.1245710477232933  1.0000
+  O   O2        1.0  0.5184905529022217  0.3088676631450653  0.49656662344932556  1.0000

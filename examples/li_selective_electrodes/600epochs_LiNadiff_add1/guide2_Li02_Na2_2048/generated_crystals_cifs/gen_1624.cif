@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       RbO2LiOTa
+_chemical_formula_sum              "Rb1 O3 Li1 Ta1"
+_cell_length_a       4.093685044987999
+_cell_length_b       4.094961932817044
+_cell_length_c       4.42507791519165
+_cell_angle_alpha    90.03505503670613
+_cell_angle_beta     89.97558457765865
+_cell_angle_gamma    90.0627787686828
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Rb  Rb1       1.0  0.641692042350769  0.8474643230438234  0.931901216506958  1.0000
+  O   O1        1.0  0.14300034940242767  0.3481365740299225  0.9330551624298096  1.0000
+  O   O2        1.0  0.6431955099105835  0.34738805890083313  0.4324536919593811  1.0000
+  Li  Li1       1.0  0.6413224339485168  0.8477710485458374  0.43280813097953796  1.0000
+  O   O3        1.0  0.14276708662509918  0.8475904464721681  0.43243274092674255  1.0000
+  Ta  Ta1       1.0  0.1430692821741104  0.3472643196582794  0.43196702003479004  1.0000

@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       CoCrNCrNCrCo2
+_chemical_formula_sum              "Co3 Cr3 N2"
+_cell_length_a       2.831939175879546
+_cell_length_b       2.8329055503462746
+_cell_length_c       11.518562316894531
+_cell_angle_alpha    89.92174902536395
+_cell_angle_beta     89.95408997006746
+_cell_angle_gamma    60.094191546519184
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.1093494296073914  0.6239208579063416  0.04414905980229378  1.0000
+  Cr  Cr1       1.0  0.44236502051353455  0.9557307362556458  0.547111451625824  1.0000
+  N   N1        1.0  0.777385950088501  0.29004642367362976  0.4581562578678131  1.0000
+  Cr  Cr2       1.0  0.4440835118293763  0.9569073915481568  0.20569291710853577  1.0000
+  N   N2        1.0  0.7751860618591309  0.28772327303886414  0.9616937041282654  1.0000
+  Cr  Cr3       1.0  0.11141348630189896  0.6210224628448486  0.7058561444282532  1.0000
+  Co  Co2       1.0  0.44046714901924133  0.9543229341506958  0.8728169798851013  1.0000
+  Co  Co3       1.0  0.10898129642009735  0.6235977411270142  0.3705911636352539  1.0000

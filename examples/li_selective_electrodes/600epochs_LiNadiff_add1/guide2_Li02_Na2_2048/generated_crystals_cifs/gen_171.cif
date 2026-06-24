@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       CoVOLiOVO3
+_chemical_formula_sum              "Co1 V2 O5 Li1"
+_cell_length_a       3.923566346304122
+_cell_length_b       5.512713695939544
+_cell_length_c       5.710577964782715
+_cell_angle_alpha    72.26531229075906
+_cell_angle_beta     76.27194425791423
+_cell_angle_gamma    75.26407292156095
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.9284474253654481  0.148147851228714  0.4351772665977478  1.0000
+  V   V1        1.0  0.3836707770824433  0.5861153602600098  0.4159512519836426  1.0000
+  O   O1        1.0  0.9048505425453187  0.5035461187362671  0.491501122713089  1.0000
+  Li  Li1       1.0  0.47260180115699774  0.16617564857006073  0.982579231262207  1.0000
+  O   O2        1.0  0.6201647520065309  0.3860425055027008  0.17911551892757416  1.0000
+  V   V2        1.0  0.7450855374336244  0.611977756023407  0.8259134292602539  1.0000
+  O   O3        1.0  0.3010080754756928  0.9171167612075806  0.2774546146392822  1.0000
+  O   O4        1.0  0.6812463402748109  0.9660030007362366  0.7428469061851501  1.0000
+  O   O5        1.0  0.29215145111083984  0.5297380089759827  0.7758693695068359  1.0000

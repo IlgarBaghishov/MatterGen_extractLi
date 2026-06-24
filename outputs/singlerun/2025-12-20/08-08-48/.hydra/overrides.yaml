@@ -1,0 +1,6 @@
+- adapter.pretrained_name=mattergen_base
+- data_module=li_data_20_diff_add1
+- +lightning_module/diffusion_module/model/property_embeddings@adapter.adapter.property_embeddings_adapt.Li_voltage=Li_voltage
+- +lightning_module/diffusion_module/model/property_embeddings@adapter.adapter.property_embeddings_adapt.Na_voltage=Na_voltage
+- ~trainer.logger
+- data_module.properties=[Li_voltage,Na_voltage]

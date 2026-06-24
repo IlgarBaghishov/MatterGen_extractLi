@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       OCoCrO2
+_chemical_formula_sum              "O3 Co1 Cr1"
+_cell_length_a       3.124667624222294
+_cell_length_b       3.12911232416776
+_cell_length_c       5.766820907592773
+_cell_angle_alpha    76.55058875589742
+_cell_angle_beta     76.57476655437385
+_cell_angle_gamma    63.90563234352739
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.7470934987068175  0.2308598309755325  0.958337664604187  1.0000
+  Co  Co1       1.0  0.11151343584060672  0.597285509109497  0.9305643439292908  1.0000
+  Cr  Cr1       1.0  0.6327040195465088  0.11746777594089507  0.418062686920166  1.0000
+  O   O2        1.0  0.24255059659481054  0.7271034717559813  0.5968940854072571  1.0000
+  O   O3        1.0  0.014342254027724264  0.4997963607311248  0.27273106575012207  1.0000

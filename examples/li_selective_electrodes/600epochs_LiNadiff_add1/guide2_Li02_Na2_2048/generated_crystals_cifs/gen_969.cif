@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       OVOLi
+_chemical_formula_sum              "O2 V1 Li1"
+_cell_length_a       2.99182869652452
+_cell_length_b       2.993151433485367
+_cell_length_c       3.9778659343719482
+_cell_angle_alpha    89.99603416484352
+_cell_angle_beta     89.99398510823593
+_cell_angle_gamma    90.05260862246828
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.2583122253417969  0.39823624491691584  0.7464356422424316  1.0000
+  V   V1        1.0  0.758230447769165  0.8976309895515442  0.7469402551651001  1.0000
+  O   O2        1.0  0.7580117583274841  0.8980173468589783  0.24679268896579742  1.0000
+  Li  Li1       1.0  0.2581096589565277  0.3977137506008148  0.2463015913963318  1.0000

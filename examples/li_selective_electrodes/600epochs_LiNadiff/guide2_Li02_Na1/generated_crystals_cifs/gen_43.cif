@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Lu2S2OF
+_chemical_formula_sum              "Lu2 S2 O1 F1"
+_cell_length_a       3.7049209582862757
+_cell_length_b       3.7035427040942754
+_cell_length_c       6.694333076477051
+_cell_angle_alpha    89.97966903044299
+_cell_angle_beta     89.95995710445524
+_cell_angle_gamma    90.03711774884832
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Lu  Lu1       1.0  0.5496302247047424  0.5456200838088988  0.7892363667488098  1.0000
+  Lu  Lu2       1.0  0.04803615808486939  0.046145141124725335  0.37401771545410156  1.0000
+  S   S1        1.0  0.048710443079471595  0.04619408771395683  0.9453720450401306  1.0000
+  S   S2        1.0  0.5488055944442749  0.5460030436515808  0.21820150315761566  1.0000
+  O   O1        1.0  0.04818885028362275  0.5459630489349365  0.5816358327865601  1.0000
+  F   F1        1.0  0.5489411354064941  0.04611487314105033  0.5814446806907654  1.0000

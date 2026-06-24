@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Cr2O3CrSbCr
+_chemical_formula_sum              "Cr4 O3 Sb1"
+_cell_length_a       5.006943947909265
+_cell_length_b       5.0211899042454835
+_cell_length_c       5.018280029296875
+_cell_angle_alpha    90.03908485001267
+_cell_angle_beta     89.76607534920053
+_cell_angle_gamma    90.08742892043934
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.2349984496831894  0.5410803556442261  0.8795019984245299  1.0000
+  Cr  Cr2       1.0  0.6559109091758728  0.5343214869499207  0.4594766795635223  1.0000
+  O   O1        1.0  0.44448137283325195  0.3341962397098541  0.16831380128860474  1.0000
+  O   O2        1.0  0.9464536309242249  0.334394246339798  0.6682400107383728  1.0000
+  O   O3        1.0  0.4451255798339844  0.832796037197113  0.6685536503791809  1.0000
+  Cr  Cr3       1.0  0.6462995409965515  0.1272805631160736  0.8689033389091491  1.0000
+  Sb  Sb1       1.0  0.9442952275276184  0.8344334959983826  0.16716846823692322  1.0000
+  Cr  Cr4       1.0  0.24186429381370544  0.12338685244321823  0.4629059433937072  1.0000

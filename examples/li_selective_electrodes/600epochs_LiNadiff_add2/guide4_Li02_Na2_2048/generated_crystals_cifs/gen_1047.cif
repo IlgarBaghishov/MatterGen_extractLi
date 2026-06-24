@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       PdCuO2Cu
+_chemical_formula_sum              "Pd1 Cu2 O2"
+_cell_length_a       3.9917796366415974
+_cell_length_b       3.9967773269852893
+_cell_length_c       5.210329532623291
+_cell_angle_alpha    112.10718665530038
+_cell_angle_beta     111.56313371282023
+_cell_angle_gamma    90.07351568806982
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pd  Pd1       1.0  0.06108887121081353  0.6540078520774841  0.1329633891582489  1.0000
+  Cu  Cu1       1.0  0.8076630234718324  0.9030607342720031  0.632925808429718  1.0000
+  O   O1        1.0  0.289351761341095  0.88228702545166  0.5895825624465942  1.0000
+  O   O2        1.0  0.8300134539604188  0.42360690236091614  0.6751253604888916  1.0000
+  Cu  Cu2       1.0  0.3122789859771729  0.40315064787864685  0.633095383644104  1.0000

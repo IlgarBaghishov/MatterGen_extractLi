@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       CuFeLiO2
+_chemical_formula_sum              "Cu1 Fe1 Li1 O2"
+_cell_length_a       3.0396348885661424
+_cell_length_b       3.038528545486024
+_cell_length_c       6.299482822418213
+_cell_angle_alpha    103.93966148464744
+_cell_angle_beta     103.95410613517865
+_cell_angle_gamma    90.06029252254507
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.9344751834869385  0.6803332567214966  0.7132749557495118  1.0000
+  Fe  Fe1       1.0  0.25699061155319214  0.0025457849260419603  0.35803008079528814  1.0000
+  Li  Li1       1.0  0.5907338857650757  0.33770453929901123  0.0265052504837513  1.0000
+  O   O1        1.0  0.775455892086029  0.5213522911071777  0.3970667123794556  1.0000
+  O   O2        1.0  0.08942796289920807  0.8353782892227173  0.022100245580077175  1.0000

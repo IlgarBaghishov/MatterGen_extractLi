@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       FBFNiF
+_chemical_formula_sum              "F3 B1 Ni1"
+_cell_length_a       4.693142488836272
+_cell_length_b       4.683317127569131
+_cell_length_c       4.765641212463379
+_cell_angle_alpha    70.28525484466346
+_cell_angle_beta     70.05651944795439
+_cell_angle_gamma    71.16820919538925
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  F   F1        1.0  0.9167347550392151  0.05239473283290863  0.3604259788990021  1.0000
+  B   B1        1.0  0.8322071433067323  0.3966136574745178  0.2754875123500824  1.0000
+  F   F2        1.0  0.9184583425521851  0.48314309120178217  0.9315959811210633  1.0000
+  Ni  Ni1       1.0  0.014401901513338089  0.5779433250427246  0.4593527019023896  1.0000
+  F   F3        1.0  0.4873552620410919  0.4800870418548584  0.36439990997314453  1.0000

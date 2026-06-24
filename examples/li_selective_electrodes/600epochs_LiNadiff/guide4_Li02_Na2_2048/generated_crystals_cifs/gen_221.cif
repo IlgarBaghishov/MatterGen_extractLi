@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       NiO2Ni
+_chemical_formula_sum              "Ni2 O2"
+_cell_length_a       2.9871154563695006
+_cell_length_b       2.987128033221791
+_cell_length_c       4.230238437652588
+_cell_angle_alpha    90.03284205164705
+_cell_angle_beta     90.01268616528948
+_cell_angle_gamma    89.90903121605093
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.17020048201084137  0.03919210657477378  0.06910306960344315  1.0000
+  O   O1        1.0  0.6695038080215453  0.5387983918190002  0.06929633766412735  1.0000
+  O   O2        1.0  0.1696220338344574  0.03869814425706863  0.5690967440605164  1.0000
+  Ni  Ni2       1.0  0.6699764728546143  0.5386866331100464  0.5691409111022949  1.0000

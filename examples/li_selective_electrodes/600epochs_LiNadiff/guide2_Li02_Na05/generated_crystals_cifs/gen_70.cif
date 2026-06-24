@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       LiSnOLiO
+_chemical_formula_sum              "Li2 Sn1 O2"
+_cell_length_a       3.34304898278678
+_cell_length_b       3.5121876863315236
+_cell_length_c       5.951474189758301
+_cell_angle_alpha    107.44500755999267
+_cell_angle_beta     106.41800705739415
+_cell_angle_gamma    90.03633208246164
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.7029796242713928  0.2897692322731018  0.33029958605766296  1.0000
+  Sn  Sn1       1.0  0.9747750163078308  0.5627535581588745  0.8783565759658813  1.0000
+  O   O1        1.0  0.3192233145236969  0.40702685713768005  0.5646527409553528  1.0000
+  Li  Li2       1.0  0.2499828189611435  0.8372393846511841  0.42658114433288574  1.0000
+  O   O2        1.0  0.6335940361022949  0.7200750708580017  0.19212377071380618  1.0000

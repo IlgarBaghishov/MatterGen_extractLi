@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Cu2OLiCoO3
+_chemical_formula_sum              "Cu2 O4 Li1 Co1"
+_cell_length_a       4.144994695094461
+_cell_length_b       4.14654072405651
+_cell_length_c       5.121678829193115
+_cell_angle_alpha    89.88286476330124
+_cell_angle_beta     89.63965537890917
+_cell_angle_gamma    87.98766478931157
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.3668946623802185  0.4200999140739441  0.750232458114624  1.0000
+  Cu  Cu2       1.0  0.8671770691871643  0.4201975464820862  0.250510036945343  1.0000
+  O   O1        1.0  0.1289421170949936  0.17113104462623596  0.003023875877261162  1.0000
+  Li  Li1       1.0  0.866436779499054  0.9205778241157532  0.7500061392784119  1.0000
+  Co  Co1       1.0  0.36681875586509705  0.920147180557251  0.24980130791664124  1.0000
+  O   O2        1.0  0.60491544008255  0.6695380806922913  0.0032279090955853462  1.0000
+  O   O3        1.0  0.6057903170585632  0.6694090366363524  0.4968337118625641  1.0000
+  O   O4        1.0  0.1286529153585434  0.1706726551055908  0.4968300759792328  1.0000

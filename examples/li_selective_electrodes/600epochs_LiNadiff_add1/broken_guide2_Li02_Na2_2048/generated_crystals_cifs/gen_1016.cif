@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       LaLi2N2
+_chemical_formula_sum              "La1 Li2 N2"
+_cell_length_a       3.754413358895223
+_cell_length_b       3.754401151721942
+_cell_length_c       5.030273914337158
+_cell_angle_alpha    90.01789760135955
+_cell_angle_beta     89.97990125829807
+_cell_angle_gamma    89.93860593425073
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  La  La1       1.0  0.8183882236480713  0.41457551717758173  0.8969994187355042  1.0000
+  Li  Li1       1.0  0.8179453015327454  0.9145210981369017  0.39652514457702637  1.0000
+  Li  Li2       1.0  0.3189827501773834  0.4146023988723755  0.3968500792980194  1.0000
+  N   N1        1.0  0.8176788091659546  0.41398939490318293  0.3967890739440918  1.0000
+  N   N2        1.0  0.3174450397491455  0.9138324856758117  0.8966197371482849  1.0000

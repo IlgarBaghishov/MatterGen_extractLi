@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       TiOCrO3
+_chemical_formula_sum              "Ti1 O4 Cr1"
+_cell_length_a       3.773365498489479
+_cell_length_b       3.7641940444036806
+_cell_length_c       5.493013858795166
+_cell_angle_alpha    109.92457870272656
+_cell_angle_beta     109.98975884904827
+_cell_angle_gamma    89.9550539840431
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ti  Ti1       1.0  0.3083239793777466  0.5008314251899719  0.5940337777137756  1.0000
+  O   O1        1.0  0.09785128384828566  0.2885382771492005  0.17228040099143982  1.0000
+  Cr  Cr1       1.0  0.5591842532157898  0.24989129602909085  0.09536244720220562  1.0000
+  O   O2        1.0  0.51827073097229  0.7102884650230408  0.016275478526949883  1.0000
+  O   O3        1.0  0.35311838984489435  0.04464947432279587  0.6822507381439209  1.0000
+  O   O4        1.0  0.7649129033088683  0.455594003200531  0.5061483979225159  1.0000

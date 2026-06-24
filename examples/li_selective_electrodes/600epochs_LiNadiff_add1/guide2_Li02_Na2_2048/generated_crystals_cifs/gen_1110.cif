@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       LiCoNiO2
+_chemical_formula_sum              "Li1 Co1 Ni1 O2"
+_cell_length_a       2.917277243679109
+_cell_length_b       2.91457454534038
+_cell_length_c       6.396374225616455
+_cell_angle_alpha    77.20342378981903
+_cell_angle_beta     77.24969155304206
+_cell_angle_gamma    90.36077314213004
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.06619802117347717  0.04813070967793464  0.7261046767234802  1.0000
+  Co  Co1       1.0  0.4089380204677582  0.387468159198761  0.04618251696228981  1.0000
+  Ni  Ni1       1.0  0.7220156788825989  0.7043117880821228  0.41417166590690613  1.0000
+  O   O1        1.0  0.8845789432525634  0.8653773069381713  0.09459883719682693  1.0000
+  O   O2        1.0  0.5680099129676819  0.5550110936164856  0.7133351564407349  1.0000

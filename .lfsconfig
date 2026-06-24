@@ -1,0 +1,8 @@
+[lfs]
+	# Resolve Git LFS objects from the upstream microsoft/mattergen repository.
+	# The only LFS-tracked file here (data-release/alex-mp/reference_MP2020correction.gz)
+	# is byte-identical to MatterGen's (same oid), so it is fetched from Microsoft's
+	# public LFS storage instead of consuming this repo's LFS quota.
+	url = https://github.com/microsoft/mattergen.git/info/lfs
+	# Do not auto-download LFS blobs on clone; fetch on demand with `git lfs pull -I ...`.
+	fetchexclude = *

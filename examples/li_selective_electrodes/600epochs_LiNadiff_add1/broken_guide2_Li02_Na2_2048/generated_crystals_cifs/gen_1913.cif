@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       NiBeNiOBO3
+_chemical_formula_sum              "Ni2 Be1 O4 B1"
+_cell_length_a       3.929923226437878
+_cell_length_b       3.9317332292758955
+_cell_length_c       4.550052642822266
+_cell_angle_alpha    90.19994263385313
+_cell_angle_beta     89.92885242410324
+_cell_angle_gamma    89.94898099166922
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.5170025825500488  0.33789297938346863  0.7792572975158691  1.0000
+  Be  Be1       1.0  0.01722322404384613  0.33787256479263306  0.279270738363266  1.0000
+  Ni  Ni2       1.0  0.01661514677107334  0.8374617695808411  0.7796890139579773  1.0000
+  O   O1        1.0  0.743529200553894  0.06471893191337584  0.0982259064912796  1.0000
+  B   B1        1.0  0.5168375372886658  0.8376611471176147  0.2787001132965088  1.0000
+  O   O2        1.0  0.2902912199497223  0.6105505228042603  0.09839645028114319  1.0000
+  O   O3        1.0  0.2897980809211731  0.06473064422607422  0.45944637060165405  1.0000
+  O   O4        1.0  0.743399441242218  0.6112459301948547  0.4601202607154846  1.0000

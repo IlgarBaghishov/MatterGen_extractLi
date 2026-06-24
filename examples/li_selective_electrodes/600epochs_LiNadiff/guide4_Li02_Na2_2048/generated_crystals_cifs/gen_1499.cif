@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       NiOBaCrO2
+_chemical_formula_sum              "Ni1 O3 Ba1 Cr1"
+_cell_length_a       3.9693366083381476
+_cell_length_b       3.9645030675959276
+_cell_length_c       5.977965354919434
+_cell_angle_alpha    109.16409242330445
+_cell_angle_beta     109.18439743555071
+_cell_angle_gamma    90.0365238050523
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.833471417427063  0.9311636686325073  0.007272489368915558  1.0000
+  O   O1        1.0  0.2723040282726288  0.8694920539855956  0.8838322162628174  1.0000
+  Ba  Ba1       1.0  0.523296594619751  0.6212706565856934  0.388537734746933  1.0000
+  Cr  Cr1       1.0  0.222331777215004  0.3200562000274658  0.7884812355041504  1.0000
+  O   O2        1.0  0.7712029814720154  0.37002676725387573  0.8836191296577454  1.0000
+  O   O3        1.0  0.02338271774351597  0.1222572848200798  0.3886888325214386  1.0000

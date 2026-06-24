@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       VSLiO
+_chemical_formula_sum              "V1 S1 Li1 O1"
+_cell_length_a       3.222318158755825
+_cell_length_b       3.22125898943188
+_cell_length_c       5.994177341461182
+_cell_angle_alpha    74.44630067469863
+_cell_angle_beta     74.45455888375217
+_cell_angle_gamma    59.916350321645446
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  V   V1        1.0  0.982054054737091  0.5535005927085876  0.1656145602464676  1.0000
+  S   S1        1.0  0.5636429786682129  0.1351490169763565  0.4205075800418854  1.0000
+  Li  Li1       1.0  0.7859215736389159  0.3575655519962311  0.7543667554855347  1.0000
+  O   O1        1.0  0.37751162052154547  0.9489598274230957  0.980026125907898  1.0000

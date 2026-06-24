@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       CePdLiO4
+_chemical_formula_sum              "Ce1 Pd1 Li1 O4"
+_cell_length_a       3.547409815316161
+_cell_length_b       4.804173498957352
+_cell_length_c       5.3140387535095215
+_cell_angle_alpha    87.78525229973896
+_cell_angle_beta     87.20791013471275
+_cell_angle_gamma    85.92883407644523
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ce  Ce1       1.0  0.6939404010772705  0.38191527128219604  0.6973596811294556  1.0000
+  Pd  Pd1       1.0  0.24168816208839417  0.8855232596397401  0.19766758382320404  1.0000
+  Li  Li1       1.0  0.0366666242480278  0.4021395146846771  0.19169893860816956  1.0000
+  O   O1        1.0  0.21490336954593658  0.1881747990846634  0.911348283290863  1.0000
+  O   O2        1.0  0.778704047203064  0.10196257382631302  0.37333029508590704  1.0000
+  O   O3        1.0  0.6909578442573547  0.6691585779190063  0.018537042662501328  1.0000
+  O   O4        1.0  0.20729243755340576  0.5790666341781616  0.4782116711139679  1.0000

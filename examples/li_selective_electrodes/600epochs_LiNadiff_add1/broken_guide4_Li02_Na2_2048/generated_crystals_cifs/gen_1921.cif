@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       CrBeONiONiO2
+_chemical_formula_sum              "Cr1 Be1 O4 Ni2"
+_cell_length_a       4.416457943052209
+_cell_length_b       4.426814580650915
+_cell_length_c       4.396573543548584
+_cell_angle_alpha    90.304437692489
+_cell_angle_beta     90.67703130870004
+_cell_angle_gamma    88.10420157125787
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.46482253074645996  0.09625130146741866  0.5813935995101929  1.0000
+  Be  Be1       1.0  0.9653341174125671  0.5944625139236449  0.6093296408653259  1.0000
+  O   O1        1.0  0.18288226425647736  0.8142375349998474  0.39408329129219055  1.0000
+  Ni  Ni1       1.0  0.9663116335868835  0.10037388652563094  0.10083495825529099  1.0000
+  O   O2        1.0  0.7352452874183655  0.8255735039710997  0.8230037689208984  1.0000
+  Ni  Ni2       1.0  0.46556204557418823  0.608006477355957  0.10400605946779251  1.0000
+  O   O3        1.0  0.19914500415325165  0.3647579252719879  0.8267440795898438  1.0000
+  O   O4        1.0  0.7433862686157227  0.3752835988998413  0.38969385623931885  1.0000

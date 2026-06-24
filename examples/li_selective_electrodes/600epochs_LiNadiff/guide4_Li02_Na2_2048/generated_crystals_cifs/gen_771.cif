@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       BCr2
+_chemical_formula_sum              "B1 Cr2"
+_cell_length_a       3.5181624671649403
+_cell_length_b       3.512351740220467
+_cell_length_c       3.5128912925720215
+_cell_angle_alpha    60.00610285083254
+_cell_angle_beta     60.046617147286625
+_cell_angle_gamma    60.07306409842568
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  B   B1        1.0  0.5378881096839905  0.08430082350969315  0.9793373942375183  1.0000
+  Cr  Cr1       1.0  0.7880308628082275  0.33424288034439087  0.22885088622570032  1.0000
+  Cr  Cr2       1.0  0.2880646586418152  0.8345987200736998  0.7292563915252686  1.0000

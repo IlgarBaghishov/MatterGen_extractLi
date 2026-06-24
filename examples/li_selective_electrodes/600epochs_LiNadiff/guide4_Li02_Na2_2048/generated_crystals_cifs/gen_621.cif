@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       BeOCrOCrOCrO
+_chemical_formula_sum              "Be1 O4 Cr3"
+_cell_length_a       4.450366475858533
+_cell_length_b       4.470447505199406
+_cell_length_c       4.5048041343688965
+_cell_angle_alpha    89.74904769740621
+_cell_angle_beta     89.9352727984845
+_cell_angle_gamma    89.65979077530322
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Be  Be1       1.0  0.27392178773880005  0.1443873941898346  0.9061768054962158  1.0000
+  O   O1        1.0  0.05010401830077171  0.9227201938629149  0.1282854825258255  1.0000
+  Cr  Cr1       1.0  0.775799572467804  0.6449124217033386  0.9105592370033264  1.0000
+  O   O2        1.0  0.0507410392165184  0.3689208924770355  0.6839014291763306  1.0000
+  Cr  Cr2       1.0  0.7757505774497986  0.14445717632770538  0.40738627314567566  1.0000
+  O   O3        1.0  0.5001325607299805  0.36604574322700495  0.12680962681770325  1.0000
+  Cr  Cr3       1.0  0.2787323296070099  0.644792377948761  0.4066726863384247  1.0000
+  O   O4        1.0  0.5004184246063232  0.9234557151794432  0.686053991317749  1.0000

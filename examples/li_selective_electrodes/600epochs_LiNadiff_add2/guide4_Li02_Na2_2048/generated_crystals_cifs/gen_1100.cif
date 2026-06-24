@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       CuCrPdONiO
+_chemical_formula_sum              "Cu1 Cr1 Pd1 O2 Ni1"
+_cell_length_a       3.937670014721611
+_cell_length_b       3.953717900769939
+_cell_length_c       5.2149128913879395
+_cell_angle_alpha    90.15894101384428
+_cell_angle_beta     90.10754383574458
+_cell_angle_gamma    89.98879416335788
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.15059524774551392  0.2288111001253128  0.2924852669239044  1.0000
+  Cr  Cr1       1.0  0.650526225566864  0.7297736406326294  0.7908717393875122  1.0000
+  Pd  Pd1       1.0  0.6502652764320374  0.7296142578125  0.2918635308742523  1.0000
+  O   O1        1.0  0.14940860867500305  0.7303195595741272  0.794852077960968  1.0000
+  Ni  Ni1       1.0  0.1498085856437683  0.22983115911483765  0.7927102446556091  1.0000
+  O   O2        1.0  0.6503220796585083  0.23139280080795288  0.7914112210273743  1.0000

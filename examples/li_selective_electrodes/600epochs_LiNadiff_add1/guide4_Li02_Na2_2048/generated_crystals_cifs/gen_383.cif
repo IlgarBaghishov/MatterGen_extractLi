@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       CrLiO2BONiO
+_chemical_formula_sum              "Cr1 Li1 O4 B1 Ni1"
+_cell_length_a       4.344168198793192
+_cell_length_b       4.356476056406974
+_cell_length_c       4.280867099761963
+_cell_angle_alpha    89.86469645052362
+_cell_angle_beta     89.3087463843509
+_cell_angle_gamma    89.78423682882978
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.31738609075546265  0.5757503509521484  0.8924610614776611  1.0000
+  Li  Li1       1.0  0.8174617886543274  0.5819403529167175  0.3921297788619995  1.0000
+  O   O1        1.0  0.6118901968002319  0.8717503547668457  0.09236123412847519  1.0000
+  O   O2        1.0  0.01979285664856434  0.2872953414916992  0.09047435969114304  1.0000
+  B   B1        1.0  0.8175860047340393  0.08006761968135834  0.8928120136260986  1.0000
+  O   O3        1.0  0.024013971909880638  0.8727989196777344  0.6929078698158264  1.0000
+  Ni  Ni1       1.0  0.31806784868240356  0.08789479732513428  0.39096739888191223  1.0000
+  O   O4        1.0  0.6142838597297668  0.2884598672389984  0.6946185231208801  1.0000

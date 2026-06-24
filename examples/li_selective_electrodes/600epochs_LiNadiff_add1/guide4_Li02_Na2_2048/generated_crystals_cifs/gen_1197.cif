@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       CoLiAlO3
+_chemical_formula_sum              "Co1 Li1 Al1 O3"
+_cell_length_a       2.903798951924601
+_cell_length_b       2.9027137538510885
+_cell_length_c       6.543624401092529
+_cell_angle_alpha    77.2048720789977
+_cell_angle_beta     77.1609413289846
+_cell_angle_gamma    89.84340692861949
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.5318652987480164  0.14310520887374878  0.8314659595489502  1.0000
+  Li  Li1       1.0  0.18565288186073303  0.7979980707168579  0.5209259986877441  1.0000
+  Al  Al1       1.0  0.8414285182952881  0.4534749686717987  0.21034371852874756  1.0000
+  O   O1        1.0  0.9960649609565735  0.6082352995872498  0.902961015701294  1.0000
+  O   O2        1.0  0.3482506275177002  0.9602897763252258  0.199146568775177  1.0000
+  O   O3        1.0  0.6966787576675415  0.30959567427635193  0.49951979517936707  1.0000

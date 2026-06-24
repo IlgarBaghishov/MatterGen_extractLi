@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       CoLiBO4Ni
+_chemical_formula_sum              "Co1 Li1 B1 O4 Ni1"
+_cell_length_a       4.3176629363562835
+_cell_length_b       4.273036957243718
+_cell_length_c       4.226827144622803
+_cell_angle_alpha    89.99916239120172
+_cell_angle_beta     90.75372078635314
+_cell_angle_gamma    90.15903664232974
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.6778497695922852  0.045312486588954926  0.8571466207504272  1.0000
+  Li  Li1       1.0  0.17834411561489105  0.04639607667922973  0.3565782904624939  1.0000
+  B   B1        1.0  0.6780186295509338  0.5447391867637634  0.35636183619499207  1.0000
+  O   O1        1.0  0.47353464365005493  0.7516939640045166  0.5605857372283936  1.0000
+  O   O2        1.0  0.4705817997455597  0.335500031709671  0.1507309526205063  1.0000
+  O   O3        1.0  0.8837398886680603  0.752061665058136  0.15434975922107697  1.0000
+  O   O4        1.0  0.886321485042572  0.3356688022613525  0.5635726451873779  1.0000
+  Ni  Ni1       1.0  0.1785474270582199  0.5495562553405762  0.8569165468215942  1.0000

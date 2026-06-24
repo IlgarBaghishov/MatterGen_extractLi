@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       OLiO2
+_chemical_formula_sum              "O3 Li1"
+_cell_length_a       2.8945316831721635
+_cell_length_b       2.895678334365889
+_cell_length_c       3.9217376708984375
+_cell_angle_alpha    89.86802275717481
+_cell_angle_beta     90.03903020526306
+_cell_angle_gamma    89.94149509683484
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.7927652597427368  0.5247918963432312  0.6801962852478027  1.0000
+  Li  Li1       1.0  0.2948194444179535  0.02388797141611576  0.17963296175003052  1.0000
+  O   O2        1.0  0.2934042513370514  0.023978766053915024  0.6785951852798462  1.0000
+  O   O3        1.0  0.7925689816474915  0.525132954120636  0.17780113220214844  1.0000

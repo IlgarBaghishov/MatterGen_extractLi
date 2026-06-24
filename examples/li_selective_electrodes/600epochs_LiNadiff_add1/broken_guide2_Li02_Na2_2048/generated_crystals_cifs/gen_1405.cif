@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       CoO2NiFeOLiO
+_chemical_formula_sum              "Co1 O4 Ni1 Fe1 Li1"
+_cell_length_a       3.006339250646843
+_cell_length_b       5.208182557796472
+_cell_length_c       5.218711853027344
+_cell_angle_alpha    108.9616511801682
+_cell_angle_beta     89.95584533164823
+_cell_angle_gamma    89.96353612513931
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.8772624731063842  0.172024205327034  0.09481556713581085  1.0000
+  O   O1        1.0  0.37726834416389465  0.926121711730957  0.8377469778060913  1.0000
+  O   O2        1.0  0.3769657611846924  0.41778367757797247  0.35252538323402405  1.0000
+  Ni  Ni1       1.0  0.8773998618125914  0.6720405220985413  0.5948098301887512  1.0000
+  Fe  Fe1       1.0  0.377117782831192  0.17229773104190826  0.5955880880355835  1.0000
+  O   O3        1.0  0.8768325448036193  0.40910321474075323  0.830835223197937  1.0000
+  Li  Li1       1.0  0.37772756814956665  0.6724658608436586  0.09495455026626591  1.0000
+  O   O4        1.0  0.8778264522552489  0.9355158209800721  0.35989791154861456  1.0000

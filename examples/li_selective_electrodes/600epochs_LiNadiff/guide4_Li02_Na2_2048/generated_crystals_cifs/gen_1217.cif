@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       OEu2OCuCoO2
+_chemical_formula_sum              "O4 Eu2 Cu1 Co1"
+_cell_length_a       3.4377621020937936
+_cell_length_b       5.776800730014707
+_cell_length_c       5.787606239318848
+_cell_angle_alpha    105.88954735484863
+_cell_angle_beta     90.65886300971971
+_cell_angle_gamma    90.56059713511323
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.545186460018158  0.08028683811426163  0.8551292419433594  1.0000
+  Eu  Eu1       1.0  0.30900609493255615  0.8241179585456848  0.09753496199846268  1.0000
+  Eu  Eu2       1.0  0.3085811734199524  0.3243071734905243  0.5981813669204712  1.0000
+  O   O2        1.0  0.8084882497787476  0.038217704743146896  0.38428181409835815  1.0000
+  Cu  Cu1       1.0  0.8084014058113098  0.32338383793830866  0.09808172285556793  1.0000
+  Co  Co1       1.0  0.8079210519790649  0.8245008587837218  0.5980018377304077  1.0000
+  O   O3        1.0  0.0692649781703949  0.5671570897102356  0.3402973413467407  1.0000
+  O   O4        1.0  0.8083375692367554  0.6100227236747742  0.810688853263855  1.0000

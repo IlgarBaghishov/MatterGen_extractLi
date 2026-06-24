@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       ONiMnNiOCoO2
+_chemical_formula_sum              "O4 Ni2 Mn1 Co1"
+_cell_length_a       4.598640476875705
+_cell_length_b       4.594292649082615
+_cell_length_c       4.607504844665527
+_cell_angle_alpha    89.88320627146379
+_cell_angle_beta     89.96242963621688
+_cell_angle_gamma    89.98696367288957
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.4830438196659088  0.10180401057004929  0.9740594029426576  1.0000
+  Ni  Ni1       1.0  0.22916974127292633  0.3504127562046051  0.2218654751777649  1.0000
+  Mn  Mn1       1.0  0.22865524888038635  0.850012481212616  0.7205116152763367  1.0000
+  Ni  Ni2       1.0  0.7292273640632629  0.3504931330680847  0.7219268083572388  1.0000
+  O   O2        1.0  0.483495831489563  0.5980924367904663  0.467582255601883  1.0000
+  Co  Co1       1.0  0.7281389832496643  0.8498519659042358  0.2213330715894699  1.0000
+  O   O3        1.0  0.9758349657058716  0.5978769063949585  0.974121928215027  1.0000
+  O   O4        1.0  0.9759348034858704  0.10253966599702835  0.46772208809852606  1.0000

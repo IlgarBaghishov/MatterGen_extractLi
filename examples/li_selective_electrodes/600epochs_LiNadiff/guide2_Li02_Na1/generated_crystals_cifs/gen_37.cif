@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       AlNaNiO5Ni
+_chemical_formula_sum              "Al1 Na1 Ni2 O5"
+_cell_length_a       2.935753580621579
+_cell_length_b       3.091674144679208
+_cell_length_c       11.198505401611328
+_cell_angle_alpha    90.04045088248712
+_cell_angle_beta     89.94350317186016
+_cell_angle_gamma    61.936054610439314
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.8944149613380432  0.5397074818611145  0.6574384570121765  1.0000
+  Na  Na1       1.0  0.8583703637123108  0.6103126406669617  0.15738976001739502  1.0000
+  Ni  Ni1       1.0  0.5376609563827515  0.24841102957725525  0.9212049841880798  1.0000
+  O   O1        1.0  0.8895858526229858  0.5460594892501831  0.48320475220680237  1.0000
+  O   O2        1.0  0.887000560760498  0.5479415655136108  0.8300589323043823  1.0000
+  O   O3        1.0  0.18177799880504608  0.9611622095108032  0.013337451033294197  1.0000
+  O   O4        1.0  0.18236087262630463  0.9630293846130371  0.3003482222557068  1.0000
+  O   O5        1.0  0.22808775305747986  0.8812456130981445  0.6573700308799744  1.0000
+  Ni  Ni2       1.0  0.5441015958786011  0.23885805904865262  0.3945653736591339  1.0000

@@ -1,0 +1,1309 @@
+/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/lightning_fabric/__init__.py:36: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/ilgar/mattergen/mattergen/common/utils/data_classes.py:96: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  with initialize_config_dir(str(self.model_path)):
+MODELS_PROJECT_ROOT: /home/ilgar/mattergen/mattergen
+
+Model config:
+adapter:
+  adapter:
+    _target_: mattergen.adapter.GemNetTAdapter
+    atom_type_diffusion: mask
+    denoise_atom_types: true
+    gemnet:
+      _target_: mattergen.common.gemnet.gemnet_ctrl.GemNetTCtrl
+      atom_embedding:
+        _target_: mattergen.common.gemnet.layers.embedding_block.AtomEmbedding
+        emb_size: 512
+        with_mask_type: true
+      condition_on_adapt:
+      - Li_voltage
+      - Na_voltage
+      cutoff: 7.0
+      emb_size_atom: 512
+      emb_size_edge: 512
+      latent_dim: 512
+      max_cell_images_per_dim: 5
+      max_neighbors: 50
+      num_blocks: 4
+      num_targets: 1
+      otf_graph: true
+      regress_stress: true
+      scale_file: /scratch/amlt_code/mattergen/common/gemnet/gemnet-dT.json
+    hidden_dim: 512
+    property_embeddings: {}
+    property_embeddings_adapt:
+      Li_voltage:
+        _target_: mattergen.property_embeddings.PropertyEmbedding
+        conditional_embedding_module:
+          _target_: mattergen.diffusion.model_utils.NoiseLevelEncoding
+          d_model: 512
+        name: Li_voltage
+        scaler:
+          _target_: mattergen.common.utils.data_utils.StandardScalerTorch
+        unconditional_embedding_module:
+          _target_: mattergen.property_embeddings.EmbeddingVector
+          hidden_dim: 512
+      Na_voltage:
+        _target_: mattergen.property_embeddings.PropertyEmbedding
+        conditional_embedding_module:
+          _target_: mattergen.diffusion.model_utils.NoiseLevelEncoding
+          d_model: 512
+        name: Na_voltage
+        scaler:
+          _target_: mattergen.common.utils.data_utils.StandardScalerTorch
+        unconditional_embedding_module:
+          _target_: mattergen.property_embeddings.EmbeddingVector
+          hidden_dim: 512
+  full_finetuning: true
+  load_epoch: last
+  model_path: null
+  pretrained_name: mattergen_base
+data_module:
+  _recursive_: true
+  _target_: mattergen.common.data.datamodule.CrystDataModule
+  average_density: 0.05771451654022283
+  batch_size:
+    test: 32
+    train: 32
+    val: 32
+  dataset_transforms:
+  - _partial_: true
+    _target_: mattergen.common.data.dataset_transform.filter_sparse_properties
+  max_epochs: 900
+  num_workers:
+    test: 0
+    train: 0
+    val: 0
+  properties:
+  - Li_voltage
+  - Na_voltage
+  root_dir: /home/ilgar/mattergen/mattergen/../datasets/cache/li_data_20_diff
+  test_dataset:
+    _target_: mattergen.common.data.dataset.CrystalDataset.from_cache_path
+    cache_path: /home/ilgar/mattergen/mattergen/../datasets/cache/li_data_20_diff/test
+    dataset_transforms:
+    - _partial_: true
+      _target_: mattergen.common.data.dataset_transform.filter_sparse_properties
+    properties:
+    - Li_voltage
+    - Na_voltage
+    transforms:
+    - _partial_: true
+      _target_: mattergen.common.data.transform.symmetrize_lattice
+    - _partial_: true
+      _target_: mattergen.common.data.transform.set_chemical_system_string
+  train_dataset:
+    _target_: mattergen.common.data.dataset.CrystalDataset.from_cache_path
+    cache_path: /home/ilgar/mattergen/mattergen/../datasets/cache/li_data_20_diff/train
+    dataset_transforms:
+    - _partial_: true
+      _target_: mattergen.common.data.dataset_transform.filter_sparse_properties
+    properties:
+    - Li_voltage
+    - Na_voltage
+    transforms:
+    - _partial_: true
+      _target_: mattergen.common.data.transform.symmetrize_lattice
+    - _partial_: true
+      _target_: mattergen.common.data.transform.set_chemical_system_string
+  transforms:
+  - _partial_: true
+    _target_: mattergen.common.data.transform.symmetrize_lattice
+  - _partial_: true
+    _target_: mattergen.common.data.transform.set_chemical_system_string
+  val_dataset:
+    _target_: mattergen.common.data.dataset.CrystalDataset.from_cache_path
+    cache_path: /home/ilgar/mattergen/mattergen/../datasets/cache/li_data_20_diff/val
+    dataset_transforms:
+    - _partial_: true
+      _target_: mattergen.common.data.dataset_transform.filter_sparse_properties
+    properties:
+    - Li_voltage
+    - Na_voltage
+    transforms:
+    - _partial_: true
+      _target_: mattergen.common.data.transform.symmetrize_lattice
+    - _partial_: true
+      _target_: mattergen.common.data.transform.set_chemical_system_string
+lightning_module:
+  _target_: mattergen.diffusion.lightning_module.DiffusionLightningModule
+  diffusion_module:
+    _target_: mattergen.diffusion.diffusion_module.DiffusionModule
+    corruption:
+      _target_: mattergen.diffusion.corruption.multi_corruption.MultiCorruption
+      discrete_corruptions:
+        atomic_numbers:
+          _target_: mattergen.diffusion.corruption.d3pm_corruption.D3PMCorruption
+          d3pm:
+            _target_: mattergen.diffusion.d3pm.d3pm.MaskDiffusion
+            dim: 101
+            schedule:
+              _target_: mattergen.diffusion.d3pm.d3pm.create_discrete_diffusion_schedule
+              kind: standard
+              num_steps: 1000
+          offset: 1
+      sdes:
+        cell:
+          _target_: mattergen.common.diffusion.corruption.LatticeVPSDE.from_vpsde_config
+          vpsde_config:
+            beta_max: 20
+            beta_min: 0.1
+            limit_density: 0.05771451654022283
+            limit_var_scaling_constant: 0.25
+        pos:
+          _target_: mattergen.common.diffusion.corruption.NumAtomsVarianceAdjustedWrappedVESDE
+          limit_info_key: num_atoms
+          sigma_max: 5.0
+          wrapping_boundary: 1.0
+    loss_fn:
+      _target_: mattergen.common.loss.MaterialsLoss
+      d3pm_hybrid_lambda: 0.01
+      include_atomic_numbers: true
+      include_cell: true
+      include_pos: true
+      reduce: sum
+      weights:
+        atomic_numbers: 1.0
+        cell: 1.0
+        pos: 0.1
+    model:
+      _target_: mattergen.adapter.GemNetTAdapter
+      atom_type_diffusion: mask
+      denoise_atom_types: true
+      gemnet:
+        _target_: mattergen.common.gemnet.gemnet_ctrl.GemNetTCtrl
+        atom_embedding:
+          _target_: mattergen.common.gemnet.layers.embedding_block.AtomEmbedding
+          emb_size: 512
+          with_mask_type: true
+        condition_on_adapt:
+        - Li_voltage
+        - Na_voltage
+        cutoff: 7.0
+        emb_size_atom: 512
+        emb_size_edge: 512
+        latent_dim: 512
+        max_cell_images_per_dim: 5
+        max_neighbors: 50
+        num_blocks: 4
+        num_targets: 1
+        otf_graph: true
+        regress_stress: true
+        scale_file: /scratch/amlt_code/mattergen/common/gemnet/gemnet-dT.json
+      hidden_dim: 512
+      property_embeddings: {}
+      property_embeddings_adapt:
+        Li_voltage:
+          _target_: mattergen.property_embeddings.PropertyEmbedding
+          conditional_embedding_module:
+            _target_: mattergen.diffusion.model_utils.NoiseLevelEncoding
+            d_model: 512
+          name: Li_voltage
+          scaler:
+            _target_: mattergen.common.utils.data_utils.StandardScalerTorch
+          unconditional_embedding_module:
+            _target_: mattergen.property_embeddings.EmbeddingVector
+            hidden_dim: 512
+        Na_voltage:
+          _target_: mattergen.property_embeddings.PropertyEmbedding
+          conditional_embedding_module:
+            _target_: mattergen.diffusion.model_utils.NoiseLevelEncoding
+            d_model: 512
+          name: Na_voltage
+          scaler:
+            _target_: mattergen.common.utils.data_utils.StandardScalerTorch
+          unconditional_embedding_module:
+            _target_: mattergen.property_embeddings.EmbeddingVector
+            hidden_dim: 512
+      element_mask_func:
+        _target_: mattergen.denoiser.mask_disallowed_elements
+        _partial_: true
+    pre_corruption_fn:
+      _target_: mattergen.property_embeddings.SetEmbeddingType
+      dropout_fields_iid: false
+      p_unconditional: 0.2
+  optimizer_partial:
+    _partial_: true
+    _target_: torch.optim.Adam
+    lr: 5.0e-06
+  scheduler_partials:
+  - frequency: 1
+    interval: epoch
+    monitor: loss_train
+    scheduler:
+      _partial_: true
+      _target_: torch.optim.lr_scheduler.ReduceLROnPlateau
+      factor: 0.6
+      min_lr: 1.0e-06
+      patience: 100
+      verbose: true
+    strict: true
+trainer:
+  _target_: pytorch_lightning.Trainer
+  accelerator: gpu
+  accumulate_grad_batches: 1
+  callbacks:
+  - _target_: pytorch_lightning.callbacks.LearningRateMonitor
+    log_momentum: false
+    logging_interval: step
+  - _target_: pytorch_lightning.callbacks.ModelCheckpoint
+    every_n_epochs: 1
+    filename: '{epoch}-{loss_val:.2f}'
+    mode: min
+    monitor: loss_val
+    save_last: true
+    save_top_k: 1
+    verbose: false
+  - _target_: pytorch_lightning.callbacks.TQDMProgressBar
+    refresh_rate: 50
+  - _target_: mattergen.common.data.callback.SetPropertyScalers
+  check_val_every_n_epoch: 5
+  devices: 1
+  gradient_clip_algorithm: value
+  gradient_clip_val: 0.5
+  max_epochs: 600
+  num_nodes: 1
+  precision: 32
+  strategy:
+    _target_: pytorch_lightning.strategies.ddp.DDPStrategy
+    find_unused_parameters: true
+/home/ilgar/mattergen/mattergen/generator.py:336: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  with hydra.initialize_config_dir(os.path.abspath(str(sampling_config_path))):
+INFO:mattergen.common.utils.eval_utils:Loading model from checkpoint: /home/ilgar/mattergen/outputs/singlerun/2025-12-08/19-42-57/lightning_logs/version_0/checkpoints/last.ckpt
+/home/ilgar/mattergen/mattergen/common/utils/data_classes.py:96: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  with initialize_config_dir(str(self.model_path)):
+
+
+Sampling config:
+sampler_partial:
+  _target_: mattergen.diffusion.sampling.classifier_free_guidance.GuidedPredictorCorrector.from_pl_module
+  'N': 1000
+  eps_t: 0.001
+  _partial_: true
+  guidance_scale: 2.0
+  remove_conditioning_fn:
+    _target_: mattergen.property_embeddings.SetUnconditionalEmbeddingType
+  keep_conditioning_fn:
+    _target_: mattergen.property_embeddings.SetConditionalEmbeddingType
+  predictor_partials:
+    pos:
+      _target_: mattergen.diffusion.wrapped.wrapped_predictors_correctors.WrappedAncestralSamplingPredictor
+      _partial_: true
+    cell:
+      _target_: mattergen.common.diffusion.predictors_correctors.LatticeAncestralSamplingPredictor
+      _partial_: true
+    atomic_numbers:
+      _target_: mattergen.diffusion.d3pm.d3pm_predictors_correctors.D3PMAncestralSamplingPredictor
+      predict_x0: true
+      _partial_: true
+  corrector_partials:
+    pos:
+      _target_: mattergen.diffusion.wrapped.wrapped_predictors_correctors.WrappedLangevinCorrector
+      _partial_: true
+      max_step_size: 1000000.0
+      snr: 0.4
+    cell:
+      _target_: mattergen.common.diffusion.predictors_correctors.LatticeLangevinDiffCorrector
+      _partial_: true
+      max_step_size: 1000000.0
+      snr: 0.2
+  n_steps_corrector: 1
+condition_loader_partial:
+  _partial_: true
+  _target_: mattergen.common.data.condition_factory.get_number_of_atoms_condition_loader
+  num_atoms_distribution: ALEX_MP_20
+  batch_size: 100
+  num_samples: 100
+
+Generating samples:   0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1000 [00:00<?, ?it/s][A
+  0%|          | 0/1000 [00:19<?, ?it/s][A
+  2%|▏         | 18/1000 [00:20<18:55,  1.16s/it][A
+  2%|▏         | 23/1000 [00:26<18:48,  1.16s/it][A
+  3%|▎         | 28/1000 [00:32<18:41,  1.15s/it][A
+  3%|▎         | 33/1000 [00:38<18:34,  1.15s/it][A
+  4%|▍         | 38/1000 [00:43<18:30,  1.15s/it][A
+  4%|▍         | 43/1000 [00:49<18:27,  1.16s/it][A
+  5%|▍         | 48/1000 [00:55<18:21,  1.16s/it][A
+  5%|▌         | 53/1000 [01:01<18:16,  1.16s/it][A
+  6%|▌         | 58/1000 [01:07<18:13,  1.16s/it][A
+  6%|▋         | 63/1000 [01:12<18:06,  1.16s/it][A
+  7%|▋         | 68/1000 [01:18<18:00,  1.16s/it][A
+  7%|▋         | 73/1000 [01:24<17:56,  1.16s/it][A
+  8%|▊         | 78/1000 [01:30<17:52,  1.16s/it][A
+  8%|▊         | 83/1000 [01:36<17:49,  1.17s/it][A
+  9%|▉         | 88/1000 [01:42<17:45,  1.17s/it][A
+  9%|▉         | 93/1000 [01:47<17:40,  1.17s/it][A
+ 10%|▉         | 98/1000 [01:53<17:33,  1.17s/it][A
+ 10%|█         | 103/1000 [01:59<17:27,  1.17s/it][A
+ 11%|█         | 108/1000 [02:05<17:21,  1.17s/it][A
+ 11%|█▏        | 113/1000 [02:11<17:15,  1.17s/it][A
+ 12%|█▏        | 118/1000 [02:17<17:11,  1.17s/it][A
+ 12%|█▏        | 123/1000 [02:23<17:07,  1.17s/it][A
+ 13%|█▎        | 128/1000 [02:28<17:03,  1.17s/it][A
+ 13%|█▎        | 133/1000 [02:34<16:57,  1.17s/it][A
+ 14%|█▍        | 138/1000 [02:40<16:50,  1.17s/it][A
+ 14%|█▍        | 143/1000 [02:46<16:44,  1.17s/it][A
+ 15%|█▍        | 148/1000 [02:52<16:38,  1.17s/it][A
+ 15%|█▌        | 153/1000 [02:58<16:32,  1.17s/it][A
+ 16%|█▌        | 158/1000 [03:03<16:22,  1.17s/it][A
+ 16%|█▋        | 163/1000 [03:09<16:15,  1.16s/it][A
+ 17%|█▋        | 168/1000 [03:15<16:07,  1.16s/it][A
+ 17%|█▋        | 173/1000 [03:21<15:58,  1.16s/it][A
+ 18%|█▊        | 178/1000 [03:27<15:51,  1.16s/it][A
+ 18%|█▊        | 183/1000 [03:32<15:46,  1.16s/it][A
+ 19%|█▉        | 188/1000 [03:38<15:43,  1.16s/it][A
+ 19%|█▉        | 193/1000 [03:44<15:39,  1.16s/it][A
+ 20%|█▉        | 198/1000 [03:50<15:34,  1.17s/it][A
+ 20%|██        | 203/1000 [03:56<15:29,  1.17s/it][A
+ 21%|██        | 208/1000 [04:02<15:22,  1.16s/it][A
+ 21%|██▏       | 213/1000 [04:07<15:14,  1.16s/it][A
+ 22%|██▏       | 218/1000 [04:13<15:07,  1.16s/it][A
+ 22%|██▏       | 223/1000 [04:19<15:00,  1.16s/it][A
+ 23%|██▎       | 228/1000 [04:25<14:55,  1.16s/it][A
+ 23%|██▎       | 233/1000 [04:31<14:51,  1.16s/it][A
+ 24%|██▍       | 238/1000 [04:37<14:47,  1.17s/it][A
+ 24%|██▍       | 243/1000 [04:42<14:47,  1.17s/it][A
+ 25%|██▍       | 248/1000 [04:48<14:40,  1.17s/it][A
+ 25%|██▌       | 253/1000 [04:54<14:33,  1.17s/it][A
+ 26%|██▌       | 258/1000 [05:00<14:25,  1.17s/it][A
+ 26%|██▋       | 263/1000 [05:06<14:18,  1.17s/it][A
+ 27%|██▋       | 268/1000 [05:11<14:12,  1.16s/it][A
+ 27%|██▋       | 273/1000 [05:17<14:04,  1.16s/it][A
+ 28%|██▊       | 278/1000 [05:23<13:57,  1.16s/it][A
+ 28%|██▊       | 283/1000 [05:29<13:54,  1.16s/it][A
+ 29%|██▉       | 288/1000 [05:35<13:48,  1.16s/it][A
+ 29%|██▉       | 293/1000 [05:41<13:41,  1.16s/it][A
+ 30%|██▉       | 298/1000 [05:46<13:35,  1.16s/it][A
+ 30%|███       | 303/1000 [05:52<13:27,  1.16s/it][A
+ 31%|███       | 308/1000 [05:58<13:21,  1.16s/it][A
+ 31%|███▏      | 313/1000 [06:04<13:15,  1.16s/it][A
+ 32%|███▏      | 318/1000 [06:09<13:11,  1.16s/it][A
+ 32%|███▏      | 323/1000 [06:15<13:05,  1.16s/it][A
+ 33%|███▎      | 328/1000 [06:21<12:59,  1.16s/it][A
+ 33%|███▎      | 333/1000 [06:27<12:54,  1.16s/it][A
+ 34%|███▍      | 338/1000 [06:33<12:50,  1.16s/it][A
+ 34%|███▍      | 343/1000 [06:39<12:45,  1.16s/it][A
+ 35%|███▍      | 348/1000 [06:44<12:39,  1.17s/it][A
+ 35%|███▌      | 353/1000 [06:50<12:34,  1.17s/it][A
+ 36%|███▌      | 358/1000 [06:56<12:27,  1.16s/it][A
+ 36%|███▋      | 363/1000 [07:02<12:20,  1.16s/it][A
+ 37%|███▋      | 368/1000 [07:08<12:15,  1.16s/it][A
+ 37%|███▋      | 373/1000 [07:14<12:10,  1.16s/it][A
+ 38%|███▊      | 378/1000 [07:19<12:04,  1.17s/it][A
+ 38%|███▊      | 383/1000 [07:25<11:59,  1.17s/it][A
+ 39%|███▉      | 388/1000 [07:31<12:02,  1.18s/it][A
+ 39%|███▉      | 393/1000 [07:37<11:54,  1.18s/it][A
+ 40%|███▉      | 398/1000 [07:43<11:46,  1.17s/it][A
+ 40%|████      | 403/1000 [07:49<11:39,  1.17s/it][A
+ 41%|████      | 408/1000 [07:55<11:30,  1.17s/it][A
+ 41%|████▏     | 413/1000 [08:00<11:23,  1.16s/it][A
+ 42%|████▏     | 418/1000 [08:06<11:18,  1.17s/it][A
+ 42%|████▏     | 423/1000 [08:12<11:12,  1.17s/it][A
+ 43%|████▎     | 428/1000 [08:18<11:07,  1.17s/it][A
+ 43%|████▎     | 433/1000 [08:24<11:00,  1.17s/it][A
+ 44%|████▍     | 438/1000 [08:29<10:54,  1.16s/it][A
+ 44%|████▍     | 443/1000 [08:35<10:49,  1.17s/it][A
+ 45%|████▍     | 448/1000 [08:41<10:43,  1.17s/it][A
+ 45%|████▌     | 453/1000 [08:47<10:36,  1.16s/it][A
+ 46%|████▌     | 458/1000 [08:53<10:30,  1.16s/it][A
+ 46%|████▋     | 463/1000 [08:59<10:25,  1.17s/it][A
+ 47%|████▋     | 468/1000 [09:04<10:20,  1.17s/it][A
+ 47%|████▋     | 473/1000 [09:10<10:13,  1.16s/it][A
+ 48%|████▊     | 478/1000 [09:16<10:07,  1.16s/it][A
+ 48%|████▊     | 483/1000 [09:22<10:02,  1.16s/it][A
+ 49%|████▉     | 488/1000 [09:28<09:56,  1.16s/it][A
+ 49%|████▉     | 493/1000 [09:34<09:49,  1.16s/it][A
+ 50%|████▉     | 498/1000 [09:39<09:43,  1.16s/it][A
+ 50%|█████     | 503/1000 [09:45<09:38,  1.16s/it][A
+ 51%|█████     | 508/1000 [09:51<09:33,  1.16s/it][A
+ 51%|█████▏    | 513/1000 [09:57<09:27,  1.16s/it][A
+ 52%|█████▏    | 518/1000 [10:03<09:20,  1.16s/it][A
+ 52%|█████▏    | 523/1000 [10:08<09:14,  1.16s/it][A
+ 53%|█████▎    | 528/1000 [10:14<09:08,  1.16s/it][A
+ 53%|█████▎    | 533/1000 [10:20<09:02,  1.16s/it][A
+ 54%|█████▍    | 538/1000 [10:26<08:56,  1.16s/it][A
+ 54%|█████▍    | 543/1000 [10:32<08:50,  1.16s/it][A
+ 55%|█████▍    | 548/1000 [10:37<08:45,  1.16s/it][A
+ 55%|█████▌    | 553/1000 [10:43<08:38,  1.16s/it][A
+ 56%|█████▌    | 558/1000 [10:49<08:33,  1.16s/it][A
+ 56%|█████▋    | 563/1000 [10:55<08:27,  1.16s/it][A
+ 57%|█████▋    | 568/1000 [11:01<08:21,  1.16s/it][A
+ 57%|█████▋    | 573/1000 [11:07<08:16,  1.16s/it][A
+ 58%|█████▊    | 578/1000 [11:12<08:10,  1.16s/it][A
+ 58%|█████▊    | 583/1000 [11:18<08:04,  1.16s/it][A
+ 59%|█████▉    | 588/1000 [11:24<07:58,  1.16s/it][A
+ 59%|█████▉    | 593/1000 [11:30<07:53,  1.16s/it][A
+ 60%|█████▉    | 598/1000 [11:36<07:46,  1.16s/it][A
+ 60%|██████    | 603/1000 [11:41<07:40,  1.16s/it][A
+ 61%|██████    | 608/1000 [11:47<07:34,  1.16s/it][A
+ 61%|██████▏   | 613/1000 [11:53<07:28,  1.16s/it][A
+ 62%|██████▏   | 618/1000 [11:59<07:23,  1.16s/it][A
+ 62%|██████▏   | 623/1000 [12:05<07:17,  1.16s/it][A
+ 63%|██████▎   | 628/1000 [12:10<07:11,  1.16s/it][A
+ 63%|██████▎   | 633/1000 [12:16<07:05,  1.16s/it][A
+ 64%|██████▍   | 638/1000 [12:22<06:59,  1.16s/it][A
+ 64%|██████▍   | 643/1000 [12:28<06:53,  1.16s/it][A
+ 65%|██████▍   | 648/1000 [12:34<06:47,  1.16s/it][A
+ 65%|██████▌   | 653/1000 [12:39<06:42,  1.16s/it][A
+ 66%|██████▌   | 658/1000 [12:45<06:36,  1.16s/it][A
+ 66%|██████▋   | 663/1000 [12:51<06:30,  1.16s/it][A
+ 67%|██████▋   | 668/1000 [12:57<06:25,  1.16s/it][A
+ 67%|██████▋   | 673/1000 [13:03<06:20,  1.16s/it][A
+ 68%|██████▊   | 678/1000 [13:08<06:14,  1.16s/it][A
+ 68%|██████▊   | 683/1000 [13:14<06:08,  1.16s/it][A
+ 69%|██████▉   | 688/1000 [13:20<06:02,  1.16s/it][A
+ 69%|██████▉   | 693/1000 [13:26<05:56,  1.16s/it][A
+ 70%|██████▉   | 698/1000 [13:32<05:50,  1.16s/it][A
+ 70%|███████   | 703/1000 [13:37<05:44,  1.16s/it][A
+ 71%|███████   | 708/1000 [13:43<05:38,  1.16s/it][A
+ 71%|███████▏  | 713/1000 [13:49<05:32,  1.16s/it][A
+ 72%|███████▏  | 718/1000 [13:55<05:26,  1.16s/it][A
+ 72%|███████▏  | 723/1000 [14:01<05:21,  1.16s/it][A
+ 73%|███████▎  | 728/1000 [14:06<05:15,  1.16s/it][A
+ 73%|███████▎  | 733/1000 [14:12<05:09,  1.16s/it][A
+ 74%|███████▍  | 738/1000 [14:18<05:03,  1.16s/it][A
+ 74%|███████▍  | 743/1000 [14:24<04:58,  1.16s/it][A
+ 75%|███████▍  | 748/1000 [14:30<04:51,  1.16s/it][A
+ 75%|███████▌  | 753/1000 [14:35<04:45,  1.16s/it][A
+ 76%|███████▌  | 758/1000 [14:41<04:40,  1.16s/it][A
+ 76%|███████▋  | 763/1000 [14:47<04:34,  1.16s/it][A
+ 77%|███████▋  | 768/1000 [14:53<04:28,  1.16s/it][A
+ 77%|███████▋  | 773/1000 [14:58<04:22,  1.16s/it][A
+ 78%|███████▊  | 778/1000 [15:04<04:17,  1.16s/it][A
+ 78%|███████▊  | 783/1000 [15:10<04:11,  1.16s/it][A
+ 79%|███████▉  | 788/1000 [15:16<04:05,  1.16s/it][A
+ 79%|███████▉  | 793/1000 [15:22<03:59,  1.16s/it][A
+ 80%|███████▉  | 798/1000 [15:27<03:53,  1.16s/it][A
+ 80%|████████  | 803/1000 [15:33<03:48,  1.16s/it][A
+ 81%|████████  | 808/1000 [15:39<03:42,  1.16s/it][A
+ 81%|████████▏ | 813/1000 [15:45<03:36,  1.16s/it][A
+ 82%|████████▏ | 818/1000 [15:51<03:30,  1.16s/it][A
+ 82%|████████▏ | 823/1000 [15:56<03:24,  1.16s/it][A
+ 83%|████████▎ | 828/1000 [16:02<03:18,  1.16s/it][A
+ 83%|████████▎ | 833/1000 [16:08<03:12,  1.16s/it][A
+ 84%|████████▍ | 838/1000 [16:14<03:07,  1.15s/it][A
+ 84%|████████▍ | 843/1000 [16:19<03:01,  1.15s/it][A
+ 85%|████████▍ | 848/1000 [16:25<02:55,  1.16s/it][A
+ 85%|████████▌ | 853/1000 [16:31<02:49,  1.15s/it][A
+ 86%|████████▌ | 858/1000 [16:37<02:43,  1.15s/it][A
+ 86%|████████▋ | 863/1000 [16:42<02:38,  1.15s/it][A
+ 87%|████████▋ | 868/1000 [16:48<02:32,  1.15s/it][A
+ 87%|████████▋ | 873/1000 [16:54<02:26,  1.15s/it][A
+ 88%|████████▊ | 878/1000 [17:00<02:20,  1.15s/it][A
+ 88%|████████▊ | 883/1000 [17:06<02:15,  1.15s/it][A
+ 89%|████████▉ | 888/1000 [17:11<02:09,  1.15s/it][A
+ 89%|████████▉ | 893/1000 [17:17<02:03,  1.15s/it][A
+ 90%|████████▉ | 898/1000 [17:23<01:57,  1.15s/it][A
+ 90%|█████████ | 903/1000 [17:29<01:52,  1.16s/it][A
+ 91%|█████████ | 908/1000 [17:34<01:46,  1.15s/it][A
+ 91%|█████████▏| 913/1000 [17:40<01:40,  1.16s/it][A
+ 92%|█████████▏| 918/1000 [17:46<01:34,  1.16s/it][A
+ 92%|█████████▏| 923/1000 [17:52<01:28,  1.16s/it][A
+ 93%|█████████▎| 928/1000 [17:58<01:24,  1.17s/it][A
+ 93%|█████████▎| 933/1000 [18:04<01:18,  1.17s/it][A
+ 94%|█████████▍| 938/1000 [18:09<01:12,  1.17s/it][A
+ 94%|█████████▍| 943/1000 [18:15<01:06,  1.16s/it][A
+ 95%|█████████▍| 948/1000 [18:21<01:00,  1.16s/it][A
+ 95%|█████████▌| 953/1000 [18:27<00:54,  1.16s/it][A
+ 96%|█████████▌| 958/1000 [18:33<00:48,  1.16s/it][A
+ 96%|█████████▋| 963/1000 [18:38<00:42,  1.16s/it][A
+ 97%|█████████▋| 968/1000 [18:44<00:36,  1.15s/it][A
+ 97%|█████████▋| 973/1000 [18:50<00:31,  1.15s/it][A
+ 98%|█████████▊| 978/1000 [18:56<00:25,  1.15s/it][A
+ 98%|█████████▊| 983/1000 [19:01<00:19,  1.15s/it][A
+ 99%|█████████▉| 988/1000 [19:07<00:13,  1.15s/it][A
+ 99%|█████████▉| 993/1000 [19:13<00:08,  1.15s/it][A
+100%|█████████▉| 998/1000 [19:19<00:02,  1.15s/it][A100%|██████████| 1000/1000 [19:21<00:00,  1.16s/it]
+Generating samples: 100%|██████████| 1/1 [19:47<00:00, 1187.49s/it]Generating samples: 100%|██████████| 1/1 [19:47<00:00, 1187.49s/it]
+Full Formula (Li3 Co3 Cu1 O7) Reduced Formula: Li3Co3CuO7 abc   :   2.848785   7.577490   7.526234 angles:  83.298173  79.143389  79.229471 pbc   :       True       True       True Sites (14)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.043381  0.651289  0.702589   1  Cu    0.191469  0.264256  0.793237   2  O     0.878314  0.729064  0.953218   3  O     0.465877  0.841742  0.663734   4  Co    0.791853  0.418556  0.434418   5  O     0.75349   0.077945  0.854245   6  Li    0.758962  0.71207   0.212289   7  Co    0.32471   0.888398  0.901931   8  O     0.268615  0.552461  0.347267   9  Co    0.558539  0.07195   0.246701  10  O     0.659748  0.421435  0.697467  11  O     0.943117  0.176926  0.375666  12  Li    0.923497  0.99766   0.596966  13  O     0.172805  0.934314  0.160649
+Full Formula (Li2 Mn2 Fe1 O5) Reduced Formula: Li2Mn2FeO5 abc   :   3.094052   5.253721   6.524498 angles:  77.417271  76.218498  74.073531 pbc   :       True       True       True Sites (10)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.134996  0.828364  0.440655   1  Mn    0.474222  0.614523  0.860589   2  Fe    0.895989  0.4071    0.261509   3  O     0.963936  0.905507  0.763033   4  Li    0.739255  0.985838  0.08317   5  O     0.619395  0.483372  0.5843   6  Mn    0.280208  0.199409  0.663787   7  O     0.296935  0.695585  0.150118   8  O     0.006172  0.330141  0.940126   9  O     0.490184  0.118751  0.374309
+Full Formula (Li1 Co1 O2) Reduced Formula: LiCoO2 abc   :   2.830663   2.826697   4.974026 angles:  73.382877  73.340644  59.952145 pbc   :       True       True       True Sites (4)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.707978  0.684194  0.926642   1  Co    0.208104  0.184143  0.426769   2  O     0.468278  0.443854  0.646573   3  O     0.947982  0.923379  0.206667
+Full Formula (Li1 Mn3 O6) Reduced Formula: LiMn3O6 abc   :   2.893131   5.052450   7.110754 angles:  88.362642 101.753058  90.255206 pbc   :       True       True       True Sites (10)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Mn    0.808446  0.153529  0.255926   1  O     0.889878  0.838166  0.417511   2  Li    0.7465    0.701434  0.130004   3  Mn    0.469351  0.684588  0.574156   4  O     0.566716  0.030124  0.76855   5  O     0.694374  0.377631  0.022387   6  O     0.033512  0.510625  0.703439   7  Mn    0.121163  0.209686  0.875214   8  O     0.236261  0.972692  0.109195   9  O     0.36056   0.337655  0.358141
+Full Formula (Li2 Cu1 P1 O4) Reduced Formula: Li2CuPO4 abc   :   4.387481   4.395943   5.351281 angles: 114.314839 114.218533  89.988098 pbc   :       True       True       True Sites (8)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.8363    0.861088  0.849891   1  P     0.086083  0.61099   0.349917   2  O     0.177032  0.727337  0.144219   3  Li    0.585838  0.11191   0.349685   4  O     0.788527  0.289907  0.143448   5  O     0.970353  0.908287  0.55621   6  O     0.407503  0.520506  0.555804   7  Cu    0.335962  0.361374  0.849815
+Full Formula (Li2 Co2 O4) Reduced Formula: LiCoO2 abc   :   2.837926   4.906515   5.013990 angles:  70.759462  89.855114  89.825047 pbc   :       True       True       True Sites (8)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.105954  0.01096   0.337135   1  Li    0.606054  0.511395  0.337145   2  Co    0.106391  0.51162   0.837223   3  O     0.606265  0.27226   0.057894   4  O     0.105695  0.771441  0.058091   5  Co    0.605867  0.010696  0.837728   6  O     0.105717  0.25011   0.617046   7  O     0.606505  0.750238  0.616996
+Full Formula (Li3 V3 O6) Reduced Formula: LiVO2 abc   :   5.071257   5.100608   5.893445 angles:  65.222725  64.510606  60.501805 pbc   :       True       True       True Sites (12)   #  SP           a         b         c ---  ----  --------  --------  --------   0  O     0.194582  0.536242  0.505193   1  V     0.117964  0.111957  0.777701   2  Li    0.770661  0.755984  0.829215   3  Li    0.618347  0.612443  0.277287   4  O     0.705406  0.335263  0.050576   5  V     0.292088  0.287053  0.25751   6  Li    0.470454  0.463183  0.728053   7  O     0.332101  0.022252  0.058951   8  O     0.891489  0.193373  0.501649   9  O     0.548659  0.881232  0.509071  10  V     0.940681  0.932948  0.301958  11  O     0.027573  0.705422  0.051354
+Full Formula (Li1 Ni1 O2) Reduced Formula: LiNiO2 abc   :   2.877850   2.887529   4.992416 angles:  75.134913  75.153684  61.712540 pbc   :       True       True       True Sites (4)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.84318   0.823184  0.567552   1  Ni    0.343308  0.323173  0.067523   2  O     0.588153  0.567     0.296178   3  O     0.098053  0.079665  0.839006
+Full Formula (Li1 Cr1 O1 F1) Reduced Formula: LiCrOF abc   :   2.948907   3.245679   5.418022 angles:  81.817450 104.812066 116.337122 pbc   :       True       True       True Sites (4)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Cr    0.093803  0.271106  0.580972   1  Li    0.008343  0.684858  0.011374   2  F     0.566577  0.48882   0.308996   3  O     0.605687  0.067     0.814255
+Full Formula (Li4 Fe2 O4) Reduced Formula: Li2FeO2 abc   :   3.085510   5.607732   6.581483 angles: 114.014046 103.430401  90.030492 pbc   :       True       True       True Sites (10)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.175889  0.228417  0.885772   1  Li    0.506147  0.576533  0.547189   2  Li    0.834138  0.1254    0.200784   3  Li    0.162149  0.674124  0.856072   4  O     0.623895  0.408695  0.783455   5  O     0.054391  0.84496   0.642409   6  O     0.340586  0.369982  0.214126   7  Fe    0.504737  0.044254  0.541168   8  Fe    0.829673  0.604432  0.190026   9  O     0.329928  0.867854  0.193972
+Full Formula (Li10 Fe2 O8) Reduced Formula: Li5FeO4 abc   :   4.706412   6.405099   6.670596 angles:  90.027275  90.048633  90.028266 pbc   :       True       True       True Sites (20)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.614427  0.94891   0.217756   1  Fe    0.646803  0.687844  0.916149   2  Li    0.120411  0.448114  0.113887   3  Fe    0.088512  0.188335  0.41582   4  Li    0.614984  0.428482  0.613402   5  Li    0.614213  0.428485  0.218195   6  O     0.42487   0.440719  0.915853   7  Li    0.120876  0.928057  0.718154   8  O     0.309785  0.434861  0.415775   9  O     0.860398  0.687903  0.673831  10  Li    0.12072   0.447904  0.717258  11  Li    0.120671  0.928572  0.112986  12  O     0.859548  0.688638  0.158686  13  Li    0.078532  0.688306  0.415492  14  O     0.425255  0.934732  0.914845  15  Li    0.614943  0.947915  0.61366  16  Li    0.656034  0.188029  0.915394  17  O     0.874442  0.188126  0.658133  18  O     0.310576  0.940854  0.415831  19  O     0.875641  0.188799  0.173408
+Full Formula (Li4 Cr2 O6) Reduced Formula: Li2CrO3 abc   :   5.013496   5.040518   5.077794 angles:  80.520690  70.923399  60.247869 pbc   :       True       True       True Sites (12)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.268369  0.989167  0.074998   1  Li    0.946526  0.632292  0.074162   2  Li    0.607401  0.309556  0.074978   3  Li    0.107116  0.310515  0.574759   4  Cr    0.774209  0.978335  0.57528   5  Cr    0.441409  0.641843  0.574511   6  O     0.829251  0.309987  0.344928   7  O     0.384743  0.312106  0.804545   8  O     0.025769  0.955105  0.800259   9  O     0.189205  0.665941  0.348461  10  O     0.543185  0.95469   0.349037  11  O     0.670586  0.666669  0.800519
+Full Formula (Li1 Ti2 Ni1 O6) Reduced Formula: LiTi2NiO6 abc   :   3.001783   5.624541   7.510119 angles:  80.144415  79.423017  75.508164 pbc   :       True       True       True Sites (10)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.079711  0.070005  0.596537   1  Ti    0.224895  0.447242  0.893373   2  Ti    0.809662  0.651616  0.529779   3  Ni    0.665494  0.258525  0.225925   4  O     0.868817  0.334708  0.733594   5  O     0.620663  0.563329  0.017478   6  O     0.27938   0.162063  0.083542   7  O     0.197719  0.72965   0.694729   8  O     0.697655  0.979409  0.43721   9  O     0.42746   0.517992  0.408351
+Full Formula (Li2 Cu1 Ni1) Reduced Formula: Li2CuNi abc   :   4.057340   4.057100   4.060345 angles:  60.144032  60.053284  60.153450 pbc   :       True       True       True Sites (4)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.104118  0.354373  0.414258   1  Cu    0.85385   0.104645  0.163934   2  Li    0.353971  0.604569  0.663954   3  Ni    0.603933  0.854991  0.914222
+Full Formula (Li1 Co2 Ni2 O6) Reduced Formula: LiCo2(NiO3)2 abc   :   5.030169   5.027300   5.628151 angles:  63.292901  63.233714  59.825220 pbc   :       True       True       True Sites (11)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Co    0.474207  0.410903  0.115459   1  O     0.059718  0.303773  0.419647   2  Ni    0.952952  0.890189  0.678554   3  Ni    0.284024  0.220503  0.68773   4  O     0.871231  0.481904  0.94686   5  Co    0.761363  0.700914  0.250556   6  Li    0.118059  0.056276  0.182986   7  O     0.36513   0.62915   0.421097   8  O     0.543105  0.112831  0.948798   9  O     0.175827  0.809066  0.947621  10  O     0.691693  0.998274  0.419571
+Full Formula (Li5 S3) Reduced Formula: Li5S3 abc   :   3.896847   3.901659   9.969085 angles:  90.149187  90.090263  60.285375 pbc   :       True       True       True Sites (8)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.75465   0.867656  0.335471   1  S     0.088872  0.201434  0.238567   2  Li    0.089677  0.200045  0.739111   3  Li    0.756741  0.868418  0.940186   4  S     0.423388  0.534639  0.894221   5  Li    0.42325   0.534499  0.141762   6  S     0.754821  0.866824  0.582654   7  Li    0.421352  0.532648  0.539648
+Full Formula (Li4 Mg1 Nb1 Cr1 Mo1 O8) Reduced Formula: Li4MgNbCrMoO8 abc   :   5.236985   5.355035   6.074095 angles:  90.112728 106.824417  99.582130 pbc   :       True       True       True Sites (16)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Mg    0.044403  0.672829  0.273787   1  Li    0.532725  0.908819  0.145218   2  Nb    0.045243  0.171972  0.527078   3  Li    0.540497  0.89576   0.653039   4  Cr    0.044705  0.672142  0.779586   5  O     0.816456  0.795269  0.961338   6  Li    0.552721  0.426239  0.40022   7  Li    0.550999  0.454089  0.910889   8  O     0.268905  0.539941  0.589309   9  O     0.273949  0.551045  0.076258  10  O     0.81553   0.321384  0.712854  11  O     0.276475  0.023411  0.829597  12  O     0.279509  0.041727  0.346538  13  O     0.805254  0.303587  0.226054  14  O     0.820332  0.804846  0.479098  15  Mo    0.044068  0.173195  0.028654
+Full Formula (Li2 Fe2 O4) Reduced Formula: LiFeO2 abc   :   2.979116   2.994381  10.386321 angles:  87.410623  87.338025  60.093937 pbc   :       True       True       True Sites (8)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.448949  0.784681  0.712859   1  Li    0.760293  0.100937  0.904845   2  O     0.096124  0.436915  0.81543   3  O     0.927231  0.261204  0.300651   4  O     0.798373  0.127588  0.565911   5  Fe    0.155966  0.485801  0.467182   6  Fe    0.603209  0.936742  0.186244   7  O     0.287585  0.620454  0.086957
+Full Formula (Li3 Fe3 Co2 O3 F9) Reduced Formula: Li3Fe3Co2(OF3)3 abc   :   5.313632   5.601744   9.172494 angles:  71.884392  76.766306  64.626075 pbc   :       True       True       True Sites (20)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Fe    0.404831  0.40313   0.48682   1  Li    0.308412  0.327345  0.879729   2  Fe    0.912421  0.165975  0.649649   3  Li    0.555834  0.683585  0.75146   4  O     0.34689   0.619809  0.950427   5  F     0.417415  0.259461  0.291965   6  O     0.534987  0.376983  0.678678   7  Co    0.950999  0.827989  0.984813   8  Fe    0.178791  0.084682  0.244912   9  F     0.869223  0.107071  0.451797  10  Li    0.72365   0.820744  0.373621  11  F     0.331937  0.00481   0.59936  12  F     0.513278  0.00721   0.024705  13  F     0.980308  0.872571  0.189356  14  F     0.96844   0.518065  0.523773  15  F     0.988855  0.198679  0.843642  16  F     0.920724  0.429505  0.10733  17  Co    0.476039  0.600275  0.133445  18  O     0.456284  0.714369  0.326246  19  F     0.877477  0.81204   0.769944
+Full Formula (Li2 Bi2 Mo1 O7) Reduced Formula: Li2Bi2MoO7 abc   :   5.529187   5.474939   5.481142 angles:  97.373219  90.205147  90.519165 pbc   :       True       True       True Sites (12)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Bi    0.947329  0.483687  0.999337   1  Li    0.447384  0.329948  0.730844   2  Li    0.444942  0.614297  0.441512   3  O     0.687441  0.7847    0.24282   4  O     0.44591   0.244281  0.35936   5  O     0.686331  0.129943  0.898596   6  O     0.186292  0.607334  0.721365   7  Mo    0.446744  0.001208  0.116647   8  O     0.706855  0.608145  0.722308   9  Bi    0.948479  0.885362  0.598294  10  O     0.208154  0.781858  0.242744  11  O     0.207641  0.130701  0.899291
+Full Formula (Li1 Cr2 Bi1 O6) Reduced Formula: LiCr2BiO6 abc   :   5.011638   5.023574   5.419961 angles:  89.252261  88.599534 118.704156 pbc   :       True       True       True Sites (10)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.994615  0.222223  0.278342   1  O     0.340233  0.570356  0.474862   2  O     0.640772  0.221332  0.480781   3  Cr    0.326917  0.89579   0.27876   4  Cr    0.664148  0.551653  0.278583   5  O     0.648296  0.876093  0.08656   6  O     0.350548  0.223139  0.083106   7  O     0.994906  0.572708  0.0813   8  O     0.990947  0.867364  0.477773   9  Bi    0.986098  0.230174  0.778315
+Full Formula (Li9 Mg1 O6) Reduced Formula: Li9MgO6 abc   :   5.704847   5.739104   5.756403 angles:  80.891215  70.824996  59.476649 pbc   :       True       True       True Sites (16)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.457117  0.582763  0.26971   1  Li    0.359989  0.25689   0.53238   2  Mg    0.218052  0.531189  0.98257   3  Li    0.978867  0.902542  0.553221   4  Li    0.73208   0.529382  0.54178   5  Li    0.585463  0.890514  0.959935   6  Li    0.290332  0.906351  0.75156   7  Li    0.852484  0.254222  0.978472   8  Li    0.1288    0.180661  0.26251   9  O     0.934077  0.889319  0.895389  10  Li    0.773552  0.911544  0.26282  11  O     0.552777  0.585988  0.895786  12  O     0.245074  0.206276  0.89539  13  O     0.087952  0.560427  0.356602  14  O     0.414375  0.898084  0.402502  15  O     0.746853  0.2327    0.371894
+Full Formula (Li2 Mn7 O6 F5) Reduced Formula: Li2Mn7O6F5 abc   :   5.663874   5.701321   9.962352 angles:  87.432186  88.646027  70.401520 pbc   :       True       True       True Sites (20)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Mn    0.155319  0.782596  0.958613   1  Li    0.466291  0.088776  0.926907   2  Li    0.680319  0.128372  0.350994   3  Mn    0.130808  0.311336  0.190749   4  F     0.469963  0.745897  0.626684   5  Mn    0.746817  0.535781  0.803577   6  F     0.505033  0.299511  0.507899   7  O     0.795246  0.400791  0.290889   8  F     0.879722  0.859692  0.475482   9  Mn    0.256994  0.478766  0.668598  10  Mn    0.746645  0.552292  0.477041  11  Mn    0.550884  0.646006  0.1599  12  Mn    0.806373  0.057128  0.659625  13  O     0.193994  0.628423  0.143941  14  F     0.114655  0.177851  0.987363  15  O     0.950076  0.3529    0.648648  16  O     0.558177  0.294688  0.80047  17  O     0.974405  0.740077  0.785943  18  O     0.55207   0.736223  0.950054  19  F     0.475955  0.02412   0.236234
+Full Formula (Li4 Fe4 Cu1 O9) Reduced Formula: Li4Fe4CuO9 abc   :   3.020541   7.683736   7.944184 angles:  67.602432  81.755000  80.269244 pbc   :       True       True       True Sites (18)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.809495  0.873271  0.823923   1  Li    0.484526  0.545327  0.819966   2  O     0.432302  0.812723  0.643552   3  O     0.665497  0.697948  0.324324   4  Fe    0.007405  0.771439  0.503796   5  Li    0.38762   0.093005  0.490826   6  Fe    0.942333  0.300727  0.166286   7  O     0.725245  0.160519  0.672324   8  O     0.045843  0.485208  0.660855   9  O     0.53019   0.262039  0.993442  10  O     0.365221  0.370968  0.304729  11  Li    0.592975  0.981912  0.160533  12  O     0.863274  0.591735  0.011005  13  Fe    0.153086  0.198924  0.825644  14  Fe    0.271288  0.665904  0.142776  15  O     0.203516  0.927555  0.989013  16  O     0.987756  0.036807  0.324443  17  Cu    0.696183  0.42381   0.49699
+Full Formula (Li4 Co2 O6) Reduced Formula: Li2CoO3 abc   :   4.894843   4.903284   4.986009 angles:  80.667411  70.779364  60.158054 pbc   :       True       True       True Sites (12)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.903139  0.816478  0.736711   1  Li    0.066037  0.491165  0.237082   2  Li    0.565216  0.491362  0.738135   3  Li    0.228703  0.165987  0.737724   4  O     0.631024  0.85128   0.456917   5  Co    0.399918  0.823417  0.23736   6  O     0.35223   0.489978  0.461189   7  Co    0.732558  0.158105  0.237173   8  O     0.779335  0.491819  0.012901   9  O     0.13987   0.852701  0.01755  10  O     0.501175  0.130043  0.017979  11  O     0.992892  0.128704  0.456406
+Full Formula (Li1 Cr2 P2 H3 O10) Reduced Formula: LiCr2P2H3O10 abc   :   5.316113   5.199916   7.704810 angles: 113.207378 113.291465  81.682861 pbc   :       True       True       True Sites (18)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Cr    0.63376   0.962878  0.581489   1  H     0.171964  0.034973  0.779319   2  Cr    0.154676  0.964419  0.091578   3  H     0.341271  0.626883  0.267194   4  Li    0.933234  0.693033  0.284242   5  H     0.008264  0.306268  0.884208   6  O     0.815549  0.594743  0.496081   7  O     0.29717   0.828426  0.327279   8  P     0.736785  0.292223  0.337696   9  O     0.015996  0.092303  0.834254  10  O     0.487445  0.336769  0.671597  11  O     0.821144  0.06816   0.435461  12  P     0.555862  0.632031  0.835945  13  O     0.423693  0.282539  0.218073  14  O     0.46546   0.854497  0.735084  15  O     0.873796  0.649074  0.965158  16  O     0.899018  0.249561  0.197918  17  O     0.404958  0.688569  0.981614
+Full Formula (Sc1 Bi1 O4) Reduced Formula: ScBiO4 abc   :   3.703926   3.698444   5.336370 angles:  90.045580  89.963768  89.986943 pbc   :       True       True       True Sites (6)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Bi    0.555259  0.34993   0.287004   1  Sc    0.054796  0.848805  0.786245   2  O     0.054169  0.349341  0.988168   3  O     0.554714  0.84709   0.585532   4  O     0.05445   0.347375  0.495202   5  O     0.554428  0.848614  0.077251
+Full Formula (Li1 V2 Cr1 O6) Reduced Formula: LiV2CrO6 abc   :   5.006957   5.048584   5.427664 angles:  62.450640  90.275382  60.332687 pbc   :       True       True       True Sites (10)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.130666  0.658476  0.335993   1  V     0.912934  0.092233  0.69655   2  V     0.616915  0.686964  0.794608   3  O     0.315778  0.905876  0.969676   4  O     0.687868  0.223286  0.970259   5  Cr    0.412701  0.088596  0.197468   6  O     0.003645  0.584781  0.976336   7  O     0.797979  0.572471  0.498145   8  O     0.205785  0.914648  0.502196   9  O     0.549059  0.166365  0.503158
+Full Formula (Li1 Mg1 Mn4 O8) Reduced Formula: LiMgMn4O8 abc   :   5.367715   5.797350   5.738646 angles:  58.898995  88.770056  88.800614 pbc   :       True       True       True Sites (14)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Mn    0.852653  0.635842  0.537017   1  Li    0.385585  0.912827  0.315414   2  O     0.034824  0.825051  0.193582   3  Mn    0.917548  0.189536  0.091043   4  Mn    0.403076  0.639244  0.049959   5  Mg    0.884788  0.913172  0.814499   6  O     0.750435  0.536837  0.911639   7  O     0.542676  0.996332  0.924392   8  O     0.018103  0.288328  0.716579   9  O     0.225412  0.828812  0.705388  10  O     0.524244  0.528435  0.410275  11  Mn    0.367253  0.186235  0.580094  12  O     0.735264  0.999982  0.434778  13  O     0.244397  0.296021  0.219967
+Full Formula (Li1 Zn2 Mo2 O8) Reduced Formula: LiZn2(MoO4)2 abc   :   5.183439   6.026158   6.062061 angles: 120.143534 108.921668  90.310578 pbc   :       True       True       True Sites (13)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Zn    0.395439  0.295248  0.514502   1  Mo    0.049422  0.691994  0.906081   2  Mo    0.549357  0.020468  0.905984   3  Zn    0.703626  0.684256  0.296138   4  O     0.819887  0.851785  0.11777   5  O     0.79897   0.858041  0.688913   6  O     0.312186  0.099033  0.673511   7  O     0.820793  0.384272  0.680301   8  Li    0.052479  0.229156  0.90922   9  O     0.788811  0.332359  0.139358  10  O     0.27883   0.615252  0.136009  11  O     0.303054  0.076749  0.124017  12  O     0.279479  0.639314  0.69393
+Full Formula (Co1 Cu1 O2) Reduced Formula: CoCuO2 abc   :   2.884438   2.882199   5.865294 angles:  76.060236  75.926036  60.307413 pbc   :       True       True       True Sites (4)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Co    0.27548   0.11003   0.152374   1  Cu    0.774703  0.608832  0.652504   2  O     0.883679  0.718088  0.325104   3  O     0.666831  0.501635  0.97908
+Full Formula (Li3 Fe1 O3) Reduced Formula: Li3FeO3 abc   :   3.057528   4.017405   6.108610 angles:  90.550126 104.691275  90.339340 pbc   :       True       True       True Sites (7)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.946763  0.582198  0.991063   1  O     0.171971  0.082586  0.441687   2  Li    0.571929  0.082291  0.242455   3  Li    0.775402  0.083523  0.647101   4  O     0.548195  0.580627  0.192289   5  O     0.790664  0.583235  0.680516   6  Fe    0.177784  0.581896  0.453028
+Full Formula (Li1 Mn1 S2) Reduced Formula: LiMnS2 abc   :   3.372603   3.370330   5.916616 angles:  90.017809  90.033873  59.936072 pbc   :       True       True       True Sites (4)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.950105  0.50678   0.43825   1  Mn    0.949562  0.506203  0.937996   2  S     0.616022  0.173211  0.720774   3  S     0.283603  0.839442  0.154989
+Full Formula (Cr2 Ni2 O6) Reduced Formula: CrNiO3 abc   :   5.017203   5.022395   5.402741 angles:  62.531759  90.062936  60.209294 pbc   :       True       True       True Sites (10)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Cr    0.390333  0.266342  0.300725   1  Ni    0.901544  0.245334  0.832441   2  Ni    0.19138   0.668858  0.696778   3  Cr    0.702361  0.647792  0.228503   4  O     0.987931  0.74385   0.029126   5  O     0.595983  0.464998  0.027775   6  O     0.775678  0.779953  0.499268   7  O     0.496298  0.449461  0.500588   8  O     0.106409  0.170195  0.499406   9  O     0.317329  0.135735  0.028977
+Full Formula (Li2 Fe5 Te2 O11) Reduced Formula: Li2Fe5Te2O11 abc   :   5.982928   6.036227   7.553762 angles: 109.154967 100.683053  89.410551 pbc   :       True       True       True Sites (20)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Fe    0.200611  0.054283  0.885218   1  Te    0.621701  0.270173  0.286299   2  Li    0.027675  0.592694  0.092628   3  Fe    0.645915  0.784088  0.814819   4  Fe    0.658025  0.273535  0.783329   5  O     0.6826    0.942864  0.631837   6  O     0.199655  0.813935  0.625603   7  Li    0.891683  0.842558  0.466615   8  O     0.859015  0.049002  0.297197   9  O     0.854704  0.486669  0.265515  10  Fe    0.113167  0.255017  0.282435  11  O     0.545246  0.124782  0.997746  12  Fe    0.404993  0.813072  0.439255  13  O     0.020501  0.323999  0.870867  14  Te    0.12391   0.516751  0.710278  15  O     0.4344    0.549233  0.856377  16  O     0.380764  0.053275  0.295882  17  O     0.01226   0.768189  0.907071  18  O     0.677935  0.423839  0.562554  19  O     0.359407  0.477037  0.261257
+Full Formula (Li1 Co1 O2) Reduced Formula: LiCoO2 abc   :   2.862626   2.856909   5.026888 angles:  89.786054  73.291645  59.707867 pbc   :       True       True       True Sites (4)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.652771  0.551478  0.748899   1  O     0.132783  0.312224  0.028364   2  Co    0.653573  0.051129  0.248001   3  O     0.173829  0.789872  0.467593
+Full Formula (Li1 Fe1 Ni1 O3) Reduced Formula: LiFeNiO3 abc   :   3.079636   3.075504   8.053684 angles:  78.932562  78.912953  60.128706 pbc   :       True       True       True Sites (6)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.850257  0.738451  0.809798   1  Fe    0.612008  0.499582  0.52395   2  O     0.229407  0.116633  0.672584   3  O     0.770878  0.658812  0.045172   4  Ni    0.073047  0.961013  0.144169   5  O     0.986821  0.874268  0.399058
+Full Formula (Li1 V1 O2) Reduced Formula: LiVO2 abc   :   2.999654   3.000415   5.186188 angles:  73.243281  89.912337  59.912378 pbc   :       True       True       True Sites (4)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.577469  0.317083  0.966463   1  O     0.334482  0.804052  0.237213   2  V     0.077294  0.317144  0.466576   3  O     0.821055  0.829812  0.695577
+Full Formula (Li2 Mn1 O3) Reduced Formula: Li2MnO3 abc   :   2.956513   2.958340   7.456147 angles:  89.978569  90.012447  60.141976 pbc   :       True       True       True Sites (6)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.817705  0.0682    0.631944   1  O     0.155042  0.405709  0.402165   2  Li    0.151576  0.403946  0.892818   3  Mn    0.48405   0.735748  0.262577   4  O     0.484846  0.73602   0.761267   5  O     0.813582  0.065585  0.123006
+Full Formula (Li2 La1 Tl2 O5) Reduced Formula: Li2LaTl2O5 abc   :   3.630891   6.415463   7.010487 angles:  83.324176  75.142134  73.750360 pbc   :       True       True       True Sites (10)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.569361  0.358491  0.943172   1  La    0.378096  0.211991  0.473165   2  Tl    0.749682  0.737758  0.200647   3  Tl    0.024337  0.67333   0.719522   4  O     0.591941  0.117599  0.139478   5  O     0.967182  0.960855  0.547129   6  Li    0.168716  0.080855  0.019714   7  O     0.135318  0.34386   0.825458   8  O     0.378003  0.725718  0.954377   9  O     0.758604  0.472399  0.454383
+Full Formula (Li5 Mn3 O8) Reduced Formula: Li5Mn3O8 abc   :   4.141861   5.054055   7.722497 angles:  87.989079  74.517684  65.826506 pbc   :       True       True       True Sites (16)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Mn    0.913637  0.774115  0.586633   1  Li    0.286991  0.156018  0.456092   2  Li    0.663531  0.528637  0.331905   3  Li    0.402589  0.286249  0.095276   4  Mn    0.032954  0.907071  0.213146   5  Li    0.779572  0.658586  0.97007   6  O     0.257424  0.692391  0.980922   7  O     0.93056   0.249814  0.078353   8  Li    0.534035  0.407328  0.712464   9  O     0.675381  0.021172  0.81613  10  O     0.80966   0.12176   0.446177  11  Mn    0.154143  0.040786  0.839345  12  O     0.533305  0.907025  0.213396  13  O     0.033559  0.407435  0.713071  14  O     0.391429  0.794569  0.61  15  O     0.137266  0.563085  0.34786
+Full Formula (Li1 Cr1 O2) Reduced Formula: LiCrO2 abc   :   2.967719   2.969319   5.145922 angles:  73.145342  73.163744  59.963351 pbc   :       True       True       True Sites (4)   #  SP           a         b         c ---  ----  --------  --------  --------   0  O     0.535883  0.988678  0.456812   1  Li    0.777161  0.230169  0.7315   2  O     0.018954  0.471939  0.00579   3  Cr    0.277298  0.730688  0.23092
+Full Formula (Na1 Li1 Co4 O8) Reduced Formula: NaLi(CoO2)4 abc   :   2.870468   4.937985  10.428622 angles:  93.347881  97.805604  89.976650 pbc   :       True       True       True Sites (14)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Co    0.478685  0.136766  0.859048   1  O     0.170657  0.341745  0.249403   2  Co    0.715905  0.532251  0.339217   3  Li    0.99702   0.640339  0.893498   4  O     0.432393  0.42401   0.768447   5  O     0.028014  0.288391  0.965206   6  Co    0.225777  0.047687  0.362285   7  Co    0.097158  0.022007  0.105747   8  O     0.7678    0.234558  0.447453   9  O     0.939167  0.961807  0.774914  10  O     0.265433  0.702469  0.439633  11  O     0.541491  0.872204  0.98938  12  O     0.673467  0.880562  0.254278  13  Na    0.855098  0.591455  0.615076
+Full Formula (Li2 Fe1 Ge1 O4) Reduced Formula: Li2FeGeO4 abc   :   4.536228   4.533621   5.543977 angles: 113.956459 113.995848  90.052677 pbc   :       True       True       True Sites (8)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.804591  0.692378  0.928318   1  Li    0.554752  0.942742  0.429034   2  Ge    0.055422  0.442013  0.428728   3  Fe    0.304379  0.192617  0.92864   4  O     0.399871  0.334099  0.659888   5  O     0.940161  0.781336  0.659213   6  O     0.1623    0.556542  0.197183   7  O     0.715503  0.096725  0.197187
+Full Formula (Li4 Cr2 O6) Reduced Formula: Li2CrO3 abc   :   5.096177   5.032422   5.035239 angles: 119.848880  99.573502  99.517442 pbc   :       True       True       True Sites (12)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.27022   0.067153  0.195362   1  Li    0.269548  0.729815  0.534688   2  O     0.995758  0.00347   0.774177   3  O     0.544744  0.490171  0.260142   4  Li    0.269828  0.407287  0.856043   5  O     0.995226  0.647105  0.130577   6  Cr    0.769832  0.902299  0.36323   7  Li    0.769756  0.568945  0.695929   8  Cr    0.770186  0.235209  0.028442   9  O     0.544485  0.133216  0.61618  10  O     0.999197  0.289149  0.416615  11  O     0.539559  0.846473  0.973437
+Full Formula (Li1 Co1 O2) Reduced Formula: LiCoO2 abc   :   2.817715   2.815866   5.202993 angles:  74.265787  74.246634  59.946147 pbc   :       True       True       True Sites (4)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.559749  0.070165  0.45645   1  O     0.793396  0.30341   0.757332   2  Co    0.389404  0.899259  0.968843   3  O     0.984575  0.49391   0.182127
+Full Formula (Li4 Fe1 Co1 O6) Reduced Formula: Li4FeCoO6 abc   :   4.993716   4.996998   5.073133 angles:  99.660787  99.652747 119.797531 pbc   :       True       True       True Sites (12)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.727512  0.475378  0.273584   1  Fe    0.550477  0.653847  0.77399   2  Li    0.377849  0.826055  0.274017   3  Li    0.049579  0.15341   0.274131   4  Li    0.216545  0.987536  0.774116   5  Co    0.883799  0.320135  0.773964   6  O     0.275368  0.413801  0.000372   7  O     0.660788  0.080897  0.996555   8  O     0.123934  0.543639  0.551576   9  O     0.79049   0.928942  0.547548  10  O     0.507668  0.261311  0.544568  11  O     0.943302  0.697203  0.004022
+Full Formula (V1 P2 O6 F1) Reduced Formula: VP2O6F abc   :   5.159382   5.292292   6.511293 angles:  70.835064 107.316909 118.760311 pbc   :       True       True       True Sites (10)   #  SP           a         b         c ---  ----  --------  --------  --------   0  P     0.709409  0.839079  0.221589   1  P     0.373368  0.975632  0.734716   2  O     0.851541  0.641344  0.222323   3  O     0.252577  0.186568  0.722197   4  O     0.941736  0.134492  0.281473   5  O     0.160026  0.689717  0.662784   6  O     0.567463  0.921847  0.964537   7  O     0.45788   0.680459  0.353373   8  V     0.071089  0.429397  0.459242   9  F     0.634536  0.149173  0.579825
+Full Formula (Li1 Tl1 Ni1 O3) Reduced Formula: LiTlNiO3 abc   :   3.250539   3.249420   8.212255 angles:  89.989655  90.078031 119.983450 pbc   :       True       True       True Sites (6)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.435734  0.272515  0.442253   1  Tl    0.43627   0.273011  0.063943   2  Ni    0.769857  0.938656  0.676428   3  O     0.436711  0.27237   0.804911   4  O     0.770147  0.939502  0.20958   5  O     0.103085  0.605807  0.546723
+Full Formula (Li2 Ag2 N2) Reduced Formula: LiAgN abc   :   3.512475   3.509387   8.192681 angles:  90.003049  90.008253 120.055491 pbc   :       True       True       True Sites (6)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.96839   0.706033  0.313389   1  Ag    0.301601  0.371999  0.063977   2  Li    0.635479  0.038323  0.814694   3  N     0.301785  0.372688  0.315668   4  Ag    0.301819  0.372497  0.563515   5  N     0.301119  0.372581  0.814299
+Full Formula (Li1 Y2 Ti1 O5 F1) Reduced Formula: LiY2TiO5F abc   :   5.703396   5.533899   5.570813 angles: 118.417012  89.881499 117.880335 pbc   :       True       True       True Sites (10)   #  SP           a         b         c ---  ----  --------  --------  --------   0  O     0.245726  0.291981  0.180087   1  O     0.777941  0.523942  0.951783   2  Ti    0.070816  0.490637  0.098314   3  Y     0.562917  0.44298   0.567079   4  O     0.258875  0.911515  0.428404   5  Li    0.914793  0.016562  0.295998   6  Y     0.412575  0.030253  0.872432   7  O     0.267593  0.554249  0.825957   8  O     0.769923  0.262122  0.245895   9  F     0.770443  0.953265  0.668462
+Full Formula (Cr1 Mo1 O5) Reduced Formula: CrMoO5 abc   :   4.070315   5.180209   5.208825 angles:  79.923800  66.899497  66.919892 pbc   :       True       True       True Sites (7)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Cr    0.934991  0.348848  0.229202   1  O     0.719194  0.53969   0.974104   2  Mo    0.601109  0.850047  0.73189   3  O     0.92432   0.606631  0.412501   4  O     0.16307   0.849604  0.731975   5  O     0.661597  0.155127  0.481507   6  O     0.370499  0.096332  0.041866
+Full Formula (Li2 Sb4 O12) Reduced Formula: Li(SbO3)2 abc   :   5.328797   7.482146   7.022880 angles: 117.796433 109.756741  91.587912 pbc   :       True       True       True Sites (18)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Sb    0.790122  0.652424  0.338531   1  Li    0.230265  0.340776  0.293564   2  Sb    0.084261  0.438554  0.891129   3  Li    0.528672  0.534838  0.759391   4  Sb    0.750313  0.171262  0.357274   5  O     0.704516  0.284287  0.665219   6  O     0.363493  0.026962  0.187914   7  O     0.918227  0.68796   0.903204   8  O     0.028689  0.510969  0.183579   9  O     0.686589  0.861584  0.597535  10  O     0.900848  0.934444  0.386398  11  Sb    0.046216  0.934759  0.893928  12  O     0.476233  0.590089  0.046061  13  O     0.133106  0.352484  0.585808  14  O     0.622622  0.429118  0.36239  15  O     0.854623  0.10723   0.095077  16  O     0.194211  0.189356  0.904878  17  O     0.150308  0.746747  0.634584
+Full Formula (Li2 Y1 Fe2 W3 O12) Reduced Formula: Li2YFe2(WO4)3 abc   :   5.857193   6.129219   8.141141 angles:  65.127095  70.382536  73.340479 pbc   :       True       True       True Sites (20)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Fe    0.260168  0.777915  0.481624   1  W     0.287695  0.236417  0.015137   2  W     0.652947  0.596027  0.695878   3  O     0.233377  0.118758  0.854209   4  Y     0.971898  0.920027  0.856471   5  O     0.009064  0.565748  0.530611   6  Li    0.433471  0.189677  0.599523   7  Li    0.52137   0.636694  0.115978   8  O     0.040281  0.092142  0.540007   9  O     0.278383  0.592844  0.820361  10  O     0.542058  0.914877  0.511904  11  O     0.400121  0.918502  0.194643  12  O     0.661721  0.238392  0.894078  13  O     0.902894  0.74014   0.171356  14  O     0.615579  0.456052  0.510911  15  O     0.934192  0.269928  0.178963  16  Fe    0.682144  0.059217  0.228003  17  W     0.973633  0.417696  0.356451  18  O     0.331746  0.375651  0.202278  19  O     0.712938  0.712241  0.853559
+Full Formula (Li1 Cr1 O2) Reduced Formula: LiCrO2 abc   :   2.974142   2.971781   5.152296 angles:  73.079506  73.086876  59.935314 pbc   :       True       True       True Sites (4)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.358578  0.256454  0.001964   1  O     0.600452  0.497885  0.276643   2  Cr    0.858988  0.756891  0.501849   3  O     0.117698  0.015062  0.72675
+Full Formula (Li1 Cr1 O2) Reduced Formula: LiCrO2 abc   :   3.081424   3.083618   5.897820 angles:  74.789670  74.742848  60.067361 pbc   :       True       True       True Sites (4)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.56344   0.776413  0.803789   1  O     0.668492  0.881676  0.486603   2  Cr    0.062916  0.276591  0.303534   3  O     0.457157  0.671219  0.119836
+Full Formula (Co1 O2) Reduced Formula: CoO2 abc   :   3.297101   3.302615   3.307261 angles:  59.827942  59.976185  59.978103 pbc   :       True       True       True Sites (3)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Co    0.123435  0.155148  0.42734   1  O     0.373977  0.40501   0.67814   2  O     0.87349   0.904735  0.177156
+Full Formula (Zn2 Co1 Cu3 O6) Reduced Formula: Zn2Co(CuO2)3 abc   :   5.178714   5.194268   5.709708 angles: 104.188573 103.983818 112.917348 pbc   :       True       True       True Sites (12)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Cu    0.684987  0.185702  0.623405   1  Zn    0.350443  0.519486  0.123441   2  O     0.759835  0.931993  0.353644   3  Zn    0.017946  0.850637  0.123556   4  Cu    0.017029  0.85279   0.623983   5  Co    0.68442   0.185346  0.12384   6  Cu    0.352604  0.518729  0.623162   7  O     0.279392  0.779685  0.892595   8  O     0.089403  0.590613  0.355328   9  O     0.608669  0.438905  0.893102  10  O     0.937794  0.109694  0.893675  11  O     0.431288  0.261508  0.353467
+Full Formula (Li3 Mn1 O2 F2) Reduced Formula: Li3Mn(OF)2 abc   :   2.903257   5.020014   6.004732 angles:  88.921543 103.698623  89.826768 pbc   :       True       True       True Sites (8)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Mn    0.103558  0.30676   0.064199   1  Li    0.82685   0.299406  0.513918   2  F     0.298718  0.021459  0.456829   3  Li    0.704675  0.852872  0.265915   4  Li    0.448667  0.808531  0.751716   5  O     0.682416  0.484427  0.22218   6  O     0.56119   0.070679  0.979766   7  F     0.942597  0.564294  0.739765
+Full Formula (Li1 Co1 O2) Reduced Formula: LiCoO2 abc   :   2.814588   2.811895   5.183418 angles:  74.203201  74.263566  59.953731 pbc   :       True       True       True Sites (4)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.647294  0.012682  0.452322   1  Co    0.818229  0.183817  0.939741   2  O     0.414547  0.779718  0.149672   3  O     0.223958  0.589152  0.724377
+Full Formula (Li4 Ta2 Ti1 Zn2 O11) Reduced Formula: Li4Ta2TiZn2O11 abc   :   5.788439   5.852033   8.552994 angles: 116.268123 102.629028  93.515584 pbc   :       True       True       True Sites (20)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.428538  0.896638  0.184377   1  Ta    0.182536  0.460795  0.859845   2  O     0.862748  0.297042  0.667056   3  O     0.096173  0.782069  0.993873   4  Li    0.50713   0.346744  0.157275   5  Li    0.989258  0.930327  0.835853   6  Zn    0.812342  0.925057  0.516768   7  O     0.4891    0.544008  0.030859   8  O     0.223339  0.047006  0.722895   9  O     0.299371  0.536156  0.687208  10  O     0.338961  0.384166  0.3446  11  O     0.972447  0.65196   0.37432  12  Ta    0.343066  0.774377  0.557379  13  Zn    0.555483  0.357782  0.569152  14  O     0.675384  0.778117  0.65818  15  O     0.736634  0.10103   0.175236  16  O     0.032716  0.301069  0.003535  17  Li    0.791124  0.743342  0.059147  18  Ti    0.005873  0.320597  0.214811  19  O     0.439798  0.942133  0.426149
+Full Formula (V3 Zn1 O6) Reduced Formula: V3ZnO6 abc   :   5.121027   5.141966   5.506430 angles: 117.401131  90.208405 119.557477 pbc   :       True       True       True Sites (10)   #  SP           a         b         c ---  ----  --------  --------  --------   0  V     0.7888    0.168339  0.582574   1  Zn    0.57468   0.732126  0.928603   2  V     0.297063  0.183196  0.101726   3  O     0.017172  0.982626  0.314534   4  O     0.712652  0.323342  0.318498   5  O     0.368881  0.664588  0.306305   6  O     0.184259  0.681807  0.795356   7  O     0.497562  0.261764  0.789433   8  V     0.094871  0.772714  0.493618   9  O     0.905029  0.990224  0.790996
+Full Formula (Li2 Mn3 Co1 O8) Reduced Formula: Li2Mn3CoO8 abc   :   5.931869   5.930942   5.926138 angles:  61.117236  61.104391  58.956057 pbc   :       True       True       True Sites (14)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Mn    0.130109  0.882328  0.542167   1  Mn    0.630397  0.382697  0.541483   2  Li    0.63007   0.88203   0.542032   3  Co    0.131343  0.382468  0.041865   4  Li    0.129081  0.382407  0.543593   5  O     0.379352  0.630893  0.756483   6  O     0.841166  0.619439  0.296056   7  Mn    0.630377  0.882158  0.04201   8  O     0.893309  0.672127  0.787607   9  O     0.419722  0.145465  0.787488  10  O     0.89492   0.146664  0.739402  11  O     0.365868  0.6178    0.345324  12  O     0.368005  0.092644  0.296228  13  O     0.882179  0.133565  0.327207
+Full Formula (Li1 La1 V1 Cr1 O6) Reduced Formula: LiLaVCrO6 abc   :   5.382601   5.400879   5.505386 angles:  91.771275 119.267221 119.186065 pbc   :       True       True       True Sites (10)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Cr    0.327938  0.146005  0.072871   1  Li    0.781994  0.882498  0.181552   2  La    0.819277  0.397895  0.808512   3  V     0.300273  0.633004  0.549302   4  O     0.817717  0.964571  0.836711   5  O     0.412784  0.453054  0.374455   6  O     0.847245  0.307207  0.340325   7  O     0.427985  0.444119  0.872972   8  O     0.230774  0.84906   0.297386   9  O     0.257993  0.834998  0.791055
+Full Formula (Li1 Fe3 O4) Reduced Formula: LiFe3O4 abc   :   3.061355   5.314723   5.294895 angles:  78.696491  90.251996 106.299544 pbc   :       True       True       True Sites (8)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.678109  0.856364  0.065668   1  Fe    0.439176  0.356103  0.823059   2  O     0.045028  0.608224  0.946521   3  Fe    0.198509  0.86113   0.573284   4  O     0.345063  0.137725  0.218559   5  O     0.848916  0.129148  0.679624   6  Fe    0.952175  0.375972  0.309831   7  O     0.553095  0.604544  0.42762
+Full Formula (Li2 Mn4 O4 F2) Reduced Formula: LiMn2O2F abc   :   4.789278   5.888696   6.736871 angles:  71.679208  89.842942  66.207187 pbc   :       True       True       True Sites (12)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.116978  0.786537  0.384079   1  Mn    0.759081  0.411161  0.22035   2  O     0.706003  0.078391  0.314322   3  Mn    0.43959   0.071392  0.092136   4  Mn    0.763936  0.46979   0.709197   5  Li    0.456414  0.072312  0.537237   6  Mn    0.141106  0.748914  0.884251   7  O     0.359458  0.750351  0.139663   8  F     0.052136  0.411744  0.473525   9  F     0.685062  0.101816  0.795076  10  O     0.355732  0.771322  0.626735  11  O     0.030308  0.423815  0.969001
+Full Formula (Li2 Fe1 Te1 O6) Reduced Formula: Li2FeTeO6 abc   :   5.160756   5.166758   5.695966 angles:  90.091821 116.507508 119.631218 pbc   :       True       True       True Sites (10)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Te    0.584249  0.43271   0.7558   1  O     0.773714  0.22392   0.99802   2  O     0.106789  0.064844  0.547387   3  Fe    0.94663   0.112827  0.799165   4  Li    0.522719  0.900381  0.165663   5  Li    0.007331  0.643223  0.3898   6  O     0.48555   0.700215  0.545755   7  O     0.741942  0.320394  0.546166   8  O     0.035053  0.827908  0.998883   9  O     0.4302    0.486226  0.998951
+Full Formula (La2 V1 Ni1 O6) Reduced Formula: La2VNiO6 abc   :   5.492550   5.611869   5.520740 angles:  91.247598 118.489656 119.585273 pbc   :       True       True       True Sites (10)   #  SP           a         b         c ---  ----  --------  --------  --------   0  La    0.446     0.543308  0.978354   1  V     0.94409   0.784941  0.724866   2  O     0.85175   0.965264  0.413165   3  O     0.040679  0.577789  0.547885   4  Ni    0.94403   0.284949  0.224931   5  O     0.430834  0.113451  0.967129   6  O     0.036764  0.605271  0.037385   7  La    0.442188  0.026809  0.472285   8  O     0.846641  0.990792  0.902112   9  O     0.457011  0.456223  0.479982
+Full Formula (Li1 Fe1 Cu1 O3) Reduced Formula: LiFeCuO3 abc   :   3.080625   3.080762   8.513992 angles:  79.541282  79.486457  60.024285 pbc   :       True       True       True Sites (6)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Fe    0.699266  0.187502  0.878444   1  Li    0.917898  0.406421  0.224563   2  Cu    0.483861  0.97203   0.525686   3  O     0.554876  0.043232  0.314371   4  O     0.995329  0.483992  0.98908   5  O     0.40968   0.898661  0.74452
+Full Formula (Li1 Cr1 O1 F1) Reduced Formula: LiCrOF abc   :   2.980245   2.977611   5.204769 angles: 124.776998  89.980202  90.050375 pbc   :       True       True       True Sites (4)   #  SP           a         b         c ---  ----  --------  --------  --------   0  F     0.170485  0.526804  0.9702   1  Cr    0.170164  0.026432  0.470113   2  Li    0.670129  0.025168  0.969821   3  O     0.670289  0.526336  0.469682
+Full Formula (Li2 Sn1 O2) Reduced Formula: Li2SnO2 abc   :   3.343049   3.512188   5.951474 angles: 107.445008 106.418007  90.036332 pbc   :       True       True       True Sites (5)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.70298   0.289769  0.3303   1  Sn    0.974775  0.562754  0.878357   2  O     0.319223  0.407027  0.564653   3  Li    0.249983  0.837239  0.426581   4  O     0.633594  0.720075  0.192124
+Full Formula (Li1 Cr1 Cd1 O3) Reduced Formula: LiCrCdO3 abc   :   3.132801   3.138540   8.239998 angles:  90.275799 100.992707 120.126438 pbc   :       True       True       True Sites (6)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.45257   0.569057  0.610637   1  Cd    0.98813   0.336873  0.913656   2  Cr    0.918536  0.79815   0.309305   3  O     0.173265  0.424834  0.187657   4  O     0.216993  0.949998  0.755806   5  O     0.667729  0.173984  0.431844
+Full Formula (Li1 Co1 O2) Reduced Formula: LiCoO2 abc   :   2.847261   2.845096   5.019633 angles:  73.433350  73.367828  59.948107 pbc   :       True       True       True Sites (4)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.979291  0.979125  0.701983   1  Co    0.479048  0.478761  0.203024   2  O     0.218667  0.218593  0.982868   3  O     0.7395    0.739183  0.421482
+Full Formula (Li2 V2 O4 F2) Reduced Formula: LiVO2F abc   :   5.140980   5.142359   5.640685 angles: 105.379894 105.586486 117.880367 pbc   :       True       True       True Sites (10)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.175696  0.763309  0.12537   1  Li    0.759557  0.349316  0.420764   2  O     0.209963  0.432775  0.590262   3  O     0.844154  0.798759  0.588514   4  V     0.27221   0.185778  0.750259   5  V     0.598902  0.858094  0.750129   6  O     0.443906  0.033858  0.527652   7  F     0.090346  0.331185  0.004075   8  O     0.478779  0.067015  0.996568   9  F     0.743777  0.68036   0.004063
+Full Formula (Ni1 Te1) Reduced Formula: NiTe abc   :   3.728399   3.724603   3.720953 angles:  90.103678 119.887921 119.940088 pbc   :       True       True       True Sites (2)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Ni    0.9991    0.824048  0.98031   1  Te    0.999408  0.32351   0.481358
+Full Formula (Li1 Ni1 O2) Reduced Formula: LiNiO2 abc   :   2.938228   2.816468   5.025040 angles:  73.606201  88.144172  61.471197 pbc   :       True       True       True Sites (4)   #  SP           a         b         c ---  ----  --------  --------  --------   0  O     0.923051  0.808398  0.077841   1  Ni    0.703733  0.303742  0.305106   2  Li    0.203243  0.305257  0.805121   3  O     0.483007  0.799665  0.532962
+Full Formula (Li1 Ag1 Sb1 O3) Reduced Formula: LiAgSbO3 abc   :   3.940027   3.927924   5.993130 angles: 109.084809 109.129286  89.961951 pbc   :       True       True       True Sites (6)   #  SP           a         b         c ---  ----  --------  --------  --------   0  O     0.726275  0.225217  0.759726   1  Li    0.907862  0.406278  0.120408   2  O     0.994243  0.992324  0.292283   3  Ag    0.25035   0.750037  0.806168   4  Sb    0.547372  0.04596   0.398466   5  O     0.492973  0.491714  0.29117
+Full Formula (Li2 Ni6 O8) Reduced Formula: LiNi3O4 abc   :   2.983483   5.118184   9.814967 angles:  93.983109  81.334413  89.940054 pbc   :       True       True       True Sites (16)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.267551  0.857447  0.371251   1  O     0.841073  0.662395  0.247577   2  Ni    0.400305  0.492911  0.125202   3  Ni    0.899085  0.984943  0.12932   4  Ni    0.650265  0.739534  0.62733   5  Ni    0.520364  0.117432  0.879287   6  Li    0.025183  0.621238  0.883286   7  Ni    0.779267  0.359146  0.37515   8  Ni    0.148938  0.239989  0.627535   9  O     0.34002   0.178108  0.25145  10  O     0.957949  0.2978    0.003163  11  O     0.209673  0.536124  0.508663  12  O     0.54935   0.415335  0.7427  13  O     0.459541  0.813962  0.006493  14  O     0.088947  0.943251  0.745747  15  O     0.749543  0.063591  0.512779
+Full Formula (Co1 O2) Reduced Formula: CoO2 abc   :   2.821048   2.824504   5.088872 angles:  73.991752  73.840573  59.859572 pbc   :       True       True       True Sites (3)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Co    0.7212    0.490048  0.54296   1  O     0.992487  0.760023  0.73418   2  O     0.451505  0.220626  0.351395
+Full Formula (Ni3 O3) Reduced Formula: NiO abc   :   2.987784   2.986866   7.323465 angles:  89.960435  90.002161  60.122891 pbc   :       True       True       True Sites (6)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Ni    0.687312  0.594504  0.735984   1  O     0.021044  0.928087  0.902524   2  Ni    0.020584  0.927751  0.402866   3  Ni    0.354184  0.261363  0.069336   4  O     0.353902  0.261705  0.569592   5  O     0.687366  0.594163  0.235694
+Full Formula (Li1 Co2 Ni1 O3 F2) Reduced Formula: LiCo2NiO3F2 abc   :   3.096641   3.102172  12.431600 angles:  82.851889  82.891716  60.216910 pbc   :       True       True       True Sites (9)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Co    0.852898  0.680504  0.912074   1  Li    0.24388   0.0708    0.742253   2  Ni    0.394376  0.217945  0.29174   3  F     0.160475  0.985989  0.994344   4  Co    0.984202  0.80366   0.525966   5  O     0.551294  0.379483  0.817297   6  O     0.032536  0.856484  0.378575   7  F     0.754472  0.578019  0.209773   8  O     0.299149  0.117475  0.583533
+Full Formula (Li2 Fe1 Cu2 Bi1 O4) Reduced Formula: Li2FeCu2BiO4 abc   :   4.112856   4.125742   8.090503 angles:  95.862177  97.349963  89.890337 pbc   :       True       True       True Sites (10)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Fe    0.021988  0.143028  0.531234   1  Bi    0.174442  0.265135  0.13826   2  Cu    0.581817  0.192899  0.779192   3  O     0.523055  0.143813  0.541876   4  Li    0.640335  0.736309  0.995897   5  Li    0.523102  0.644393  0.534011   6  O     0.644488  0.24227   0.01829   7  Cu    0.086563  0.690808  0.779613   8  O     0.024822  0.641659  0.541686   9  O     0.144477  0.74462   0.017434
+Full Formula (Li2 Fe1 Ni1 O4) Reduced Formula: Li2FeNiO4 abc   :   2.902839   2.981838   9.775900 angles:  97.058422  89.903014  60.854720 pbc   :       True       True       True Sites (8)   #  SP           a         b         c ---  ----  --------  --------  --------   0  O     0.710324  0.86553   0.358579   1  Li    0.843619  0.60012   0.00786   2  Ni    0.100784  0.085665  0.246977   3  Fe    0.603548  0.077357  0.746104   4  O     0.968437  0.350414  0.630889   5  O     0.491789  0.305203  0.133632   6  O     0.23942   0.804051  0.860928   7  Li    0.355997  0.572766  0.485856
+Full Formula (Li1 Ag3 O4) Reduced Formula: LiAg3O4 abc   :   4.489521   5.451372   4.562008 angles:  89.956576  91.602699  89.906743 pbc   :       True       True       True Sites (8)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.571105  0.3369    0.957651   1  Ag    0.571614  0.836687  0.457366   2  Ag    0.071463  0.336903  0.457729   3  Ag    0.071023  0.83711   0.957597   4  O     0.327114  0.585191  0.712832   5  O     0.327141  0.088372  0.713478   6  O     0.815192  0.087979  0.202321   7  O     0.81555   0.585242  0.201434
+Full Formula (V2 Ga1 O5) Reduced Formula: V2GaO5 abc   :   3.170064   4.879156   7.296069 angles:  87.144690  90.003882  89.930526 pbc   :       True       True       True Sites (8)   #  SP           a         b         c ---  ----  --------  --------  --------   0  V     0.778462  0.235009  0.964763   1  V     0.27914   0.709603  0.232146   2  Ga    0.27968   0.76616   0.71804   3  O     0.27833   0.727801  0.469255   4  O     0.779506  0.947168  0.775513   5  O     0.275952  0.031201  0.101831   6  O     0.281686  0.428174  0.843726   7  O     0.778108  0.526281  0.163372
+Full Formula (Li1 Fe1 O2) Reduced Formula: LiFeO2 abc   :   3.037209   3.035056   5.157632 angles:  90.056959  90.061461  60.193829 pbc   :       True       True       True Sites (4)   #  SP           a         b         c ---  ----  --------  --------  --------   0  O     0.319162  0.964515  0.154126   1  Li    0.653502  0.297391  0.948209   2  Fe    0.986311  0.631425  0.389825   3  O     0.652774  0.29754   0.581824
+Full Formula (Li1 Mn2 O4 F2) Reduced Formula: LiMn2(O2F)2 abc   :   2.867139   4.994119   7.601260 angles:  95.459065  79.368711  89.974703 pbc   :       True       True       True Sites (9)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Mn    0.434252  0.956877  0.360748   1  O     0.520772  0.686384  0.189732   2  Li    0.069884  0.429399  0.093777   3  O     0.978849  0.146981  0.271111   4  Mn    0.762993  0.03485   0.708572   5  O     0.313045  0.198409  0.603196   6  O     0.868963  0.80058   0.496314   7  F     0.212549  0.838107  0.816   8  F     0.659338  0.284202  0.91491
+Full Formula (Li1 V3 O6) Reduced Formula: LiV3O6 abc   :   5.041129   5.039508   5.466738 angles:  90.537866 117.219296 119.268693 pbc   :       True       True       True Sites (10)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.720773  0.552805  0.177475   1  V     0.281665  0.833744  0.026378   2  O     0.454656  0.626037  0.333924   3  O     0.771638  0.416918  0.804292   4  V     0.684088  0.036865  0.627114   5  O     0.469449  0.741844  0.805652   6  V     0.282142  0.338366  0.530674   7  O     0.808873  0.224688  0.339068   8  O     0.144021  0.106546  0.804191   9  O     0.206303  0.967858  0.335481
+Full Formula (Mn1 S1) Reduced Formula: MnS abc   :   3.607685   3.606783   3.604939 angles:  60.008536  60.016415  60.024073 pbc   :       True       True       True Sites (2)   #  SP           a         b         c ---  ----  --------  --------  --------   0  S     0.526684  0.984476  0.442306   1  Mn    0.027528  0.484514  0.941254
+Full Formula (Li1 Mn1 Co2) Reduced Formula: LiMnCo2 abc   :   4.024921   4.022927   4.021616 angles:  59.870537  60.007557  59.940477 pbc   :       True       True       True Sites (4)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Mn    0.981686  0.629106  0.224917   1  Co    0.481545  0.128935  0.724874   2  Co    0.232308  0.879097  0.475752   3  Li    0.732276  0.379111  0.975006
+Full Formula (Li1 Sb1 O3) Reduced Formula: LiSbO3 abc   :   3.107197   3.961879   5.497506 angles: 110.823280  89.967409  89.953926 pbc   :       True       True       True Sites (5)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.345297  0.121979  0.628791   1  Sb    0.845194  0.795395  0.978014   2  O     0.346682  0.923031  0.235344   3  O     0.346735  0.667891  0.723962   4  O     0.844982  0.260458  0.908048
+Full Formula (Li6 Mn4 O10) Reduced Formula: Li3Mn2O5 abc   :   2.945526   6.026223  10.684038 angles:  97.988974  97.589804  90.328856 pbc   :       True       True       True Sites (20)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.343152  0.68175   0.088548   1  Mn    0.319158  0.217007  0.099364   2  Li    0.127674  0.577834  0.696843   3  Li    0.125966  0.134502  0.695576   4  Mn    0.71704   0.895177  0.885033   5  O     0.222908  0.127119  0.90615   6  O     0.470101  0.762467  0.310771   7  Mn    0.541415  0.802043  0.504893   8  Li    0.727576  0.414203  0.884049   9  Mn    0.912466  0.999861  0.297251  10  O     0.6252    0.355203  0.693966  11  O     0.031479  0.587549  0.496836  12  Li    0.942214  0.510456  0.295845  13  O     0.767753  0.969568  0.110525  14  O     0.035101  0.022505  0.489642  15  O     0.861297  0.443206  0.09465  16  Li    0.518625  0.319065  0.512896  17  O     0.22811   0.684148  0.894435  18  O     0.358705  0.240419  0.293443  19  O     0.622944  0.861847  0.682463
+Full Formula (Ag2 Mo2 O6) Reduced Formula: AgMoO3 abc   :   5.260937   5.425906   6.176661 angles:  96.809974 109.907107 117.032531 pbc   :       True       True       True Sites (10)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Ag    0.87404   0.7464    0.533558   1  Mo    0.940089  0.255826  0.097461   2  Ag    0.362954  0.421124  0.705549   3  O     0.107232  0.654319  0.315305   4  O     0.909321  0.896369  0.914063   5  O     0.723254  0.043456  0.318482   6  Mo    0.294274  0.908924  0.143389   7  O     0.130808  0.510537  0.926354   8  O     0.511296  0.122651  0.920723   9  O     0.328497  0.269897  0.327352
+Full Formula (Li2 V2 O4) Reduced Formula: LiVO2 abc   :   3.009369   3.012577  10.124876 angles:  81.585558  81.578038  60.357500 pbc   :       True       True       True Sites (8)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.20407   0.247067  0.931887   1  Li    0.934315  0.978788  0.73575   2  V     0.690353  0.734     0.470077   3  O     0.812311  0.853183  0.106954   4  V     0.447624  0.490169  0.19969   5  O     0.568862  0.612423  0.834468   6  O     0.069278  0.115167  0.332816   7  O     0.326516  0.37079   0.562316
+Full Formula (Ba1 Li1 Mn2 O6) Reduced Formula: BaLiMn2O6 abc   :   3.812855   3.953937   7.938608 angles:  90.137112  90.131818  90.111355 pbc   :       True       True       True Sites (10)   #  SP           a         b         c ---  ----  --------  --------  --------   0  O     0.296005  0.51373   0.908304   1  Mn    0.294049  0.510169  0.668009   2  Ba    0.794136  0.009865  0.407751   3  O     0.794487  0.510576  0.653421   4  Mn    0.292607  0.508522  0.147496   5  Li    0.304764  0.011487  0.907779   6  O     0.793339  0.509739  0.162026   7  O     0.294173  0.510276  0.40788   8  O     0.293762  0.010543  0.148426   9  O     0.294714  0.010897  0.66766
+Full Formula (Li1 V1 S1 O1) Reduced Formula: LiVSO abc   :   3.222318   3.221259   5.994177 angles:  74.446301  74.454559  59.916350 pbc   :       True       True       True Sites (4)   #  SP           a         b         c ---  ----  --------  --------  --------   0  V     0.982054  0.553501  0.165615   1  S     0.563643  0.135149  0.420508   2  Li    0.785922  0.357566  0.754367   3  O     0.377512  0.94896   0.980026
+Full Formula (Li2 Ni1 I2 O6) Reduced Formula: Li2Ni(IO3)2 abc   :   5.527167   5.529440   6.366134 angles:  64.644481  64.530351  60.163567 pbc   :       True       True       True Sites (11)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.709728  0.445749  0.307165   1  Li    0.108394  0.842615  0.117373   2  I     0.896355  0.634859  0.746004   3  I     0.375763  0.11133   0.311434   4  O     0.702346  0.609908  0.576474   5  O     0.870128  0.023302  0.576635   6  O     0.284422  0.440275  0.5776   7  O     0.440127  0.895861  0.105226   8  Ni    0.544042  0.281688  0.801464   9  O     0.733793  0.174936  0.100977  10  O     0.162857  0.467122  0.105606
+Full Formula (Li2 Mn4 O2 F8) Reduced Formula: LiMn2OF4 abc   :   5.307125   5.999938   7.644651 angles: 104.283622 108.360727 114.020419 pbc   :       True       True       True Sites (16)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Mn    0.911285  0.503358  0.269661   1  Mn    0.809962  0.002825  0.508741   2  Li    0.505758  0.433099  0.52326   3  Li    0.316206  0.572751  0.014222   4  F     0.620917  0.776625  0.7069   5  Mn    0.411986  0.003159  0.769176   6  Mn    0.012856  0.001611  0.03006   7  O     0.800592  0.230235  0.018877   8  F     0.615959  0.21485   0.631379   9  O     0.02305   0.776252  0.520278  10  F     0.341655  0.713476  0.278926  11  F     0.765205  0.722265  0.123665  12  F     0.207924  0.7923    0.907202  13  F     0.202279  0.229307  0.831678  14  F     0.05658   0.284606  0.4152  15  F     0.479029  0.295204  0.25875
+Full Formula (Li1 Nb1 Mo1 O6) Reduced Formula: LiNbMoO6 abc   :   4.094255   5.540258   5.438529 angles:  89.998309  89.791436  90.088221 pbc   :       True       True       True Sites (9)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Mo    0.081558  0.479458  0.800312   1  Li    0.355394  0.479975  0.300426   2  Nb    0.092385  0.979561  0.300725   3  O     0.161829  0.715063  0.051198   4  O     0.654319  0.478417  0.800986   5  O     0.161663  0.244878  0.550687   6  O     0.160535  0.714537  0.550364   7  O     0.161853  0.244758  0.052232   8  O     0.649569  0.978594  0.302347
+Full Formula (Li3 Cr1 O3 F1) Reduced Formula: Li3CrO3F abc   :   2.874651   5.090249   5.093240 angles: 109.990533  90.027713  90.025008 pbc   :       True       True       True Sites (8)   #  SP           a         b         c ---  ----  --------  --------  --------   0  Li    0.192622  0.409539  0.990519   1  F     0.193309  0.129075  0.27206   2  Cr    0.193712  0.876874  0.524696   3  O     0.193572  0.659428  0.741005   4  Li    0.694023  0.402689  0.519976   5  O     0.69288   0.125533  0.734922   6  O     0.693484  0.66517   0.275712   7  Li    0.693704  0.880421  0.997722
+Archive:  generated_crystals_cif.zip
+ extracting: generated_crystals_cifs/gen_0.cif  
+ extracting: generated_crystals_cifs/gen_1.cif  
+ extracting: generated_crystals_cifs/gen_2.cif  
+ extracting: generated_crystals_cifs/gen_3.cif  
+ extracting: generated_crystals_cifs/gen_4.cif  
+ extracting: generated_crystals_cifs/gen_5.cif  
+ extracting: generated_crystals_cifs/gen_6.cif  
+ extracting: generated_crystals_cifs/gen_7.cif  
+ extracting: generated_crystals_cifs/gen_8.cif  
+ extracting: generated_crystals_cifs/gen_9.cif  
+ extracting: generated_crystals_cifs/gen_10.cif  
+ extracting: generated_crystals_cifs/gen_11.cif  
+ extracting: generated_crystals_cifs/gen_12.cif  
+ extracting: generated_crystals_cifs/gen_13.cif  
+ extracting: generated_crystals_cifs/gen_14.cif  
+ extracting: generated_crystals_cifs/gen_15.cif  
+ extracting: generated_crystals_cifs/gen_16.cif  
+ extracting: generated_crystals_cifs/gen_17.cif  
+ extracting: generated_crystals_cifs/gen_18.cif  
+ extracting: generated_crystals_cifs/gen_19.cif  
+ extracting: generated_crystals_cifs/gen_20.cif  
+ extracting: generated_crystals_cifs/gen_21.cif  
+ extracting: generated_crystals_cifs/gen_22.cif  
+ extracting: generated_crystals_cifs/gen_23.cif  
+ extracting: generated_crystals_cifs/gen_24.cif  
+ extracting: generated_crystals_cifs/gen_25.cif  
+ extracting: generated_crystals_cifs/gen_26.cif  
+ extracting: generated_crystals_cifs/gen_27.cif  
+ extracting: generated_crystals_cifs/gen_28.cif  
+ extracting: generated_crystals_cifs/gen_29.cif  
+ extracting: generated_crystals_cifs/gen_30.cif  
+ extracting: generated_crystals_cifs/gen_31.cif  
+ extracting: generated_crystals_cifs/gen_32.cif  
+ extracting: generated_crystals_cifs/gen_33.cif  
+ extracting: generated_crystals_cifs/gen_34.cif  
+ extracting: generated_crystals_cifs/gen_35.cif  
+ extracting: generated_crystals_cifs/gen_36.cif  
+ extracting: generated_crystals_cifs/gen_37.cif  
+ extracting: generated_crystals_cifs/gen_38.cif  
+ extracting: generated_crystals_cifs/gen_39.cif  
+ extracting: generated_crystals_cifs/gen_40.cif  
+ extracting: generated_crystals_cifs/gen_41.cif  
+ extracting: generated_crystals_cifs/gen_42.cif  
+ extracting: generated_crystals_cifs/gen_43.cif  
+ extracting: generated_crystals_cifs/gen_44.cif  
+ extracting: generated_crystals_cifs/gen_45.cif  
+ extracting: generated_crystals_cifs/gen_46.cif  
+ extracting: generated_crystals_cifs/gen_47.cif  
+ extracting: generated_crystals_cifs/gen_48.cif  
+ extracting: generated_crystals_cifs/gen_49.cif  
+ extracting: generated_crystals_cifs/gen_50.cif  
+ extracting: generated_crystals_cifs/gen_51.cif  
+ extracting: generated_crystals_cifs/gen_52.cif  
+ extracting: generated_crystals_cifs/gen_53.cif  
+ extracting: generated_crystals_cifs/gen_54.cif  
+ extracting: generated_crystals_cifs/gen_55.cif  
+ extracting: generated_crystals_cifs/gen_56.cif  
+ extracting: generated_crystals_cifs/gen_57.cif  
+ extracting: generated_crystals_cifs/gen_58.cif  
+ extracting: generated_crystals_cifs/gen_59.cif  
+ extracting: generated_crystals_cifs/gen_60.cif  
+ extracting: generated_crystals_cifs/gen_61.cif  
+ extracting: generated_crystals_cifs/gen_62.cif  
+ extracting: generated_crystals_cifs/gen_63.cif  
+ extracting: generated_crystals_cifs/gen_64.cif  
+ extracting: generated_crystals_cifs/gen_65.cif  
+ extracting: generated_crystals_cifs/gen_66.cif  
+ extracting: generated_crystals_cifs/gen_67.cif  
+ extracting: generated_crystals_cifs/gen_68.cif  
+ extracting: generated_crystals_cifs/gen_69.cif  
+ extracting: generated_crystals_cifs/gen_70.cif  
+ extracting: generated_crystals_cifs/gen_71.cif  
+ extracting: generated_crystals_cifs/gen_72.cif  
+ extracting: generated_crystals_cifs/gen_73.cif  
+ extracting: generated_crystals_cifs/gen_74.cif  
+ extracting: generated_crystals_cifs/gen_75.cif  
+ extracting: generated_crystals_cifs/gen_76.cif  
+ extracting: generated_crystals_cifs/gen_77.cif  
+ extracting: generated_crystals_cifs/gen_78.cif  
+ extracting: generated_crystals_cifs/gen_79.cif  
+ extracting: generated_crystals_cifs/gen_80.cif  
+ extracting: generated_crystals_cifs/gen_81.cif  
+ extracting: generated_crystals_cifs/gen_82.cif  
+ extracting: generated_crystals_cifs/gen_83.cif  
+ extracting: generated_crystals_cifs/gen_84.cif  
+ extracting: generated_crystals_cifs/gen_85.cif  
+ extracting: generated_crystals_cifs/gen_86.cif  
+ extracting: generated_crystals_cifs/gen_87.cif  
+ extracting: generated_crystals_cifs/gen_88.cif  
+ extracting: generated_crystals_cifs/gen_89.cif  
+ extracting: generated_crystals_cifs/gen_90.cif  
+ extracting: generated_crystals_cifs/gen_91.cif  
+ extracting: generated_crystals_cifs/gen_92.cif  
+ extracting: generated_crystals_cifs/gen_93.cif  
+ extracting: generated_crystals_cifs/gen_94.cif  
+ extracting: generated_crystals_cifs/gen_95.cif  
+ extracting: generated_crystals_cifs/gen_96.cif  
+ extracting: generated_crystals_cifs/gen_97.cif  
+ extracting: generated_crystals_cifs/gen_98.cif  
+ extracting: generated_crystals_cifs/gen_99.cif  
+Found 100 CIF files to process.
+Target: Li | Replacement: Na
+
+==================================================
+INITIALIZING GLOBAL ML CALCULATOR (This happens only once)
+==================================================
+Loading ML potential: uma-m-1p1 (Task: omat)...
+INFO: Using device: cuda
+
+Initialized output file: voltage_analysis.csv
+-> Running analysis for: gen_0...
+    Result appended. (Log saved to ./postprocess_output/gen_0.log)
+-> Running analysis for: gen_1...
+    Result appended. (Log saved to ./postprocess_output/gen_1.log)
+-> Running analysis for: gen_10...
+    Result appended. (Log saved to ./postprocess_output/gen_10.log)
+-> Running analysis for: gen_11...
+    Result appended. (Log saved to ./postprocess_output/gen_11.log)
+-> Running analysis for: gen_12...
+    Result appended. (Log saved to ./postprocess_output/gen_12.log)
+-> Running analysis for: gen_13...
+    Result appended. (Log saved to ./postprocess_output/gen_13.log)
+-> Running analysis for: gen_14...
+    Result appended. (Log saved to ./postprocess_output/gen_14.log)
+-> Running analysis for: gen_15...
+    Result appended. (Log saved to ./postprocess_output/gen_15.log)
+-> Running analysis for: gen_16...
+    Result appended. (Log saved to ./postprocess_output/gen_16.log)
+-> Running analysis for: gen_17...
+    Result appended. (Log saved to ./postprocess_output/gen_17.log)
+-> Running analysis for: gen_18...
+    Result appended. (Log saved to ./postprocess_output/gen_18.log)
+-> Running analysis for: gen_19...
+    Result appended. (Log saved to ./postprocess_output/gen_19.log)
+-> Running analysis for: gen_2...
+    Result appended. (Log saved to ./postprocess_output/gen_2.log)
+-> Running analysis for: gen_20...
+    Result appended. (Log saved to ./postprocess_output/gen_20.log)
+-> Running analysis for: gen_21...
+    Result appended. (Log saved to ./postprocess_output/gen_21.log)
+-> Running analysis for: gen_22...
+    Result appended. (Log saved to ./postprocess_output/gen_22.log)
+-> Running analysis for: gen_23...
+    Result appended. (Log saved to ./postprocess_output/gen_23.log)
+-> Running analysis for: gen_24...
+    Result appended. (Log saved to ./postprocess_output/gen_24.log)
+-> Running analysis for: gen_25...
+    Result appended. (Log saved to ./postprocess_output/gen_25.log)
+-> Running analysis for: gen_26...
+    Result appended. (Log saved to ./postprocess_output/gen_26.log)
+-> Running analysis for: gen_27...
+    Result appended. (Log saved to ./postprocess_output/gen_27.log)
+-> Running analysis for: gen_28...
+    Result appended. (Log saved to ./postprocess_output/gen_28.log)
+-> Running analysis for: gen_29...
+    Result appended. (Log saved to ./postprocess_output/gen_29.log)
+-> Running analysis for: gen_3...
+    Result appended. (Log saved to ./postprocess_output/gen_3.log)
+-> Running analysis for: gen_30...
+    Result appended. (Log saved to ./postprocess_output/gen_30.log)
+-> Running analysis for: gen_31...
+    Result appended. (Log saved to ./postprocess_output/gen_31.log)
+-> Running analysis for: gen_32...
+    Result appended. (Log saved to ./postprocess_output/gen_32.log)
+-> Running analysis for: gen_33...
+    Result appended. (Log saved to ./postprocess_output/gen_33.log)
+-> Running analysis for: gen_34...
+    Result appended. (Log saved to ./postprocess_output/gen_34.log)
+-> Running analysis for: gen_35...
+    Result appended. (Log saved to ./postprocess_output/gen_35.log)
+-> Running analysis for: gen_36...
+    Result appended. (Log saved to ./postprocess_output/gen_36.log)
+-> Running analysis for: gen_37...
+    Result appended. (Log saved to ./postprocess_output/gen_37.log)
+-> Running analysis for: gen_38...
+    Result appended. (Log saved to ./postprocess_output/gen_38.log)
+-> Running analysis for: gen_39...
+    Result appended. (Log saved to ./postprocess_output/gen_39.log)
+-> Running analysis for: gen_4...
+    Result appended. (Log saved to ./postprocess_output/gen_4.log)
+-> Running analysis for: gen_40...
+    Result appended. (Log saved to ./postprocess_output/gen_40.log)
+-> Running analysis for: gen_41...
+    Result appended. (Log saved to ./postprocess_output/gen_41.log)
+-> Running analysis for: gen_42...
+    Result appended. (Log saved to ./postprocess_output/gen_42.log)
+-> Running analysis for: gen_43...
+    Result appended. (Log saved to ./postprocess_output/gen_43.log)
+-> Running analysis for: gen_44...
+    Result appended. (Log saved to ./postprocess_output/gen_44.log)
+-> Running analysis for: gen_45...
+    Result appended. (Log saved to ./postprocess_output/gen_45.log)
+-> Running analysis for: gen_46...
+    Result appended. (Log saved to ./postprocess_output/gen_46.log)
+-> Running analysis for: gen_47...
+    Result appended. (Log saved to ./postprocess_output/gen_47.log)
+-> Running analysis for: gen_48...
+    Result appended. (Log saved to ./postprocess_output/gen_48.log)
+-> Running analysis for: gen_49...
+    Result appended. (Log saved to ./postprocess_output/gen_49.log)
+-> Running analysis for: gen_5...
+    Result appended. (Log saved to ./postprocess_output/gen_5.log)
+-> Running analysis for: gen_50...
+    Result appended. (Log saved to ./postprocess_output/gen_50.log)
+-> Running analysis for: gen_51...
+    Result appended. (Log saved to ./postprocess_output/gen_51.log)
+-> Running analysis for: gen_52...
+    Result appended. (Log saved to ./postprocess_output/gen_52.log)
+-> Running analysis for: gen_53...
+    Result appended. (Log saved to ./postprocess_output/gen_53.log)
+-> Running analysis for: gen_54...
+    Result appended. (Log saved to ./postprocess_output/gen_54.log)
+-> Running analysis for: gen_55...
+    Result appended. (Log saved to ./postprocess_output/gen_55.log)
+-> Running analysis for: gen_56...
+    Result appended. (Log saved to ./postprocess_output/gen_56.log)
+-> Running analysis for: gen_57...
+    Result appended. (Log saved to ./postprocess_output/gen_57.log)
+-> Running analysis for: gen_58...
+    Result appended. (Log saved to ./postprocess_output/gen_58.log)
+-> Running analysis for: gen_59...
+    Result appended. (Log saved to ./postprocess_output/gen_59.log)
+-> Running analysis for: gen_6...
+    Result appended. (Log saved to ./postprocess_output/gen_6.log)
+-> Running analysis for: gen_60...
+    Result appended. (Log saved to ./postprocess_output/gen_60.log)
+-> Running analysis for: gen_61...
+    Result appended. (Log saved to ./postprocess_output/gen_61.log)
+-> Running analysis for: gen_62...
+    Result appended. (Log saved to ./postprocess_output/gen_62.log)
+-> Running analysis for: gen_63...
+    Result appended. (Log saved to ./postprocess_output/gen_63.log)
+-> Running analysis for: gen_64...
+    Result appended. (Log saved to ./postprocess_output/gen_64.log)
+-> Running analysis for: gen_65...
+    Result appended. (Log saved to ./postprocess_output/gen_65.log)
+-> Running analysis for: gen_66...
+    Result appended. (Log saved to ./postprocess_output/gen_66.log)
+-> Running analysis for: gen_67...
+    Result appended. (Log saved to ./postprocess_output/gen_67.log)
+-> Running analysis for: gen_68...
+    Result appended. (Log saved to ./postprocess_output/gen_68.log)
+-> Running analysis for: gen_69...
+    Result appended. (Log saved to ./postprocess_output/gen_69.log)
+-> Running analysis for: gen_7...
+    Result appended. (Log saved to ./postprocess_output/gen_7.log)
+-> Running analysis for: gen_70...
+    Result appended. (Log saved to ./postprocess_output/gen_70.log)
+-> Running analysis for: gen_71...
+    Result appended. (Log saved to ./postprocess_output/gen_71.log)
+-> Running analysis for: gen_72...
+    Result appended. (Log saved to ./postprocess_output/gen_72.log)
+-> Running analysis for: gen_73...
+    Result appended. (Log saved to ./postprocess_output/gen_73.log)
+-> Running analysis for: gen_74...
+    Result appended. (Log saved to ./postprocess_output/gen_74.log)
+-> Running analysis for: gen_75...
+    Result appended. (Log saved to ./postprocess_output/gen_75.log)
+-> Running analysis for: gen_76...
+    Result appended. (Log saved to ./postprocess_output/gen_76.log)
+-> Running analysis for: gen_77...
+    Result appended. (Log saved to ./postprocess_output/gen_77.log)
+-> Running analysis for: gen_78...
+    Result appended. (Log saved to ./postprocess_output/gen_78.log)
+-> Running analysis for: gen_79...
+    Result appended. (Log saved to ./postprocess_output/gen_79.log)
+-> Running analysis for: gen_8...
+    Result appended. (Log saved to ./postprocess_output/gen_8.log)
+-> Running analysis for: gen_80...
+    Result appended. (Log saved to ./postprocess_output/gen_80.log)
+-> Running analysis for: gen_81...
+    Result appended. (Log saved to ./postprocess_output/gen_81.log)
+-> Running analysis for: gen_82...
+    Result appended. (Log saved to ./postprocess_output/gen_82.log)
+-> Running analysis for: gen_83...
+    Result appended. (Log saved to ./postprocess_output/gen_83.log)
+-> Running analysis for: gen_84...
+    Result appended. (Log saved to ./postprocess_output/gen_84.log)
+-> Running analysis for: gen_85...
+    Result appended. (Log saved to ./postprocess_output/gen_85.log)
+-> Running analysis for: gen_86...
+    Result appended. (Log saved to ./postprocess_output/gen_86.log)
+-> Running analysis for: gen_87...
+    Result appended. (Log saved to ./postprocess_output/gen_87.log)
+-> Running analysis for: gen_88...
+    Result appended. (Log saved to ./postprocess_output/gen_88.log)
+-> Running analysis for: gen_89...
+    Result appended. (Log saved to ./postprocess_output/gen_89.log)
+-> Running analysis for: gen_9...
+    Result appended. (Log saved to ./postprocess_output/gen_9.log)
+-> Running analysis for: gen_90...
+    Result appended. (Log saved to ./postprocess_output/gen_90.log)
+-> Running analysis for: gen_91...
+    Result appended. (Log saved to ./postprocess_output/gen_91.log)
+-> Running analysis for: gen_92...
+    Result appended. (Log saved to ./postprocess_output/gen_92.log)
+-> Running analysis for: gen_93...
+    Result appended. (Log saved to ./postprocess_output/gen_93.log)
+-> Running analysis for: gen_94...
+    Result appended. (Log saved to ./postprocess_output/gen_94.log)
+-> Running analysis for: gen_95...
+    Result appended. (Log saved to ./postprocess_output/gen_95.log)
+-> Running analysis for: gen_96...
+    Result appended. (Log saved to ./postprocess_output/gen_96.log)
+-> Running analysis for: gen_97...
+    Result appended. (Log saved to ./postprocess_output/gen_97.log)
+-> Running analysis for: gen_98...
+    Result appended. (Log saved to ./postprocess_output/gen_98.log)
+-> Running analysis for: gen_99...
+    Result appended. (Log saved to ./postprocess_output/gen_99.log)
+
+ DONE! All results saved incrementally to **voltage_analysis.csv**
+No reference dataset provided. Using MP2020 correction as reference.
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:71: UserWarning: Co without an oxidation state is initialized as low spin by default in Pymatgen. If this default behavior is not desired, please set the spin on the magmom on the site directly to ensure correct initialization.
+  if not self.mp_set.incar.get("LDAU", False):
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:73: UserWarning: Co without an oxidation state is initialized as low spin by default in Pymatgen. If this default behavior is not desired, please set the spin on the magmom on the site directly to ensure correct initialization.
+  us = self.mp_set.incar.get("LDAUU", [])
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:74: UserWarning: Co without an oxidation state is initialized as low spin by default in Pymatgen. If this default behavior is not desired, please set the spin on the magmom on the site directly to ensure correct initialization.
+  js = self.mp_set.incar.get("LDAUJ", [])
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:62: UserWarning: Co without an oxidation state is initialized as low spin by default in Pymatgen. If this default behavior is not desired, please set the spin on the magmom on the site directly to ensure correct initialization.
+  return self.mp_set.incar.get("LASPH", False)
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:71: BadInputSetWarning: Relaxation of likely metal with ISMEAR < 0 (-5). See VASP recommendations on ISMEAR for metals (https://www.vasp.at/wiki/index.php/ISMEAR).
+  if not self.mp_set.incar.get("LDAU", False):
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:62: BadInputSetWarning: Relaxation of likely metal with ISMEAR < 0 (-5). See VASP recommendations on ISMEAR for metals (https://www.vasp.at/wiki/index.php/ISMEAR).
+  return self.mp_set.incar.get("LASPH", False)
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:71: UserWarning: Co without an oxidation state is initialized as low spin by default in Pymatgen. If this default behavior is not desired, please set the spin on the magmom on the site directly to ensure correct initialization.
+  if not self.mp_set.incar.get("LDAU", False):
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:73: UserWarning: Co without an oxidation state is initialized as low spin by default in Pymatgen. If this default behavior is not desired, please set the spin on the magmom on the site directly to ensure correct initialization.
+  us = self.mp_set.incar.get("LDAUU", [])
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:74: UserWarning: Co without an oxidation state is initialized as low spin by default in Pymatgen. If this default behavior is not desired, please set the spin on the magmom on the site directly to ensure correct initialization.
+  js = self.mp_set.incar.get("LDAUJ", [])
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:62: UserWarning: Co without an oxidation state is initialized as low spin by default in Pymatgen. If this default behavior is not desired, please set the spin on the magmom on the site directly to ensure correct initialization.
+  return self.mp_set.incar.get("LASPH", False)
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:71: UserWarning: Co without an oxidation state is initialized as low spin by default in Pymatgen. If this default behavior is not desired, please set the spin on the magmom on the site directly to ensure correct initialization.
+  if not self.mp_set.incar.get("LDAU", False):
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:73: UserWarning: Co without an oxidation state is initialized as low spin by default in Pymatgen. If this default behavior is not desired, please set the spin on the magmom on the site directly to ensure correct initialization.
+  us = self.mp_set.incar.get("LDAUU", [])
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:74: UserWarning: Co without an oxidation state is initialized as low spin by default in Pymatgen. If this default behavior is not desired, please set the spin on the magmom on the site directly to ensure correct initialization.
+  js = self.mp_set.incar.get("LDAUJ", [])
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:62: UserWarning: Co without an oxidation state is initialized as low spin by default in Pymatgen. If this default behavior is not desired, please set the spin on the magmom on the site directly to ensure correct initialization.
+  return self.mp_set.incar.get("LASPH", False)
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:71: BadInputSetWarning: Relaxation of likely metal with ISMEAR < 0 (-5). See VASP recommendations on ISMEAR for metals (https://www.vasp.at/wiki/index.php/ISMEAR).
+  if not self.mp_set.incar.get("LDAU", False):
+/home/ilgar/GenLiIntercal/post_processing/utils/vasprunlike.py:62: BadInputSetWarning: Relaxation of likely metal with ISMEAR < 0 (-5). See VASP recommendations on ISMEAR for metals (https://www.vasp.at/wiki/index.php/ISMEAR).
+  return self.mp_set.incar.get("LASPH", False)
+[2025-12-08 23:43:46,022] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_energy_above_hull_per_atom
+[2025-12-08 23:43:46,022] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_energy_above_hull_per_atom
+[2025-12-08 23:43:46,022] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_energy_above_hull_per_atom
+[2025-12-08 23:43:46,022] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_energy_above_hull_per_atom
+Computing energies above hull:   0%|          | 0/51 [00:00<?, ?it/s]Computing energies above hull:   2%|▏         | 1/51 [00:00<00:17,  2.86it/s]Computing energies above hull:   4%|▍         | 2/51 [00:01<00:30,  1.61it/s]Computing energies above hull:   6%|▌         | 3/51 [00:01<00:23,  2.08it/s]Computing energies above hull:   8%|▊         | 4/51 [00:01<00:16,  2.80it/s]Computing energies above hull:  10%|▉         | 5/51 [00:02<00:17,  2.65it/s]Computing energies above hull:  14%|█▎        | 7/51 [00:02<00:15,  2.79it/s]Computing energies above hull:  18%|█▊        | 9/51 [00:03<00:15,  2.65it/s]Computing energies above hull:  20%|█▉        | 10/51 [00:05<00:27,  1.49it/s]Computing energies above hull:  22%|██▏       | 11/51 [00:05<00:27,  1.45it/s]Computing energies above hull:  24%|██▎       | 12/51 [00:06<00:22,  1.75it/s]Computing energies above hull:  25%|██▌       | 13/51 [00:06<00:18,  2.01it/s]Computing energies above hull:  27%|██▋       | 14/51 [00:06<00:14,  2.57it/s]Computing energies above hull:  29%|██▉       | 15/51 [00:07<00:19,  1.83it/s]Computing energies above hull:  31%|███▏      | 16/51 [00:07<00:17,  1.97it/s]Computing energies above hull:  33%|███▎      | 17/51 [00:08<00:18,  1.87it/s]Computing energies above hull:  35%|███▌      | 18/51 [00:09<00:20,  1.60it/s]Computing energies above hull:  37%|███▋      | 19/51 [00:09<00:18,  1.75it/s]Computing energies above hull:  39%|███▉      | 20/51 [00:10<00:14,  2.07it/s]Computing energies above hull:  41%|████      | 21/51 [00:10<00:12,  2.46it/s]Computing energies above hull:  45%|████▌     | 23/51 [00:11<00:11,  2.36it/s]Computing energies above hull:  47%|████▋     | 24/51 [00:11<00:12,  2.09it/s]Computing energies above hull:  49%|████▉     | 25/51 [00:12<00:13,  1.98it/s]Computing energies above hull:  51%|█████     | 26/51 [00:12<00:10,  2.34it/s]Computing energies above hull:  53%|█████▎    | 27/51 [00:13<00:11,  2.03it/s]Computing energies above hull:  55%|█████▍    | 28/51 [00:13<00:11,  2.08it/s]Computing energies above hull:  57%|█████▋    | 29/51 [00:14<00:12,  1.76it/s]Computing energies above hull:  59%|█████▉    | 30/51 [00:14<00:10,  2.08it/s]Computing energies above hull:  63%|██████▎   | 32/51 [00:15<00:08,  2.33it/s]Computing energies above hull:  65%|██████▍   | 33/51 [00:15<00:06,  2.78it/s]Computing energies above hull:  67%|██████▋   | 34/51 [00:16<00:07,  2.35it/s]Computing energies above hull:  69%|██████▊   | 35/51 [00:16<00:07,  2.18it/s]Computing energies above hull:  71%|███████   | 36/51 [00:17<00:08,  1.85it/s]Computing energies above hull:  73%|███████▎  | 37/51 [00:18<00:08,  1.74it/s]Computing energies above hull:  75%|███████▍  | 38/51 [00:18<00:06,  2.00it/s]Computing energies above hull:  76%|███████▋  | 39/51 [00:18<00:04,  2.51it/s]Computing energies above hull:  78%|███████▊  | 40/51 [00:18<00:03,  3.07it/s]Computing energies above hull:  80%|████████  | 41/51 [00:19<00:03,  2.76it/s]Computing energies above hull:  82%|████████▏ | 42/51 [00:20<00:04,  1.91it/s]Computing energies above hull:  84%|████████▍ | 43/51 [00:20<00:03,  2.28it/s]Computing energies above hull:  86%|████████▋ | 44/51 [00:21<00:04,  1.75it/s]Computing energies above hull:  88%|████████▊ | 45/51 [00:22<00:03,  1.50it/s]Computing energies above hull:  90%|█████████ | 46/51 [00:22<00:02,  2.01it/s]Computing energies above hull:  94%|█████████▍| 48/51 [00:22<00:01,  2.80it/s]Computing energies above hull:  96%|█████████▌| 49/51 [00:23<00:00,  2.13it/s]Computing energies above hull:  98%|█████████▊| 50/51 [00:23<00:00,  2.45it/s]Computing energies above hull: 100%|██████████| 51/51 [00:24<00:00,  2.71it/s]Computing energies above hull: 100%|██████████| 51/51 [00:24<00:00,  2.12it/s]
+[2025-12-08 23:44:10,107] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_rmsd_from_relaxation
+[2025-12-08 23:44:10,107] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_rmsd_from_relaxation
+[2025-12-08 23:44:10,107] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_rmsd_from_relaxation
+[2025-12-08 23:44:10,107] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_rmsd_from_relaxation
+[2025-12-08 23:44:11,319] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_novel_unique_stable_structures
+[2025-12-08 23:44:11,319] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_novel_unique_stable_structures
+[2025-12-08 23:44:11,319] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_novel_unique_stable_structures
+[2025-12-08 23:44:11,319] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_novel_unique_stable_structures
+Finding novel structures:   0%|          | 0/72 [00:00<?, ?it/s]Finding novel structures:   4%|▍         | 3/72 [00:00<00:05, 13.60it/s]Finding novel structures:  14%|█▍        | 10/72 [00:00<00:02, 21.64it/s]Finding novel structures:  18%|█▊        | 13/72 [00:00<00:04, 12.21it/s]Finding novel structures:  25%|██▌       | 18/72 [00:01<00:03, 13.71it/s]Finding novel structures:  33%|███▎      | 24/72 [00:01<00:02, 20.01it/s]Finding novel structures:  39%|███▉      | 28/72 [00:01<00:01, 22.52it/s]Finding novel structures:  46%|████▌     | 33/72 [00:01<00:01, 25.65it/s]Finding novel structures:  67%|██████▋   | 48/72 [00:01<00:00, 50.42it/s]Finding novel structures:  76%|███████▋  | 55/72 [00:01<00:00, 45.33it/s]Finding novel structures:  89%|████████▉ | 64/72 [00:02<00:00, 53.37it/s]Finding novel structures: 100%|██████████| 72/72 [00:02<00:00, 34.39it/s]
+Finding unique structures by reduced formula:   0%|          | 0/72 [00:00<?, ?it/s]Finding unique structures by reduced formula:  39%|███▉      | 28/72 [00:00<00:00, 246.74it/s]Finding unique structures by reduced formula: 100%|██████████| 72/72 [00:00<00:00, 507.00it/s]
+[2025-12-08 23:44:13,697] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_stable_structures
+[2025-12-08 23:44:13,697] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_stable_structures
+[2025-12-08 23:44:13,697] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_stable_structures
+[2025-12-08 23:44:13,697] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_stable_structures
+[2025-12-08 23:44:13,697] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_successful_jobs
+[2025-12-08 23:44:13,697] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_successful_jobs
+[2025-12-08 23:44:13,697] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_successful_jobs
+[2025-12-08 23:44:13,697] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_successful_jobs
+[2025-12-08 23:44:13,697] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_comp_validity
+[2025-12-08 23:44:13,697] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_comp_validity
+[2025-12-08 23:44:13,697] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_comp_validity
+[2025-12-08 23:44:13,697] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_comp_validity
+Computing avg comp validity:   0%|          | 0/85 [00:00<?, ?it/s]Computing avg comp validity: 100%|██████████| 85/85 [00:00<00:00, 2243.83it/s]
+[2025-12-08 23:44:13,736] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_structure_comp_validity
+[2025-12-08 23:44:13,736] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_structure_comp_validity
+[2025-12-08 23:44:13,736] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_structure_comp_validity
+[2025-12-08 23:44:13,736] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_structure_comp_validity
+[2025-12-08 23:44:13,758] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_structure_validity
+[2025-12-08 23:44:13,758] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_structure_validity
+[2025-12-08 23:44:13,758] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_structure_validity
+[2025-12-08 23:44:13,758] [INFO] [evaluator.py:269:compute_metrics] Computing metric avg_structure_validity
+Computing avg structure validity:   0%|          | 0/85 [00:00<?, ?it/s]Computing avg structure validity: 100%|██████████| 85/85 [00:00<00:00, 16167.79it/s]
+[2025-12-08 23:44:13,764] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_novel_structures
+[2025-12-08 23:44:13,764] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_novel_structures
+[2025-12-08 23:44:13,764] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_novel_structures
+[2025-12-08 23:44:13,764] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_novel_structures
+[2025-12-08 23:44:13,764] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_novel_systems
+[2025-12-08 23:44:13,764] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_novel_systems
+[2025-12-08 23:44:13,764] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_novel_systems
+[2025-12-08 23:44:13,764] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_novel_systems
+[2025-12-08 23:44:13,765] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_novel_unique_structures
+[2025-12-08 23:44:13,765] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_novel_unique_structures
+[2025-12-08 23:44:13,765] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_novel_unique_structures
+[2025-12-08 23:44:13,765] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_novel_unique_structures
+[2025-12-08 23:44:13,765] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_unique_structures
+[2025-12-08 23:44:13,765] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_unique_structures
+[2025-12-08 23:44:13,765] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_unique_structures
+[2025-12-08 23:44:13,765] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_unique_structures
+[2025-12-08 23:44:13,766] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_unique_systems
+[2025-12-08 23:44:13,766] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_unique_systems
+[2025-12-08 23:44:13,766] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_unique_systems
+[2025-12-08 23:44:13,766] [INFO] [evaluator.py:269:compute_metrics] Computing metric frac_unique_systems
+[2025-12-08 23:44:13,767] [INFO] [evaluator.py:269:compute_metrics] Computing metric precision
+[2025-12-08 23:44:13,767] [INFO] [evaluator.py:269:compute_metrics] Computing metric precision
+[2025-12-08 23:44:13,767] [INFO] [evaluator.py:269:compute_metrics] Computing metric precision
+[2025-12-08 23:44:13,767] [INFO] [evaluator.py:269:compute_metrics] Computing metric precision
+[2025-12-08 23:44:13,767] [INFO] [evaluator.py:269:compute_metrics] Computing metric recall
+[2025-12-08 23:44:13,767] [INFO] [evaluator.py:269:compute_metrics] Computing metric recall
+[2025-12-08 23:44:13,767] [INFO] [evaluator.py:269:compute_metrics] Computing metric recall
+[2025-12-08 23:44:13,767] [INFO] [evaluator.py:269:compute_metrics] Computing metric recall
+[2025-12-08 23:44:13,767] [INFO] [evaluator.py:273:compute_metrics] {
+    "avg_energy_above_hull_per_atom": {
+        "value": 0.714932976784515,
+        "description": "Average energy above hull per atom (eV/atom) of structures in sampled data."
+    },
+    "avg_rmsd_from_relaxation": {
+        "value": 0.0007382144880012911,
+        "description": "root mean square displacements of atoms (Angstrom) from initial to final DFT relaxation steps in sampled data."
+    },
+    "frac_novel_unique_stable_structures": {
+        "value": 0.1411764705882353,
+        "description": "Fraction of novel unique stable structures in sampled data within 0.1 (eV/atom) above convex hull of MP2020correction."
+    },
+    "frac_stable_structures": {
+        "value": 0.2235294117647059,
+        "description": "Fraction of stable structures in sampled data within 0.1 (eV/atom) above convex hull of MP2020correction."
+    },
+    "frac_successful_jobs": {
+        "value": 1.0,
+        "description": "Fraction of structures whose jobs ran successfully."
+    },
+    "avg_comp_validity": {
+        "value": 0.8588235294117647,
+        "description": "Average composition validity (according to smact) of structures in sampled data."
+    },
+    "avg_structure_comp_validity": {
+        "value": 0.8588235294117647,
+        "description": "Average number of structures in sampled data that are both valid structures and have a valid smact compositions."
+    },
+    "avg_structure_validity": {
+        "value": 1.0,
+        "description": "Average structural validity of structures in sampled data. Any atom-atom distances less than 0.5 Angstroms or a volume less than 0.1 Angstrom**3 are considered invalid ."
+    },
+    "frac_novel_structures": {
+        "value": 0.8,
+        "description": "Fraction of novel structures in sampled data."
+    },
+    "frac_novel_systems": {
+        "value": 0.18823529411764706,
+        "description": "Fraction of distinct chemical systems in sampled data and not in MP2020correction."
+    },
+    "frac_novel_unique_structures": {
+        "value": 0.8,
+        "description": "Fraction of novel unique structures in sampled data."
+    },
+    "frac_unique_structures": {
+        "value": 0.9176470588235294,
+        "description": "Fraction of unique structures in sampled data."
+    },
+    "frac_unique_systems": {
+        "value": 0.6,
+        "description": "Fraction of structures in sampled data that have a unique chemical system within this set."
+    },
+    "precision": {
+        "value": 0.2,
+        "description": "Precision of structures in sampled data compared with MP2020correction. This is the fraction of structures in sampled data that have a matching structure in MP2020correction."
+    },
+    "recall": {
+        "value": 2.0094633905321177e-05,
+        "description": "Recall of structures in sampled data compared with structures in MP2020correction. This is the fraction of structures in sampled data that have a matching structure in MP2020correction."
+    }
+}
+[2025-12-08 23:44:13,767] [INFO] [evaluator.py:273:compute_metrics] {
+    "avg_energy_above_hull_per_atom": {
+        "value": 0.714932976784515,
+        "description": "Average energy above hull per atom (eV/atom) of structures in sampled data."
+    },
+    "avg_rmsd_from_relaxation": {
+        "value": 0.0007382144880012911,
+        "description": "root mean square displacements of atoms (Angstrom) from initial to final DFT relaxation steps in sampled data."
+    },
+    "frac_novel_unique_stable_structures": {
+        "value": 0.1411764705882353,
+        "description": "Fraction of novel unique stable structures in sampled data within 0.1 (eV/atom) above convex hull of MP2020correction."
+    },
+    "frac_stable_structures": {
+        "value": 0.2235294117647059,
+        "description": "Fraction of stable structures in sampled data within 0.1 (eV/atom) above convex hull of MP2020correction."
+    },
+    "frac_successful_jobs": {
+        "value": 1.0,
+        "description": "Fraction of structures whose jobs ran successfully."
+    },
+    "avg_comp_validity": {
+        "value": 0.8588235294117647,
+        "description": "Average composition validity (according to smact) of structures in sampled data."
+    },
+    "avg_structure_comp_validity": {
+        "value": 0.8588235294117647,
+        "description": "Average number of structures in sampled data that are both valid structures and have a valid smact compositions."
+    },
+    "avg_structure_validity": {
+        "value": 1.0,
+        "description": "Average structural validity of structures in sampled data. Any atom-atom distances less than 0.5 Angstroms or a volume less than 0.1 Angstrom**3 are considered invalid ."
+    },
+    "frac_novel_structures": {
+        "value": 0.8,
+        "description": "Fraction of novel structures in sampled data."
+    },
+    "frac_novel_systems": {
+        "value": 0.18823529411764706,
+        "description": "Fraction of distinct chemical systems in sampled data and not in MP2020correction."
+    },
+    "frac_novel_unique_structures": {
+        "value": 0.8,
+        "description": "Fraction of novel unique structures in sampled data."
+    },
+    "frac_unique_structures": {
+        "value": 0.9176470588235294,
+        "description": "Fraction of unique structures in sampled data."
+    },
+    "frac_unique_systems": {
+        "value": 0.6,
+        "description": "Fraction of structures in sampled data that have a unique chemical system within this set."
+    },
+    "precision": {
+        "value": 0.2,
+        "description": "Precision of structures in sampled data compared with MP2020correction. This is the fraction of structures in sampled data that have a matching structure in MP2020correction."
+    },
+    "recall": {
+        "value": 2.0094633905321177e-05,
+        "description": "Recall of structures in sampled data compared with structures in MP2020correction. This is the fraction of structures in sampled data that have a matching structure in MP2020correction."
+    }
+}
+[2025-12-08 23:44:13,767] [INFO] [evaluator.py:273:compute_metrics] {
+    "avg_energy_above_hull_per_atom": {
+        "value": 0.714932976784515,
+        "description": "Average energy above hull per atom (eV/atom) of structures in sampled data."
+    },
+    "avg_rmsd_from_relaxation": {
+        "value": 0.0007382144880012911,
+        "description": "root mean square displacements of atoms (Angstrom) from initial to final DFT relaxation steps in sampled data."
+    },
+    "frac_novel_unique_stable_structures": {
+        "value": 0.1411764705882353,
+        "description": "Fraction of novel unique stable structures in sampled data within 0.1 (eV/atom) above convex hull of MP2020correction."
+    },
+    "frac_stable_structures": {
+        "value": 0.2235294117647059,
+        "description": "Fraction of stable structures in sampled data within 0.1 (eV/atom) above convex hull of MP2020correction."
+    },
+    "frac_successful_jobs": {
+        "value": 1.0,
+        "description": "Fraction of structures whose jobs ran successfully."
+    },
+    "avg_comp_validity": {
+        "value": 0.8588235294117647,
+        "description": "Average composition validity (according to smact) of structures in sampled data."
+    },
+    "avg_structure_comp_validity": {
+        "value": 0.8588235294117647,
+        "description": "Average number of structures in sampled data that are both valid structures and have a valid smact compositions."
+    },
+    "avg_structure_validity": {
+        "value": 1.0,
+        "description": "Average structural validity of structures in sampled data. Any atom-atom distances less than 0.5 Angstroms or a volume less than 0.1 Angstrom**3 are considered invalid ."
+    },
+    "frac_novel_structures": {
+        "value": 0.8,
+        "description": "Fraction of novel structures in sampled data."
+    },
+    "frac_novel_systems": {
+        "value": 0.18823529411764706,
+        "description": "Fraction of distinct chemical systems in sampled data and not in MP2020correction."
+    },
+    "frac_novel_unique_structures": {
+        "value": 0.8,
+        "description": "Fraction of novel unique structures in sampled data."
+    },
+    "frac_unique_structures": {
+        "value": 0.9176470588235294,
+        "description": "Fraction of unique structures in sampled data."
+    },
+    "frac_unique_systems": {
+        "value": 0.6,
+        "description": "Fraction of structures in sampled data that have a unique chemical system within this set."
+    },
+    "precision": {
+        "value": 0.2,
+        "description": "Precision of structures in sampled data compared with MP2020correction. This is the fraction of structures in sampled data that have a matching structure in MP2020correction."
+    },
+    "recall": {
+        "value": 2.0094633905321177e-05,
+        "description": "Recall of structures in sampled data compared with structures in MP2020correction. This is the fraction of structures in sampled data that have a matching structure in MP2020correction."
+    }
+}
+[2025-12-08 23:44:13,767] [INFO] [evaluator.py:273:compute_metrics] {
+    "avg_energy_above_hull_per_atom": {
+        "value": 0.714932976784515,
+        "description": "Average energy above hull per atom (eV/atom) of structures in sampled data."
+    },
+    "avg_rmsd_from_relaxation": {
+        "value": 0.0007382144880012911,
+        "description": "root mean square displacements of atoms (Angstrom) from initial to final DFT relaxation steps in sampled data."
+    },
+    "frac_novel_unique_stable_structures": {
+        "value": 0.1411764705882353,
+        "description": "Fraction of novel unique stable structures in sampled data within 0.1 (eV/atom) above convex hull of MP2020correction."
+    },
+    "frac_stable_structures": {
+        "value": 0.2235294117647059,
+        "description": "Fraction of stable structures in sampled data within 0.1 (eV/atom) above convex hull of MP2020correction."
+    },
+    "frac_successful_jobs": {
+        "value": 1.0,
+        "description": "Fraction of structures whose jobs ran successfully."
+    },
+    "avg_comp_validity": {
+        "value": 0.8588235294117647,
+        "description": "Average composition validity (according to smact) of structures in sampled data."
+    },
+    "avg_structure_comp_validity": {
+        "value": 0.8588235294117647,
+        "description": "Average number of structures in sampled data that are both valid structures and have a valid smact compositions."
+    },
+    "avg_structure_validity": {
+        "value": 1.0,
+        "description": "Average structural validity of structures in sampled data. Any atom-atom distances less than 0.5 Angstroms or a volume less than 0.1 Angstrom**3 are considered invalid ."
+    },
+    "frac_novel_structures": {
+        "value": 0.8,
+        "description": "Fraction of novel structures in sampled data."
+    },
+    "frac_novel_systems": {
+        "value": 0.18823529411764706,
+        "description": "Fraction of distinct chemical systems in sampled data and not in MP2020correction."
+    },
+    "frac_novel_unique_structures": {
+        "value": 0.8,
+        "description": "Fraction of novel unique structures in sampled data."
+    },
+    "frac_unique_structures": {
+        "value": 0.9176470588235294,
+        "description": "Fraction of unique structures in sampled data."
+    },
+    "frac_unique_systems": {
+        "value": 0.6,
+        "description": "Fraction of structures in sampled data that have a unique chemical system within this set."
+    },
+    "precision": {
+        "value": 0.2,
+        "description": "Precision of structures in sampled data compared with MP2020correction. This is the fraction of structures in sampled data that have a matching structure in MP2020correction."
+    },
+    "recall": {
+        "value": 2.0094633905321177e-05,
+        "description": "Recall of structures in sampled data compared with structures in MP2020correction. This is the fraction of structures in sampled data that have a matching structure in MP2020correction."
+    }
+}
+{
+  "avg_energy_above_hull_per_atom": 0.714932976784515,
+  "avg_rmsd_from_relaxation": 0.0007382144880012911,
+  "frac_novel_unique_stable_structures": 0.1411764705882353,
+  "frac_stable_structures": 0.2235294117647059,
+  "frac_successful_jobs": 1.0,
+  "avg_comp_validity": 0.8588235294117647,
+  "avg_structure_comp_validity": 0.8588235294117647,
+  "avg_structure_validity": 1.0,
+  "frac_novel_structures": 0.8,
+  "frac_novel_systems": 0.18823529411764706,
+  "frac_novel_unique_structures": 0.8,
+  "frac_unique_structures": 0.9176470588235294,
+  "frac_unique_systems": 0.6,
+  "precision": 0.2,
+  "recall": 2.0094633905321177e-05
+}
+Closing LMDB environment /tmp/tmphm3pwfyn/reference_MP2020correction

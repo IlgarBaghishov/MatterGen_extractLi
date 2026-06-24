@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       FeHO
+_chemical_formula_sum              "Fe1 H1 O1"
+_cell_length_a       3.557596987489325
+_cell_length_b       3.5387043621592174
+_cell_length_c       3.659903049468994
+_cell_angle_alpha    60.642668704822974
+_cell_angle_beta     60.87475745165008
+_cell_angle_gamma    59.91004764382117
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.7585904598236084  0.24664263427257535  0.9353654980659485  1.0000
+  H   H1        1.0  0.23630672693252566  0.7238776683807373  0.5030771493911743  1.0000
+  O   O1        1.0  0.12381309270858762  0.611289381980896  0.843193769454956  1.0000

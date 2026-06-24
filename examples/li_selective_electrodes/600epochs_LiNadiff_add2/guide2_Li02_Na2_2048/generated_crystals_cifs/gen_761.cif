@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       PdLiCrCuBO4
+_chemical_formula_sum              "Pd1 Li1 Cr1 Cu1 B1 O4"
+_cell_length_a       4.549374638781675
+_cell_length_b       4.67350207648203
+_cell_length_c       4.485610008239746
+_cell_angle_alpha    90.24310942458541
+_cell_angle_beta     90.06490978793109
+_cell_angle_gamma    90.25215941901573
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pd  Pd1       1.0  0.3567487895488739  0.5350310802459717  0.7627280354499817  1.0000
+  Li  Li1       1.0  0.35778355598449707  0.03528977558016776  0.7629184126853943  1.0000
+  Cr  Cr1       1.0  0.8578779101371765  0.5349662899971008  0.26338058710098267  1.0000
+  Cu  Cu1       1.0  0.3580000400543213  0.03388872370123863  0.26320672035217285  1.0000
+  B   B1        1.0  0.8574053049087524  0.03495386987924576  0.7618942260742188  1.0000
+  O   O1        1.0  0.04030826687812805  0.22083432972431183  0.9664797782897949  1.0000
+  O   O2        1.0  0.04003682732582092  0.850113034248352  0.5583797097206116  1.0000
+  O   O3        1.0  0.6753743290901184  0.8499797582626343  0.9664219617843628  1.0000
+  O   O4        1.0  0.6750761270523071  0.22019287943840024  0.5597594380378723  1.0000

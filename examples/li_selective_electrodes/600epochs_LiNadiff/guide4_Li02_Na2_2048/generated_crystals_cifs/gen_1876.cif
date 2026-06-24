@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       CuAlNi2O4
+_chemical_formula_sum              "Cu1 Al1 Ni2 O4"
+_cell_length_a       2.9957728060521
+_cell_length_b       5.078527057804032
+_cell_length_c       5.382368564605713
+_cell_angle_alpha    100.67774629082534
+_cell_angle_beta     79.0613930131482
+_cell_angle_gamma    86.7747601326238
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.026688357815146464  0.8294037580490111  0.9113088250160217  1.0000
+  Al  Al1       1.0  0.5260389447212219  0.8302494287490845  0.4111473560333252  1.0000
+  Ni  Ni1       1.0  0.026218529790639877  0.3302213251590729  0.4107164442539215  1.0000
+  Ni  Ni2       1.0  0.5277281999588013  0.32894673943519587  0.9118956923484802  1.0000
+  O   O1        1.0  0.44118085503578186  0.5571838617324829  0.6241363883018494  1.0000
+  O   O2        1.0  0.610555112361908  0.1033763363957405  0.19834119081497192  1.0000
+  O   O3        1.0  0.1291688531637192  0.638355016708374  0.20623062551021576  1.0000
+  O   O4        1.0  0.9243718981742859  0.02236722782254219  0.6157347559928894  1.0000

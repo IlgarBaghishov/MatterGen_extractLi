@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       LaLiO3
+_chemical_formula_sum              "La1 Li1 O3"
+_cell_length_a       3.797686064284661
+_cell_length_b       3.8031774661120106
+_cell_length_c       3.8088159561157227
+_cell_angle_alpha    89.9681874807129
+_cell_angle_beta     89.92176268389761
+_cell_angle_gamma    89.96857679921435
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  La  La1       1.0  0.9895155429840087  0.9188333749771118  0.3528831899166108  1.0000
+  Li  Li1       1.0  0.48937353491783137  0.4183416962623596  0.8536017537117006  1.0000
+  O   O1        1.0  0.49050414562225336  0.4186958372592926  0.3527905642986298  1.0000
+  O   O2        1.0  0.4900460541248321  0.9187545776367188  0.8523731827735902  1.0000
+  O   O3        1.0  0.9904966354370116  0.4192145764827728  0.8527352213859559  1.0000

@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       OB2ONi2O3
+_chemical_formula_sum              "O5 B2 Ni2"
+_cell_length_a       4.189255190258902
+_cell_length_b       4.567747517303178
+_cell_length_c       5.382491588592529
+_cell_angle_alpha    107.74964270984849
+_cell_angle_beta     99.90700787299366
+_cell_angle_gamma    74.68526907732978
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.2565092146396637  0.8340641856193542  0.9068629145622253  1.0000
+  B   B1        1.0  0.51071697473526  0.5203593969345093  0.8969841599464417  1.0000
+  B   B2        1.0  0.07632139325141907  0.7321534156799316  0.08451014757156372  1.0000
+  O   O2        1.0  0.3901178240776062  0.5143081545829773  0.1491943895816803  1.0000
+  Ni  Ni1       1.0  0.03288735821843147  0.1259881854057312  0.67461097240448  1.0000
+  Ni  Ni2       1.0  0.4393911063671112  0.13387984037399292  0.2710997760295868  1.0000
+  O   O3        1.0  0.8474785089492797  0.5399895310401917  0.9189755916595459  1.0000
+  O   O4        1.0  0.4653442502021789  0.25804921984672546  0.6705725193023682  1.0000
+  O   O5        1.0  0.9417049288749696  0.9950706362724304  0.28773537278175354  1.0000

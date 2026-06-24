@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       LiPdO
+_chemical_formula_sum              "Li1 Pd1 O1"
+_cell_length_a       2.87097689817959
+_cell_length_b       2.873821475473336
+_cell_length_c       4.0675129890441895
+_cell_angle_alpha    90.02226209139071
+_cell_angle_beta     90.0320839024488
+_cell_angle_gamma    89.93110638286248
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.41327840089797974  0.988494873046875  0.4268280863761902  1.0000
+  Pd  Pd1       1.0  0.9148036241531372  0.48714470863342285  0.9268249869346619  1.0000
+  O   O1        1.0  0.9134459495544434  0.48799625039100647  0.42641469836235046  1.0000

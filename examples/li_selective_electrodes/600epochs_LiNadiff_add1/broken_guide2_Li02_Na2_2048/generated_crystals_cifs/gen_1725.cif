@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       ONO4
+_chemical_formula_sum              "O5 N1"
+_cell_length_a       4.187441112555292
+_cell_length_b       4.100331400857676
+_cell_length_c       6.667720794677734
+_cell_angle_alpha    84.30772329616939
+_cell_angle_beta     85.48593075281833
+_cell_angle_gamma    80.2603658496017
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.2528107762336731  0.7053784728050231  0.45020934939384455  1.0000
+  N   N1        1.0  0.777860701084137  0.044557828456163406  0.9285680055618285  1.0000
+  O   O2        1.0  0.6469680070877075  0.15710172057151794  0.09232056885957718  1.0000
+  O   O3        1.0  0.08601385354995728  0.5241459608078003  0.4083273112773895  1.0000
+  O   O4        1.0  0.6698542237281799  0.17021483182907104  0.7587882876396179  1.0000
+  O   O5        1.0  0.017101356759667397  0.8094547986984253  0.93005234003067  1.0000

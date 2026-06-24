@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       CoNiLiO3
+_chemical_formula_sum              "Co1 Ni1 Li1 O3"
+_cell_length_a       2.9881948221541648
+_cell_length_b       2.987036940986427
+_cell_length_c       6.4351091384887695
+_cell_angle_alpha    76.56008865064501
+_cell_angle_beta     76.53009748380498
+_cell_angle_gamma    89.8813892209529
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.18764418363571167  0.04498979821801185  0.6299636960029602  1.0000
+  Ni  Ni1       1.0  0.50404953956604  0.3609435558319092  0.9973843097686768  1.0000
+  Li  Li1       1.0  0.846371591091156  0.7043810486793518  0.3122711181640625  1.0000
+  O   O1        1.0  0.33612433075904846  0.1944233030080795  0.33115825057029724  1.0000
+  O   O2        1.0  0.6748393177986145  0.5324862003326416  0.6538775563240051  1.0000
+  O   O3        1.0  0.022044165059924126  0.8788702487945557  0.9612762928009033  1.0000

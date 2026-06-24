@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       RhCrNPdNi
+_chemical_formula_sum              "Rh1 Cr1 N1 Pd1 Ni1"
+_cell_length_a       3.085877841484583
+_cell_length_b       3.0908589729340497
+_cell_length_c       6.422068119049072
+_cell_angle_alpha    90.0088202789301
+_cell_angle_beta     89.91342985623405
+_cell_angle_gamma    89.69717243063364
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Rh  Rh1       1.0  0.7923653721809387  0.14452853798866272  0.5792502760887146  1.0000
+  Cr  Cr1       1.0  0.7912386059761047  0.14521925151348114  0.0010887654498219492  1.0000
+  N   N1        1.0  0.7918925285339355  0.14491601288318634  0.2818436920642853  1.0000
+  Pd  Pd1       1.0  0.29101258516311646  0.6446877717971803  0.2705470621585846  1.0000
+  Ni  Ni1       1.0  0.29168522357940674  0.6445937752723695  0.8103494048118591  1.0000

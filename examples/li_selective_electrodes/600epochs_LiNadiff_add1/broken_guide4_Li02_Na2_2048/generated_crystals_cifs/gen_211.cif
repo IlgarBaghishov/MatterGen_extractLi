@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       ONiOBNiCuO2
+_chemical_formula_sum              "O4 Ni2 B1 Cu1"
+_cell_length_a       4.3505159833912685
+_cell_length_b       4.248843698515173
+_cell_length_c       4.394649505615234
+_cell_angle_alpha    89.51741549931342
+_cell_angle_beta     90.01458495914764
+_cell_angle_gamma    91.00901948513346
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.5821830034255981  0.8475230932235718  0.674709141254425  1.0000
+  Ni  Ni1       1.0  0.772580623626709  0.14813199639320374  0.9801467657089233  1.0000
+  O   O2        1.0  0.5719683170318604  0.43515667319297796  0.27397421002388  1.0000
+  B   B1        1.0  0.7776225209236145  0.6414166688919067  0.4736495018005371  1.0000
+  Ni  Ni2       1.0  0.2765205502510071  0.14029809832572937  0.492335706949234  1.0000
+  Cu  Cu1       1.0  0.27657759189605713  0.663662314414978  0.9760350584983826  1.0000
+  O   O3        1.0  0.9802494049072266  0.8545438051223755  0.27207785844802856  1.0000
+  O   O4        1.0  0.9771265387535095  0.4383050799369812  0.6757547855377197  1.0000

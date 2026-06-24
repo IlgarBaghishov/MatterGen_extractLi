@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       OCrLiGeO3
+_chemical_formula_sum              "O4 Cr1 Li1 Ge1"
+_cell_length_a       4.393676520796678
+_cell_length_b       4.391314449901512
+_cell_length_c       4.75296688079834
+_cell_angle_alpha    89.95467736768843
+_cell_angle_beta     90.19156883426987
+_cell_angle_gamma    90.07763442945691
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.018932228907942772  0.7295030355453491  0.9250505566596985  1.0000
+  Cr  Cr1       1.0  0.8086803555488586  0.9789378643035889  0.6521375179290771  1.0000
+  Li  Li1       1.0  0.3083483874797821  0.978326678276062  0.15177592635154724  1.0000
+  Ge  Ge1       1.0  0.8084670305252075  0.4786737859249115  0.1520988643169403  1.0000
+  O   O2        1.0  0.5976284146308899  0.7296691536903381  0.37851855158805847  1.0000
+  O   O3        1.0  0.5976982116699219  0.22681833803653717  0.9246450066566467  1.0000
+  O   O4        1.0  0.01920512318611145  0.22811612486839297  0.3787615895271301  1.0000

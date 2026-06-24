@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       BeLiCrO4Cr
+_chemical_formula_sum              "Be1 Li1 Cr2 O4"
+_cell_length_a       4.400092788093597
+_cell_length_b       4.405493033952468
+_cell_length_c       4.4199395179748535
+_cell_angle_alpha    90.40387162107004
+_cell_angle_beta     90.19122046895211
+_cell_angle_gamma    90.45578102377141
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Be  Be1       1.0  0.8121851682662964  0.4045494198799134  0.38422179222106934  1.0000
+  Li  Li1       1.0  0.3133487403392792  0.40413472056388855  0.884732186794281  1.0000
+  Cr  Cr1       1.0  0.3117821514606476  0.9052277207374574  0.38515275716781616  1.0000
+  O   O1        1.0  0.5943454504013062  0.18526093661785126  0.16529777646064758  1.0000
+  O   O2        1.0  0.5943082571029663  0.6246774792671204  0.603001058101654  1.0000
+  O   O3        1.0  0.030580049380660057  0.6240265965461732  0.16662265360355377  1.0000
+  O   O4        1.0  0.030616044998168945  0.1867608428001404  0.602289617061615  1.0000
+  Cr  Cr2       1.0  0.8139031529426575  0.9049437642097473  0.8835753202438354  1.0000

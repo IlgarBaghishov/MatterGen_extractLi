@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       WO2Li
+_chemical_formula_sum              "W1 O2 Li1"
+_cell_length_a       3.712582729731053
+_cell_length_b       3.7091257653168666
+_cell_length_c       4.190633773803711
+_cell_angle_alpha    90.00378642945157
+_cell_angle_beta     89.96693072919288
+_cell_angle_gamma    119.51456935696909
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  W   W1        1.0  0.05448885262012481  0.8704546689987183  0.013896714895963669  1.0000
+  O   O1        1.0  0.054882004857063287  0.8695229291915894  0.5141875147819519  1.0000
+  O   O2        1.0  0.7197238206863402  0.20501065254211426  0.012073666788637638  1.0000
+  Li  Li1       1.0  0.7213392257690429  0.2035549283027649  0.5123408436775208  1.0000

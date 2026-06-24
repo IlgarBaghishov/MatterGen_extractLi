@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Li2MnZn
+_chemical_formula_sum              "Li2 Mn1 Zn1"
+_cell_length_a       4.30203482219447
+_cell_length_b       4.301657982151386
+_cell_length_c       4.302133560180664
+_cell_angle_alpha    60.024017480848876
+_cell_angle_beta     60.065898871265325
+_cell_angle_gamma    59.94708831931773
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.003532904898747817  0.17018374800682065  0.686845064163208  1.0000
+  Li  Li2       1.0  0.5028858184814453  0.6696987748146056  0.18599833548069  1.0000
+  Mn  Mn1       1.0  0.7534191608428956  0.9199465513229369  0.4364890456199646  1.0000
+  Zn  Zn1       1.0  0.25356647372245794  0.42025297880172724  0.9365416765213013  1.0000

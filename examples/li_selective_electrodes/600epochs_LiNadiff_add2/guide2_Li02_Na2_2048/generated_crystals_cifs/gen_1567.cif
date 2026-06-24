@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       VN2Cr
+_chemical_formula_sum              "V1 N2 Cr1"
+_cell_length_a       2.929370406868228
+_cell_length_b       2.927391573367978
+_cell_length_c       4.135610580444336
+_cell_angle_alpha    89.97481959753178
+_cell_angle_beta     89.99716797587814
+_cell_angle_gamma    89.86551607560995
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  V   V1        1.0  0.3578583300113678  0.22567085921764374  0.5328088402748108  1.0000
+  N   N1        1.0  0.3584980070590973  0.22460123896598813  0.032915402203798294  1.0000
+  N   N2        1.0  0.8579674959182739  0.7253671884536743  0.533064067363739  1.0000
+  Cr  Cr1       1.0  0.8583049178123474  0.7240466475486755  0.03271498531103134  1.0000

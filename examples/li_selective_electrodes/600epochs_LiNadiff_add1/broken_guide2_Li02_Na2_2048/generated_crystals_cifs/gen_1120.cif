@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       CrFeOLiOLiO2
+_chemical_formula_sum              "Cr1 Fe1 O4 Li2"
+_cell_length_a       4.609389617463256
+_cell_length_b       4.628149509430975
+_cell_length_c       4.3697190284729
+_cell_angle_alpha    89.9999615233436
+_cell_angle_beta     90.06723205735408
+_cell_angle_gamma    90.00505684501402
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.6690829992294312  0.582455039024353  0.5903957486152649  1.0000
+  Fe  Fe1       1.0  0.1692405641078949  0.0821182057261467  0.5910932421684265  1.0000
+  O   O1        1.0  0.922354519367218  0.3295060098171234  0.8222709894180298  1.0000
+  Li  Li1       1.0  0.16866612434387207  0.581145703792572  0.09094174206256866  1.0000
+  O   O2        1.0  0.4164843261241913  0.833804965019226  0.8232834935188293  1.0000
+  Li  Li2       1.0  0.6688180565834045  0.0819091796875  0.0909191146492958  1.0000
+  O   O3        1.0  0.41746896505355835  0.32995608448982233  0.36025211215019226  1.0000
+  O   O4        1.0  0.9198971390724182  0.8346400260925293  0.3593963384628296  1.0000

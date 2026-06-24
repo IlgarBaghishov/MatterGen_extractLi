@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       LiCuTiO4
+_chemical_formula_sum              "Li1 Cu1 Ti1 O4"
+_cell_length_a       3.9634988514273704
+_cell_length_b       3.96622924656008
+_cell_length_c       5.346773147583008
+_cell_angle_alpha    111.62605950090185
+_cell_angle_beta     111.64465259950646
+_cell_angle_gamma    89.9702371445145
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.4782665073871612  0.7485315799713135  0.6668468117713928  1.0000
+  Cu  Cu1       1.0  0.9803915619850158  0.24897055327892303  0.669399082660675  1.0000
+  Ti  Ti1       1.0  0.7289485335350036  0.4992602169513703  0.1684749573469162  1.0000
+  O   O1        1.0  0.7627447843551635  0.031506385654211044  0.2357835173606872  1.0000
+  O   O2        1.0  0.19634866714477536  0.46508911252021795  0.1026677042245865  1.0000
+  O   O3        1.0  0.5142748951911926  0.2846134305000306  0.7389559149742126  1.0000
+  O   O4        1.0  0.943914771080017  0.7139673233032227  0.5983012318611145  1.0000

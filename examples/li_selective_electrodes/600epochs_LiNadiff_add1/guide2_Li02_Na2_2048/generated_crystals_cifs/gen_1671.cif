@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       LiSbLiClO2
+_chemical_formula_sum              "Li2 Sb1 Cl1 O2"
+_cell_length_a       3.769126898336311
+_cell_length_b       3.761862722737902
+_cell_length_c       6.186733245849609
+_cell_angle_alpha    90.0189767702475
+_cell_angle_beta     90.13367613813426
+_cell_angle_gamma    90.19188301325391
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.7585090398788452  0.4110498428344726  0.3063785135746002  1.0000
+  Sb  Sb1       1.0  0.7558472156524658  0.41237330436706543  0.7437415719032288  1.0000
+  Li  Li2       1.0  0.2562292218208313  0.9128644466400146  0.5014231204986572  1.0000
+  Cl  Cl1       1.0  0.256641685962677  0.91219824552536  0.11038310825824738  1.0000
+  O   O1        1.0  0.25623753666877747  0.4129304587841034  0.5800866484642029  1.0000
+  O   O2        1.0  0.7560219168663025  0.9127631783485413  0.5807462334632874  1.0000

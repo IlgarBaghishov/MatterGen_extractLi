@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       KLiBiO3
+_chemical_formula_sum              "K1 Li1 Bi1 O3"
+_cell_length_a       4.367870592654579
+_cell_length_b       4.368090905637952
+_cell_length_c       4.723362922668457
+_cell_angle_alpha    90.02037012942074
+_cell_angle_beta     89.98016080297018
+_cell_angle_gamma    89.95734114075594
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  K   K1        1.0  0.8160989284515381  0.15420354902744296  0.4742185771465301  1.0000
+  Li  Li1       1.0  0.8160213828086853  0.1529061794281006  0.9735850691795348  1.0000
+  Bi  Bi1       1.0  0.31602728366851807  0.6525853276252748  0.9727985858917235  1.0000
+  O   O1        1.0  0.31590282917022705  0.15334279835224152  0.9730998277664183  1.0000
+  O   O2        1.0  0.3160671591758728  0.6528619527816774  0.4735355377197265  1.0000
+  O   O3        1.0  0.8157828450202942  0.6527999043464661  0.9734508395195006  1.0000

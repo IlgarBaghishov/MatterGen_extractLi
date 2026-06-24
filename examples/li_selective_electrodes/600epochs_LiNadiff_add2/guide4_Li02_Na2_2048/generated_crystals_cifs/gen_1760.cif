@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       CrOCrLiO3
+_chemical_formula_sum              "Cr2 O4 Li1"
+_cell_length_a       2.9756705261083036
+_cell_length_b       4.699970863131896
+_cell_length_c       4.714417457580566
+_cell_angle_alpha    89.0639660531974
+_cell_angle_beta     89.94980061964606
+_cell_angle_gamma    89.96033276480581
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.3616279363632202  0.9411749243736267  0.8820543885231018  1.0000
+  O   O1        1.0  0.8721368312835693  0.13986164331436157  0.6730020046234131  1.0000
+  Cr  Cr2       1.0  0.8859389424324036  0.4411393105983734  0.3821723759174347  1.0000
+  Li  Li1       1.0  0.6122297048568726  0.9419766664505005  0.3823113441467285  1.0000
+  O   O2        1.0  0.8716556429862976  0.7441101670265198  0.09164965152740479  1.0000
+  O   O3        1.0  0.3741858899593353  0.6369391679763794  0.5744810700416565  1.0000
+  O   O4        1.0  0.37386634945869446  0.24592480063438418  0.19021038711071014  1.0000

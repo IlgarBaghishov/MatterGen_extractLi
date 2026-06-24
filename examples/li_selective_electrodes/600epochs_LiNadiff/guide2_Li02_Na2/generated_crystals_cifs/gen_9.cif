@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       CuNiONiOCuO2
+_chemical_formula_sum              "Cu2 Ni2 O4"
+_cell_length_a       3.0194439165110443
+_cell_length_b       3.0176314979492274
+_cell_length_c       11.285246849060059
+_cell_angle_alpha    89.97884940860013
+_cell_angle_beta     90.02965918843404
+_cell_angle_gamma    120.15800244373084
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.13977122306823728  0.4386830329895019  0.3483772873878479  1.0000
+  Ni  Ni1       1.0  0.8060764670372009  0.7722055315971375  0.599143385887146  1.0000
+  O   O1        1.0  0.13945159316062927  0.43900731205940247  0.5071549415588379  1.0000
+  Ni  Ni2       1.0  0.806937575340271  0.7718855738639833  0.09813509136438368  1.0000
+  O   O2        1.0  0.4729459583759308  0.10507009923458101  0.6917388439178467  1.0000
+  Cu  Cu2       1.0  0.4733681082725525  0.10457976162433624  0.8486602306365966  1.0000
+  O   O3        1.0  0.4738776385784149  0.10543901473283768  0.006396174430847167  1.0000
+  O   O4        1.0  0.14067885279655457  0.43885472416877747  0.18994857370853424  1.0000

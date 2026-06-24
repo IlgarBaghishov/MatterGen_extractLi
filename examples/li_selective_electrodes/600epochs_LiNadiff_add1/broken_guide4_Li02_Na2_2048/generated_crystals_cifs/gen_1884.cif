@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       OCoF2Li
+_chemical_formula_sum              "O1 Co1 F2 Li1"
+_cell_length_a       2.8600092070183587
+_cell_length_b       5.108268167192684
+_cell_length_c       5.350128173828125
+_cell_angle_alpha    66.12271212501443
+_cell_angle_beta     90.09374684772469
+_cell_angle_gamma    90.09376733622238
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.29926005005836487  0.1608135998249054  0.7280829548835754  1.0000
+  Co  Co1       1.0  0.7982842326164246  0.29919153451919556  0.5029813647270203  1.0000
+  F   F1        1.0  0.797888994216919  0.0699416995048523  0.28179076313972473  1.0000
+  F   F2        1.0  0.29589715600013733  0.5639218688011169  0.26485648751258856  1.0000
+  Li  Li1       1.0  0.298061341047287  0.9733489751815796  0.11906609684228897  1.0000

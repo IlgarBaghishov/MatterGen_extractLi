@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       Ni2FeCuO5
+_chemical_formula_sum              "Ni2 Fe1 Cu1 O5"
+_cell_length_a       4.634423172678963
+_cell_length_b       4.619715616736615
+_cell_length_c       5.004546642303467
+_cell_angle_alpha    89.68669490637602
+_cell_angle_beta     89.05682161733908
+_cell_angle_gamma    90.47367611112101
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.6201556921005249  0.4984457194805145  0.202662393450737  1.0000
+  Ni  Ni2       1.0  0.6195939183235168  0.9675716757774354  0.7303459048271179  1.0000
+  Fe  Fe1       1.0  0.08442981541156769  0.5028716921806335  0.7277802228927612  1.0000
+  Cu  Cu1       1.0  0.09727926552295685  0.9756999015808105  0.21083121001720428  1.0000
+  O   O1        1.0  0.35398069024086  0.7320765256881714  0.9681086540222168  1.0000
+  O   O2        1.0  0.8528533577919006  0.7307102680206299  0.9610307812690735  1.0000
+  O   O3        1.0  0.8553589582443237  0.233561709523201  0.9669389724731445  1.0000
+  O   O4        1.0  0.864391028881073  0.24143616855144504  0.4706212282180786  1.0000
+  O   O5        1.0  0.3480794429779053  0.7289657592773438  0.47052672505378723  1.0000

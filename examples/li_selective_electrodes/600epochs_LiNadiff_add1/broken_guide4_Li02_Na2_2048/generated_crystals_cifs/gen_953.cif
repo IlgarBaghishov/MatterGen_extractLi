@@ -1,0 +1,27 @@
+data_image0
+_chemical_formula_structural       O2
+_chemical_formula_sum              "O2"
+_cell_length_a       3.5953898106267195
+_cell_length_b       3.5812549803546667
+_cell_length_c       3.7077815532684326
+_cell_angle_alpha    108.41942413392589
+_cell_angle_beta     109.09806975329636
+_cell_angle_gamma    90.79675074149087
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.3209780156612396  0.6746448278427125  0.4309547543525696  1.0000
+  O   O2        1.0  0.5744749903678894  0.9291035532951355  0.721291720867157  1.0000

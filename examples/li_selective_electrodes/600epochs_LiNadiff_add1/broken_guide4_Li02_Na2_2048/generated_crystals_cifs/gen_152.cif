@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       HOFOFMoF2
+_chemical_formula_sum              "H1 O2 F4 Mo1"
+_cell_length_a       4.141815327959324
+_cell_length_b       5.765911927328272
+_cell_length_c       5.870299816131592
+_cell_angle_alpha    81.08829270970446
+_cell_angle_beta     101.29076921615103
+_cell_angle_gamma    103.0676778575053
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  H   H1        1.0  0.24486340582370764  0.9914784431457521  0.27304622530937195  1.0000
+  O   O1        1.0  0.8137212395668031  0.6730430126190187  0.422867089509964  1.0000
+  F   F1        1.0  0.14262869954109192  0.6485589742660522  0.9455302357673645  1.0000
+  O   O2        1.0  0.07534910738468173  0.8545529246330262  0.46206578612327576  1.0000
+  F   F2        1.0  0.3603164553642273  0.07888393104076385  0.14230646193027496  1.0000
+  Mo  Mo1       1.0  0.21320681273937225  0.963900923728943  0.7958716750144958  1.0000
+  F   F3        1.0  0.7201935648918152  0.96524715423584  0.8037430047988892  1.0000
+  F   F4        1.0  0.2921319007873535  0.2807709276676178  0.6482347249984741  1.0000

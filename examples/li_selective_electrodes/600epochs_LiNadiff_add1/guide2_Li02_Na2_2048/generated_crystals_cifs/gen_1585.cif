@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       LiBaO2CrO
+_chemical_formula_sum              "Li1 Ba1 O3 Cr1"
+_cell_length_a       3.9150379917549416
+_cell_length_b       3.92602934272355
+_cell_length_c       5.736133575439453
+_cell_angle_alpha    71.17655214824299
+_cell_angle_beta     71.57436429116353
+_cell_angle_gamma    90.18926660437415
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.9334799647331237  0.547875702381134  0.8079178929328918  1.0000
+  Ba  Ba1       1.0  0.22523993253707883  0.8389173746109009  0.21319380402565005  1.0000
+  O   O1        1.0  0.5185012221336365  0.629897654056549  0.6586012244224548  1.0000
+  O   O2        1.0  0.0189561378210783  0.1298193335533142  0.6589067578315735  1.0000
+  Cr  Cr1       1.0  0.5579067468643188  0.16893143951892853  0.5775360465049744  1.0000
+  O   O3        1.0  0.7355031967163085  0.34849330782890314  0.2006412446498871  1.0000

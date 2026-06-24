@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       NiCrFLiOFO
+_chemical_formula_sum              "Ni1 Cr1 F2 Li1 O2"
+_cell_length_a       2.922900847994888
+_cell_length_b       5.195138503995167
+_cell_length_c       5.5695037841796875
+_cell_angle_alpha    116.73380409166323
+_cell_angle_beta     105.14942298257387
+_cell_angle_gamma    89.98419136284906
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.19581691920757294  0.10619127750396729  0.3301309049129486  1.0000
+  Cr  Cr1       1.0  0.915066361427307  0.851746678352356  0.7664673328399657  1.0000
+  F   F1        1.0  0.7984327673912048  0.4057730436325073  0.5335677266120911  1.0000
+  Li  Li1       1.0  0.6137920022010803  0.5569260716438292  0.17066892981529236  1.0000
+  O   O1        1.0  0.5467356443405151  0.8466054201126099  0.03082659281790264  1.0000
+  F   F2        1.0  0.04580312222242355  0.2835232615470886  0.030820235610008257  1.0000
+  O   O2        1.0  0.29320985078811646  0.8610716462135315  0.5215474963188171  1.0000

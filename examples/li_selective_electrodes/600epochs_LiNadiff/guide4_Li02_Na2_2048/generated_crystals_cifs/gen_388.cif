@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       ONiEuLiO3Ni
+_chemical_formula_sum              "O4 Ni2 Eu1 Li1"
+_cell_length_a       4.720932487078749
+_cell_length_b       4.754226254899852
+_cell_length_c       4.714187145233154
+_cell_angle_alpha    89.99192922115616
+_cell_angle_beta     89.99782367404947
+_cell_angle_gamma    90.00673024074847
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.9634947776794434  0.8916170597076416  0.9486236572265625  1.0000
+  Ni  Ni1       1.0  0.7305753231048584  0.6655457615852356  0.21681806445121765  1.0000
+  Eu  Eu1       1.0  0.23173566162586212  0.16485857963562012  0.21671946346759796  1.0000
+  Li  Li1       1.0  0.7307496070861816  0.16575032472610474  0.7164172530174255  1.0000
+  O   O2        1.0  0.4988742768764496  0.4381425082683563  0.9489110708236694  1.0000
+  O   O3        1.0  0.4990027844905853  0.8922395706176757  0.4844173192977905  1.0000
+  O   O4        1.0  0.963485598564148  0.43893465399742126  0.48440060019493103  1.0000
+  Ni  Ni2       1.0  0.23222412168979645  0.6654616594314575  0.7162429094314575  1.0000

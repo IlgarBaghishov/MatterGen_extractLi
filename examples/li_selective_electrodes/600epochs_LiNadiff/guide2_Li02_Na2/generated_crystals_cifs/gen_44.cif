@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       RhCr3
+_chemical_formula_sum              "Rh1 Cr3"
+_cell_length_a       3.7083333743420237
+_cell_length_b       3.7085543995010717
+_cell_length_c       3.706299066543579
+_cell_angle_alpha    89.84825618603622
+_cell_angle_beta     89.75559784488283
+_cell_angle_gamma    89.81217913259829
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Rh  Rh1       1.0  0.45469143986701965  0.19103334844112396  0.2979082763195038  1.0000
+  Cr  Cr1       1.0  0.9545063972473145  0.19113913178443906  0.7981742024421692  1.0000
+  Cr  Cr2       1.0  0.954531192779541  0.6912848949432373  0.2979769706726074  1.0000
+  Cr  Cr3       1.0  0.4544154703617096  0.6913500428199768  0.7981555461883545  1.0000

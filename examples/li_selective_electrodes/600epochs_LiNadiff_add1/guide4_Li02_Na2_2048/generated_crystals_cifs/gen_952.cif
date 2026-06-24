@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       MnBOCrOBO3
+_chemical_formula_sum              "Mn1 B2 O5 Cr1"
+_cell_length_a       4.64544017781367
+_cell_length_b       5.080446449923166
+_cell_length_c       4.788246154785156
+_cell_angle_alpha    68.39827310198471
+_cell_angle_beta     100.3989651857398
+_cell_angle_gamma    95.09224273365845
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mn  Mn1       1.0  0.2777225971221924  0.09842330962419508  0.02431626245379448  1.0000
+  B   B1        1.0  0.4368979036808014  0.6508339047431945  0.5840940475463867  1.0000
+  O   O1        1.0  0.02806250751018524  0.19432109594345093  0.30021631717681885  1.0000
+  Cr  Cr1       1.0  0.8419699668884277  0.5585020184516907  0.16726090013980865  1.0000
+  O   O2        1.0  0.642002522945404  0.806761622428894  0.3752453625202179  1.0000
+  B   B2        1.0  0.9456561207771301  0.9173592925071716  0.5008329749107361  1.0000
+  O   O3        1.0  0.14213927090168  0.7041214108467101  0.4428059160709381  1.0000
+  O   O4        1.0  0.9790052175521851  0.8682252764701843  0.822875440120697  1.0000
+  O   O5        1.0  0.5212793350219727  0.46215951442718506  0.8692635297775269  1.0000

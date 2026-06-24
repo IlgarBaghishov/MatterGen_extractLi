@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       LiFCrLiF3
+_chemical_formula_sum              "Li2 F4 Cr1"
+_cell_length_a       5.0783076818992585
+_cell_length_b       4.324778521933974
+_cell_length_c       4.413670063018799
+_cell_angle_alpha    90.25514422519127
+_cell_angle_beta     90.21518760488117
+_cell_angle_gamma    89.90912684075934
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.6668515801429749  0.4168225824832916  0.8754662871360779  1.0000
+  F   F1        1.0  0.45555564761161804  0.6885405778884888  0.10375342518091202  1.0000
+  Cr  Cr1       1.0  0.16586370766162872  0.9171069264411926  0.8717712163925171  1.0000
+  Li  Li2       1.0  0.666860818862915  0.9145665168762207  0.37391915917396545  1.0000
+  F   F2        1.0  0.8745294809341431  0.6870281100273132  0.6446132063865662  1.0000
+  F   F3        1.0  0.4568620026111603  0.14651645720005035  0.6432445049285889  1.0000
+  F   F4        1.0  0.8766536116600037  0.1441345512866974  0.10502767562866211  1.0000

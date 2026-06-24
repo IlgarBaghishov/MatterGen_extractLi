@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       NiCrPdOCu
+_chemical_formula_sum              "Ni1 Cr1 Pd1 O1 Cu1"
+_cell_length_a       2.7998092574832705
+_cell_length_b       2.7985772682600047
+_cell_length_c       8.6505765914917
+_cell_angle_alpha    89.89205819177671
+_cell_angle_beta     89.87229846435353
+_cell_angle_gamma    89.95818125198056
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.9368025660514832  0.3889720439910889  0.837875485420227  1.0000
+  Cr  Cr1       1.0  0.43598613142967224  0.8890107274055481  0.3430367410182953  1.0000
+  Pd  Pd1       1.0  0.43669289350509644  0.887905240058899  0.03762481361627579  1.0000
+  O   O1        1.0  0.9364104270935059  0.39001932740211487  0.359407901763916  1.0000
+  Cu  Cu1       1.0  0.43726032972335815  0.8910533189773561  0.664097249507904  1.0000

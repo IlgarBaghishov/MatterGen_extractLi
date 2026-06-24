@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       OCrBO3
+_chemical_formula_sum              "O4 Cr1 B1"
+_cell_length_a       3.238181300235855
+_cell_length_b       4.089215312495638
+_cell_length_c       4.097504615783691
+_cell_angle_alpha    82.51123269503566
+_cell_angle_beta     89.9022146856451
+_cell_angle_gamma    89.82069638574804
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.8507078886032104  0.16536521911621094  0.43640899658203125  1.0000
+  Cr  Cr1       1.0  0.2696689963340759  0.4085017740726471  0.1908610165119171  1.0000
+  B   B1        1.0  0.0683073177933693  0.9087293148040771  0.6911840438842773  1.0000
+  O   O2        1.0  0.3090278208255768  0.1119658350944519  0.8903325796127319  1.0000
+  O   O3        1.0  0.31100213527679443  0.7105889320373535  0.48858264088630676  1.0000
+  O   O4        1.0  0.8504916429519653  0.6564076542854309  0.944354772567749  1.0000

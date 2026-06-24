@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       LiOCoO3VOCu
+_chemical_formula_sum              "Li1 O5 Co1 V1 Cu1"
+_cell_length_a       4.77016335326795
+_cell_length_b       5.206816138554679
+_cell_length_c       5.157743453979492
+_cell_angle_alpha    85.55654796498034
+_cell_angle_beta     83.46125766037515
+_cell_angle_gamma    101.57841660642605
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.2693254053592682  0.5658730268478394  0.8474271297454834  1.0000
+  O   O1        1.0  0.15481555461883545  0.7407287955284119  0.17344573140144348  1.0000
+  Co  Co1       1.0  0.8770140409469604  0.4082418382167816  0.428026407957077  1.0000
+  O   O2        1.0  0.7400861978530884  0.09043370187282562  0.24092642962932587  1.0000
+  O   O3        1.0  0.9607101678848267  0.3186264932155609  0.7671589255332947  1.0000
+  O   O4        1.0  0.2650037407875061  0.9320290088653564  0.6663903594017029  1.0000
+  V   V1        1.0  0.42790043354034424  0.8476654291152954  0.38391244411468506  1.0000
+  O   O5        1.0  0.5421448349952698  0.5665348172187805  0.4850083887577057  1.0000
+  Cu  Cu1       1.0  0.014721204526722431  0.02087482437491417  0.9507182240486145  1.0000

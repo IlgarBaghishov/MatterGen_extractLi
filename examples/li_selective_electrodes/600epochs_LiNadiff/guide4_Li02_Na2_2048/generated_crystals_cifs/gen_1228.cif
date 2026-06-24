@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       CrAgBOAgO3
+_chemical_formula_sum              "Cr1 Ag2 B1 O4"
+_cell_length_a       4.386870237030402
+_cell_length_b       4.384630202660225
+_cell_length_c       5.074283123016357
+_cell_angle_alpha    89.82075102315359
+_cell_angle_beta     89.79709124805441
+_cell_angle_gamma    89.83332540562968
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.3591046929359436  0.9524574279785156  0.21361517906188968  1.0000
+  Ag  Ag1       1.0  0.3584979474544525  0.4513986408710479  0.7136124968528748  1.0000
+  B   B1        1.0  0.8584799766540527  0.45151612162590027  0.21376985311508181  1.0000
+  O   O1        1.0  0.06441044062376022  0.6578691601753235  0.3670074939727783  1.0000
+  Ag  Ag2       1.0  0.8585327863693237  0.9514488577842711  0.7140691876411438  1.0000
+  O   O2        1.0  0.6519690155982971  0.2444804012775421  0.36879727244377136  1.0000
+  O   O3        1.0  0.6498702168464661  0.6570764183998108  0.05936249345541001  1.0000
+  O   O4        1.0  0.06566977500915527  0.24426491558551786  0.05892926454544068  1.0000

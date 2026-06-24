@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       BLiOLiO
+_chemical_formula_sum              "B1 Li2 O2"
+_cell_length_a       2.64003597357072
+_cell_length_b       4.78662582874322
+_cell_length_c       4.833009719848633
+_cell_angle_alpha    69.74196831944207
+_cell_angle_beta     89.78024801154129
+_cell_angle_gamma    89.80930362137433
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  B   B1        1.0  0.16074134409427643  0.9871501326560974  0.3106313347816467  1.0000
+  Li  Li1       1.0  0.6611408591270447  0.9693003296852112  0.83610999584198  1.0000
+  O   O1        1.0  0.16264061629772186  0.8193916082382202  0.13770224153995514  1.0000
+  Li  Li2       1.0  0.6618962287902832  0.5152276754379274  0.28712186217308044  1.0000
+  O   O2        1.0  0.6617295145988464  0.08134375512599945  0.408456951379776  1.0000

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       BCrLi2OB
+_chemical_formula_sum              "B2 Cr1 Li2 O1"
+_cell_length_a       4.565401754472041
+_cell_length_b       4.033634136627409
+_cell_length_c       4.076202869415283
+_cell_angle_alpha    103.28107357765988
+_cell_angle_beta     111.10968375560161
+_cell_angle_gamma    115.60768637664128
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  B   B1        1.0  0.05923747271299361  0.19437953829765317  0.40488532185554504  1.0000
+  Cr  Cr1       1.0  0.558429479598999  0.6946756839752197  0.9036932587623596  1.0000
+  Li  Li1       1.0  0.05802624300122261  0.6947351694107056  0.9034393429756165  1.0000
+  Li  Li2       1.0  0.06000219285488129  0.1963663101196289  0.9050995111465454  1.0000
+  O   O1        1.0  0.5572081804275513  0.19427543878555298  0.9028007984161377  1.0000
+  B   B2        1.0  0.5589174628257751  0.6945209503173827  0.40425363183021545  1.0000

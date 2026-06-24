@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       CrAlO2
+_chemical_formula_sum              "Cr1 Al1 O2"
+_cell_length_a       3.036164045546871
+_cell_length_b       3.033542168098409
+_cell_length_c       4.238340854644775
+_cell_angle_alpha    90.00507050509971
+_cell_angle_beta     90.00067869322463
+_cell_angle_gamma    90.05306624496068
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.8770774006843567  0.27696558833122253  0.3066612184047699  1.0000
+  Al  Al1       1.0  0.37548574805259705  0.7764996290206908  0.8065565228462219  1.0000
+  O   O1        1.0  0.37573203444480896  0.7767629623413086  0.3061080276966095  1.0000
+  O   O2        1.0  0.8757884502410889  0.27691036462783813  0.8064078092575073  1.0000

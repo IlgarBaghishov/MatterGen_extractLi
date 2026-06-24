@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       LiFSbLiFO2
+_chemical_formula_sum              "Li2 F2 Sb1 O2"
+_cell_length_a       4.1166757287118285
+_cell_length_b       4.182839862496169
+_cell_length_c       5.547301769256592
+_cell_angle_alpha    67.84555212333159
+_cell_angle_beta     68.34315735030435
+_cell_angle_gamma    90.00867668258056
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.11687465757131577  0.6697582006454467  0.061654899269342464  1.0000
+  F   F1        1.0  0.657974123954773  0.7115420103073119  0.981308102607727  1.0000
+  Sb  Sb1       1.0  0.8759174346923829  0.9281221628189086  0.544324517250061  1.0000
+  Li  Li2       1.0  0.31758156418800354  0.3696958124637603  0.6598313450813293  1.0000
+  F   F2        1.0  0.10465851426124574  0.15836879611015317  0.08497063070535661  1.0000
+  O   O1        1.0  0.8929491043090821  0.4457502365112304  0.5117741823196411  1.0000
+  O   O2        1.0  0.3446907997131348  0.8971641063690184  0.6076008081436157  1.0000

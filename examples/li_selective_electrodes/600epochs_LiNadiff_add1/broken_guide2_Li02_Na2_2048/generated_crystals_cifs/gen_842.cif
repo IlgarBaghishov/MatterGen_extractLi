@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       KFLiRhF5
+_chemical_formula_sum              "K1 F6 Li1 Rh1"
+_cell_length_a       5.7476347682570905
+_cell_length_b       5.750957002153716
+_cell_length_c       5.74751615524292
+_cell_angle_alpha    60.02160526170295
+_cell_angle_beta     59.999258329457895
+_cell_angle_gamma    60.01714758970361
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  K   K1        1.0  0.904816746711731  0.0635475292801857  0.6846733689308167  1.0000
+  F   F1        1.0  0.3926172256469726  0.07585861533880234  0.6966186761856079  1.0000
+  Li  Li1       1.0  0.4046582281589508  0.5636174082756042  0.18419776856899261  1.0000
+  Rh  Rh1       1.0  0.1551852971315384  0.313619464635849  0.935118854045868  1.0000
+  F   F2        1.0  0.9169270396232605  0.5510362386703491  0.6973249912261965  1.0000
+  F   F3        1.0  0.39257690310478216  0.07548225671052933  0.1727076023817063  1.0000
+  F   F4        1.0  0.9166916012763977  0.5515270233154297  0.17267659306526184  1.0000
+  F   F5        1.0  0.9171709418296814  0.07589710503816605  0.17237931489944466  1.0000
+  F   F6        1.0  0.3927392363548279  0.5512129664421082  0.6972817778587341  1.0000

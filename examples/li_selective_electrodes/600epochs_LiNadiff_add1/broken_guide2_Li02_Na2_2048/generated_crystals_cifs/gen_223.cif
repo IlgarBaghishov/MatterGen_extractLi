@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       ONiLiF
+_chemical_formula_sum              "O1 Ni1 Li1 F1"
+_cell_length_a       2.9985862034257376
+_cell_length_b       2.9993315612298894
+_cell_length_c       5.17742919921875
+_cell_angle_alpha    73.22322638335591
+_cell_angle_beta     73.18314027510796
+_cell_angle_gamma    60.01714608014427
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.047338221222162254  0.009348957799375057  0.6615875363349913  1.0000
+  Ni  Ni1       1.0  0.31050896644592285  0.2723274827003479  0.8744385838508606  1.0000
+  Li  Li1       1.0  0.7920008301734925  0.7529714703559875  0.4305160939693451  1.0000
+  F   F1        1.0  0.5509423613548279  0.5130892992019653  0.1535692662000656  1.0000

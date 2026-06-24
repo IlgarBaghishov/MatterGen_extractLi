@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       AlCr2O4Cu
+_chemical_formula_sum              "Al1 Cr2 O4 Cu1"
+_cell_length_a       4.622348566137788
+_cell_length_b       4.5201209952699655
+_cell_length_c       4.661678314208984
+_cell_angle_alpha    89.81807358145318
+_cell_angle_beta     90.08449193156177
+_cell_angle_gamma    90.1648559541314
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.39443203806877136  0.4050657451152801  0.17874760925769806  1.0000
+  Cr  Cr1       1.0  0.38979649543762207  0.9051485657691954  0.6797953844070435  1.0000
+  Cr  Cr2       1.0  0.8947799205780029  0.9049879312515258  0.1818493902683258  1.0000
+  O   O1        1.0  0.6115445494651794  0.17436963319778442  0.3961959481239319  1.0000
+  O   O2        1.0  0.6126077771186829  0.6364140510559082  0.9608519077301025  1.0000
+  O   O3        1.0  0.17843061685562134  0.6344136595726013  0.39502885937690735  1.0000
+  O   O4        1.0  0.17709292471408844  0.17465467751026154  0.9630681872367859  1.0000
+  Cu  Cu1       1.0  0.894550085067749  0.4047733247280121  0.6806960701942444  1.0000

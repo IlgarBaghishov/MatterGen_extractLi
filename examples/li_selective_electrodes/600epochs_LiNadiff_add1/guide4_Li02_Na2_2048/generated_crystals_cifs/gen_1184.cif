@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       PdLiO
+_chemical_formula_sum              "Pd1 Li1 O1"
+_cell_length_a       2.8900598271782627
+_cell_length_b       2.8826010786081406
+_cell_length_c       4.075948715209961
+_cell_angle_alpha    90.06687005575486
+_cell_angle_beta     90.01634714799249
+_cell_angle_gamma    90.10201137451732
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pd  Pd1       1.0  0.14061887562274933  0.9934840202331543  0.3257703185081482  1.0000
+  Li  Li1       1.0  0.6401177048683167  0.49349498748779297  0.8267190456390381  1.0000
+  O   O1        1.0  0.1396539807319641  0.99344402551651  0.8289264440536499  1.0000

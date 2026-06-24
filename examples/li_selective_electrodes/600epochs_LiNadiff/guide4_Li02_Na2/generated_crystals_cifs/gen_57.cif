@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       FeCoLiO3LiO
+_chemical_formula_sum              "Fe1 Co1 Li2 O4"
+_cell_length_a       4.1194823715775595
+_cell_length_b       4.1264280976187795
+_cell_length_c       5.1508073806762695
+_cell_angle_alpha    66.56427803866147
+_cell_angle_beta     66.62623936533728
+_cell_angle_gamma    90.18988842498392
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.6846890449523926  0.7104382514953613  0.273479700088501  1.0000
+  Co  Co1       1.0  0.4348116219043731  0.9596003890037538  0.7733457684516907  1.0000
+  Li  Li1       1.0  0.9353255629539489  0.4596331417560578  0.7729780077934266  1.0000
+  O   O1        1.0  0.20672418177127835  0.7320754528045655  0.2304650843143463  1.0000
+  O   O2        1.0  0.9199789762496947  0.944245219230652  0.803758978843689  1.0000
+  O   O3        1.0  0.6641958355903625  0.18961383402347565  0.3149297237396241  1.0000
+  Li  Li2       1.0  0.18559470772743222  0.21052733063697818  0.2735876142978668  1.0000
+  O   O4        1.0  0.44999992847442627  0.4741389751434327  0.7435639500617981  1.0000

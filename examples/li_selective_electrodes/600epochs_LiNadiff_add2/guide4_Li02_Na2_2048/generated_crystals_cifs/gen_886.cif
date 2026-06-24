@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       NiOPdO2Cu
+_chemical_formula_sum              "Ni1 O3 Pd1 Cu1"
+_cell_length_a       2.915584372018851
+_cell_length_b       2.9183188650855545
+_cell_length_c       7.562814712524414
+_cell_angle_alpha    90.0542615311726
+_cell_angle_beta     90.0702578240755
+_cell_angle_gamma    89.92203588518477
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.37431639432907104  0.6413366794586182  0.17040692269802094  1.0000
+  O   O1        1.0  0.874515950679779  0.14160986244678497  0.1506911665201187  1.0000
+  Pd  Pd1       1.0  0.37387198209762573  0.6415542364120483  0.5248643159866333  1.0000
+  O   O2        1.0  0.37449464201927185  0.6416457891464233  0.8888376951217651  1.0000
+  O   O3        1.0  0.8731570839881897  0.14146175980567932  0.59455406665802  1.0000
+  Cu  Cu1       1.0  0.8749226331710815  0.1421770304441452  0.8809050917625427  1.0000

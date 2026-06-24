@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       BOCrLiO3Ni
+_chemical_formula_sum              "B1 O4 Cr1 Li1 Ni1"
+_cell_length_a       4.212585419832094
+_cell_length_b       4.379278498501464
+_cell_length_c       4.351185321807861
+_cell_angle_alpha    90.31598072351238
+_cell_angle_beta     90.02640801596583
+_cell_angle_gamma    90.07003925576198
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  B   B1        1.0  0.7669692635536194  0.5239281058311462  0.6019510626792908  1.0000
+  O   O1        1.0  0.5622497797012329  0.7253490686416627  0.803354024887085  1.0000
+  Cr  Cr1       1.0  0.7679774761199951  0.023972850292921066  0.1013866662979126  1.0000
+  Li  Li1       1.0  0.26841625571250916  0.023114100098609928  0.6017376184463501  1.0000
+  O   O2        1.0  0.9714793562889099  0.3224005103111267  0.8023744821548462  1.0000
+  O   O3        1.0  0.5631418228149414  0.32205754518508917  0.4002169966697693  1.0000
+  O   O4        1.0  0.9718750715255737  0.7255932092666627  0.4003315269947052  1.0000
+  Ni  Ni1       1.0  0.267663836479187  0.5233767628669739  0.10197193920612335  1.0000

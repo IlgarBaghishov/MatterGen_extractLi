@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       NiOVO2
+_chemical_formula_sum              "Ni1 O3 V1"
+_cell_length_a       3.7797934848813464
+_cell_length_b       3.7782849216990964
+_cell_length_c       5.626406669616699
+_cell_angle_alpha    109.61883176990223
+_cell_angle_beta     109.58143705198724
+_cell_angle_gamma    90.0832010034655
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.48964712023735046  0.06732962280511856  0.34625980257987976  1.0000
+  O   O1        1.0  0.29351314902305603  0.8719882965087891  0.9548538327217102  1.0000
+  V   V1        1.0  0.1293722540140152  0.707696259021759  0.6264298558235168  1.0000
+  O   O2        1.0  0.5631895065307617  0.6401110291481019  0.4928211569786072  1.0000
+  O   O3        1.0  0.061055753380060196  0.14073722064495087  0.4926202893257141  1.0000

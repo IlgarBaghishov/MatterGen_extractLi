@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       CrO3
+_chemical_formula_sum              "Cr1 O3"
+_cell_length_a       3.065676356785316
+_cell_length_b       3.067588789408146
+_cell_length_c       6.0330095291137695
+_cell_angle_alpha    90.06361205381985
+_cell_angle_beta     104.41708336007052
+_cell_angle_gamma    120.04773633442896
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.9144401550292969  0.45954129099845886  0.5105358958244323  1.0000
+  O   O1        1.0  0.6897072792053223  0.8477198481559753  0.6732221841812134  1.0000
+  O   O2        1.0  0.14252570271492004  0.07356415688991547  0.3524448871612549  1.0000
+  O   O3        1.0  0.912686824798584  0.9589627981185913  0.008016049861907959  1.0000

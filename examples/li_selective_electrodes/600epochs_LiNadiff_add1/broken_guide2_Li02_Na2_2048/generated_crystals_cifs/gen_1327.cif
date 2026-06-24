@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       OLiBO
+_chemical_formula_sum              "O2 Li1 B1"
+_cell_length_a       3.2462961356488265
+_cell_length_b       3.2475701799167775
+_cell_length_c       5.128997802734375
+_cell_angle_alpha    90.041632506607
+_cell_angle_beta     108.4731553946763
+_cell_angle_gamma    120.0379553691398
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.24811381101608276  0.15526653826236725  0.2675372064113617  1.0000
+  Li  Li1       1.0  0.4230711758136749  0.7432721257209778  0.03111770749092103  1.0000
+  B   B1        1.0  0.4215494692325592  0.24275484681129456  0.5313462615013123  1.0000
+  O   O2        1.0  0.5981600284576416  0.32946816086769104  0.7946244478225708  1.0000

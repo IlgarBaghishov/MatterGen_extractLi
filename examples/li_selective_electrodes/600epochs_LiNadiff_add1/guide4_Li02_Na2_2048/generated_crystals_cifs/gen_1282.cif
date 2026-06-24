@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       CoLiCr2O4
+_chemical_formula_sum              "Co1 Li1 Cr2 O4"
+_cell_length_a       3.761357826289693
+_cell_length_b       4.46861623183958
+_cell_length_c       5.275382995605469
+_cell_angle_alpha    89.98189567119863
+_cell_angle_beta     89.93820295450551
+_cell_angle_gamma    91.14764502193279
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.44709721207618713  0.22782017290592196  0.1251634806394577  1.0000
+  Li  Li1       1.0  0.44655606150627136  0.727995753288269  0.6249759793281555  1.0000
+  Cr  Cr1       1.0  0.9472689032554626  0.7285973429679871  0.1256558895111084  1.0000
+  Cr  Cr2       1.0  0.9478421211242676  0.22770328819751742  0.6246498227119446  1.0000
+  O   O1        1.0  0.20103369653224945  0.9862600564956665  0.8789550662040709  1.0000
+  O   O2        1.0  0.2010854035615921  0.9858797192573546  0.3711509108543396  1.0000
+  O   O3        1.0  0.6926193833351135  0.46976062655448914  0.3713180422782898  1.0000
+  O   O4        1.0  0.69352787733078  0.47064271569252014  0.879084289073944  1.0000

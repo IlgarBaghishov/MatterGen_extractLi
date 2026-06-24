@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       V2GaO5
+_chemical_formula_sum              "V2 Ga1 O5"
+_cell_length_a       3.170064218168106
+_cell_length_b       4.879156249183627
+_cell_length_c       7.2960686683654785
+_cell_angle_alpha    87.1446898008513
+_cell_angle_beta     90.00388205202302
+_cell_angle_gamma    89.93052582149187
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  V   V1        1.0  0.7784620523452759  0.23500920832157135  0.9647633433341981  1.0000
+  V   V2        1.0  0.2791403532028198  0.7096027731895447  0.23214598000049594  1.0000
+  Ga  Ga1       1.0  0.2796797454357147  0.7661595344543458  0.7180404663085939  1.0000
+  O   O1        1.0  0.2783302366733551  0.7278009057044983  0.4692549109458924  1.0000
+  O   O2        1.0  0.7795060873031616  0.9471678137779237  0.7755133509635926  1.0000
+  O   O3        1.0  0.275951623916626  0.031200585886836052  0.10183101892471315  1.0000
+  O   O4        1.0  0.28168627619743347  0.4281741082668304  0.8437255024909974  1.0000
+  O   O5        1.0  0.7781084179878235  0.526281476020813  0.16337156295776367  1.0000

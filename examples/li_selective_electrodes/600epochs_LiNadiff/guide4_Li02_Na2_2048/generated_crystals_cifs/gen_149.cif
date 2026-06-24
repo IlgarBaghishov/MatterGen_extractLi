@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Cr3N
+_chemical_formula_sum              "Cr3 N1"
+_cell_length_a       2.688231862136269
+_cell_length_b       2.686206009956864
+_cell_length_c       6.4884138107299805
+_cell_angle_alpha    78.18130263137648
+_cell_angle_beta     78.27238243738772
+_cell_angle_gamma    60.28070209990433
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.08429568260908127  0.837388813495636  0.2775035798549652  1.0000
+  Cr  Cr2       1.0  0.8551923632621765  0.6069721579551697  0.968639075756073  1.0000
+  Cr  Cr3       1.0  0.31402871012687683  0.06632010638713837  0.5883498787879944  1.0000
+  N   N1        1.0  0.5843678116798401  0.3370179831981659  0.7802120447158813  1.0000

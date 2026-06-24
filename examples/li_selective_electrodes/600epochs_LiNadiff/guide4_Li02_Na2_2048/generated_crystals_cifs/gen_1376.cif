@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       MnCr2O3CrO
+_chemical_formula_sum              "Mn1 Cr3 O4"
+_cell_length_a       4.408878848486888
+_cell_length_b       4.437843813307728
+_cell_length_c       5.45700216293335
+_cell_angle_alpha    89.95377578586779
+_cell_angle_beta     89.99179261748526
+_cell_angle_gamma    89.73966303156104
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mn  Mn1       1.0  0.6490485072135925  0.5329684019088745  0.3671933710575104  1.0000
+  Cr  Cr1       1.0  0.1488887369632721  0.032834045588970184  0.3675398826599121  1.0000
+  Cr  Cr2       1.0  0.6490610241889954  0.03249211981892586  0.866930365562439  1.0000
+  O   O1        1.0  0.3958456218242645  0.7862502336502075  0.11453665047883987  1.0000
+  O   O2        1.0  0.39613163471221924  0.7870560884475708  0.6196243166923523  1.0000
+  O   O3        1.0  0.9024068117141724  0.2788502275943756  0.6199620366096497  1.0000
+  Cr  Cr3       1.0  0.1490505188703537  0.531767964363098  0.8668334484100342  1.0000
+  O   O4        1.0  0.902590811252594  0.2786387205123901  0.11497726291418076  1.0000

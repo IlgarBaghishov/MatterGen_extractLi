@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       CuLiRhO2Ni
+_chemical_formula_sum              "Cu1 Li1 Rh1 O2 Ni1"
+_cell_length_a       3.5612345087179773
+_cell_length_b       3.570466185828447
+_cell_length_c       5.079265117645264
+_cell_angle_alpha    89.9602439728275
+_cell_angle_beta     89.8031632952124
+_cell_angle_gamma    89.91987754797695
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.002218484878540039  0.24308942258358004  0.9320774674415588  1.0000
+  Li  Li1       1.0  0.5016312599182129  0.7428355813026428  0.931850790977478  1.0000
+  Rh  Rh1       1.0  0.0018059619469568136  0.2417173832654953  0.43182721734046936  1.0000
+  O   O1        1.0  0.5017114877700806  0.24327282607555392  0.168875053524971  1.0000
+  O   O2        1.0  0.002121303230524063  0.7418518066406251  0.694758951663971  1.0000
+  Ni  Ni1       1.0  0.5018243193626404  0.7419639825820924  0.4318569302558899  1.0000

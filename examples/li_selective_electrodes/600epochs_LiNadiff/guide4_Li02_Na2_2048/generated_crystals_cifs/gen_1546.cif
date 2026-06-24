@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       ONiFeNiCrO3
+_chemical_formula_sum              "O4 Ni2 Fe1 Cr1"
+_cell_length_a       4.550459875415776
+_cell_length_b       4.556010068577095
+_cell_length_c       5.6728620529174805
+_cell_angle_alpha    113.32196832263543
+_cell_angle_beta     113.39794278713785
+_cell_angle_gamma    90.15293844395428
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.009415136650204659  0.06226969882845879  0.742856204509735  1.0000
+  Ni  Ni1       1.0  0.8657457232475281  0.9252046942710876  0.9789344072341918  1.0000
+  Fe  Fe1       1.0  0.6168104410171509  0.1730974167585373  0.4795617759227752  1.0000
+  Ni  Ni2       1.0  0.11570746451616287  0.6758323907852173  0.478226363658905  1.0000
+  Cr  Cr1       1.0  0.36672118306159973  0.42637929320335394  0.9794462919235228  1.0000
+  O   O2        1.0  0.7303889989852905  0.3060420751571655  0.21429148316383365  1.0000
+  O   O3        1.0  0.48703813552856445  0.5554807782173157  0.7433644533157348  1.0000
+  O   O4        1.0  0.2377001792192459  0.7821753621101379  0.21496269106864926  1.0000

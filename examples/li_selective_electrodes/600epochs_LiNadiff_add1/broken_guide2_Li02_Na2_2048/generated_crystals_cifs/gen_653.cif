@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       AgLiCrOCrO3
+_chemical_formula_sum              "Ag1 Li1 Cr2 O4"
+_cell_length_a       4.922583216465772
+_cell_length_b       4.332931420386733
+_cell_length_c       4.960170269012451
+_cell_angle_alpha    90.10682665806779
+_cell_angle_beta     89.67386781291385
+_cell_angle_gamma    90.05221930142062
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ag  Ag1       1.0  0.9186428189277649  0.3007465898990631  0.46694421768188477  1.0000
+  Li  Li1       1.0  0.4191382825374603  0.3032814860343933  0.9670451879501343  1.0000
+  Cr  Cr1       1.0  0.4189911484718323  0.7994261980056763  0.46665292978286743  1.0000
+  O   O1        1.0  0.6487300395965576  0.9965599179267882  0.7348952293395996  1.0000
+  Cr  Cr2       1.0  0.9188107848167419  0.8080275654792786  0.9667885303497314  1.0000
+  O   O2        1.0  0.185220867395401  0.605086624622345  0.7355661392211914  1.0000
+  O   O3        1.0  0.6531094908714294  0.6046382784843445  0.19894033670425415  1.0000
+  O   O4        1.0  0.18912014365196228  0.9960317611694335  0.19945156574249268  1.0000

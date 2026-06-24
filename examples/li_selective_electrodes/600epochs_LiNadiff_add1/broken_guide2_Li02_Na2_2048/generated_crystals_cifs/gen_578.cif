@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       NO2
+_chemical_formula_sum              "N1 O2"
+_cell_length_a       3.9488341687953645
+_cell_length_b       3.712302234078611
+_cell_length_c       4.1131911277771
+_cell_angle_alpha    75.5714929740584
+_cell_angle_beta     83.17257995117617
+_cell_angle_gamma    75.16016511654472
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  N   N1        1.0  0.24819169938564295  0.6971436738967897  0.46281924843788147  1.0000
+  O   O1        1.0  0.43069568276405323  0.47615921497344976  0.6488593816757202  1.0000
+  O   O2        1.0  0.06743200868368149  0.9185825586318971  0.274798721075058  1.0000

@@ -1,0 +1,61 @@
+/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/lightning_fabric/__init__.py:36: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  __import__("pkg_resources").declare_namespace(__name__)
+/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/_internal/defaults_list.py:251: UserWarning: In 'finetune': Defaults list is missing `_self_`. See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/default_composition_order for more information
+  warnings.warn(msg, UserWarning)
+MODELS_PROJECT_ROOT: /home/ilgar/mattergen/mattergen
+Traceback (most recent call last):
+  File "/home/ilgar/code/miniforge3/envs/mattergen/bin/mattergen-finetune", line 10, in <module>
+    sys.exit(mattergen_finetune())
+  File "/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/main.py", line 90, in decorated_main
+    _run_hydra(
+  File "/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/_internal/utils.py", line 394, in _run_hydra
+    _run_app(
+  File "/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/_internal/utils.py", line 457, in _run_app
+    run_and_report(
+  File "/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/_internal/utils.py", line 222, in run_and_report
+    raise ex
+  File "/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/_internal/utils.py", line 219, in run_and_report
+    return func()
+  File "/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+  File "/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 105, in run
+    cfg = self.compose_config(
+  File "/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 594, in compose_config
+    cfg = self.config_loader.load_configuration(
+  File "/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/_internal/config_loader_impl.py", line 142, in load_configuration
+    return self._load_configuration_impl(
+  File "/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/_internal/config_loader_impl.py", line 253, in _load_configuration_impl
+    defaults_list = create_defaults_list(
+  File "/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/_internal/defaults_list.py", line 746, in create_defaults_list
+    defaults, tree = _create_defaults_list(
+  File "/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/_internal/defaults_list.py", line 716, in _create_defaults_list
+    defaults_tree = _create_defaults_tree(
+  File "/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/_internal/defaults_list.py", line 356, in _create_defaults_tree
+    ret = _create_defaults_tree_impl(
+  File "/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/_internal/defaults_list.py", line 457, in _create_defaults_tree_impl
+    return _expand_virtual_root(repo, root, overrides, skip_missing)
+  File "/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/_internal/defaults_list.py", line 280, in _expand_virtual_root
+    subtree = _create_defaults_tree_impl(
+  File "/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/_internal/defaults_list.py", line 573, in _create_defaults_tree_impl
+    add_child(children, new_root)
+  File "/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/_internal/defaults_list.py", line 520, in add_child
+    subtree_ = _create_defaults_tree_impl(
+  File "/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/_internal/defaults_list.py", line 488, in _create_defaults_tree_impl
+    config_not_found_error(repo=repo, tree=root)
+  File "/home/ilgar/code/miniforge3/envs/mattergen/lib/python3.10/site-packages/hydra/_internal/defaults_list.py", line 800, in config_not_found_error
+    raise MissingConfigException(
+hydra.errors.MissingConfigException: In 'finetune': Could not find 'data_module/li_data_20_diff_add1'
+
+Available options in 'data_module':
+	alex_mp_20
+	li_data_20
+	li_data_20_diff
+	mp_20
+Config search path:
+	provider=hydra, path=pkg://hydra.conf
+	provider=main, path=file:///home/ilgar/mattergen/mattergen/conf
+	provider=schema, path=structured://

@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       CuCrO3CuCrO2
+_chemical_formula_sum              "Cu2 Cr2 O5"
+_cell_length_a       4.4673584473743695
+_cell_length_b       4.479507170397602
+_cell_length_c       5.175559043884277
+_cell_angle_alpha    89.98283823824075
+_cell_angle_beta     90.0345427710786
+_cell_angle_gamma    85.73282831536261
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.39415216445922857  0.8674403429031372  0.7981407642364502  1.0000
+  Cr  Cr1       1.0  0.40635350346565247  0.3791159987449646  0.2995736002922058  1.0000
+  O   O1        1.0  0.14347609877586365  0.6170101165771484  0.5573186278343201  1.0000
+  O   O2        1.0  0.6446316242218018  0.11703552305698393  0.04065706580877304  1.0000
+  O   O3        1.0  0.14454400539398193  0.11757681518793106  0.2983027398586273  1.0000
+  Cu  Cu2       1.0  0.8946114778518676  0.3671853840351105  0.7984082102775574  1.0000
+  Cr  Cr2       1.0  0.8825864791870117  0.8543689846992493  0.2987489402294159  1.0000
+  O   O4        1.0  0.6441505551338196  0.11660636961460114  0.5571200847625732  1.0000
+  O   O5        1.0  0.14335723221302032  0.6175011992454529  0.04106844961643219  1.0000

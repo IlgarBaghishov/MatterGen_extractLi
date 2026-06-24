@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       CrBeO4
+_chemical_formula_sum              "Cr1 Be1 O4"
+_cell_length_a       5.129030972687192
+_cell_length_b       5.12481211887335
+_cell_length_c       5.275814056396484
+_cell_angle_alpha    119.00920289380846
+_cell_angle_beta     119.10939011721987
+_cell_angle_gamma    90.3532516953331
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.20584730803966522  0.5397582054138184  0.26766639947891235  1.0000
+  Be  Be1       1.0  0.9564985036849976  0.7892470359802246  0.7680501341819763  1.0000
+  O   O1        1.0  0.5799669027328491  0.589796781539917  0.5174909830093384  1.0000
+  O   O2        1.0  0.07873795926570892  0.7346702814102173  0.5130279660224915  1.0000
+  O   O3        1.0  0.00739518366754055  0.16404418647289276  0.020457157865166675  1.0000
+  O   O4        1.0  0.15650154650211334  0.6662885546684265  0.020622530952095985  1.0000

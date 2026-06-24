@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       NiLiOFeOCrO2
+_chemical_formula_sum              "Ni1 Li1 O4 Fe1 Cr1"
+_cell_length_a       4.149912109452682
+_cell_length_b       4.807700492769623
+_cell_length_c       4.850705146789551
+_cell_angle_alpha    90.0214083184868
+_cell_angle_beta     89.34742577551397
+_cell_angle_gamma    89.96637748653087
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.3725936710834503  0.8695443272590637  0.5270972847938538  1.0000
+  Li  Li1       1.0  0.3717026710510254  0.3640934228897095  0.02723577804863453  1.0000
+  O   O1        1.0  0.6290121078491211  0.6284319162368774  0.26545414328575134  1.0000
+  Fe  Fe1       1.0  0.8728164434432983  0.8605452179908754  0.027278190478682518  1.0000
+  O   O2        1.0  0.11601919680833817  0.6286808252334595  0.7884519100189209  1.0000
+  Cr  Cr1       1.0  0.8721503019332886  0.36502736806869507  0.5270052552223206  1.0000
+  O   O3        1.0  0.6330745816230774  0.09701955318450928  0.7917386293411255  1.0000
+  O   O4        1.0  0.11159898340702057  0.09689673036336899  0.2632405161857605  1.0000

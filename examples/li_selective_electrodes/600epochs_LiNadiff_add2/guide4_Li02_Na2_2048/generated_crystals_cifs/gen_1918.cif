@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       NiCuPdO2
+_chemical_formula_sum              "Ni1 Cu1 Pd1 O2"
+_cell_length_a       3.022719902845302
+_cell_length_b       3.017967428140522
+_cell_length_c       6.622023105621338
+_cell_angle_alpha    103.16769902062367
+_cell_angle_beta     103.16196898065152
+_cell_angle_gamma    90.03778010572218
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.4940304756164551  0.7748695015907289  0.07072202861309053  1.0000
+  Cu  Cu1       1.0  0.8162577748298645  0.09563434123992921  0.7173672914505005  1.0000
+  Pd  Pd1       1.0  0.20108447968959808  0.48205623030662537  0.48779311776161194  1.0000
+  O   O1        1.0  0.9716553688049316  0.2536080777645111  0.025330282747745514  1.0000
+  O   O2        1.0  0.6628694534301758  0.9420863986015321  0.4055953621864319  1.0000

@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       LiOCrFBeNiO2
+_chemical_formula_sum              "Li1 O3 Cr1 F1 Be1 Ni1"
+_cell_length_a       4.277303070176396
+_cell_length_b       4.492169065461335
+_cell_length_c       4.5213704109191895
+_cell_angle_alpha    90.64952613497525
+_cell_angle_beta     90.079744964305
+_cell_angle_gamma    90.05579148645548
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.28071966767311096  0.33957192301750183  0.715776264667511  1.0000
+  O   O1        1.0  0.007260310463607311  0.6188609600067139  0.4884812235832215  1.0000
+  Cr  Cr1       1.0  0.8047389984130859  0.3429531157016754  0.19436520338058472  1.0000
+  F   F1        1.0  0.563011109828949  0.0467948243021965  0.4951348006725312  1.0000
+  Be  Be1       1.0  0.8055055737495422  0.8156760931015015  0.7258906960487366  1.0000
+  Ni  Ni1       1.0  0.272161602973938  0.8085373044013977  0.18768921494483948  1.0000
+  O   O2        1.0  0.5690783858299255  0.6146835684776306  0.9225717186927795  1.0000
+  O   O3        1.0  0.014688135124742985  0.04994863644242287  0.9238573312759399  1.0000

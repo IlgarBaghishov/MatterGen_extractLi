@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       BiCuNiCuO4
+_chemical_formula_sum              "Bi1 Cu2 Ni1 O4"
+_cell_length_a       4.45164039227715
+_cell_length_b       4.447405588461214
+_cell_length_c       5.447469711303711
+_cell_angle_alpha    90.06777164530378
+_cell_angle_beta     90.06788092929482
+_cell_angle_gamma    95.87842563899846
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Bi  Bi1       1.0  0.6328759789466858  0.37548136711120605  0.7635613679885863  1.0000
+  Cu  Cu1       1.0  0.13230568170547485  0.3756913542747498  0.2625415623188019  1.0000
+  Ni  Ni1       1.0  0.13194191455841064  0.8753805756568909  0.7620795965194701  1.0000
+  Cu  Cu2       1.0  0.6325486898422241  0.8757202625274658  0.2626236081123352  1.0000
+  O   O1        1.0  0.35605186223983765  0.6518929600715637  0.02266881987452507  1.0000
+  O   O2        1.0  0.9084072113037109  0.0996197983622551  0.023003647103905678  1.0000
+  O   O3        1.0  0.3570895791053772  0.6510100960731506  0.5022196769714355  1.0000
+  O   O4        1.0  0.9079214334487915  0.10094042122364044  0.5029736757278442  1.0000

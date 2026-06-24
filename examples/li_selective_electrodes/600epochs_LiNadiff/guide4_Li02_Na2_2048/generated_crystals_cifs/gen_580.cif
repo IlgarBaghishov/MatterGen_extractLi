@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       WCr2O3LiO
+_chemical_formula_sum              "W1 Cr2 O4 Li1"
+_cell_length_a       4.674529790907075
+_cell_length_b       4.671541254546008
+_cell_length_c       4.760828971862793
+_cell_angle_alpha    90.00754986364537
+_cell_angle_beta     90.0183005829167
+_cell_angle_gamma    90.0121329205672
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  W   W1        1.0  0.45564475655555725  0.14655274152755737  0.5705363154411316  1.0000
+  Cr  Cr1       1.0  0.9562159776687622  0.14807353913784027  0.07081195712089539  1.0000
+  Cr  Cr2       1.0  0.456430047750473  0.6467203497886658  0.07098554074764252  1.0000
+  O   O1        1.0  0.7034995555877686  0.39569443464279175  0.816582977771759  1.0000
+  O   O2        1.0  0.2067345678806305  0.8967791795730591  0.8162901997566223  1.0000
+  O   O3        1.0  0.2059382200241089  0.39537814259529114  0.32493340969085693  1.0000
+  Li  Li1       1.0  0.9547922611236572  0.6466732621192931  0.5710254907608032  1.0000
+  O   O4        1.0  0.7026898264884949  0.8959304690361022  0.32525214552879333  1.0000

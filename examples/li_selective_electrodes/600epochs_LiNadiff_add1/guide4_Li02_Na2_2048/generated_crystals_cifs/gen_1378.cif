@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       LiNiO2SbO3
+_chemical_formula_sum              "Li1 Ni1 O5 Sb1"
+_cell_length_a       3.784323726770444
+_cell_length_b       3.9185740221424057
+_cell_length_c       6.409701824188232
+_cell_angle_alpha    89.91833392465607
+_cell_angle_beta     90.21052258748918
+_cell_angle_gamma    89.95008748342136
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.26212018728256226  0.5627894401550293  0.8814274668693542  1.0000
+  Ni  Ni1       1.0  0.269378125667572  0.05133515223860741  0.5628535151481628  1.0000
+  O   O1        1.0  0.7691434621810913  0.04883778840303422  0.7516266703605652  1.0000
+  O   O2        1.0  0.769639253616333  0.5506335496902466  0.03604792803525925  1.0000
+  Sb  Sb1       1.0  0.7668954730033875  0.051466163247823715  0.07365203648805618  1.0000
+  O   O3        1.0  0.7693170309066772  0.050246462225914  0.36646759510040283  1.0000
+  O   O4        1.0  0.2685602605342865  0.04445561394095421  0.03909730911254883  1.0000
+  O   O5        1.0  0.26985013484954834  0.5468427538871765  0.5855175256729126  1.0000

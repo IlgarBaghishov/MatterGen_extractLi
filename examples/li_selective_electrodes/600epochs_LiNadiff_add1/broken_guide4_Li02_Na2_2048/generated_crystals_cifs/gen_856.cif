@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       Li2F4CrFGe
+_chemical_formula_sum              "Li2 F5 Cr1 Ge1"
+_cell_length_a       4.938142537704023
+_cell_length_b       5.132983497125996
+_cell_length_c       5.330604553222656
+_cell_angle_alpha    94.37540822224464
+_cell_angle_beta     101.99606839989404
+_cell_angle_gamma    108.31697696158477
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.8888931274414062  0.1408081352710724  0.6088833808898926  1.0000
+  Li  Li2       1.0  0.22637717425823212  0.7896771430969238  0.5708760619163513  1.0000
+  F   F1        1.0  0.8893399834632874  0.7942042946815491  0.32417988777160645  1.0000
+  F   F2        1.0  0.12551766633987432  0.9547114968299867  0.8538188934326172  1.0000
+  F   F3        1.0  0.18186751008033755  0.42272591590881353  0.5062820315361023  1.0000
+  F   F4        1.0  0.49656063318252563  0.06126008555293084  0.43362703919410706  1.0000
+  Cr  Cr1       1.0  0.23418879508972168  0.2253577709197998  0.18980441987514496  1.0000
+  F   F5        1.0  0.9112140536308289  0.36617422103881836  0.9697601199150087  1.0000
+  Ge  Ge1       1.0  0.6721547245979309  0.589510977268219  0.9956005215644838  1.0000

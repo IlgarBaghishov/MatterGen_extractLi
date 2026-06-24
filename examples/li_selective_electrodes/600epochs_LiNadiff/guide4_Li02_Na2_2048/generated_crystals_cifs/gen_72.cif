@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       LiCoLiOVO2NiF
+_chemical_formula_sum              "Li2 Co1 O3 V1 Ni1 F1"
+_cell_length_a       3.4126500522549126
+_cell_length_b       5.316580020635412
+_cell_length_c       6.048923969268799
+_cell_angle_alpha    99.05895081908864
+_cell_angle_beta     79.88736103739271
+_cell_angle_gamma    92.20165937608276
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.45036387443542475  0.061422217637300484  0.7478887438774111  1.0000
+  Co  Co1       1.0  0.07150466740131378  0.5989412665367126  0.04699888080358505  1.0000
+  Li  Li2       1.0  0.4105743765830993  0.6077291369438171  0.3850724995136261  1.0000
+  O   O1        1.0  0.9509181976318358  0.24438405036926267  0.8611333966255188  1.0000
+  V   V1        1.0  0.7568996548652648  0.10332303494215012  0.1505085527896881  1.0000
+  O   O2        1.0  0.9060129523277282  0.44901740550994873  0.3474560081958771  1.0000
+  O   O3        1.0  0.5947132706642151  0.7602466344833374  0.9529986977577211  1.0000
+  Ni  Ni1       1.0  0.7862429022789  0.5171998143196106  0.6812823414802551  1.0000
+  F   F1        1.0  0.5194640755653381  0.9467886090278624  0.4448477923870087  1.0000

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       NFeLiO
+_chemical_formula_sum              "N1 Fe1 Li1 O1"
+_cell_length_a       2.886751690261256
+_cell_length_b       2.8850994634470117
+_cell_length_c       4.068974494934082
+_cell_angle_alpha    89.95215020217681
+_cell_angle_beta     89.9470958594302
+_cell_angle_gamma    89.92659845565221
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  N   N1        1.0  0.2545527219772339  0.6953987479209899  0.3773048222064972  1.0000
+  Fe  Fe1       1.0  0.7542435526847839  0.19509851932525635  0.377562016248703  1.0000
+  Li  Li1       1.0  0.2541647255420685  0.6960393786430359  0.8782335519790649  1.0000
+  O   O1        1.0  0.7542381882667542  0.1955297738313675  0.877845287322998  1.0000

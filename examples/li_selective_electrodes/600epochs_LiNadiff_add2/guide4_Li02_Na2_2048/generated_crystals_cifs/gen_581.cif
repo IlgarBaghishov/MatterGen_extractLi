@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       CuOCrPdO2
+_chemical_formula_sum              "Cu1 O3 Cr1 Pd1"
+_cell_length_a       3.069976848187359
+_cell_length_b       3.065040316968888
+_cell_length_c       7.0390095710754395
+_cell_angle_alpha    102.53301036880936
+_cell_angle_beta     102.50428976635547
+_cell_angle_gamma    89.9579354134691
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.3075263202190399  0.09848036617040636  0.1526070386171341  1.0000
+  O   O1        1.0  0.7954794764518738  0.585980236530304  0.1258636862039566  1.0000
+  Cr  Cr1       1.0  0.6425028443336487  0.4323795437812806  0.8192576766014099  1.0000
+  Pd  Pd1       1.0  0.9660845398902893  0.7539600133895875  0.4643627107143402  1.0000
+  O   O2        1.0  0.13784386217594147  0.9276353716850281  0.8109962940216064  1.0000
+  O   O3        1.0  0.48691922426223755  0.27654895186424255  0.5096992254257202  1.0000

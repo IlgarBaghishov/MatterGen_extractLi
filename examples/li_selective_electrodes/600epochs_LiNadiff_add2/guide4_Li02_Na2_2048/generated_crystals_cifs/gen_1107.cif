@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       O2RhPdNi
+_chemical_formula_sum              "O2 Rh1 Pd1 Ni1"
+_cell_length_a       2.7841737195294516
+_cell_length_b       2.7907622039109565
+_cell_length_c       7.535581588745117
+_cell_angle_alpha    89.92865434756112
+_cell_angle_beta     89.87019475717308
+_cell_angle_gamma    89.98083699315612
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.33613839745521545  0.2133340686559677  0.6178063750267029  1.0000
+  O   O2        1.0  0.8352627754211426  0.7133239507675171  0.9309146404266357  1.0000
+  Rh  Rh1       1.0  0.836484968662262  0.7136120796203613  0.507964015007019  1.0000
+  Pd  Pd1       1.0  0.33737215399742126  0.21505433320999146  0.2490324229001999  1.0000
+  Ni  Ni1       1.0  0.3364701271057129  0.21342231333255768  0.8965299725532532  1.0000

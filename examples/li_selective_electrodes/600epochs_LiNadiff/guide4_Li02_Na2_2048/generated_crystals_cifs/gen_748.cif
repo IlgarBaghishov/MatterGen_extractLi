@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       ONiCr
+_chemical_formula_sum              "O1 Ni1 Cr1"
+_cell_length_a       3.432980102243531
+_cell_length_b       3.4261011159474832
+_cell_length_c       3.4335544109344482
+_cell_angle_alpha    60.203187754951514
+_cell_angle_beta     60.33120576567856
+_cell_angle_gamma    60.3084138562518
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.8703574538230896  0.5938743948936462  0.718105137348175  1.0000
+  Ni  Ni1       1.0  0.37162894010543823  0.09509773552417757  0.21940310299396515  1.0000
+  Cr  Cr1       1.0  0.12034440785646434  0.8448196053504944  0.9692557454109192  1.0000

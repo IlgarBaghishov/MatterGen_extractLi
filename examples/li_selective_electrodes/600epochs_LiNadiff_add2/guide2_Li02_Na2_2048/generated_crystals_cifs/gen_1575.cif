@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       CuLiOCrNiONiO2
+_chemical_formula_sum              "Cu1 Li1 O4 Cr1 Ni2"
+_cell_length_a       5.179596650262692
+_cell_length_b       5.051376253272384
+_cell_length_c       5.262876033782959
+_cell_angle_alpha    110.2896928568504
+_cell_angle_beta     94.6677944414617
+_cell_angle_gamma    76.99173720183492
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.5960981845855713  0.5588048100471497  0.3569057583808899  1.0000
+  Li  Li1       1.0  0.8429050445556641  0.04056200757622719  0.35217124223709106  1.0000
+  O   O1        1.0  0.05307382717728615  0.2108260691165924  0.6706568002700806  1.0000
+  Cr  Cr1       1.0  0.845508337020874  0.05322737619280816  0.853014886379242  1.0000
+  Ni  Ni1       1.0  0.23490509390830994  0.4530888795852661  0.9821630120277406  1.0000
+  O   O2        1.0  0.62728351354599  0.9280743002891542  0.5439419150352478  1.0000
+  Ni  Ni2       1.0  0.3123449981212616  0.09692034125328065  0.36453017592430115  1.0000
+  O   O3        1.0  0.5441967844963074  0.2101053148508072  0.12970693409442902  1.0000
+  O   O4        1.0  0.08791197091341019  0.878099799156189  0.07233955711126328  1.0000

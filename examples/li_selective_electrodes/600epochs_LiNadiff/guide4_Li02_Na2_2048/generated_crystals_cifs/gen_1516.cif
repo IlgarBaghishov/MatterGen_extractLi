@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       CrO2Cr2O2CrO
+_chemical_formula_sum              "Cr4 O5"
+_cell_length_a       5.025198685613236
+_cell_length_b       5.0335504220325085
+_cell_length_c       4.998613357543945
+_cell_angle_alpha    90.07199952003045
+_cell_angle_beta     89.86917023710933
+_cell_angle_gamma    89.81724029683555
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.05318572372198105  0.5760816931724548  0.02995911054313183  1.0000
+  O   O1        1.0  0.8255862593650818  0.30265799164772034  0.25522810220718384  1.0000
+  O   O2        1.0  0.8275744318962097  0.8023592829704284  0.25442326068878174  1.0000
+  Cr  Cr2       1.0  0.6002697348594666  0.028927929699420925  0.030839430168271065  1.0000
+  Cr  Cr3       1.0  0.051725730299949646  0.02786164917051792  0.4804251790046692  1.0000
+  O   O3        1.0  0.32748112082481384  0.8030192255973815  0.2555921673774719  1.0000
+  O   O4        1.0  0.32698217034339905  0.30351537466049194  0.7556630373001099  1.0000
+  Cr  Cr4       1.0  0.601232647895813  0.5785325765609741  0.4798550307750702  1.0000
+  O   O5        1.0  0.825873613357544  0.8031362295150757  0.7551881670951843  1.0000

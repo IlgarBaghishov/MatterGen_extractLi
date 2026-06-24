@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Co2ONiO2
+_chemical_formula_sum              "Co2 O3 Ni1"
+_cell_length_a       3.00898169757124
+_cell_length_b       3.008215584469082
+_cell_length_c       7.382986545562744
+_cell_angle_alpha    90.04363375662608
+_cell_angle_beta     90.07554439313128
+_cell_angle_gamma    60.07250413704881
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.3941537141799927  0.810874879360199  0.8398079276084901  1.0000
+  Co  Co2       1.0  0.727036714553833  0.14408372342586517  0.1731512546539307  1.0000
+  O   O1        1.0  0.393421471118927  0.8114654421806335  0.3428474068641663  1.0000
+  Ni  Ni1       1.0  0.06042409315705295  0.477984368801117  0.5058091282844543  1.0000
+  O   O2        1.0  0.060932230204343754  0.47815379500389105  0.0056672217324376115  1.0000
+  O   O3        1.0  0.7270260453224182  0.14390239119529724  0.6699639558792115  1.0000

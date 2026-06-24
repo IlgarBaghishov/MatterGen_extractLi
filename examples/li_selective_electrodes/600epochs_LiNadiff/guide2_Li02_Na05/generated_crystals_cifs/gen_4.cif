@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       LiPOLiO3Cu
+_chemical_formula_sum              "Li2 P1 O4 Cu1"
+_cell_length_a       4.387481296174381
+_cell_length_b       4.395942918201285
+_cell_length_c       5.351280689239502
+_cell_angle_alpha    114.31483858234245
+_cell_angle_beta     114.2185327764413
+_cell_angle_gamma    89.98809807817305
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.8362995386123657  0.8610879778862  0.8498910665512085  1.0000
+  P   P1        1.0  0.08608301728963852  0.6109901666641235  0.34991657733917236  1.0000
+  O   O1        1.0  0.1770324856042862  0.7273373007774353  0.14421892166137695  1.0000
+  Li  Li2       1.0  0.5858379602432251  0.11191008985042572  0.3496854603290558  1.0000
+  O   O2        1.0  0.7885267734527588  0.2899068295955658  0.1434483528137207  1.0000
+  O   O3        1.0  0.9703529477119446  0.9082866907119751  0.5562101602554321  1.0000
+  O   O4        1.0  0.40750327706336975  0.5205057859420776  0.5558041930198669  1.0000
+  Cu  Cu1       1.0  0.3359620273113251  0.36137405037879944  0.849814772605896  1.0000

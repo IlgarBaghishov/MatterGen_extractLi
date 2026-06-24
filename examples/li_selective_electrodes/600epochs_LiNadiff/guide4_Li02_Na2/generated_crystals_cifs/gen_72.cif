@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       OFeO3Ni2Cu
+_chemical_formula_sum              "O4 Fe1 Ni2 Cu1"
+_cell_length_a       4.597775445710724
+_cell_length_b       4.604491931130654
+_cell_length_c       4.583947658538818
+_cell_angle_alpha    89.96846751789876
+_cell_angle_beta     89.91356646004225
+_cell_angle_gamma    89.89927770238046
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.6089372038841248  0.9222289919853212  0.7040132880210876  1.0000
+  Fe  Fe1       1.0  0.36916571855545044  0.6831927299499512  0.45602646470069885  1.0000
+  O   O2        1.0  0.1307646483182907  0.44489592313766474  0.7044726610183716  1.0000
+  O   O3        1.0  0.6092854142189026  0.4440860450267792  0.2090836763381958  1.0000
+  O   O4        1.0  0.13025763630867004  0.9215124845504762  0.20899133384227753  1.0000
+  Ni  Ni1       1.0  0.3683324456214905  0.18327489495277405  0.9574524760246277  1.0000
+  Ni  Ni2       1.0  0.8691070675849915  0.6835217475891113  0.95627760887146  1.0000
+  Cu  Cu1       1.0  0.8699791431427001  0.183388814330101  0.4571484625339508  1.0000

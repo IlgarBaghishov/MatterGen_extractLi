@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       FeOLiO
+_chemical_formula_sum              "Fe1 O2 Li1"
+_cell_length_a       2.9863727009058474
+_cell_length_b       2.9864747267667275
+_cell_length_c       5.180988311767578
+_cell_angle_alpha    73.36599761463155
+_cell_angle_beta     73.37304633365542
+_cell_angle_gamma    60.13171054976433
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.8061661124229431  0.35640275478363037  0.16118092834949493  1.0000
+  O   O1        1.0  0.06359706073999405  0.6138314604759216  0.38982969522476196  1.0000
+  Li  Li1       1.0  0.30676689743995667  0.856454610824585  0.6603384017944336  1.0000
+  O   O2        1.0  0.5488991737365723  0.09943854808807373  0.9329675436019897  1.0000

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       LiVNO
+_chemical_formula_sum              "Li1 V1 N1 O1"
+_cell_length_a       2.8879903667187956
+_cell_length_b       2.892537511722095
+_cell_length_c       4.043501853942871
+_cell_angle_alpha    90.0299323928329
+_cell_angle_beta     90.10806975978868
+_cell_angle_gamma    90.17515588111948
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.9939149618148804  0.3188111186027527  0.3377892076969147  1.0000
+  V   V1        1.0  0.49385473132133484  0.8188487887382507  0.8370456695556641  1.0000
+  N   N1        1.0  0.9941538572311401  0.3189723789691925  0.8372691869735718  1.0000
+  O   O1        1.0  0.4943792223930359  0.8191012740135192  0.3375212252140045  1.0000

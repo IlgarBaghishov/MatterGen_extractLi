@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       FLiCuF
+_chemical_formula_sum              "F2 Li1 Cu1"
+_cell_length_a       3.1696471446681205
+_cell_length_b       3.167243051360653
+_cell_length_c       4.27360725402832
+_cell_angle_alpha    89.89063750806159
+_cell_angle_beta     89.89648415607464
+_cell_angle_gamma    89.84130988819189
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  F   F1        1.0  0.6219613552093506  0.5397792458534241  0.027223289012908936  1.0000
+  Li  Li1       1.0  0.6218144297599792  0.5398416519165039  0.5272761583328247  1.0000
+  Cu  Cu1       1.0  0.123444564640522  0.03979288786649704  0.02653435617685318  1.0000
+  F   F2        1.0  0.12167626619338989  0.03986760228872299  0.5268603563308716  1.0000

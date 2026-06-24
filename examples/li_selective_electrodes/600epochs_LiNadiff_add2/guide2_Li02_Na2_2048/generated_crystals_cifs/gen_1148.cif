@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       CrLiNO
+_chemical_formula_sum              "Cr1 Li1 N1 O1"
+_cell_length_a       2.906674744742267
+_cell_length_b       2.9063263432156323
+_cell_length_c       4.073602676391602
+_cell_angle_alpha    89.98944986219568
+_cell_angle_beta     90.0544664374679
+_cell_angle_gamma    89.97451224040097
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.5589054822921753  0.6946572065353394  0.3325709104537964  1.0000
+  Li  Li1       1.0  0.0591132752597332  0.19418981671333313  0.8323195576667786  1.0000
+  N   N1        1.0  0.059521567076444626  0.19455836713314056  0.33180728554725647  1.0000
+  O   O1        1.0  0.5594777464866638  0.6942815184593202  0.83275306224823  1.0000

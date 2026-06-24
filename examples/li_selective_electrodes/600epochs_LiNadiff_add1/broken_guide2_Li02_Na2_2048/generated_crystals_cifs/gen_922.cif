@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       CLiO2
+_chemical_formula_sum              "C1 Li1 O2"
+_cell_length_a       3.25654417874706
+_cell_length_b       3.2532449764614704
+_cell_length_c       5.057811737060547
+_cell_angle_alpha    71.23293645300272
+_cell_angle_beta     71.29240228025704
+_cell_angle_gamma    60.1309515821758
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.15894979238510135  0.22304846346378326  0.38867494463920593  1.0000
+  Li  Li1       1.0  0.6592938899993896  0.7226436734199524  0.8891687989234925  1.0000
+  O   O1        1.0  0.07480151951313019  0.1363992840051651  0.6454870700836182  1.0000
+  O   O2        1.0  0.24558593332767484  0.3076996505260468  0.13245438039302826  1.0000

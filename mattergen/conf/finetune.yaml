@@ -1,0 +1,18 @@
+hydra:
+  run:
+    dir: ${oc.env:OUTPUT_DIR,outputs/singlerun/${now:%Y-%m-%d}/${now:%H-%M-%S}}
+
+defaults:
+  - data_module: li_data_20_diff_add2
+  - trainer: default
+  - lightning_module: default
+  - adapter: default
+
+trainer:
+  max_epochs: 600
+  logger:
+    job_type: train_finetune # override default defined in defaults.trainer yaml file
+
+lightning_module:
+  optimizer_partial:
+    lr: 5e-6

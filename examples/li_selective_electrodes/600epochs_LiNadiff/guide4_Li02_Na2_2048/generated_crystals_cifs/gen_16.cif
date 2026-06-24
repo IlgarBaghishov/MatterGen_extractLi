@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       NiMnCrO2
+_chemical_formula_sum              "Ni1 Mn1 Cr1 O2"
+_cell_length_a       3.415597815176497
+_cell_length_b       3.4089684536237583
+_cell_length_c       5.943513870239258
+_cell_angle_alpha    72.93163867957307
+_cell_angle_beta     72.91415333547344
+_cell_angle_gamma    59.779313187396106
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.4062065482139587  0.06440465897321702  0.48596709966659546  1.0000
+  Mn  Mn1       1.0  0.7294228672981261  0.38974148035049444  0.5129721164703369  1.0000
+  Cr  Cr1       1.0  0.2289585322141647  0.8880028724670411  0.011910970322787762  1.0000
+  O   O1        1.0  0.8423587679862975  0.5021523833274842  0.16996805369853973  1.0000
+  O   O2        1.0  0.617198586463928  0.2768277525901795  0.8531780242919922  1.0000

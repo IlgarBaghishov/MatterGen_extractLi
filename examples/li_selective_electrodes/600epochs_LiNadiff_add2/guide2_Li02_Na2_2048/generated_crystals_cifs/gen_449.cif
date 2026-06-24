@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       OLiN
+_chemical_formula_sum              "O1 Li1 N1"
+_cell_length_a       2.8828268161814425
+_cell_length_b       2.870666542299027
+_cell_length_c       4.366041660308838
+_cell_angle_alpha    108.1925519901975
+_cell_angle_beta     108.96927323228401
+_cell_angle_gamma    90.58692798846211
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.937891662120819  0.4598857760429383  0.15550686419010162  1.0000
+  Li  Li1       1.0  0.516731858253479  0.03366658836603165  0.30930402874946594  1.0000
+  N   N1        1.0  0.7785442471504211  0.2996069788932801  0.8313339352607727  1.0000

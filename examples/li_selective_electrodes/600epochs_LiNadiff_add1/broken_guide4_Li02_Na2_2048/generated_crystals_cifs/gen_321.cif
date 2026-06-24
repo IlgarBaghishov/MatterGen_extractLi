@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       F2EuFLi
+_chemical_formula_sum              "F3 Eu1 Li1"
+_cell_length_a       3.8692842710135
+_cell_length_b       3.8712377675172407
+_cell_length_c       3.8667421340942383
+_cell_angle_alpha    90.00464020301696
+_cell_angle_beta     90.03760269755712
+_cell_angle_gamma    90.04155054615404
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  F   F1        1.0  0.4419518411159516  0.7869460582733154  0.8149787187576294  1.0000
+  F   F2        1.0  0.9416316747665406  0.2867644131183625  0.8149728178977966  1.0000
+  Eu  Eu1       1.0  0.9417710900306703  0.7870588302612305  0.3161185085773468  1.0000
+  F   F3        1.0  0.4418367445468903  0.286687970161438  0.31523314118385315  1.0000
+  Li  Li1       1.0  0.44176208972930914  0.28678032755851746  0.8151898384094238  1.0000

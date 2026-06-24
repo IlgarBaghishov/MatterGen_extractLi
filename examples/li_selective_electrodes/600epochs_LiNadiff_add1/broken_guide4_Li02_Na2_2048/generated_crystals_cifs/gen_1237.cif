@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       FSbLiCrFOFO
+_chemical_formula_sum              "F3 Sb1 Li1 Cr1 O2"
+_cell_length_a       5.335496132856284
+_cell_length_b       5.10789845611849
+_cell_length_c       5.007869720458984
+_cell_angle_alpha    94.26436280388711
+_cell_angle_beta     88.63475000761316
+_cell_angle_gamma    117.00895382188132
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  F   F1        1.0  0.9169111847877502  0.7017213702201842  0.7547304630279541  1.0000
+  Sb  Sb1       1.0  0.3203601539134979  0.7594200968742371  0.4822884500026703  1.0000
+  Li  Li1       1.0  0.9661911129951477  0.09252359718084335  0.8455963730812073  1.0000
+  Cr  Cr1       1.0  0.5650613903999328  0.411258578300476  0.9080370664596558  1.0000
+  F   F2        1.0  0.25524652004241943  0.15614275634288788  0.11535480618476868  1.0000
+  O   O1        1.0  0.6112356185913086  0.0862770304083824  0.7145829796791077  1.0000
+  F   F3        1.0  0.619222342967987  0.7281239628791808  0.20138856768608093  1.0000
+  O   O2        1.0  0.29551675915718073  0.4348041713237762  0.6940356492996216  1.0000

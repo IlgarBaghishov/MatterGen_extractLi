@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       FeCrCoONiO3
+_chemical_formula_sum              "Fe1 Cr1 Co1 O4 Ni1"
+_cell_length_a       3.0351391002349857
+_cell_length_b       5.259772494825438
+_cell_length_c       5.24753999710083
+_cell_angle_alpha    72.55123253015694
+_cell_angle_beta     89.55609485487773
+_cell_angle_gamma    89.42731162540561
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.5046203136444092  0.23063930869102478  0.4850473403930664  1.0000
+  Cr  Cr1       1.0  0.5042829513549805  0.7302420735359192  0.9856558442115784  1.0000
+  Co  Co1       1.0  0.005008990410715342  0.2298755943775177  0.9849541187286377  1.0000
+  O   O1        1.0  0.5115084648132324  0.49150672554969793  0.7340396642684937  1.0000
+  Ni  Ni1       1.0  0.004415649455040694  0.7306232452392578  0.48595523834228516  1.0000
+  O   O2        1.0  0.004895486403256655  0.5068758726119995  0.21153771877288824  1.0000
+  O   O3        1.0  0.004300826229155064  0.954231083393097  0.7599106431007385  1.0000
+  O   O4        1.0  0.4989188611507415  0.9694271683692932  0.237638920545578  1.0000

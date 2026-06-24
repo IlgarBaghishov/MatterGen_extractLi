@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       NiAgNiHCoH
+_chemical_formula_sum              "Ni2 Ag1 H2 Co1"
+_cell_length_a       3.887506691474953
+_cell_length_b       3.7234885603602397
+_cell_length_c       3.725632667541504
+_cell_angle_alpha    90.02011741187239
+_cell_angle_beta     89.96054450111761
+_cell_angle_gamma    89.86820718721174
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.7464433908462524  0.624765932559967  0.5289823412895203  1.0000
+  Ag  Ag1       1.0  0.24747297167778015  0.12492234259843825  0.5280938744544983  1.0000
+  Ni  Ni2       1.0  0.7466831803321838  0.12503802776336667  0.029083658009767532  1.0000
+  H   H1        1.0  0.7466320395469666  0.12521505355834958  0.5288364291191101  1.0000
+  Co  Co1       1.0  0.24651263654232025  0.6248548626899718  0.029081100597977638  1.0000
+  H   H2        1.0  0.7465153336524963  0.6250057220458983  0.029191724956035614  1.0000

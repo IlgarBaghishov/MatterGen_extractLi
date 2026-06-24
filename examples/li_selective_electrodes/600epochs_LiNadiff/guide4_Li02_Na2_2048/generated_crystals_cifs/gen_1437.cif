@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       V3Co5
+_chemical_formula_sum              "V3 Co5"
+_cell_length_a       3.6848814410243116
+_cell_length_b       4.9518439150371485
+_cell_length_c       4.956177234649658
+_cell_angle_alpha    97.9375777618985
+_cell_angle_beta     90.03550582706639
+_cell_angle_gamma    90.05657696519565
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  V   V1        1.0  0.7422434687614441  0.4872100353240967  0.3373314142227173  1.0000
+  V   V2        1.0  0.24237293004989624  0.7780951857566833  0.0465548001229763  1.0000
+  V   V3        1.0  0.24266493320465088  0.19537711143493652  0.6290348172187805  1.0000
+  Co  Co1       1.0  0.7423848509788513  0.4860660135746003  0.8372533917427063  1.0000
+  Co  Co2       1.0  0.24266164004802704  0.7058140039443971  0.556238055229187  1.0000
+  Co  Co3       1.0  0.2425290048122406  0.2687453627586365  0.11897607892751694  1.0000
+  Co  Co4       1.0  0.7422513961791992  0.9865814447402955  0.33747631311416626  1.0000
+  Co  Co5       1.0  0.7422071695327759  0.987136483192444  0.8374557495117188  1.0000

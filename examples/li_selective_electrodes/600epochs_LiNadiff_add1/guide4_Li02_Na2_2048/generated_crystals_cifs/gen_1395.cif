@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       CrFeCuCrO4
+_chemical_formula_sum              "Cr2 Fe1 Cu1 O4"
+_cell_length_a       3.058147131318694
+_cell_length_b       5.3052498156913686
+_cell_length_c       6.1243672370910645
+_cell_angle_alpha    105.97418159334993
+_cell_angle_beta     89.8520810885469
+_cell_angle_gamma    89.8753856952613
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.831430971622467  0.7044653296470642  0.6919726133346558  1.0000
+  Fe  Fe1       1.0  0.8308928608894348  0.20482622087001803  0.19163303077220917  1.0000
+  Cu  Cu1       1.0  0.3311539590358734  0.7056017518043518  0.19186435639858246  1.0000
+  Cr  Cr2       1.0  0.33168870210647583  0.20468932390213013  0.6914887428283691  1.0000
+  O   O1        1.0  0.33050793409347534  0.5916522741317749  0.8651410937309265  1.0000
+  O   O2        1.0  0.33262214064598083  0.8171521425247192  0.5194688439369202  1.0000
+  O   O3        1.0  0.8321068286895752  0.31589075922966003  0.5183772444725037  1.0000
+  O   O4        1.0  0.8319272398948669  0.09314758330583572  0.8650661706924438  1.0000

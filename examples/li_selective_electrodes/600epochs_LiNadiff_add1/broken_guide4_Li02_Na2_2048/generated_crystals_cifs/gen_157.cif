@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       FLi2O
+_chemical_formula_sum              "F1 Li2 O1"
+_cell_length_a       2.898379856001175
+_cell_length_b       2.9006543519489525
+_cell_length_c       4.191073894500732
+_cell_angle_alpha    89.99097299466325
+_cell_angle_beta     89.97429367282908
+_cell_angle_gamma    89.97785220012936
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  F   F1        1.0  0.6257902383804321  0.006209043320268392  0.47840115427970886  1.0000
+  Li  Li1       1.0  0.6253527998924255  0.00626838905736804  0.9770674109458923  1.0000
+  Li  Li2       1.0  0.1256493330001831  0.5058146119117736  0.4767448604106903  1.0000
+  O   O1        1.0  0.12489934265613557  0.5064689517021179  0.9769008159637451  1.0000

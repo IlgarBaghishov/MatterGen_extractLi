@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Cr2FO3
+_chemical_formula_sum              "Cr2 F1 O3"
+_cell_length_a       3.020941089041072
+_cell_length_b       4.586113182620748
+_cell_length_c       4.600649356842041
+_cell_angle_alpha    87.37873306018369
+_cell_angle_beta     89.98766718269886
+_cell_angle_gamma    90.0262782412125
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.8297259211540223  0.6333996653556824  0.5392597913742065  1.0000
+  Cr  Cr2       1.0  0.33010900020599365  0.16228576004505157  0.06871706247329712  1.0000
+  F   F1        1.0  0.329675555229187  0.847177267074585  0.752739429473877  1.0000
+  O   O1        1.0  0.8292354345321656  0.35269105434417725  0.8604350090026857  1.0000
+  O   O2        1.0  0.8303207755088807  0.953949749469757  0.2582363188266754  1.0000
+  O   O3        1.0  0.3302197754383087  0.45442223548889155  0.3610120713710785  1.0000

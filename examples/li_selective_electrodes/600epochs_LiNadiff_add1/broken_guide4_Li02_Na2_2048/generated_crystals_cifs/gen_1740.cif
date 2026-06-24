@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       LiFeNiO3
+_chemical_formula_sum              "Li1 Fe1 Ni1 O3"
+_cell_length_a       2.999403919467371
+_cell_length_b       2.998669608766911
+_cell_length_c       6.56553840637207
+_cell_angle_alpha    103.0526234625111
+_cell_angle_beta     103.09852917263942
+_cell_angle_gamma    90.03064961034549
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.7697891592979431  0.02033940516412258  0.480263203382492  1.0000
+  Fe  Fe1       1.0  0.10434560477733612  0.35453659296035767  0.15057219564914703  1.0000
+  Ni  Ni1       1.0  0.41859328746795654  0.6681411266326904  0.7783776521682738  1.0000
+  O   O1        1.0  0.936015784740448  0.18623913824558258  0.8133513927459716  1.0000
+  O   O2        1.0  0.2559853196144104  0.5063338875770569  0.45344713330268854  1.0000
+  O   O3        1.0  0.592873215675354  0.8429512977600098  0.12553347647190094  1.0000

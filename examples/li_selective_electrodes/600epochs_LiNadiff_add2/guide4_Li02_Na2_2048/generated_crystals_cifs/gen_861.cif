@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       BLiNi2Pd
+_chemical_formula_sum              "B1 Li1 Ni2 Pd1"
+_cell_length_a       3.8037333497952583
+_cell_length_b       3.8006066814411135
+_cell_length_c       4.098011493682861
+_cell_angle_alpha    89.9660018227209
+_cell_angle_beta     90.00127974994548
+_cell_angle_gamma    90.10642368014634
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  B   B1        1.0  0.039755094796419144  0.42977321147918707  0.6535897850990295  1.0000
+  Li  Li1       1.0  0.5396985411643982  0.9290573000907899  0.1537947952747345  1.0000
+  Ni  Ni1       1.0  0.0404096394777298  0.9295308589935303  0.6534047722816467  1.0000
+  Ni  Ni2       1.0  0.5396409034729004  0.4290409088134766  0.6546381115913391  1.0000
+  Pd  Pd1       1.0  0.03977007046341896  0.4290775358676911  0.15370124578475952  1.0000

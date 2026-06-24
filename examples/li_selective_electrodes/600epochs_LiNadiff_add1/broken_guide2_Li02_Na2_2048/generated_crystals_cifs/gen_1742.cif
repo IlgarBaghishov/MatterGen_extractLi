@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       ClCoO3
+_chemical_formula_sum              "Cl1 Co1 O3"
+_cell_length_a       3.181276660501444
+_cell_length_b       3.1906446205300614
+_cell_length_c       9.35173225402832
+_cell_angle_alpha    90.01557533634295
+_cell_angle_beta     90.01441420461114
+_cell_angle_gamma    59.96228367595278
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cl  Cl1       1.0  0.5157206654548645  0.4909102320671081  0.3276350200176239  1.0000
+  Co  Co1       1.0  0.8471206426620483  0.8228731155395507  0.7082545161247253  1.0000
+  O   O1        1.0  0.8477926254272461  0.823307454586029  0.8779169321060181  1.0000
+  O   O2        1.0  0.5140777826309204  0.4909737706184387  0.15888971090316772  1.0000
+  O   O3        1.0  0.5170396566390992  0.49004781246185297  0.6393303871154785  1.0000

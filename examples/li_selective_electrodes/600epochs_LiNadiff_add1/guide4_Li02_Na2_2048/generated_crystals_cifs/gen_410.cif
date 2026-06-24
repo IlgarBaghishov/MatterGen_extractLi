@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       LiSbCrO4
+_chemical_formula_sum              "Li1 Sb1 Cr1 O4"
+_cell_length_a       3.2195326213932516
+_cell_length_b       4.862612224566601
+_cell_length_c       5.0390238761901855
+_cell_angle_alpha    91.1219224585258
+_cell_angle_beta     89.98361687982556
+_cell_angle_gamma    89.97718967196602
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.7083079218864441  0.7147360444068908  0.044214628636837006  1.0000
+  Sb  Sb1       1.0  0.41432279348373413  0.7141136527061462  0.5435369610786438  1.0000
+  Cr  Cr1       1.0  0.9660398364067078  0.2141972333192825  0.04344621300697327  1.0000
+  O   O1        1.0  0.4612579941749573  0.41710034012794495  0.2180488556623459  1.0000
+  O   O2        1.0  0.9433491826057434  0.5169246792793274  0.7553287744522095  1.0000
+  O   O3        1.0  0.943975567817688  0.9125136137008666  0.3325234353542328  1.0000
+  O   O4        1.0  0.46163058280944824  0.013331310823559761  0.8698664903640747  1.0000

@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Cr3OMnO3
+_chemical_formula_sum              "Cr3 O4 Mn1"
+_cell_length_a       4.449618346721176
+_cell_length_b       4.469443048368506
+_cell_length_c       5.470924377441406
+_cell_angle_alpha    90.01731020482892
+_cell_angle_beta     89.99674450416514
+_cell_angle_gamma    89.97732627510258
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.07790755480527878  0.807715892791748  0.429665744304657  1.0000
+  Cr  Cr2       1.0  0.0781167596578598  0.3077411949634552  0.9303075075149536  1.0000
+  Cr  Cr3       1.0  0.5784284472465515  0.8080129623413086  0.9302520751953125  1.0000
+  O   O1        1.0  0.8330914378166199  0.562704026699066  0.6832761764526367  1.0000
+  Mn  Mn1       1.0  0.578237771987915  0.30769240856170654  0.43017640709877014  1.0000
+  O   O2        1.0  0.3236791491508484  0.05422463268041611  0.6819475293159485  1.0000
+  O   O3        1.0  0.8330057859420776  0.5611159801483154  0.17769505083560944  1.0000
+  O   O4        1.0  0.32283514738082886  0.05521932989358902  0.1767025887966156  1.0000

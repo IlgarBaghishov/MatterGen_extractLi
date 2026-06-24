@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       CrCuO2
+_chemical_formula_sum              "Cr1 Cu1 O2"
+_cell_length_a       3.0492843144031556
+_cell_length_b       3.051381443002462
+_cell_length_c       6.008685111999512
+_cell_angle_alpha    75.40723459102163
+_cell_angle_beta     75.47438879796715
+_cell_angle_gamma    60.279523302644726
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.5232260227203368  0.9107146263122559  0.12304694950580597  1.0000
+  Cu  Cu1       1.0  0.022736946120858192  0.41013863682746887  0.6237688660621643  1.0000
+  O   O1        1.0  0.9158713817596436  0.3036644160747528  0.9462645053863525  1.0000
+  O   O2        1.0  0.13069780170917514  0.5176933407783508  0.30093109607696533  1.0000

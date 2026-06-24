@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       NCrPd2O2
+_chemical_formula_sum              "N1 Cr1 Pd2 O2"
+_cell_length_a       3.0998064218669503
+_cell_length_b       3.09305543280134
+_cell_length_c       6.957946300506592
+_cell_angle_alpha    77.10205110884172
+_cell_angle_beta     77.02953412144292
+_cell_angle_gamma    89.81740418110898
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  N   N1        1.0  0.7916211485862732  0.9867507815361024  0.6255754828453064  1.0000
+  Cr  Cr1       1.0  0.29237306118011475  0.4873240292072296  0.625542402267456  1.0000
+  Pd  Pd1       1.0  0.6292559504508972  0.8243482112884521  0.9524828195571899  1.0000
+  Pd  Pd2       1.0  0.9573166966438293  0.15126937627792358  0.2955761253833771  1.0000
+  O   O1        1.0  0.13268542289733887  0.32750722765922546  0.9438468217849731  1.0000
+  O   O2        1.0  0.4519035220146179  0.6465270519256593  0.3085837960243225  1.0000

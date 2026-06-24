@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       LiCdCrO3
+_chemical_formula_sum              "Li1 Cd1 Cr1 O3"
+_cell_length_a       3.1328006439490506
+_cell_length_b       3.1385403893418324
+_cell_length_c       8.239997863769531
+_cell_angle_alpha    90.27579870742034
+_cell_angle_beta     100.9927068897973
+_cell_angle_gamma    120.12643812651727
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.4525698721408844  0.5690565705299377  0.610636830329895  1.0000
+  Cd  Cd1       1.0  0.9881298542022706  0.3368726074695587  0.9136564135551453  1.0000
+  Cr  Cr1       1.0  0.9185360074043274  0.7981497049331665  0.3093048930168152  1.0000
+  O   O1        1.0  0.17326533794403076  0.4248336851596832  0.18765737116336825  1.0000
+  O   O2        1.0  0.21699340641498574  0.9499980807304383  0.7558063864707947  1.0000
+  O   O3        1.0  0.6677285432815552  0.173984095454216  0.43184369802474976  1.0000

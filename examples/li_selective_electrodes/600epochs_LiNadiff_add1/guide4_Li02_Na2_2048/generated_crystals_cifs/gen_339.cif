@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       CoOLiCrCuO4
+_chemical_formula_sum              "Co1 O5 Li1 Cr1 Cu1"
+_cell_length_a       5.060957754773016
+_cell_length_b       5.026606334960005
+_cell_length_c       5.160062789916992
+_cell_angle_alpha    86.16095121284663
+_cell_angle_beta     112.544755369071
+_cell_angle_gamma    118.27018789400277
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.44870632886886597  0.9091692566871643  0.9475917220115662  1.0000
+  O   O1        1.0  0.5665565133094788  0.20140944421291354  0.7228890061378479  1.0000
+  Li  Li1       1.0  0.6493808031082154  0.985572636127472  0.49881696701049805  1.0000
+  Cr  Cr1       1.0  0.7912154793739319  0.5676758289337158  0.041553795337677  1.0000
+  Cu  Cu1       1.0  0.3086419701576233  0.33091306686401367  0.4024522304534912  1.0000
+  O   O2        1.0  0.5403808951377869  0.24166171252727506  0.18797840178012848  1.0000
+  O   O3        1.0  0.5078864097595215  0.658190906047821  0.72902911901474  1.0000
+  O   O4        1.0  0.17699722945690155  0.5991330742835999  0.12030516564846039  1.0000
+  O   O5        1.0  0.8717743158340454  0.8991098999977112  0.2618371546268463  1.0000

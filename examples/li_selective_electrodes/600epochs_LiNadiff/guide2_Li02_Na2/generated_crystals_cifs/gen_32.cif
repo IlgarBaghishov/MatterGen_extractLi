@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       LiWO3Li2O
+_chemical_formula_sum              "Li3 W1 O4"
+_cell_length_a       3.091268642057122
+_cell_length_b       5.10245372830121
+_cell_length_c       5.121245861053467
+_cell_angle_alpha    106.91069022058286
+_cell_angle_beta     89.94293626882107
+_cell_angle_gamma    89.93491079841208
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.7680037617683411  0.8562355041503905  0.45538973808288574  1.0000
+  W   W1        1.0  0.26708340644836426  0.856755018234253  0.9551488161087036  1.0000
+  O   O1        1.0  0.2677993178367615  0.0907118022441864  0.7217009663581848  1.0000
+  O   O2        1.0  0.26779597997665405  0.6227381825447083  0.18925143778324127  1.0000
+  O   O3        1.0  0.7672143578529358  0.6269313693046571  0.7259330153465271  1.0000
+  Li  Li2       1.0  0.7673966288566589  0.35675451159477234  0.9556495547294617  1.0000
+  Li  Li3       1.0  0.2671724855899811  0.3560020029544831  0.45577001571655273  1.0000
+  O   O4        1.0  0.7676533460617065  0.08604185283184052  0.18498769402503967  1.0000

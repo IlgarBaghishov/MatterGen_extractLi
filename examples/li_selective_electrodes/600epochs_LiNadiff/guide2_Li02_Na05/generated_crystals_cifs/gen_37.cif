@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       LiOVO
+_chemical_formula_sum              "Li1 O2 V1"
+_cell_length_a       2.9996539893421117
+_cell_length_b       3.000414869288534
+_cell_length_c       5.186187744140625
+_cell_angle_alpha    73.24328058366373
+_cell_angle_beta     89.91233702355221
+_cell_angle_gamma    59.91237818957181
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.5774685740470886  0.3170830309391022  0.9664625525474547  1.0000
+  O   O1        1.0  0.3344819247722627  0.8040522336959839  0.23721268773078916  1.0000
+  V   V1        1.0  0.07729363441467284  0.317143976688385  0.4665756821632384  1.0000
+  O   O2        1.0  0.8210550546646118  0.8298116326332092  0.695576548576355  1.0000
