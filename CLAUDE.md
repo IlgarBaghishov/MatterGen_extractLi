@@ -38,7 +38,7 @@ Materials Project + UMA ──(external: MPElectroML)──► absolute Li_volta
         │
         ▼
    mattergen-finetune  (conditions on Li_voltage + Na_voltage; with _diff data, "Na_voltage" IS ΔV)
-        │                       train*.sh  →  outputs/singlerun/<date>/.../*.ckpt   (weights, gitignored)
+        │                       training_runs/<run>/train*.sh  →  outputs/singlerun/<date>/.../*.ckpt   (weights, gitignored)
         ▼
    mattergen-generate  --model_path=outputs/... --properties_to_condition_on="{'Li_voltage':…,'Na_voltage':…}"
         │                       → generated_crystals_cif.zip / .extxyz / generated_trajectories.zip
@@ -186,7 +186,7 @@ Rule: ignore anything > 50 MB **except** the LFS reference. Patterns in `.gitign
 `outputs/**/*.ckpt` (trained weights, ~13 GB) and `**/generated_trajectories.zip`
 (~20 GB). Also `*.egg-info/` (editable-install metadata).
 
-Therefore a fresh `git clone` HAS: all code, configs, `train*.sh`, the training CSVs AND
+Therefore a fresh `git clone` HAS: all code, configs, `training_runs/` (train scripts + logs), the training CSVs AND
 their preprocessed cache, run provenance (hydra configs/hparams/metrics.csv per run),
 results (notebooks, `voltage_analysis.csv`, generated CIF zips, final screening CSVs/
 figures), and the LFS reference pointer. It does NOT have: the trained `.ckpt` weights or
@@ -204,7 +204,10 @@ the full denoising trajectories. To get trained models on another machine, eithe
 - `outputs/singlerun/<date>/` — training runs (configs/logs tracked; `.ckpt` gitignored).
 - `examples/li_selective_electrodes/` — ΔV-conditioned generation runs (`600epochs_LiNadiff`,
   `_add1`, `_add2`) and the final screening in `combine_upto_incl_add2/`.
-- `train*.sh` — SLURM training drivers (`mattergen-finetune` with Li/Na voltage embeddings).
+- `training_runs/<run>/` — one self-contained dir per fine-tuning run: its SLURM driver
+  (`train*.sh`, `mattergen-finetune` with Li/Na voltage embeddings) next to its stdout log
+  (`ll_out*`). Mirrors how `examples/li_selective_electrodes/<run>/` organizes generation runs.
+  Trained `.ckpt` weights still land in `outputs/singlerun/<date>/` (gitignored).
 - `README.md` (this repo) / `README_MATTERGEN.md` (upstream, preserved).
 
 ## Command cheat sheet
@@ -213,7 +216,7 @@ the full denoising trajectories. To get trained models on another machine, eithe
 # Build a dataset cache from CSVs
 csv-to-dataset --csv-folder datasets/<name> --dataset-name <name> --cache-folder datasets/cache/<name>
 
-# Fine-tune (base model auto-downloaded from HF); see train_diff_add2.sh
+# Fine-tune (base model auto-downloaded from HF); see training_runs/600epochs_LiNadiff_add2/train_diff_add2.sh
 export PROPERTY1=Li_voltage PROPERTY2=Na_voltage
 mattergen-finetune adapter.pretrained_name=mattergen_base data_module=<name> \
   +lightning_module/diffusion_module/model/property_embeddings@adapter.adapter.property_embeddings_adapt.$PROPERTY1=$PROPERTY1 \

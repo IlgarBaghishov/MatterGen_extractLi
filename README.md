@@ -127,7 +127,7 @@ git lfs pull -I data-release/alex-mp/reference_MP2020correction.gz --exclude=""
 
 ### Fine-tune on Li/Na voltages
 The base MatterGen checkpoint is downloaded from Hugging Face automatically. See
-`train_diff_add2.sh`; the core command is:
+`training_runs/600epochs_LiNadiff_add2/train_diff_add2.sh`; the core command is:
 ```bash
 export PROPERTY1=Li_voltage PROPERTY2=Na_voltage
 mattergen-finetune \
