@@ -101,6 +101,69 @@ Name conventions:
   unfiltered, `li_data_v2_20` = filtered to ≤20 atoms. (To train `_diff`-style models on
   these, first build `li_data_v2_diff` / `li_data_v2_20_diff` via the ΔV trick above.)
 
+## Data provenance & dataset versions (READ before touching datasets)
+
+This fully traces where the conditioning data comes from and the old-vs-fixed voltage
+versions, so it never has to be re-discovered.
+
+### Generation pipeline (external repo: MPElectroML, github.com/IlgarBaghishov/MPElectroML)
+1. `mpelectroml/data_retrieval.py` — fetch Materials Project insertion-electrode pairs +
+   structures.
+2. `mpelectroml/structure_manipulation.py` — substitute the working ion (Li↔Na, etc.) into
+   host frameworks.
+3. `mpelectroml/calculations.py::add_energy_forces_to_df` — relax + compute energies/forces
+   with **UMA**, writes `{ion}_electrode_data_with_energies.h5` (HDF5 key `data_with_energies`).
+   Driver: `examples/run_analysis.py` and per-experiment copies `examples/<ion>_electrodes_uma_m/get_data.py`.
+4. **Voltages + merge:** `examples/Li_Na_electrodes_uma_m/read_data.ipynb` reads the combined
+   `_electrode_data_with_energies.h5`, computes voltages with `calculate_binding_energy()`:
+   `V = -(E_discharged - E_charged_scaled - n·μ_bulk)/n` , and writes
+   **`final_dataset.h5`** (key `data`, all cell sizes).
+5. **Split:** `examples/preprocessing.ipynb` reads `Li_Na_electrodes_uma_m/final_dataset.h5`,
+   filters `Li_structure_n_atoms <= 20`, renames columns, does an 80/10/10 split, and writes
+   **`li_data_20/{train,test,val}.csv`**.
+
+### The old → fixed voltage fix (the source of the "discrepancy")
+The bulk-metal reference energies / SHE shift in `read_data.ipynb` were corrected:
+- **OLD** convention: `E_LI_BULK = -2.377`, `E_NA_BULK = -3.548` eV/atom (no SHE shift).
+- **FIXED** convention (current, also what `post_process.py` uses): `E_LI_BULK = -1.9032 - 3.04`,
+  `E_NA_BULK = -1.3093 - 2.71` eV/atom (UMA bulk + SHE reduction potential).
+
+This changes every voltage by a near-constant per-element offset (Na ≈ +1.85 V, Li ≈ -0.8 V),
+so **0%** of rows match by value between old and fixed, and even `ΔV = V_Li - V_Na` differs
+between conventions. It is NOT a filtering/counting difference.
+
+### Identifying old vs fixed (verified numbers)
+| Version | rows | Li_voltage mean | Na_voltage mean |
+|---|---|---|---|
+| **FIXED** (training/paper) `li_data_20` | 2,155 (≤20 atoms) | **-0.933** | **-1.234** |
+| OLD `li_data_20_old` (≤20 atoms) | 2,429 | -1.749 | +0.621 |
+| OLD full set (`final_data.csv` / `li_data_all`) | 5,079 | -2.468 | -0.177 |
+
+### Where the data lives — MPElectroML side (CSVs are git-tracked; `*.h5` gitignored except `final_dataset.h5`)
+- `examples/li_data_20/` — **FIXED**, 2,155. The canonical training set (100% identical to this repo's).
+- `examples/li_data_20_used_to_be_without_this_message/` — a duplicate/backup of the FIXED set (2,155).
+- `examples/li_data_20_old/` — **OLD**, 2,429.
+- `examples/Li_Na_electrodes_uma_m/final_dataset.h5` — the merged source (FIXED convention; the
+  `li_data_20` CSVs derive from it). Note: it's pickled with numpy ≥2, so read it under numpy ≥2.
+
+### Where the data lives — this repo (`MatterGen_extractLi/datasets/`)
+- `li_data_20/` — **FIXED**, 2,155. Byte-identical to `MPElectroML/examples/li_data_20`. This is
+  what every downstream model/result used.
+- `li_data_20_old/` — OLD convention copy.
+- `li_data_20_diff`, `_diff_add1`, `_diff_add2` — FIXED convention + the ΔV trick (+ self-training).
+- `li_data_v2`, `li_data_v2_20` and their `_diff` — the NEW (William/J. Liu) datasets.
+
+### Correspondence to the deprecated `li_extraction/` working dir (not in this repo)
+`li_extraction/final_data.csv` == `li_data_all` == **OLD full** (5,079);
+`li_extraction/li_data_20_old` == `li_extraction/li_data_20_new` == **OLD ≤20** (2,429).
+**Gotcha:** `li_data_20_new` is *misnamed* — it is OLD convention (100% match to `li_data_20_old`).
+The genuinely fixed dataset is plain `li_data_20`.
+
+### Row-count gotcha
+The CSVs have **three multi-line CIF columns** (`host_structure`, `cif`, `Na_structure`), each
+with ~35 embedded newlines. `wc -l` therefore massively over-counts (e.g. reports ~103k "lines"
+for a 921-row file). **Always count rows with pandas, not `wc -l`.**
+
 ## Intercalation voltage definition (for post-processing)
 
 Voltage vs SHE for inserting n ions of charge z (computed from UMA relaxed total energies):
